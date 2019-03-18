@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,qBAAqB",
+"sources": ["global_variable.scss"],
 "names": [],
 "file": "global_variable.css"
 }

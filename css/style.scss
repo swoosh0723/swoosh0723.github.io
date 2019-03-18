@@ -432,7 +432,7 @@
 
       .summary_tit {
         h3 {
-          font-family: "Noto Sans KR", sans-serif;
+          font-family: $normal-font;
           font-size: 36px;
           font-weight: 700;
         }
@@ -581,7 +581,7 @@
 
             p {
               line-height: 1.7;
-              font-family: "Noto Sans KR", sans-serif;
+              font-family: $normal-font;
               font-size: 13px;
               font-weight: 300;
 
@@ -875,7 +875,6 @@
         width: 280px;
         padding: 10px 0;
         padding-right: 30px;
-        border-right: 1px solid $gray-color;
 
         .personal,
         .skills,
@@ -906,66 +905,48 @@
               h4 {
                 float: left;
                 width: 35%;
-                font-weight: 500;
+                font-weight: 400;
 
                 span {
                   color: $point-color;
                 }
               }
               strong {
+                font-family: $normal-font;
+                font-weight: 300;
+              }
+            }
+          }
+
+          .skills_list {
+            overflow: hidden;
+            font-family: $normal-font;
+            font-size: 14px;
+            margin-bottom: 20px;
+
+            &.skills_list02 {
+              margin-bottom: 0;
+            }
+
+            .title {
+              float: left;
+              width: 35%;
+
+              span {
+                font-size: 11px;
+              }
+
+              h4 {
                 font-weight: 400;
               }
+            }
 
-              img {
-                display: none;
-              }
+            p {
+              float: left;
 
-              .skill_bar {
-                float: left;
-                position: relative;
-                width: 50%;
-                height: 5px;
-                margin-top: 12.5px;
-                margin-left: 5px;
-                background-color: $gray-color;
-
-                span {
-                  display: block;
-                  position: absolute;
-                  left: 0;
-                  top: 0;
-                  height: 100%;
-                  background-color: $main-color;
-                  transition: $hover-effect;
-                }
-
-                &.html5 span {
-                  width: 95%;
-                }
-                &.css span {
-                  width: 95%;
-                }
-                &.scss span {
-                  width: 75%;
-                }
-                &.javascript span {
-                  width: 40%;
-                }
-                &.jquery span {
-                  width: 65%;
-                }
-                &.react span {
-                  width: 15%;
-                }
-                &.vue span {
-                  width: 15%;
-                }
-                &.illustrator span {
-                  width: 90%;
-                }
-                &.photoshop span {
-                  width: 40%;
-                }
+              span {
+                display: block;
+                font-weight: 300;
               }
             }
           }
@@ -977,6 +958,7 @@
         float: left;
         width: calc(100% - 280px);
         padding-left: 50px;
+        border-left: 1px solid $gray-color;
 
         .about_me,
         .experience,
@@ -1025,7 +1007,7 @@
               .list_tit {
                 position: relative;
                 margin: 10px 0;
-                font-family: "Noto Sans KR", sans-serif;
+                font-family: $normal-font;
                 font-size: 15px;
                 font-weight: 500;
                 // text-decoration: underline;
@@ -1046,7 +1028,7 @@
               .list_txt {
                 box-sizing: border-box;
                 padding-left: 15px;
-                font-family: "Noto Sans KR", sans-serif;
+                font-family: $normal-font;
 
                 p {
                   overflow: hidden;
@@ -1085,7 +1067,7 @@
             margin-bottom: 20px;
             padding-bottom: 20px;
             padding-left: 25px;
-            font-family: "Noto Sans KR", sans-serif;
+            font-family: $normal-font;
             font-size: 14px;
             font-weight: 300;
 
