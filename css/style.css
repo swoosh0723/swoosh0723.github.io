@@ -1,0 +1,834 @@
+@charset "UTF-8";
+/* global variable */
+/* 폰트영역 */
+/* 로고 폰트 */
+@import url("https://fonts.googleapis.com/css?family=Hind+Madurai:700");
+/* 메인 타이틀 폰트 */
+@font-face {
+  font-family: "CooperLightBT";
+  src: url("../fonts/CooperLightBT.woff"); }
+#wrap {
+  width: 100%;
+  margin: 0 auto;
+  /* 헤더영역 */
+  /* 푸터영역 */
+  /*** 메인 메이지 ***/
+  /* 컨테이너 영역 */
+  /* 메인 공통영역 */
+  /* page title */
+  /**** 프로젝트 페이지 ****/
+  /* 프로젝트 영역 */
+  /*** 어바웃미 페이지 ***/ }
+  #wrap header {
+    overflow: hidden;
+    width: 90%;
+    max-width: 1920px;
+    margin: 0 auto; }
+    #wrap header h1 {
+      float: left;
+      font-family: "Hind Madurai", sans-serif;
+      font-size: 35px;
+      letter-spacing: -0.07em; }
+      #wrap header h1:hover span {
+        animation: logo-effect 1s infinite; }
+        #wrap header h1:hover span:last-child {
+          animation-delay: 0.09s; }
+@keyframes logo-effect {
+  0% {
+    transform: scale(1); }
+  15% {
+    transform: scale(1.2); }
+  30% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1); } }
+      #wrap header h1 a {
+        overflow: hidden;
+        padding: 30px;
+        padding-left: 0;
+        color: #015aaa; }
+        #wrap header h1 a span {
+          display: block;
+          float: left;
+          transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+    #wrap header .gnb {
+      overflow: hidden;
+      float: right;
+      margin-right: calc(4% - 15px);
+      padding-top: 35px; }
+      #wrap header .gnb li {
+        float: left; }
+        #wrap header .gnb li a {
+          position: relative;
+          padding: 10px 15px; }
+          #wrap header .gnb li a:hover:after {
+            transform: scale(1); }
+          #wrap header .gnb li a:hover span {
+            transform: translateY(-10px); }
+          #wrap header .gnb li a:after {
+            display: block;
+            content: "";
+            position: absolute;
+            left: 15px;
+            bottom: 10px;
+            width: calc(100% - 30px);
+            height: 2px;
+            background-color: #f598a4;
+            transform: scale(0);
+            transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+          #wrap header .gnb li a span {
+            display: inline-block;
+            transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+  #wrap footer {
+    width: 100%;
+    margin-bottom: 65px;
+    /* 카피라이터 영역 */ }
+    #wrap footer .copy {
+      width: 90%;
+      max-width: 1080px;
+      margin: 0 auto;
+      text-align: center; }
+  #wrap #container {
+    width: 90%;
+    max-width: 1080px;
+    margin: 20px auto 30px;
+    /* 프로젝트 영역 */
+    /* 컨택트 영역 */ }
+    #wrap #container .project_wrap {
+      overflow: hidden;
+      width: 100%;
+      margin: 3% auto 0; }
+      #wrap #container .project_wrap .project {
+        overflow: hidden;
+        width: 92%;
+        margin: 3% auto 0; }
+        #wrap #container .project_wrap .project .item {
+          float: left;
+          position: relative;
+          width: 49%;
+          margin-bottom: 2%;
+          padding-top: 47%;
+          animation: item-opacity 0.5s ease-out;
+          /* 호버시 텍스트 나타나는 영역 */
+          /* 새로고침시 호버요소들 reverse */ }
+@keyframes item-opacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+          #wrap #container .project_wrap .project .item:nth-child(odd) {
+            margin-right: 2%; }
+          #wrap #container .project_wrap .project .item:hover .item_img img {
+            transform: scale(1.2); }
+          #wrap #container .project_wrap .project .item:hover .item_detail {
+            opacity: 1; }
+            #wrap #container .project_wrap .project .item:hover .item_detail .item_txt .item_tit:after {
+              transform: scale(1); }
+            #wrap #container .project_wrap .project .item:hover .item_detail .item_txt .item_arrow i {
+              margin-left: 0px; }
+          #wrap #container .project_wrap .project .item a {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%; }
+            #wrap #container .project_wrap .project .item a .item_img {
+              overflow: hidden;
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%; }
+              #wrap #container .project_wrap .project .item a .item_img img {
+                width: 100%;
+                height: 100%;
+                transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+            #wrap #container .project_wrap .project .item a .item_detail {
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              background-color: rgba(1, 90, 200, 0.8);
+              color: #fff;
+              opacity: 0;
+              transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+              #wrap #container .project_wrap .project .item a .item_detail .item_txt {
+                position: absolute;
+                left: 0;
+                top: 50%;
+                width: 100%;
+                margin-top: -35px;
+                text-align: center; }
+                #wrap #container .project_wrap .project .item a .item_detail .item_txt .item_tit {
+                  position: relative;
+                  display: inline-block;
+                  font-size: 16px; }
+                  #wrap #container .project_wrap .project .item a .item_detail .item_txt .item_tit:after {
+                    display: inline-block;
+                    content: "";
+                    position: absolute;
+                    left: 50%;
+                    top: -10px;
+                    width: 40px;
+                    height: 2px;
+                    margin-left: -20px;
+                    background-color: #f598a4;
+                    transform: scale(0);
+                    transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+                #wrap #container .project_wrap .project .item a .item_detail .item_txt .item_explan {
+                  padding: 3px 0 20px; }
+                  #wrap #container .project_wrap .project .item a .item_detail .item_txt .item_explan strong {
+                    font-size: 14px;
+                    font-weight: 400; }
+                #wrap #container .project_wrap .project .item a .item_detail .item_txt .item_arrow i {
+                  display: inline-block;
+                  width: 40px;
+                  margin-left: -35px;
+                  transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+                  #wrap #container .project_wrap .project .item a .item_detail .item_txt .item_arrow i img {
+                    width: 100%; }
+            #wrap #container .project_wrap .project .item a .item_name {
+              position: absolute;
+              left: 20px;
+              bottom: 20px;
+              color: #fff; }
+    #wrap #container .contact_wrap {
+      overflow: hidden;
+      width: 100%;
+      margin: 60px auto 70px; }
+      #wrap #container .contact_wrap .contact_text {
+        width: 92%;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 1.7;
+        text-align: right; }
+      #wrap #container .contact_wrap .contact_area {
+        overflow: hidden;
+        width: 92%;
+        margin: 20px auto 0; }
+        #wrap #container .contact_wrap .contact_area .contact_tool {
+          box-sizing: border-box;
+          position: relative;
+          float: right;
+          width: 220px;
+          margin: 5px 0;
+          padding: 15px;
+          border-radius: 4px;
+          background-color: #444;
+          border: 3px solid #444;
+          transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+          #wrap #container .contact_wrap .contact_area .contact_tool:last-child {
+            margin-right: 10px; }
+          #wrap #container .contact_wrap .contact_area .contact_tool:hover {
+            background-color: #fff;
+            border-color: #015aaa; }
+            #wrap #container .contact_wrap .contact_area .contact_tool:hover a {
+              color: #2e3035; }
+            #wrap #container .contact_wrap .contact_area .contact_tool:hover .contact_icon img:last-child {
+              opacity: 1; }
+          #wrap #container .contact_wrap .contact_area .contact_tool a {
+            width: 100%;
+            height: 100%;
+            color: #d3d3d3;
+            transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+            #wrap #container .contact_wrap .contact_area .contact_tool a h3 {
+              font-size: 20px;
+              font-weight: 400; }
+            #wrap #container .contact_wrap .contact_area .contact_tool a .number strong,
+            #wrap #container .contact_wrap .contact_area .contact_tool a .mail strong {
+              font-size: 15px;
+              font-weight: 400; }
+            #wrap #container .contact_wrap .contact_area .contact_tool a .contact_icon {
+              height: 33px; }
+              #wrap #container .contact_wrap .contact_area .contact_tool a .contact_icon i {
+                display: inline-block;
+                position: relative;
+                width: 30px;
+                height: 30px;
+                margin-top: 5px; }
+                #wrap #container .contact_wrap .contact_area .contact_tool a .contact_icon i img {
+                  position: absolute;
+                  left: 0;
+                  top: 0;
+                  width: 100%;
+                  transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+                  #wrap #container .contact_wrap .contact_area .contact_tool a .contact_icon i img:last-child {
+                    opacity: 0; }
+  #wrap .page_title {
+    position: relative;
+    margin: 10px 0;
+    font-size: 35px;
+    font-family: "CooperLightBT"; }
+    #wrap .page_title:after {
+      display: block;
+      content: "";
+      position: absolute;
+      left: -5px;
+      bottom: 6px;
+      width: 75px;
+      height: 5px;
+      background-color: #f598a4;
+      z-index: -5; }
+  #wrap #project_container {
+    width: 100%;
+    /* 프로젝트 이미지 영역 */
+    /* 프로젝트 개요 */
+    /* 프로젝트 디테일 설명 영역 */
+    /* 프로젝트 네비 영역 */ }
+    #wrap #project_container .project_visual {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      background-color: #ccc; }
+    #wrap #project_container .project_summary {
+      width: 90%;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 120px 0 60px; }
+      #wrap #project_container .project_summary .summary_tit h3 {
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 36px;
+        font-weight: 700; }
+      #wrap #project_container .project_summary .summary_info {
+        overflow: hidden;
+        padding: 35px 0; }
+        #wrap #project_container .project_summary .summary_info li {
+          float: left;
+          width: 26%;
+          margin: 0 11%; }
+          #wrap #project_container .project_summary .summary_info li:first-child, #wrap #project_container .project_summary .summary_info li:last-child {
+            margin: 0; }
+          #wrap #project_container .project_summary .summary_info li h4 {
+            font-size: 16px;
+            color: #222;
+            padding-bottom: 12px;
+            margin-bottom: 12px;
+            border-bottom: 2px solid #3d3d3d;
+            line-height: 1.25; }
+          #wrap #project_container .project_summary .summary_info li p {
+            font-size: 14px; }
+      #wrap #project_container .project_summary .summary_txt {
+        line-height: 2.2;
+        font-size: 14px;
+        font-weight: 500; }
+      #wrap #project_container .project_summary .project_view_btn {
+        margin-top: 35px; }
+        #wrap #project_container .project_summary .project_view_btn a {
+          box-sizing: border-box;
+          overflow: hidden;
+          width: 235px;
+          height: 60px;
+          line-height: 56px;
+          padding: 0 25px;
+          border: 2px solid #015aaa;
+          border-radius: 4px;
+          background-color: #015aaa;
+          font-size: 15px;
+          color: #fff;
+          transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+          #wrap #project_container .project_summary .project_view_btn a:hover {
+            background-color: #fff;
+            color: #015aaa; }
+    #wrap #project_container .project_detail_wrap {
+      /* 프로젝트 전체 화면 영역 */
+      /* 반응형 화면 영역 */
+      /* 없으면 제외. */
+      /* 상세 설명 영역 */ }
+      #wrap #project_container .project_detail_wrap .detail_visual {
+        width: 90%;
+        max-width: 1400px;
+        height: 300px;
+        margin: 0 auto;
+        background-color: #ccc; }
+      #wrap #project_container .project_detail_wrap .detail_responsive {
+        width: 100%; }
+        #wrap #project_container .project_detail_wrap .detail_responsive .detail_responsive_txt {
+          width: 700px;
+          margin: 0 auto 60px;
+          text-align: center; }
+          #wrap #project_container .project_detail_wrap .detail_responsive .detail_responsive_txt h4 {
+            padding: 100px 0 25px;
+            font-size: 26px;
+            font-weight: 600; }
+          #wrap #project_container .project_detail_wrap .detail_responsive .detail_responsive_txt p {
+            line-height: 2.2;
+            font-size: 14px;
+            font-weight: 500; }
+        #wrap #project_container .project_detail_wrap .detail_responsive .detail_responsive_img {
+          width: 100%;
+          height: 300px;
+          background-color: #ccc; }
+      #wrap #project_container .project_detail_wrap .detail_explain_wrap {
+        padding: 40px 0; }
+        #wrap #project_container .project_detail_wrap .detail_explain_wrap li {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 90%;
+          max-width: 1080px;
+          margin: 0 auto;
+          padding: 40px 0; }
+          #wrap #project_container .project_detail_wrap .detail_explain_wrap li:nth-child(even) {
+            flex-direction: row-reverse; }
+            #wrap #project_container .project_detail_wrap .detail_explain_wrap li:nth-child(even) .explain_txt {
+              padding-right: 40px;
+              padding-left: 10px; }
+          #wrap #project_container .project_detail_wrap .detail_explain_wrap li .explain_img {
+            box-sizing: border-box;
+            width: 50%;
+            height: 300px;
+            background-color: #ccc; }
+          #wrap #project_container .project_detail_wrap .detail_explain_wrap li .explain_txt {
+            box-sizing: border-box;
+            width: 50%;
+            padding: 5px 0;
+            padding-left: 50px; }
+            #wrap #project_container .project_detail_wrap .detail_explain_wrap li .explain_txt h4 {
+              padding: 0 0 25px;
+              font-size: 18px;
+              font-weight: 400; }
+            #wrap #project_container .project_detail_wrap .detail_explain_wrap li .explain_txt p {
+              line-height: 1.7;
+              font-family: "Noto Sans KR", sans-serif;
+              font-size: 13px;
+              font-weight: 300; }
+              #wrap #project_container .project_detail_wrap .detail_explain_wrap li .explain_txt p span {
+                display: block;
+                text-indent: -10px; }
+    #wrap #project_container .project_nav_wrap {
+      overflow: hidden;
+      position: relative;
+      width: 90%;
+      max-width: 1080px;
+      margin: 0 auto 50px; }
+      #wrap #project_container .project_nav_wrap .project_nav {
+        overflow: hidden;
+        float: left;
+        width: 50%;
+        height: 180px;
+        background-color: #ccc; }
+        #wrap #project_container .project_nav_wrap .project_nav:hover .project_nav_bg {
+          background-color: rgba(1, 90, 200, 0.8); }
+        #wrap #project_container .project_nav_wrap .project_nav:hover .project_nav_detail {
+          margin-top: -40px; }
+          #wrap #project_container .project_nav_wrap .project_nav:hover .project_nav_detail h3:after {
+            transform: scale(1); }
+          #wrap #project_container .project_nav_wrap .project_nav:hover .project_nav_detail h4 {
+            opacity: 1; }
+          #wrap #project_container .project_nav_wrap .project_nav:hover .project_nav_detail i img {
+            margin-left: 0;
+            opacity: 1; }
+        #wrap #project_container .project_nav_wrap .project_nav a {
+          position: relative;
+          width: 100%;
+          height: 100%; }
+          #wrap #project_container .project_nav_wrap .project_nav a .project_nav_bg {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            z-index: 10; }
+          #wrap #project_container .project_nav_wrap .project_nav a .project_nav_img {
+            overflow: hidden;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 5; }
+            #wrap #project_container .project_nav_wrap .project_nav a .project_nav_img img {
+              width: 100%;
+              height: 100%;
+              transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+          #wrap #project_container .project_nav_wrap .project_nav a .project_nav_detail {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            margin-top: -12px;
+            text-align: center;
+            color: #fff;
+            transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            z-index: 15; }
+            #wrap #project_container .project_nav_wrap .project_nav a .project_nav_detail h3 {
+              display: inline-block;
+              position: relative;
+              font-size: 18px;
+              font-weight: 600;
+              transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+              #wrap #project_container .project_nav_wrap .project_nav a .project_nav_detail h3:after {
+                display: block;
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 50%;
+                width: 100%;
+                height: 2px;
+                margin-top: -1px;
+                background-color: #f598a4;
+                transform: scale(0);
+                transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+            #wrap #project_container .project_nav_wrap .project_nav a .project_nav_detail h4 {
+              padding: 7px 0;
+              font-size: 15px;
+              opacity: 0;
+              transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+            #wrap #project_container .project_nav_wrap .project_nav a .project_nav_detail i img {
+              display: inline-block;
+              width: 40px;
+              margin-left: -35px;
+              opacity: 0;
+              transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+      #wrap #project_container .project_nav_wrap .project_list_btn {
+        position: absolute;
+        width: 72px;
+        height: 72px;
+        left: 50%;
+        top: 50%;
+        margin-top: -36px;
+        margin-left: -36px;
+        border: 1px solid rgba(255, 255, 255, 0.21);
+        background: rgba(255, 255, 255, 0.1);
+        transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        z-index: 20; }
+        #wrap #project_container .project_nav_wrap .project_list_btn:hover {
+          background-color: rgba(255, 255, 255, 0.8); }
+          #wrap #project_container .project_nav_wrap .project_list_btn:hover .line {
+            background-color: #222;
+            animation: line-effect 0.4s 1; }
+            #wrap #project_container .project_nav_wrap .project_list_btn:hover .line.line02 {
+              animation-delay: 0.1s; }
+            #wrap #project_container .project_nav_wrap .project_list_btn:hover .line.line03 {
+              animation-delay: 0.2s; }
+@keyframes line-effect {
+  0% {
+    width: 16px; }
+  50% {
+    width: 0px; }
+  100% {
+    width: 16px; } }
+        #wrap #project_container .project_nav_wrap .project_list_btn a {
+          position: relative;
+          width: 100%;
+          height: 100%; }
+          #wrap #project_container .project_nav_wrap .project_list_btn a .line {
+            display: block;
+            position: absolute;
+            left: 50%;
+            width: 16px;
+            height: 2px;
+            margin-left: -8px;
+            background-color: #fff;
+            transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+            #wrap #project_container .project_nav_wrap .project_list_btn a .line.line01 {
+              top: 28px; }
+            #wrap #project_container .project_nav_wrap .project_list_btn a .line.line02 {
+              top: 34px; }
+            #wrap #project_container .project_nav_wrap .project_list_btn a .line.line03 {
+              top: 40px; }
+  #wrap #about_container {
+    width: 100%;
+    /* 어바웃 헤더 */
+    /* 프로필 영역 */ }
+    #wrap #about_container .about_header {
+      width: 100%;
+      padding: 40px 0;
+      background-color: #efefef;
+      text-align: right; }
+      #wrap #about_container .about_header .about_header_area {
+        overflow: hidden;
+        width: 90%;
+        max-width: 1080px;
+        margin: 0 auto; }
+        #wrap #about_container .about_header .about_header_area .about_name_wrap {
+          float: right;
+          width: 745px;
+          padding: 0 10px; }
+          #wrap #about_container .about_header .about_header_area .about_name_wrap h2 {
+            margin-right: 10px;
+            line-height: 100px;
+            font-size: 100px;
+            letter-spacing: -0.05em;
+            color: #015aaa; }
+            #wrap #about_container .about_header .about_header_area .about_name_wrap h2 span {
+              transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+              animation: about_name 1s 1; }
+@keyframes about_name {
+  0% {
+    margin-right: 10px; }
+  100% {
+    margin-right: 0; } }
+          #wrap #about_container .about_header .about_header_area .about_name_wrap .job {
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 40px;
+            color: #5a5a5a;
+            transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            animation: about_name_job 1s 1; }
+@keyframes about_name_job {
+  0% {
+    transform: scale(0.8); }
+  100% {
+    transform: scale(1); } }
+    #wrap #about_container .profile_wrap {
+      overflow: hidden;
+      width: 90%;
+      max-width: 1080px;
+      margin: 70px auto; }
+      #wrap #about_container .profile_wrap .profile_summary_wrap {
+        box-sizing: border-box;
+        float: left;
+        width: 280px;
+        padding: 10px 0;
+        padding-right: 30px;
+        border-right: 1px solid #dedede; }
+        #wrap #about_container .profile_wrap .profile_summary_wrap .personal,
+        #wrap #about_container .profile_wrap .profile_summary_wrap .skills,
+        #wrap #about_container .profile_wrap .profile_summary_wrap .contact {
+          margin-bottom: 15px;
+          padding-bottom: 30px;
+          border-bottom: 1px solid #dedede; }
+          #wrap #about_container .profile_wrap .profile_summary_wrap .personal .profile_tit,
+          #wrap #about_container .profile_wrap .profile_summary_wrap .skills .profile_tit,
+          #wrap #about_container .profile_wrap .profile_summary_wrap .contact .profile_tit {
+            padding: 15px 0;
+            line-height: 1;
+            font-size: 17px;
+            font-weight: 100;
+            color: #f598a4; }
+            #wrap #about_container .profile_wrap .profile_summary_wrap .personal .profile_tit span,
+            #wrap #about_container .profile_wrap .profile_summary_wrap .skills .profile_tit span,
+            #wrap #about_container .profile_wrap .profile_summary_wrap .contact .profile_tit span {
+              font-size: 11px;
+              font-weight: 100; }
+          #wrap #about_container .profile_wrap .profile_summary_wrap .personal .profile_list li,
+          #wrap #about_container .profile_wrap .profile_summary_wrap .skills .profile_list li,
+          #wrap #about_container .profile_wrap .profile_summary_wrap .contact .profile_list li {
+            overflow: hidden;
+            line-height: 2.2;
+            font-size: 14px; }
+            #wrap #about_container .profile_wrap .profile_summary_wrap .personal .profile_list li h4,
+            #wrap #about_container .profile_wrap .profile_summary_wrap .skills .profile_list li h4,
+            #wrap #about_container .profile_wrap .profile_summary_wrap .contact .profile_list li h4 {
+              float: left;
+              width: 35%;
+              font-weight: 500; }
+              #wrap #about_container .profile_wrap .profile_summary_wrap .personal .profile_list li h4 span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .skills .profile_list li h4 span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .contact .profile_list li h4 span {
+                color: #f598a4; }
+            #wrap #about_container .profile_wrap .profile_summary_wrap .personal .profile_list li strong,
+            #wrap #about_container .profile_wrap .profile_summary_wrap .skills .profile_list li strong,
+            #wrap #about_container .profile_wrap .profile_summary_wrap .contact .profile_list li strong {
+              font-weight: 400; }
+            #wrap #about_container .profile_wrap .profile_summary_wrap .personal .profile_list li img,
+            #wrap #about_container .profile_wrap .profile_summary_wrap .skills .profile_list li img,
+            #wrap #about_container .profile_wrap .profile_summary_wrap .contact .profile_list li img {
+              display: none; }
+            #wrap #about_container .profile_wrap .profile_summary_wrap .personal .profile_list li .skill_bar,
+            #wrap #about_container .profile_wrap .profile_summary_wrap .skills .profile_list li .skill_bar,
+            #wrap #about_container .profile_wrap .profile_summary_wrap .contact .profile_list li .skill_bar {
+              float: left;
+              position: relative;
+              width: 50%;
+              height: 5px;
+              margin-top: 12.5px;
+              margin-left: 5px;
+              background-color: #dedede; }
+              #wrap #about_container .profile_wrap .profile_summary_wrap .personal .profile_list li .skill_bar span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .skills .profile_list li .skill_bar span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .contact .profile_list li .skill_bar span {
+                display: block;
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 100%;
+                background-color: #015aaa;
+                transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+              #wrap #about_container .profile_wrap .profile_summary_wrap .personal .profile_list li .skill_bar.html5 span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .skills .profile_list li .skill_bar.html5 span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .contact .profile_list li .skill_bar.html5 span {
+                width: 95%; }
+              #wrap #about_container .profile_wrap .profile_summary_wrap .personal .profile_list li .skill_bar.css span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .skills .profile_list li .skill_bar.css span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .contact .profile_list li .skill_bar.css span {
+                width: 95%; }
+              #wrap #about_container .profile_wrap .profile_summary_wrap .personal .profile_list li .skill_bar.scss span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .skills .profile_list li .skill_bar.scss span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .contact .profile_list li .skill_bar.scss span {
+                width: 75%; }
+              #wrap #about_container .profile_wrap .profile_summary_wrap .personal .profile_list li .skill_bar.javascript span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .skills .profile_list li .skill_bar.javascript span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .contact .profile_list li .skill_bar.javascript span {
+                width: 40%; }
+              #wrap #about_container .profile_wrap .profile_summary_wrap .personal .profile_list li .skill_bar.jquery span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .skills .profile_list li .skill_bar.jquery span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .contact .profile_list li .skill_bar.jquery span {
+                width: 65%; }
+              #wrap #about_container .profile_wrap .profile_summary_wrap .personal .profile_list li .skill_bar.react span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .skills .profile_list li .skill_bar.react span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .contact .profile_list li .skill_bar.react span {
+                width: 15%; }
+              #wrap #about_container .profile_wrap .profile_summary_wrap .personal .profile_list li .skill_bar.vue span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .skills .profile_list li .skill_bar.vue span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .contact .profile_list li .skill_bar.vue span {
+                width: 15%; }
+              #wrap #about_container .profile_wrap .profile_summary_wrap .personal .profile_list li .skill_bar.illustrator span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .skills .profile_list li .skill_bar.illustrator span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .contact .profile_list li .skill_bar.illustrator span {
+                width: 90%; }
+              #wrap #about_container .profile_wrap .profile_summary_wrap .personal .profile_list li .skill_bar.photoshop span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .skills .profile_list li .skill_bar.photoshop span,
+              #wrap #about_container .profile_wrap .profile_summary_wrap .contact .profile_list li .skill_bar.photoshop span {
+                width: 40%; }
+      #wrap #about_container .profile_wrap .profile_detail_wrap {
+        box-sizing: border-box;
+        float: left;
+        width: calc(100% - 280px);
+        padding-left: 50px; }
+        #wrap #about_container .profile_wrap .profile_detail_wrap .about_me,
+        #wrap #about_container .profile_wrap .profile_detail_wrap .experience,
+        #wrap #about_container .profile_wrap .profile_detail_wrap .project,
+        #wrap #about_container .profile_wrap .profile_detail_wrap .awards {
+          width: 100%;
+          margin-bottom: 70px;
+          /* 경험, 프로젝트 */
+          /* 수상내역 */ }
+          #wrap #about_container .profile_wrap .profile_detail_wrap .about_me .title,
+          #wrap #about_container .profile_wrap .profile_detail_wrap .experience .title,
+          #wrap #about_container .profile_wrap .profile_detail_wrap .project .title,
+          #wrap #about_container .profile_wrap .profile_detail_wrap .awards .title {
+            position: relative;
+            margin: 10px 0 20px;
+            font-family: "CooperLightBT";
+            font-size: 25px; }
+            #wrap #about_container .profile_wrap .profile_detail_wrap .about_me .title:after,
+            #wrap #about_container .profile_wrap .profile_detail_wrap .experience .title:after,
+            #wrap #about_container .profile_wrap .profile_detail_wrap .project .title:after,
+            #wrap #about_container .profile_wrap .profile_detail_wrap .awards .title:after {
+              display: block;
+              content: "";
+              position: absolute;
+              left: -5px;
+              bottom: 3px;
+              width: 75px;
+              height: 2px;
+              background-color: #f598a4;
+              z-index: -5; }
+          #wrap #about_container .profile_wrap .profile_detail_wrap .about_me .txt,
+          #wrap #about_container .profile_wrap .profile_detail_wrap .experience .txt,
+          #wrap #about_container .profile_wrap .profile_detail_wrap .project .txt,
+          #wrap #about_container .profile_wrap .profile_detail_wrap .awards .txt {
+            box-sizing: border-box;
+            padding-left: 15px;
+            line-height: 1.8;
+            font-size: 14px; }
+          #wrap #about_container .profile_wrap .profile_detail_wrap .about_me .list,
+          #wrap #about_container .profile_wrap .profile_detail_wrap .experience .list,
+          #wrap #about_container .profile_wrap .profile_detail_wrap .project .list,
+          #wrap #about_container .profile_wrap .profile_detail_wrap .awards .list {
+            width: 100%; }
+            #wrap #about_container .profile_wrap .profile_detail_wrap .about_me .list li,
+            #wrap #about_container .profile_wrap .profile_detail_wrap .experience .list li,
+            #wrap #about_container .profile_wrap .profile_detail_wrap .project .list li,
+            #wrap #about_container .profile_wrap .profile_detail_wrap .awards .list li {
+              box-sizing: border-box;
+              width: 80%;
+              margin-bottom: 20px;
+              padding-bottom: 20px;
+              padding-left: 25px;
+              border-bottom: 1px solid #dedede; }
+              #wrap #about_container .profile_wrap .profile_detail_wrap .about_me .list li .list_tit,
+              #wrap #about_container .profile_wrap .profile_detail_wrap .experience .list li .list_tit,
+              #wrap #about_container .profile_wrap .profile_detail_wrap .project .list li .list_tit,
+              #wrap #about_container .profile_wrap .profile_detail_wrap .awards .list li .list_tit {
+                position: relative;
+                margin: 10px 0;
+                font-family: "Noto Sans KR", sans-serif;
+                font-size: 15px;
+                font-weight: 500; }
+                #wrap #about_container .profile_wrap .profile_detail_wrap .about_me .list li .list_tit:after,
+                #wrap #about_container .profile_wrap .profile_detail_wrap .experience .list li .list_tit:after,
+                #wrap #about_container .profile_wrap .profile_detail_wrap .project .list li .list_tit:after,
+                #wrap #about_container .profile_wrap .profile_detail_wrap .awards .list li .list_tit:after {
+                  display: block;
+                  content: "";
+                  position: absolute;
+                  left: -10px;
+                  top: 11px;
+                  width: 4px;
+                  height: 4px;
+                  border-radius: 8px;
+                  background-color: #015aaa; }
+              #wrap #about_container .profile_wrap .profile_detail_wrap .about_me .list li .list_txt,
+              #wrap #about_container .profile_wrap .profile_detail_wrap .experience .list li .list_txt,
+              #wrap #about_container .profile_wrap .profile_detail_wrap .project .list li .list_txt,
+              #wrap #about_container .profile_wrap .profile_detail_wrap .awards .list li .list_txt {
+                box-sizing: border-box;
+                padding-left: 15px;
+                font-family: "Noto Sans KR", sans-serif; }
+                #wrap #about_container .profile_wrap .profile_detail_wrap .about_me .list li .list_txt p,
+                #wrap #about_container .profile_wrap .profile_detail_wrap .experience .list li .list_txt p,
+                #wrap #about_container .profile_wrap .profile_detail_wrap .project .list li .list_txt p,
+                #wrap #about_container .profile_wrap .profile_detail_wrap .awards .list li .list_txt p {
+                  overflow: hidden;
+                  margin: 5px 0;
+                  line-height: 1.8;
+                  font-size: 14px;
+                  font-weight: 300; }
+                  #wrap #about_container .profile_wrap .profile_detail_wrap .about_me .list li .list_txt p.project_explain strong,
+                  #wrap #about_container .profile_wrap .profile_detail_wrap .experience .list li .list_txt p.project_explain strong,
+                  #wrap #about_container .profile_wrap .profile_detail_wrap .project .list li .list_txt p.project_explain strong,
+                  #wrap #about_container .profile_wrap .profile_detail_wrap .awards .list li .list_txt p.project_explain strong {
+                    float: none; }
+                  #wrap #about_container .profile_wrap .profile_detail_wrap .about_me .list li .list_txt p.project_explain span,
+                  #wrap #about_container .profile_wrap .profile_detail_wrap .experience .list li .list_txt p.project_explain span,
+                  #wrap #about_container .profile_wrap .profile_detail_wrap .project .list li .list_txt p.project_explain span,
+                  #wrap #about_container .profile_wrap .profile_detail_wrap .awards .list li .list_txt p.project_explain span {
+                    display: inline-block;
+                    padding-left: 10px; }
+                  #wrap #about_container .profile_wrap .profile_detail_wrap .about_me .list li .list_txt p strong,
+                  #wrap #about_container .profile_wrap .profile_detail_wrap .experience .list li .list_txt p strong,
+                  #wrap #about_container .profile_wrap .profile_detail_wrap .project .list li .list_txt p strong,
+                  #wrap #about_container .profile_wrap .profile_detail_wrap .awards .list li .list_txt p strong {
+                    float: left;
+                    display: block;
+                    width: 12%;
+                    font-size: 13px;
+                    font-weight: 400; }
+          #wrap #about_container .profile_wrap .profile_detail_wrap .about_me .awards_list,
+          #wrap #about_container .profile_wrap .profile_detail_wrap .experience .awards_list,
+          #wrap #about_container .profile_wrap .profile_detail_wrap .project .awards_list,
+          #wrap #about_container .profile_wrap .profile_detail_wrap .awards .awards_list {
+            box-sizing: border-box;
+            width: 80%;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            padding-left: 25px;
+            font-family: "Noto Sans KR", sans-serif;
+            font-size: 14px;
+            font-weight: 300; }
+            #wrap #about_container .profile_wrap .profile_detail_wrap .about_me .awards_list li,
+            #wrap #about_container .profile_wrap .profile_detail_wrap .experience .awards_list li,
+            #wrap #about_container .profile_wrap .profile_detail_wrap .project .awards_list li,
+            #wrap #about_container .profile_wrap .profile_detail_wrap .awards .awards_list li {
+              position: relative;
+              margin: 3px 0; }
+              #wrap #about_container .profile_wrap .profile_detail_wrap .about_me .awards_list li:after,
+              #wrap #about_container .profile_wrap .profile_detail_wrap .experience .awards_list li:after,
+              #wrap #about_container .profile_wrap .profile_detail_wrap .project .awards_list li:after,
+              #wrap #about_container .profile_wrap .profile_detail_wrap .awards .awards_list li:after {
+                display: block;
+                content: "";
+                position: absolute;
+                left: -10px;
+                top: 11px;
+                width: 4px;
+                height: 4px;
+                border-radius: 8px;
+                background-color: #015aaa; }
+
+/*# sourceMappingURL=style.css.map */

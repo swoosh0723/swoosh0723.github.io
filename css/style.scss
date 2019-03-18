@@ -1,0 +1,1113 @@
+@import "global_variable.scss";
+
+/* 폰트영역 */
+
+/* 로고 폰트 */
+@import url("https://fonts.googleapis.com/css?family=Hind+Madurai:700");
+
+/* 메인 타이틀 폰트 */
+@font-face {
+  font-family: "CooperLightBT";
+  src: url("../fonts/CooperLightBT.woff");
+}
+
+#wrap {
+  width: 100%;
+  margin: 0 auto;
+
+  /* 헤더영역 */
+  header {
+    overflow: hidden;
+    // background-color: #f598a4;
+    width: $width;
+    max-width: 1920px;
+    margin: 0 auto;
+
+    h1 {
+      float: left;
+      font-family: "Hind Madurai", sans-serif;
+      font-size: 35px;
+      letter-spacing: -0.07em;
+
+      &:hover {
+        span {
+          animation: logo-effect 1s infinite;
+
+          &:last-child {
+            animation-delay: 0.09s;
+          }
+        }
+      }
+
+      @keyframes logo-effect {
+        0% {
+          transform: scale(1);
+        }
+        15% {
+          transform: scale(1.2);
+        }
+        30% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      a {
+        overflow: hidden;
+        padding: 30px;
+        padding-left: 0;
+        color: $main-color;
+
+        span {
+          display: block;
+          float: left;
+          transition: $hover-effect;
+        }
+      }
+    }
+
+    .gnb {
+      overflow: hidden;
+      float: right;
+      margin-right: calc(4% - 15px);
+      padding-top: 35px;
+
+      li {
+        float: left;
+
+        a {
+          position: relative;
+          padding: 10px 15px;
+
+          &:hover {
+            &:after {
+              transform: scale(1);
+            }
+
+            span {
+              transform: translateY(-10px);
+            }
+          }
+
+          &:after {
+            display: block;
+            content: "";
+            position: absolute;
+            left: 15px;
+            bottom: 10px;
+            width: calc(100% - 30px);
+            height: 2px;
+            background-color: $point-color;
+            transform: scale(0);
+            transition: $hover-effect;
+          }
+
+          span {
+            display: inline-block;
+            transition: $hover-effect;
+          }
+        }
+      }
+    }
+  }
+
+  /* 푸터영역 */
+  footer {
+    width: 100%;
+    margin-bottom: 65px;
+
+    /* 카피라이터 영역 */
+    .copy {
+      width: $width;
+      max-width: $max-width;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+
+  /*** 메인 메이지 ***/
+  /* 컨테이너 영역 */
+  #container {
+    width: $width;
+    max-width: $max-width;
+    margin: 20px auto 30px;
+
+    /* 프로젝트 영역 */
+    .project_wrap {
+      overflow: hidden;
+      width: 100%;
+      margin: 3% auto 0;
+
+      .project {
+        overflow: hidden;
+        width: 92%;
+        margin: 3% auto 0;
+
+        .item {
+          float: left;
+          position: relative;
+          width: 49%;
+          margin-bottom: 2%;
+          padding-top: 47%;
+          animation: item-opacity 0.5s ease-out;
+
+          @keyframes item-opacity {
+            0% {
+              opacity: 0;
+            }
+
+            100% {
+              opacity: 1;
+            }
+          }
+
+          &:nth-child(odd) {
+            margin-right: 2%;
+          }
+
+          /* 호버시 텍스트 나타나는 영역 */
+          /* 새로고침시 호버요소들 reverse */
+          &:hover {
+            .item_img {
+              img {
+                transform: scale(1.2);
+              }
+            }
+
+            .item_detail {
+              opacity: 1;
+
+              .item_txt {
+                .item_tit:after {
+                  transform: scale(1);
+                }
+
+                .item_arrow {
+                  i {
+                    margin-left: 0px;
+                  }
+                }
+              }
+            }
+          }
+
+          a {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+
+            .item_img {
+              overflow: hidden;
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%;
+
+              img {
+                width: 100%;
+                height: 100%;
+                transition: $hover-effect;
+              }
+            }
+
+            .item_detail {
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              background-color: rgba(1, 90, 200, 0.8);
+              color: #fff;
+              opacity: 0;
+              transition: $hover-effect;
+
+              .item_txt {
+                position: absolute;
+                left: 0;
+                top: 50%;
+                width: 100%;
+                margin-top: -35px;
+                text-align: center;
+
+                .item_tit {
+                  position: relative;
+                  display: inline-block;
+                  font-size: 16px;
+
+                  &:after {
+                    display: inline-block;
+                    content: "";
+                    position: absolute;
+                    left: 50%;
+                    top: -10px;
+                    width: 40px;
+                    height: 2px;
+                    margin-left: -20px;
+                    background-color: #f598a4;
+                    transform: scale(0);
+                    transition: $hover-effect;
+                  }
+                }
+
+                .item_explan {
+                  padding: 3px 0 20px;
+
+                  strong {
+                    font-size: 14px;
+                    font-weight: 400;
+                  }
+                }
+
+                .item_arrow {
+                  i {
+                    display: inline-block;
+                    width: 40px;
+                    margin-left: -35px;
+                    transition: $hover-effect;
+
+                    img {
+                      width: 100%;
+                    }
+                  }
+                }
+              }
+            }
+
+            .item_name {
+              position: absolute;
+              left: 20px;
+              bottom: 20px;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+
+    /* 컨택트 영역 */
+    .contact_wrap {
+      overflow: hidden;
+      width: 100%;
+      margin: 60px auto 70px;
+
+      .contact_text {
+        width: 92%;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 1.7;
+        text-align: right;
+      }
+
+      .contact_area {
+        overflow: hidden;
+        width: 92%;
+        margin: 20px auto 0;
+
+        .contact_tool {
+          box-sizing: border-box;
+          position: relative;
+          float: right;
+          width: 220px;
+          margin: 5px 0;
+          padding: 15px;
+          border-radius: 4px;
+          background-color: #444;
+          border: 3px solid #444;
+          transition: $hover-effect;
+
+          &:last-child {
+            margin-right: 10px;
+          }
+
+          &:hover {
+            background-color: #fff;
+            border-color: $main-color;
+
+            a {
+              color: $font-color;
+            }
+
+            .contact_icon {
+              img {
+                &:last-child {
+                  opacity: 1;
+                }
+              }
+            }
+          }
+
+          a {
+            width: 100%;
+            height: 100%;
+            color: #d3d3d3;
+            transition: $hover-effect;
+
+            h3 {
+              font-size: 20px;
+              font-weight: 400;
+            }
+
+            .number,
+            .mail {
+              strong {
+                font-size: 15px;
+                font-weight: 400;
+              }
+            }
+
+            .contact_icon {
+              height: 33px;
+
+              i {
+                display: inline-block;
+                position: relative;
+                width: 30px;
+                height: 30px;
+                margin-top: 5px;
+
+                img {
+                  position: absolute;
+                  left: 0;
+                  top: 0;
+                  width: 100%;
+                  transition: $hover-effect;
+
+                  &:last-child {
+                    opacity: 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* 메인 공통영역 */
+  /* page title */
+  .page_title {
+    position: relative;
+    margin: 10px 0;
+    font-size: 35px;
+    font-family: $title-font;
+
+    &:after {
+      display: block;
+      content: "";
+      position: absolute;
+      left: -5px;
+      bottom: 6px;
+      width: 75px;
+      height: 5px;
+      background-color: $point-color;
+      z-index: -5;
+    }
+  }
+
+  /**** 프로젝트 페이지 ****/
+  /* 프로젝트 영역 */
+  #project_container {
+    width: 100%;
+
+    /* 프로젝트 이미지 영역 */
+    .project_visual {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      background-color: #ccc;
+    }
+
+    /* 프로젝트 개요 */
+    .project_summary {
+      width: $width;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 120px 0 60px;
+
+      .summary_tit {
+        h3 {
+          font-family: "Noto Sans KR", sans-serif;
+          font-size: 36px;
+          font-weight: 700;
+        }
+      }
+
+      .summary_info {
+        overflow: hidden;
+        padding: 35px 0;
+
+        li {
+          float: left;
+          width: 26%;
+          margin: 0 11%;
+
+          &:first-child,
+          &:last-child {
+            margin: 0;
+          }
+
+          h4 {
+            font-size: 16px;
+            color: #222;
+            padding-bottom: 12px;
+            margin-bottom: 12px;
+            border-bottom: 2px solid #3d3d3d;
+            line-height: 1.25;
+          }
+
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+
+      .summary_txt {
+        line-height: 2.2;
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      .project_view_btn {
+        margin-top: 35px;
+
+        a {
+          box-sizing: border-box;
+          overflow: hidden;
+          width: 235px;
+          height: 60px;
+          line-height: 56px;
+          padding: 0 25px;
+          border: 2px solid $main-color;
+          border-radius: 4px;
+          background-color: $main-color;
+          font-size: 15px;
+          color: #fff;
+          transition: $hover-effect;
+
+          &:hover {
+            background-color: #fff;
+            color: $main-color;
+          }
+        }
+      }
+    }
+
+    /* 프로젝트 디테일 설명 영역 */
+    .project_detail_wrap {
+      /* 프로젝트 전체 화면 영역 */
+      .detail_visual {
+        width: $width;
+        max-width: 1400px;
+        height: 300px;
+        margin: 0 auto;
+        background-color: #ccc;
+      }
+
+      /* 반응형 화면 영역 */
+      /* 없으면 제외. */
+      .detail_responsive {
+        width: 100%;
+
+        .detail_responsive_txt {
+          width: 700px;
+          margin: 0 auto 60px;
+          text-align: center;
+
+          h4 {
+            padding: 100px 0 25px;
+            font-size: 26px;
+            font-weight: 600;
+          }
+
+          p {
+            line-height: 2.2;
+            font-size: 14px;
+            font-weight: 500;
+          }
+        }
+
+        .detail_responsive_img {
+          width: 100%;
+          height: 300px;
+          background-color: #ccc;
+        }
+      }
+
+      /* 상세 설명 영역 */
+      .detail_explain_wrap {
+        padding: 40px 0;
+        li {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: $width;
+          max-width: $max-width;
+          margin: 0 auto;
+          padding: 40px 0;
+
+          &:nth-child(even) {
+            flex-direction: row-reverse;
+
+            .explain_txt {
+              padding-right: 40px;
+              padding-left: 10px;
+            }
+          }
+
+          .explain_img {
+            box-sizing: border-box;
+            width: 50%;
+            height: 300px;
+            background-color: #ccc;
+          }
+
+          .explain_txt {
+            box-sizing: border-box;
+            width: 50%;
+            padding: 5px 0;
+            padding-left: 50px;
+
+            h4 {
+              padding: 0 0 25px;
+              font-size: 18px;
+              font-weight: 400;
+            }
+
+            p {
+              line-height: 1.7;
+              font-family: "Noto Sans KR", sans-serif;
+              font-size: 13px;
+              font-weight: 300;
+
+              span {
+                display: block;
+                text-indent: -10px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /* 프로젝트 네비 영역 */
+    .project_nav_wrap {
+      overflow: hidden;
+      position: relative;
+      width: $width;
+      max-width: $max-width;
+      margin: 0 auto 50px;
+
+      .project_nav {
+        overflow: hidden;
+        float: left;
+        width: 50%;
+        height: 180px;
+        background-color: #ccc;
+
+        &:hover {
+          .project_nav_bg {
+            background-color: rgba(1, 90, 200, 0.8);
+          }
+
+          .project_nav_detail {
+            margin-top: -40px;
+
+            h3 {
+              &:after {
+                transform: scale(1);
+              }
+            }
+
+            h4 {
+              opacity: 1;
+            }
+
+            i {
+              img {
+                margin-left: 0;
+                opacity: 1;
+              }
+            }
+          }
+        }
+
+        a {
+          position: relative;
+          width: 100%;
+          height: 100%;
+
+          .project_nav_bg {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            transition: $hover-effect;
+            z-index: 10;
+          }
+
+          .project_nav_img {
+            overflow: hidden;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 5;
+
+            img {
+              width: 100%;
+              height: 100%;
+              transition: $hover-effect;
+            }
+          }
+
+          .project_nav_detail {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            margin-top: -12px;
+            text-align: center;
+            color: #fff;
+            transition: $hover-effect;
+            z-index: 15;
+
+            h3 {
+              display: inline-block;
+              position: relative;
+              font-size: 18px;
+              font-weight: 600;
+              transition: $hover-effect;
+
+              &:after {
+                display: block;
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 50%;
+                width: 100%;
+                height: 2px;
+                margin-top: -1px;
+                background-color: $point-color;
+                transform: scale(0);
+                transition: $hover-effect;
+              }
+            }
+
+            h4 {
+              padding: 7px 0;
+              font-size: 15px;
+              opacity: 0;
+              transition: $hover-effect;
+            }
+
+            i {
+              img {
+                display: inline-block;
+                width: 40px;
+                margin-left: -35px;
+                opacity: 0;
+                transition: $hover-effect;
+              }
+            }
+          }
+        }
+      }
+
+      .project_list_btn {
+        position: absolute;
+        width: 72px;
+        height: 72px;
+        left: 50%;
+        top: 50%;
+        margin-top: -36px;
+        margin-left: -36px;
+        border: 1px solid rgba(255, 255, 255, 0.21);
+        background: rgba(255, 255, 255, 0.1);
+        transition: $hover-effect;
+        z-index: 20;
+
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.8);
+
+          .line {
+            background-color: #222;
+            animation: line-effect 0.4s 1;
+
+            &.line02 {
+              animation-delay: 0.1s;
+            }
+            &.line03 {
+              animation-delay: 0.2s;
+            }
+          }
+
+          @keyframes line-effect {
+            0% {
+              width: 16px;
+            }
+            50% {
+              width: 0px;
+            }
+            100% {
+              width: 16px;
+            }
+          }
+        }
+
+        a {
+          position: relative;
+          width: 100%;
+          height: 100%;
+
+          .line {
+            display: block;
+            position: absolute;
+            left: 50%;
+            width: 16px;
+            height: 2px;
+            margin-left: -8px;
+            background-color: #fff;
+            transition: $hover-effect;
+
+            &.line01 {
+              top: 28px;
+            }
+            &.line02 {
+              top: 34px;
+            }
+            &.line03 {
+              top: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /*** 어바웃미 페이지 ***/
+  #about_container {
+    width: 100%;
+
+    /* 어바웃 헤더 */
+    .about_header {
+      width: 100%;
+      padding: 40px 0;
+      // background: url("../img/about_main_img.jpg") no-repeat;
+      // background-size: cover;
+      // background-position: -10px -95px;
+      background-color: #efefef;
+      text-align: right;
+
+      .about_header_area {
+        overflow: hidden;
+        width: $width;
+        max-width: $max-width;
+        margin: 0 auto;
+
+        .about_name_wrap {
+          float: right;
+          width: 745px;
+          padding: 0 10px;
+          // background-color: rgba(255, 255, 255, 0.65);
+
+          h2 {
+            margin-right: 10px;
+            line-height: 100px;
+            font-size: 100px;
+            letter-spacing: -0.05em;
+            color: $main-color;
+
+            span {
+              transition: $hover-effect;
+              animation: about_name 1s 1;
+            }
+
+            @keyframes about_name {
+              0% {
+                margin-right: 10px;
+              }
+
+              100% {
+                margin-right: 0;
+              }
+            }
+          }
+          .job {
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 40px;
+            color: #5a5a5a;
+            transition: $hover-effect;
+            animation: about_name_job 1s 1;
+
+            @keyframes about_name_job {
+              0% {
+                transform: scale(0.8);
+              }
+
+              100% {
+                transform: scale(1);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /* 프로필 영역 */
+    .profile_wrap {
+      overflow: hidden;
+      width: $width;
+      max-width: $max-width;
+      margin: 70px auto;
+
+      .profile_summary_wrap {
+        box-sizing: border-box;
+        float: left;
+        width: 280px;
+        padding: 10px 0;
+        padding-right: 30px;
+        border-right: 1px solid $gray-color;
+
+        .personal,
+        .skills,
+        .contact {
+          margin-bottom: 15px;
+          padding-bottom: 30px;
+          border-bottom: 1px solid $gray-color;
+
+          .profile_tit {
+            padding: 15px 0;
+            line-height: 1;
+            font-size: 17px;
+            font-weight: 100;
+            color: $point-color;
+
+            span {
+              font-size: 11px;
+              font-weight: 100;
+            }
+          }
+
+          .profile_list {
+            li {
+              overflow: hidden;
+              line-height: 2.2;
+              font-size: 14px;
+
+              h4 {
+                float: left;
+                width: 35%;
+                font-weight: 500;
+
+                span {
+                  color: $point-color;
+                }
+              }
+              strong {
+                font-weight: 400;
+              }
+
+              img {
+                display: none;
+              }
+
+              .skill_bar {
+                float: left;
+                position: relative;
+                width: 50%;
+                height: 5px;
+                margin-top: 12.5px;
+                margin-left: 5px;
+                background-color: $gray-color;
+
+                span {
+                  display: block;
+                  position: absolute;
+                  left: 0;
+                  top: 0;
+                  height: 100%;
+                  background-color: $main-color;
+                  transition: $hover-effect;
+                }
+
+                &.html5 span {
+                  width: 95%;
+                }
+                &.css span {
+                  width: 95%;
+                }
+                &.scss span {
+                  width: 75%;
+                }
+                &.javascript span {
+                  width: 40%;
+                }
+                &.jquery span {
+                  width: 65%;
+                }
+                &.react span {
+                  width: 15%;
+                }
+                &.vue span {
+                  width: 15%;
+                }
+                &.illustrator span {
+                  width: 90%;
+                }
+                &.photoshop span {
+                  width: 40%;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .profile_detail_wrap {
+        box-sizing: border-box;
+        float: left;
+        width: calc(100% - 280px);
+        padding-left: 50px;
+
+        .about_me,
+        .experience,
+        .project,
+        .awards {
+          width: 100%;
+          margin-bottom: 70px;
+
+          .title {
+            position: relative;
+            margin: 10px 0 20px;
+            font-family: "CooperLightBT";
+            font-size: 25px;
+
+            &:after {
+              display: block;
+              content: "";
+              position: absolute;
+              left: -5px;
+              bottom: 3px;
+              width: 75px;
+              height: 2px;
+              background-color: #f598a4;
+              z-index: -5;
+            }
+          }
+
+          .txt {
+            box-sizing: border-box;
+            padding-left: 15px;
+            line-height: 1.8;
+            font-size: 14px;
+          }
+
+          /* 경험, 프로젝트 */
+          .list {
+            width: 100%;
+            li {
+              box-sizing: border-box;
+              width: 80%;
+              margin-bottom: 20px;
+              padding-bottom: 20px;
+              padding-left: 25px;
+              border-bottom: 1px solid $gray-color;
+
+              .list_tit {
+                position: relative;
+                margin: 10px 0;
+                font-family: "Noto Sans KR", sans-serif;
+                font-size: 15px;
+                font-weight: 500;
+                // text-decoration: underline;
+
+                &:after {
+                  display: block;
+                  content: "";
+                  position: absolute;
+                  left: -10px;
+                  top: 11px;
+                  width: 4px;
+                  height: 4px;
+                  border-radius: 8px;
+                  background-color: $main-color;
+                }
+              }
+
+              .list_txt {
+                box-sizing: border-box;
+                padding-left: 15px;
+                font-family: "Noto Sans KR", sans-serif;
+
+                p {
+                  overflow: hidden;
+                  margin: 5px 0;
+                  line-height: 1.8;
+                  font-size: 14px;
+                  font-weight: 300;
+
+                  &.project_explain {
+                    strong {
+                      float: none;
+                    }
+
+                    span {
+                      display: inline-block;
+                      padding-left: 10px;
+                    }
+                  }
+
+                  strong {
+                    float: left;
+                    display: block;
+                    width: 12%;
+                    font-size: 13px;
+                    font-weight: 400;
+                  }
+                }
+              }
+            }
+          }
+
+          /* 수상내역 */
+          .awards_list {
+            box-sizing: border-box;
+            width: 80%;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            padding-left: 25px;
+            font-family: "Noto Sans KR", sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+
+            li {
+              position: relative;
+              margin: 3px 0;
+
+              &:after {
+                display: block;
+                content: "";
+                position: absolute;
+                left: -10px;
+                top: 11px;
+                width: 4px;
+                height: 4px;
+                border-radius: 8px;
+                background-color: #015aaa;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
