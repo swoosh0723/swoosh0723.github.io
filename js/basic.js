@@ -18,7 +18,7 @@ $(window).scroll(function() {
 
   ////////////// project //////////////
 
-  var projectVisualH = $(".project_visual").outerHeight();
+  // var projectVisualH = $(".project_visual").outerHeight();
   var projectSummaryH = $(".project_summary").outerHeight();
   var detailVisualH = $(".detail_visual").outerHeight();
   var detailResponsiveTxtH = $(".detail_responsive_txt").outerHeight();
@@ -26,7 +26,6 @@ $(window).scroll(function() {
   var detailExplainItemH = $(".detail_explain_wrap li").outerHeight();
 
   var initDetailExplainItemH =
-    projectVisualH +
     projectSummaryH +
     detailVisualH +
     detailResponsiveTxtH +
@@ -37,25 +36,19 @@ $(window).scroll(function() {
     opacity: "1"
   };
 
-  if (winBottom >= projectVisualH + projectSummaryH) {
+  if (winBottom >= projectSummaryH) {
     $(".detail_visual").css(heightEffect);
   }
 
-  if (winBottom >= projectVisualH + projectSummaryH + detailVisualH) {
+  if (winBottom >= projectSummaryH + detailVisualH) {
     $(".detail_responsive_txt").css(heightEffect);
   }
 
-  if (
-    winBottom >=
-    projectVisualH + projectSummaryH + detailVisualH + detailResponsiveTxtH
-  ) {
+  if (winBottom >= projectSummaryH + detailVisualH + detailResponsiveTxtH) {
     $(".detail_responsive_img").css(heightEffect);
   }
 
-  if (
-    winBottom >=
-    projectVisualH + projectSummaryH + detailVisualH + detailResponsiveImgH
-  ) {
+  if (winBottom >= projectSummaryH + detailVisualH + detailResponsiveImgH) {
     $(".detail_responsive_txt").css(heightEffect);
   }
 
