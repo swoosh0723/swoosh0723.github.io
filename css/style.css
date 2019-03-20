@@ -156,7 +156,7 @@
               #wrap #container .project_wrap .project .item a .item_detail .item_txt {
                 position: absolute;
                 left: 0;
-                top: 50%;
+                top: 55%;
                 width: 100%;
                 margin-top: -35px;
                 text-align: center; }
@@ -320,7 +320,7 @@
           width: 235px;
           height: 60px;
           line-height: 56px;
-          padding: 0 25px;
+          padding: 0 35px;
           border: 2px solid #015aaa;
           border-radius: 4px;
           background-color: #015aaa;
@@ -330,6 +330,23 @@
           #wrap #project_container .project_summary .project_view_btn a:hover {
             background-color: #fff;
             color: #015aaa; }
+            #wrap #project_container .project_summary .project_view_btn a:hover i img:last-child {
+              opacity: 0; }
+          #wrap #project_container .project_summary .project_view_btn a i {
+            display: inline-block;
+            position: relative;
+            width: 20px;
+            height: 20px;
+            margin-left: 25px;
+            vertical-align: sub; }
+            #wrap #project_container .project_summary .project_view_btn a i img {
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 100%;
+              transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+              #wrap #project_container .project_summary .project_view_btn a i img:last-child {
+                opacity: 1; }
     #wrap #project_container .project_detail_wrap {
       /* 프로젝트 전체 화면 영역 */
       /* 반응형 화면 영역 */
@@ -783,6 +800,7 @@
                     float: left;
                     display: block;
                     width: 12%;
+                    min-width: 67px;
                     font-size: 13px;
                     font-weight: 400; }
           #wrap #about_container .profile_wrap .profile_detail_wrap .about_me .awards_list,

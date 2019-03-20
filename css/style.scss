@@ -229,7 +229,7 @@
               .item_txt {
                 position: absolute;
                 left: 0;
-                top: 50%;
+                top: 55%;
                 width: 100%;
                 margin-top: -35px;
                 text-align: center;
@@ -482,7 +482,7 @@
           width: 235px;
           height: 60px;
           line-height: 56px;
-          padding: 0 25px;
+          padding: 0 35px;
           border: 2px solid $main-color;
           border-radius: 4px;
           background-color: $main-color;
@@ -493,6 +493,33 @@
           &:hover {
             background-color: #fff;
             color: $main-color;
+
+            i {
+              img:last-child {
+                opacity: 0;
+              }
+            }
+          }
+
+          i {
+            display: inline-block;
+            position: relative;
+            width: 20px;
+            height: 20px;
+            margin-left: 25px;
+            vertical-align: sub;
+
+            img {
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 100%;
+              transition: $hover-effect;
+
+              &:last-child {
+                opacity: 1;
+              }
+            }
           }
         }
       }
@@ -1064,6 +1091,7 @@
                     float: left;
                     display: block;
                     width: 12%;
+                    min-width: 67px;
                     font-size: 13px;
                     font-weight: 400;
                   }
