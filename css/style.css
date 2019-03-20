@@ -340,12 +340,15 @@
         max-width: 1400px;
         height: 300px;
         margin: 0 auto;
-        background-color: #ccc; }
+        background-color: #ccc;
+        transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        transform: translateY(100px);
+        opacity: 0; }
       #wrap #project_container .project_detail_wrap .detail_responsive {
         width: 100%; }
         #wrap #project_container .project_detail_wrap .detail_responsive .detail_responsive_txt {
           width: 700px;
-          margin: 0 auto 60px;
+          margin: 0 auto 80px;
           text-align: center; }
           #wrap #project_container .project_detail_wrap .detail_responsive .detail_responsive_txt h4 {
             padding: 100px 0 25px;
@@ -659,7 +662,7 @@
                 font-weight: 300; }
       #wrap #about_container .profile_wrap .profile_detail_wrap {
         box-sizing: border-box;
-        float: left;
+        float: right;
         width: calc(100% - 280px);
         padding-left: 50px;
         border-left: 1px solid #dedede; }

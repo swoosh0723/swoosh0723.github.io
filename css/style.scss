@@ -507,6 +507,10 @@
         height: 300px;
         margin: 0 auto;
         background-color: #ccc;
+        transition: $hover-effect-height;
+
+        transform: translateY(100px);
+        opacity: 0;
       }
 
       /* 반응형 화면 영역 */
@@ -516,7 +520,7 @@
 
         .detail_responsive_txt {
           width: 700px;
-          margin: 0 auto 60px;
+          margin: 0 auto 80px;
           text-align: center;
 
           h4 {
@@ -955,7 +959,7 @@
 
       .profile_detail_wrap {
         box-sizing: border-box;
-        float: left;
+        float: right;
         width: calc(100% - 280px);
         padding-left: 50px;
         border-left: 1px solid $gray-color;
