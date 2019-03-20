@@ -21,14 +21,47 @@ $(window).scroll(function() {
   var projectVisualH = $(".project_visual").outerHeight();
   var projectSummaryH = $(".project_summary").outerHeight();
   var detailVisualH = $(".detail_visual").outerHeight();
+  var detailResponsiveTxtH = $(".detail_responsive_txt").outerHeight();
+  var detailResponsiveImgH = $(".detail_responsive_img").outerHeight();
+  var detailExplainItemH = $(".detail_explain_wrap li").outerHeight();
 
-  // console.log(headerH, "headerH");
+  var initDetailExplainItemH =
+    projectVisualH +
+    projectSummaryH +
+    detailVisualH +
+    detailResponsiveTxtH +
+    detailResponsiveImgH;
+
+  var heightEffect = {
+    transform: "translateY(0)",
+    opacity: "1"
+  };
 
   if (winBottom >= projectVisualH + projectSummaryH) {
-    $(".detail_visual").css({
-      backgroundColor: "red",
-      transform: "translateY(0)",
-      opacity: "1"
-    });
+    $(".detail_visual").css(heightEffect);
+  }
+
+  if (winBottom >= projectVisualH + projectSummaryH + detailVisualH) {
+    $(".detail_responsive_txt").css(heightEffect);
+  }
+
+  if (
+    winBottom >=
+    projectVisualH + projectSummaryH + detailVisualH + detailResponsiveTxtH
+  ) {
+    $(".detail_responsive_img").css(heightEffect);
+  }
+
+  if (
+    winBottom >=
+    projectVisualH + projectSummaryH + detailVisualH + detailResponsiveImgH
+  ) {
+    $(".detail_responsive_txt").css(heightEffect);
+  }
+
+  for (var i = 1; $(".detail_explain_wrap li").length + 1 > i; i++) {
+    if (winBottom >= initDetailExplainItemH + detailResponsiveImgH * i) {
+      $(".detail_explain_wrap li:nth-child(" + i + ")").css(heightEffect);
+    }
   }
 });
