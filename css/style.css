@@ -349,8 +349,6 @@
                 opacity: 1; }
     #wrap #project_container .project_detail_wrap {
       /* 프로젝트 전체 화면 영역 */
-      /* 반응형 화면 영역 */
-      /* 없으면 제외. */
       /* 상세 설명 영역 */ }
       #wrap #project_container .project_detail_wrap .detail_visual {
         width: 100%; }
