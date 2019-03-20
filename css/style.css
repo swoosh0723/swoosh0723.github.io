@@ -200,7 +200,7 @@
       #wrap #container .contact_wrap .contact_text {
         width: 92%;
         margin: 0 auto;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.7;
         text-align: right; }
       #wrap #container .contact_wrap .contact_area {
@@ -398,7 +398,7 @@
             padding-left: 50px; }
             #wrap #project_container .project_detail_wrap .detail_explain_wrap li .explain_txt h4 {
               padding: 0 0 25px;
-              font-size: 18px;
+              font-size: 20px;
               font-weight: 400; }
             #wrap #project_container .project_detail_wrap .detail_explain_wrap li .explain_txt p {
               line-height: 1.7;
