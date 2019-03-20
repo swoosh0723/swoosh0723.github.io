@@ -36,9 +36,9 @@ $(window).scroll(function() {
     opacity: "1"
   };
 
-  if (winBottom >= projectSummaryH) {
-    $(".detail_visual").css(heightEffect);
-  }
+  // if (winBottom >= projectSummaryH) {
+  //   $(".detail_visual").css(heightEffect);
+  // }
 
   if (winBottom >= projectSummaryH + detailVisualH) {
     $(".detail_responsive_txt").css(heightEffect);
