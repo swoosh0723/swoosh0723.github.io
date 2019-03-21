@@ -103,11 +103,14 @@
         width: 92%;
         margin: 3% auto 0; }
         #wrap #container .project_wrap .project .item {
+          box-sizing: border-box;
           float: left;
           position: relative;
-          width: 49%;
+          width: 30%;
+          margin: 0 1%;
           margin-bottom: 2%;
-          padding-top: 47%;
+          padding-top: 30%;
+          border: 1px solid #dedede;
           animation: item-opacity 0.5s ease-out;
           /* 호버시 텍스트 나타나는 영역 */
           /* 새로고침시 호버요소들 reverse */ }
@@ -116,8 +119,6 @@
     opacity: 0; }
   100% {
     opacity: 1; } }
-          #wrap #container .project_wrap .project .item:nth-child(odd) {
-            margin-right: 2%; }
           #wrap #container .project_wrap .project .item:hover .item_img img {
             transform: scale(1.12); }
           #wrap #container .project_wrap .project .item:hover .item_detail {
