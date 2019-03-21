@@ -164,27 +164,28 @@
                 #wrap #container .project_wrap .project .item a .item_detail .item_txt .item_tit {
                   position: relative;
                   display: inline-block;
-                  font-size: 16px; }
+                  font-size: 16px;
+                  font-weight: 400; }
                   #wrap #container .project_wrap .project .item a .item_detail .item_txt .item_tit:after {
                     display: inline-block;
                     content: "";
                     position: absolute;
                     left: 50%;
                     top: -10px;
-                    width: 40px;
+                    width: 26px;
                     height: 2px;
-                    margin-left: -20px;
+                    margin-left: -13px;
                     background-color: #f598a4;
                     transform: scale(0);
                     transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
                 #wrap #container .project_wrap .project .item a .item_detail .item_txt .item_explan {
-                  padding: 3px 0 20px; }
+                  padding: 3px 0 5px; }
                   #wrap #container .project_wrap .project .item a .item_detail .item_txt .item_explan strong {
-                    font-size: 14px;
+                    font-size: 13px;
                     font-weight: 400; }
                 #wrap #container .project_wrap .project .item a .item_detail .item_txt .item_arrow i {
                   display: inline-block;
-                  width: 40px;
+                  width: 35px;
                   margin-left: -35px;
                   transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
                   #wrap #container .project_wrap .project .item a .item_detail .item_txt .item_arrow i img {
@@ -193,6 +194,7 @@
               position: absolute;
               left: 20px;
               bottom: 20px;
+              font-size: 14px;
               color: #fff; }
     #wrap #container .contact_wrap {
       overflow: hidden;
@@ -384,31 +386,28 @@
       #wrap #project_container .project_detail_wrap .detail_explain_wrap {
         padding: 40px 0; }
         #wrap #project_container .project_detail_wrap .detail_explain_wrap li {
-          display: flex;
-          justify-content: center;
-          align-items: center;
           width: 90%;
-          max-width: 1080px;
+          max-width: 550px;
           margin: 0 auto;
-          padding: 40px 0;
+          padding: 40px;
+          border-bottom: 1px solid #dedede;
           transform: translateY(200px);
           transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
           opacity: 0; }
-          #wrap #project_container .project_detail_wrap .detail_explain_wrap li:nth-child(even) {
-            flex-direction: row-reverse; }
-            #wrap #project_container .project_detail_wrap .detail_explain_wrap li:nth-child(even) .explain_txt {
-              padding-right: 40px;
-              padding-left: 10px; }
+          #wrap #project_container .project_detail_wrap .detail_explain_wrap li:last-child {
+            border-bottom: none; }
           #wrap #project_container .project_detail_wrap .detail_explain_wrap li .explain_img {
+            display: none;
             box-sizing: border-box;
             width: 50%;
-            height: 300px;
-            background-color: #ccc; }
+            background-color: #f8f8f8; }
+            #wrap #project_container .project_detail_wrap .detail_explain_wrap li .explain_img img {
+              width: 100%; }
           #wrap #project_container .project_detail_wrap .detail_explain_wrap li .explain_txt {
             box-sizing: border-box;
-            width: 50%;
-            padding: 5px 0;
-            padding-left: 50px; }
+            width: 100%;
+            margin: 0 auto;
+            padding: 5px 0; }
             #wrap #project_container .project_detail_wrap .detail_explain_wrap li .explain_txt h4 {
               padding: 0 0 25px;
               font-size: 20px;

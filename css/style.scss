@@ -237,6 +237,7 @@
                   position: relative;
                   display: inline-block;
                   font-size: 16px;
+                  font-weight: 400;
 
                   &:after {
                     display: inline-block;
@@ -244,9 +245,9 @@
                     position: absolute;
                     left: 50%;
                     top: -10px;
-                    width: 40px;
+                    width: 26px;
                     height: 2px;
-                    margin-left: -20px;
+                    margin-left: -13px;
                     background-color: #f598a4;
                     transform: scale(0);
                     transition: $hover-effect;
@@ -254,10 +255,10 @@
                 }
 
                 .item_explan {
-                  padding: 3px 0 20px;
+                  padding: 3px 0 5px;
 
                   strong {
-                    font-size: 14px;
+                    font-size: 13px;
                     font-weight: 400;
                   }
                 }
@@ -265,7 +266,7 @@
                 .item_arrow {
                   i {
                     display: inline-block;
-                    width: 40px;
+                    width: 35px;
                     margin-left: -35px;
                     transition: $hover-effect;
 
@@ -281,6 +282,7 @@
               position: absolute;
               left: 20px;
               bottom: 20px;
+              font-size: 14px;
               color: #fff;
             }
           }
@@ -578,39 +580,46 @@
       /* 상세 설명 영역 */
       .detail_explain_wrap {
         padding: 40px 0;
+
         li {
-          display: flex;
-          justify-content: center;
-          align-items: center;
           width: $width;
-          max-width: $max-width;
+          max-width: 550px;
           margin: 0 auto;
-          padding: 40px 0;
+          padding: 40px;
+          border-bottom: 1px solid $gray-color;
           transform: $height-effect-translate;
           transition: $hover-effect-height;
           opacity: $height-effect-opacity;
 
-          &:nth-child(even) {
-            flex-direction: row-reverse;
-
-            .explain_txt {
-              padding-right: 40px;
-              padding-left: 10px;
-            }
+          &:last-child {
+            border-bottom: none;
           }
 
+          // &:nth-child(even) {
+          //   flex-direction: row-reverse;
+
+          //   .explain_txt {
+          //     padding-right: 40px;
+          //     padding-left: 10px;
+          //   }
+          // }
+
           .explain_img {
+            display: none;
             box-sizing: border-box;
             width: 50%;
-            height: 300px;
-            background-color: #ccc;
+            background-color: #f8f8f8;
+
+            img {
+              width: 100%;
+            }
           }
 
           .explain_txt {
             box-sizing: border-box;
-            width: 50%;
+            width: 100%;
+            margin: 0 auto;
             padding: 5px 0;
-            padding-left: 50px;
 
             h4 {
               padding: 0 0 25px;
