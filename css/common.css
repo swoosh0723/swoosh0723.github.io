@@ -38,7 +38,7 @@ a {
 a:link,
 a:visited {
   text-decoration: none;
-  color: #2e3035;
+  color: #3a3a3a;
 }
 
 a:focus,
@@ -114,7 +114,7 @@ i {
 
 body {
   background-color: #fff;
-  color: #2e3035;
+  color: #3a3a3a;
   font-family: "SofiaPro-Regular", "Noto Sans KR", sans-serif, Helvetica,
     "Apple SD Gothic Neo";
   letter-spacing: -0.02em;
