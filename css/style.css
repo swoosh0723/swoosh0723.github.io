@@ -437,6 +437,8 @@
           border-right: 0; }
         #wrap #project_container .project_nav_wrap .project_nav:hover .project_nav_bg {
           background-color: rgba(1, 90, 200, 0.8); }
+        #wrap #project_container .project_nav_wrap .project_nav:hover .project_nav_img {
+          opacity: 0.2; }
         #wrap #project_container .project_nav_wrap .project_nav:hover .project_nav_detail {
           margin-top: -30px;
           opacity: 1; }
@@ -467,6 +469,7 @@
             width: 100%;
             height: 100%;
             background-color: #fff;
+            transition: all 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             z-index: 5; }
             #wrap #project_container .project_nav_wrap .project_nav a .project_nav_img img {
               position: absolute;
