@@ -6,6 +6,8 @@ $(window).scroll(function() {
   var winBottom = winTop + winHeight - 250; // 스크롤 bottom
   var headerH = $("#header").outerHeight(); // header 높이값
 
+  console.log(winHeight, "winHeight");
+
   ////////////// about me //////////////
   var aboutHeaderH = $(".about_header").outerHeight(); // header 높이값
 
