@@ -53,7 +53,7 @@ $(window).scroll(function() {
   }
 
   for (var i = 1; $(".detail_explain_wrap li").length + 1 > i; i++) {
-    if (winBottom >= initDetailExplainItemH + detailResponsiveImgH * i) {
+    if (winBottom >= initDetailExplainItemH + detailExplainItemH * (i - 1)) {
       $(".detail_explain_wrap li:nth-child(" + i + ")").css(heightEffect);
     }
   }
