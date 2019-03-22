@@ -569,7 +569,7 @@
     #wrap #about_container .about_header {
       width: 100%;
       padding: 40px 0;
-      background-color: #efefef;
+      background-color: #f7f7f7;
       text-align: right; }
       #wrap #about_container .about_header .about_header_area {
         overflow: hidden;
@@ -630,7 +630,7 @@
             line-height: 1;
             font-size: 17px;
             font-weight: 100;
-            color: #f598a4; }
+            color: #015aaa; }
             #wrap #about_container .profile_wrap .profile_summary_wrap .personal .profile_tit span,
             #wrap #about_container .profile_wrap .profile_summary_wrap .skills .profile_tit span,
             #wrap #about_container .profile_wrap .profile_summary_wrap .contact .profile_tit span {
