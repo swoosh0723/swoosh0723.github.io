@@ -120,7 +120,8 @@
   100% {
     opacity: 1; } }
           #wrap #container .project_wrap .project .item:hover .item_img img {
-            transform: scale(1.12); }
+            transform: scale(1.12);
+            opacity: 0.5; }
           #wrap #container .project_wrap .project .item:hover .item_detail {
             opacity: 1; }
             #wrap #container .project_wrap .project .item:hover .item_detail .item_txt .item_tit:after {
