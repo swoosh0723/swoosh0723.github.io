@@ -1,0 +1,60 @@
+#containerWrap{width:100%; min-width:980px; padding-top:97px;}
+
+/*################      loginWrap     #################*/
+#loginWrap{width:100%; margin:0 auto; overflow:hidden; position:relative; background-color:#E6E6E6;}
+#loginWrap .loginBg{width:100%;}
+#loginWrap .loginOp{width:100%; height:100%; position:absolute; left:0; top:0;}
+
+
+
+#loginWindow{width:960px; height:450px; overflow:hidden; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%)}
+
+
+/*################      loginWrap + img    #################*/
+.loginImg{width:600px; height:100%; background-color:#ccc;}
+.loginImg img{width:600px; position:absolute; left:0; top:0; -webkit-animation:myphoto 12s infinite; animation:myphoto 12s infinite;}
+
+        @-webkit-keyframes myphoto{
+			0%{opacity:1;}
+			25%{opacity:1;}
+			50%{opacity:0;}
+			75%{opacity:0;}
+			100%{opacity:1;}
+		}
+
+		@keyframes myphoto{
+			0%{opacity:1;}
+			25%{opacity:1;}
+			50%{opacity:0;}
+			75%{opacity:0;}
+			100%{opacity:1;}
+		}
+		
+		.loginImg img.loginP3{animation-delay:0;}
+		.loginImg img.loginP2{animation-delay:3s;}
+		.loginImg img.loginP1{animation-delay:6s;}
+
+/*################      loginWrap + info    #################*/
+.loginInfo{width:250px; height:370px; padding:55px 50px; background-color:rgba(10,10,10,0.8)}
+.login{float:left;}
+
+form{width:100%; height:100%;}
+.loginInfo fieldset{border:none;}
+
+fieldset legend{padding-bottom:25px; font-size:35px; color:#fff;}
+fieldset p{padding-top:20px;}
+fieldset label{font-size:14px; color:#fff;}
+fieldset p input{display:block; border:none; border-bottom:1px solid #c1c1c1;
+                    width:250px; height:35px; background-color:rgba(0,0,0,0); font-size:14px; transition:border .2s ease-in-out; color:#fff; outline:none;}
+fieldset p input:hover, p input:focus{border-bottom-color:#00519E}
+
+.forgot{padding-top:25px;}
+.forgot a{font-size:14px; color:#fff; transition:color .2s ease-in-out}
+.forgot:hover a, .forgot:focus a{color:#00519E; text-decoration:underline;}
+
+.loginBtn{width:98px; height:48px; margin:30px auto 0; border:1px solid #00519E;}
+.loginBtn button{width:98px; height:48px; border:none; background-color:rgba(0,0,0,0); color:#fff; font-size:18px; font-weight:400; cursor:pointer; transition:all .2s ease-in-out;}
+
+.loginBtn button:hover, button:focus{background-color:#00519E; color:#fff;}
+
+.forgot a{font-family:"Oswald-Light"};

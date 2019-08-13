@@ -1,0 +1,130 @@
+/*#################  bottomBtn  ####################*/
+.bottomBtnArea{width:960px; overflow:hidden; margin:0 auto 10px;}
+.shopBtn{float:left; height:38px; line-height:38px;}
+.shopBtn a{display:block;}
+.shopBtn img{width:18px; padding-right:10px; vertical-align:middle; padding-bottom:4px;}
+.shopBtn span{font-size:13px;}
+.shopBtn a:hover{color:#00519e}
+
+.BTT{float:right; position:relative; background-color:#00519e; border-radius:3px; width:100px; height:33px; line-height:33px; cursor:pointer; transition:all .2s ease}
+.BTT a{display:block; color:#fff; font-size:13px; text-indent:13px;}
+.BTT:after{content:""; display:block; position:absolute; right:10px; top:13px; width:0; height:0; border-bottom:7px solid #fff; border-right:5px solid transparent; border-left:5px solid transparent;}
+.BTT:before{content:""; display:block; position:absolute; right:10px; top:15px; border-bottom:7px solid #00519e; border-right:5px solid transparent; border-left:5px solid transparent; z-index:4; transition:all .2s ease}
+
+.BTT:hover{background-color:#006fd8;}
+.BTT:hover:before{border-bottom-color:#006fd8;}
+
+/*#################  specialContent  ####################*/
+.specialContent{width:100%; overflow:hidden;
+        background-color:#1a1a1a;
+        background-image:url("../img/bg_logo.png");
+        background-size:350px;
+        background-repeat:no-repeat;
+        background-position:center center;}
+
+.specialTitle{text-align:center; width:230px; margin:0 auto; padding-top:28px;}
+.specialTitle a{display:block; width:100%;}
+.specialTitle img{width:36px;}
+.specialTitle a h3{font-size:17px; color:#eee; font-weight:100;}
+
+
+.content ul{width:960px; overflow:hidden; margin:0 auto; padding:40px 0 55px;}
+
+.content li{width:32%; float:left;}
+.content li a{display:block; width:100%;}
+.content li:first-child{margin-right:2%;}
+.content li:last-child{margin-left:2%;}
+
+.content li .imgArea{width:100%; overflow:hidden;}
+.content li .imgArea .spSum{width:100%; background-color:#ccc;}
+.content li a p.spLogo img{width:100%;}
+
+
+.content li div.textArea{width:100%; text-align:center; color:#ddd; background-color:rgba(47,49,51,0.35); margin-top:12px; padding-bottom:15px;}
+.content li div.textArea p{font-size:13px; color:#919191; padding:12px 0 6px;}
+.content li div.textArea h4{font-size:13px; width:100%; font-weight:100; text-align:center;}
+.content li div.textArea h4 span{border-bottom:1px solid transparent;}
+
+
+.content li:hover a p.op{opacity:0;}
+.content li:hover .imgArea{transform:scale(0.95)}
+.content li:hover .imgArea img{transform:scale(1.05)}
+.content li:hover div.textArea p{color:#fff;}
+.content li:hover div.textArea h4 span{border-color:#00519e; font-weight:100;}
+
+.content li .imgArea, .content li a p.op, .imgArea img, div.textArea p, div.textArea h4 span{transition:all .2s ease;}
+
+
+/*#################  footerWrap  ####################*/
+#footerWrap{width:100%; max-width:1900px; margin:0 auto; overflow:hidden;}
+
+/*#################    footerSns    ####################*/
+.footerSns{width:100%; height:78px; background-color:#E6E6E6; border-bottom:1px solid #ccc; border-top:1px solid #ccc;}
+.footerSns ul{width:310px; height:35px; margin:0 auto; padding-top:22px;}
+.footerSns ul li{width:35px; height:100%; border-radius:35px; background-color:#ccc; float:left; text-align:center; margin-right:20px; transition:background-color .1s ease-in-out;}
+.footerSns ul li:last-child{margin-right:0;}
+.footerSns ul li:first-child a{line-height:40px;}
+.footerSns ul li a{width:35px; line-height:44px; display:block;}
+
+.footerSns ul li:hover{background-color:#818181}
+
+.loginfooterSns{border-top:0px;}
+/*#################    footerGnb    ####################*/
+.footerGnb{width:100%; overflow:hidden; background-color:#E6E6E6; border-bottom:1px solid #ccc}
+
+.footerGnb ul{width:960px; height:225px; margin:0 auto; font-size:12px;}
+
+.footerGnb_menu{width:20%; height:100%; float:left; padding-top:45px; cursor:pointer; transition:background-color .2s ease-in-out;}
+.footerGnb_menu:hover{background-color:#d6d6d6;}
+.footerGnb_menu li:hover a{text-decoration:underline; color:#818181;}
+
+
+.footerGnb_menu a{display:block; width:55%; margin:0 auto; color:#919191;}
+
+.footerGnb_menu ol {width:55%; margin:0 auto; padding-top:10px;}
+.footerGnb_menu ol li{padding-top:10px; text-transform:uppercase;}
+.footerGnb_menu ol li a{color:#a1a1a1; width:100%;}
+
+
+/*#################    footerSponsors    ####################*/
+.footerSponsors{width:100%; background-color:#E6E6E6; border-bottom:1px solid #ccc; position:relative;}
+.footerSponsors:before{content:""; display:block; clear:both; width:180px; height:1px; background-color:#E6E6E6; position:absolute; left:50%; margin-left:-90px; top:-1px;}
+
+.sponsorsBtn{text-align:center; width:36px; position:absolute; left:50%; top:-33px; margin-left:-18px;}
+.sponsorsBtn a{display:block;}
+.sponsorsBtn img{width:100%;}
+
+
+.footerSponsors ul{width:960px; margin:0 auto; padding:55px 0 25px; overflow:hidden;}
+.footerSponsors li{width:100%; height:100%; overflow:hidden; text-align:center;}
+li.goldSponsors{width:100%}
+li.bronzeSponsors2{width:100%}
+
+.footerSponsors li a{display:inline-block; width:90px; position:relative; text-align:center; padding:0 20px}
+.footerSponsors li a img{width:90px; transition:opacity .2s ease-in-out;}
+.footerSponsors li a img.sponsorcolor{position:absolute; top:0; left:50%; opacity:0; margin-left:-45px;}
+
+.footerSponsors li a:hover img.sponsorcolor{opacity:1;}
+.footerSponsors li a:hover img.sponsorblack{opacity:0;}
+
+
+
+/*#################    footerCopy    ####################*/
+.footerCopy{width:100%; overflow:hidden; padding:1.5% 0; background-color:#E6E6E6;}
+.footerCopy div{width:940px; margin:0 auto; color:#999; font-size:12px;}
+
+.footerCopy div p{width:50%; float:left;}
+.footerCopy div p.mail{float:right; text-align:right;}
+.footerCopy div p.mail span{display:inline-block; padding:0 10px;}
+
+
+
+.footerCopy, 
+.textArea h4, 
+#BTT, 
+.footerGnb_menu ol, 
+#footerCopy,
+.specialTitle a h3
+{font-family:"Oswald-Light"}
+
+

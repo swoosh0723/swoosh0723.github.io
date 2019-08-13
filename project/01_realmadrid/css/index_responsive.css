@@ -1,0 +1,597 @@
+/* tablet */
+@media all and (min-width:768px) and (max-width:979px){
+    #headerWrap{height:97px;;}
+    .header-top-menu{position:relative; width:95%; height:100%; margin:0 auto;}
+    
+    #header h1{position:absolute; left:20px; top:24px;}
+    #header h1 img{width:170px;}
+    
+    #header{width:100%;}
+    #mainInfo{width:98.5%; height:22px; line-height:21px; padding:15px 0 3px; font-size:12px;}
+    
+    #gnb{width:98%; padding-left:0; margin-right:0; margin-top:0; font-size:13px}
+    .main-menu-area{float:right; margin-top:0;}
+    .main-menu a{padding:15px 10px 18px;}
+    
+    .sub-menu-area{float:right; width:auto; padding-right:23px; padding-left:0;}
+    .main-menu-area-bg{position:absolute; top:-10px; left:-355px; z-index:11; width:450px;}
+
+    .sub-menu-cateroy{font-size:12px; padding-left:16.5px;}
+    .sub-menu-cateroy0{position:relative; z-index:12; width:57px;}
+    .sub-menu-cateroy1{width:107px;}
+    .sub-menu-cateroy2{width:97px;}
+    .sub-menu-cateroy3{width:123px;}
+    .sub-menu-cateroy4{width:32px; border-right:none;}
+
+    .sub-menu-cateroy a{display:block; padding:7px 0;}
+     
+    
+    /* main img */
+    .mainImgArea{text-align:center;}
+    .mainImgArea img{width:100%;}
+    .mainTextArea{width:710px; margin-left:-355px;}
+    .mainVisualCate{font-size:13px;}
+    .mainTextArea h3{font-size:30px;margin:5px 0}
+    .mainVisualTime{font-size:12px;}
+    
+    
+    .mainVisualBtn{margin-top:-23px; width:48px; height:56px;}
+    .mainVisualBtn span{width:18px; height:18px; top:19px;}
+    
+    .mainVisualPrevBtn span{left:16px}
+    
+    .mainVisualPrevBtn{left:-7%;}
+    .mainVisualNextBtn{right:-7%;}
+    
+    /*#################    newsArea    ####################*/
+    .newsArea{width:95%; margin-bottom:30px;}
+
+    .newsImgArea{width:100%; overflow:hidden;}
+    .newsCate{font-size:11px}
+    .newsTextArea h4{height:32px; font-size:12px;}
+    .newsTextArea h4 span{border-bottom:1px solid transparent;}
+    .newsTime{font-size:11px;}
+
+    /*#################    contentsArea    ####################*/
+    .contentsArea{width:85%; margin:0 auto 70px; overflow:hidden;}
+
+    .mainTicketsArea{width:100%; height:250px}
+    .ticketsWrap{height:75%;}
+    .tickets{height:70%; padding:2.5%; padding-bottom:0;}
+    .tickets h3{font-size:35px;}
+
+    .leagueInfo{font-size:14px;}
+    .ticketsBtn{margin:25px auto 0;}
+    
+    .ticketsSlideBtn p{width:10%; padding-top:4.8%; padding-right:0%;}
+    .ticketsSlideBtn span{margin:0 6px;}
+
+    .mainShopArea{width:100%; height:250px; margin:2% 0 0;}
+
+    .mainShopTextArea{width:100%; height:100%; position:absolute; left:0; top:0;}
+    .mainShopTextArea h3{padding:8% 0 4%; font-size:25px;}
+    .mainShopText{text-align:left;}
+    .mainShopBtn{width:46%;}
+    
+    
+    
+    
+    /*#################    matchWrap    ####################*/
+    
+    .matchArea{width:95%; margin:0 auto;}
+
+    .matchImgArea{height:135px}
+    .matchImgArea h3{font-size:30px;}
+
+    .matchLeague{font-size:12px;}
+    .matchDate{font-size:10px;}
+    .matchResult p{height:35px;}
+    .matchResult img{height:100%;}
+    p.matchScore{font-size:20px; line-height:35px;}
+    
+    .matchNewsCate{font-size:11px;}
+    .matchNewsTitle{line-height:1.52em; font-size:13px;}
+    .matchNewsTime{font-size:10px;}
+
+    .match:hover .matchImgArea{height:145px;}
+    .match:hover .matchNews a{padding:3% 10%;}
+
+    
+    
+    /*#################    WTS    ####################*/
+    .WTS{width:95%;}
+    .WTSbox{width:600px; height:270px}
+
+    .WTSboxTextArea{padding:8% 0 0 9%}
+    .WTSbox h4{font-size:24px;}
+    .WTSboxIcon{width:24px;}
+    .WTSboxText{font-size:14px;}
+    a.WTSbtn{width:20%; height:30px; line-height:30px; font-size:11px;margin-top:25px;}
+
+    .WTStext{position:absolute; right:0; top:60px; font-size:20px; box-shadow:7px -7px #F4BC46;}
+    .WTStext h3{padding:13% 8% 1% 14%}
+    .WTStext h3 a:after{left:60%;}*/
+    .WTStext i{font-size:11px;}
+
+
+    
+    /*#################    photoArea    ####################*/
+    .photoArea{width:100%; overflow:hidden;}
+    .photoScreen{width:100%; overflow:hidden; position:relative;}
+    .photoFilm{width:1000%;}
+    .photoScene{width:10%; padding-right:0%;}
+    .photoScene img{width:95%}
+
+    .photoScreenBtnArea{width:100%; left:0%;}
+    .photoScreenBtn{width:30px; height:30px;}
+
+    
+    /*#################    photoSubArea    ####################*/
+    .photoSubArea{width:95%; height:250px;}
+    .photoSubImgArea{height:129px;}
+    .photoSubIcon{width:45px; height:32px;}
+    .photoSubIcon span:first-child{transform:translate(12px,6px);}
+    .photoSubIcon span:last-child{transform:translate(9px,-3px);}
+
+    .photoBoxWrap{width:95%;}
+    .photoBox{width:170px; height:165px; left:3px;}
+    .photoBoxIcon{width:44px; height:30px; margin-bottom:3px;}
+    .photoBoxIcon span:first-child{top:1px; left:6px;}
+    .photoBoxIcon span:last-child{bottom:-2px; line-height:27px; font-size:14px;}
+    
+    .photoBoxCate{font-size:11px;}
+    .photoBox h3{font-size:20px;}
+    .photoBox h3 span{height:25px;}
+    .photoBoxTime{font-size:11px;}
+    
+    .photoBox:hover {left:0; top:-105px; box-shadow:10px 10px #F4BC46;}
+    
+    .photoSubIcon{width:45px; height:38px;}    
+    .photoSubIcon span:first-child{transform:translate(12px,9px);}
+    .photoSubTextArea{width:90%; padding:5%;}
+    .photoSubCate{font-size:11px;}
+    .photoSubTextArea h4 span{font-size:12px;}
+    .photoSubTime{font-size:11px;}
+    
+    
+    .bottomBtnArea{width:95%;}
+    .BTT{width:90px; height:30px;line-height:30px;}
+    .BTT a{font-size:12px; text-indent:10px;}
+    .BTT:after{top:12px;}
+    .BTT:before{top:14px;}
+    
+    
+    
+    /*#################  specialContent  ####################*/
+    .specialTitle img{width:30px;}
+    .specialTitle a h3{font-size:16px;}
+
+    .content ul{width:95%; padding:30px 0 45px;}
+
+    .content li div.textArea{width:100%; margin-top:8px;}
+    .content li div.textArea p{font-size:12px;}
+    .content li div.textArea h4{font-size:11px;}
+
+    /*#################    footerGnb    ####################*/
+    .footerGnb ul{width:100%; height:190px; font-size:10px;}
+    .footerGnb_menu{padding-top:25px;}
+    .footer_gnb_title{height:30px;}
+    .footerGnb_menu ol {padding-top:0px;}
+    
+    /*#################    footerSponsors    ####################*/
+    .sponsorsBtn{width:34px; top:-30px; margin-left:-17px;}
+    
+    .footerSponsors ul{padding:45px 0 20px;}
+
+    .footerSponsors ul{width:100%;}
+    .footerSponsors li{width:100;}
+
+    .footerSponsors li a{width:70px;}
+    .footerSponsors li a img{width:70px;}
+    .footerSponsors li a img.sponsorcolor{margin-left:-35px;}
+    
+    .footerCopy div{width:90%; margin:0 auto; font-size:11px;}
+
+    }
+
+/*mobile horizontal*/
+@media all and (min-width:480px) and (max-width:767px){ 
+    #skipNav{display:none;}
+    
+    #headerWrap{height:77px;}
+    #mobileHeader{display:block;}
+    #header{display:none;}
+    
+    .mainTextWrap{padding:1% 0;}
+    .mainImgArea{text-align:center;}
+    .mainImgArea img{width:100%;}
+    .mainTextArea{width:460px; margin-left:-230px;}
+    .mainVisualCate{font-size:11px;}
+    .mainTextArea h3{font-size:17px; margin:1px 0 3px;}
+    .mainVisualTime{font-size:9px;}
+    
+    
+    .mainVisualBtn{margin-top:-23px; width:30px; height:45px;}
+    .mainVisualBtn span{width:12px; height:12px; top:16px;}
+    
+    .mainVisualNextBtn span{left:8px}
+    .mainVisualPrevBtn span{left:10px}
+    
+    /* #containerWrap */
+    
+    #containerWrap{padding-top:77px;}
+    
+    /*#################    newsArea    ####################*/
+    .newsArea{width:95%; overflow:hidden; margin:15px auto 20px;}
+
+    .newsCate{display:block; font-size:9px; padding-top:4px}
+    .newsTextArea h4{height:52px; font-size:11px;}
+    .newsTextArea h4 span{border-bottom:1px solid transparent;}
+    .newsTime{font-size:9px; color:#818181; display:block;}
+    
+    
+    
+    /*#################    contentsArea    ####################*/
+    .contentsArea{width:90%; margin:0 auto 60px;}
+
+    .mainTicketsArea{width:100%; margin:0 auto; height:220px; float:none;}
+
+    .ticketsWrap{height:188px;}
+    .tickets a{height:100%;}
+    .tickets h3{font-size:23px;}
+    .ticketsLine{display:block; height:1px; background-color:#F4BC46; transform:scale(0);}
+
+    .leagueInfo{font-size:12px; margin-top:4px;}
+    .ticketsBtn{display:block; width:50%; height:27px; line-height:29px; margin:0; margin-top:6%; font-size:11px;}
+
+    .ticketsSlideBtn{width:100%; height:11%; overflow:hidden;}
+    .ticketsSlideBtn p{width:12%; padding-right:0%; padding-left:2%; transform:translateY(-5px)}
+    .ticketsSlideBtn span{width:10px; height:10px; margin:0 5px;}
+    
+    .mainShopArea{width:100%; margin:20px auto 0; height:220px; float:none;}
+
+    .mainShopTextArea h3{width:85%; padding:9% 0 2%; margin:0 auto; font-size:20px;}
+    .mainShopText{width:85%; text-align:left; font-size:12px;}
+    .mainShopBtn{width:42.5%; margin:0; margin-left:7.5%; margin-top:40px; height:27px; line-height:29px; font-size:11px;}
+    
+    
+    .tickets h3 span, .ticketsBtn:after, .mainShopBtn:after, .ticketsLine{transition:all .1s ease-out;}
+    
+    /*#################    matchWrap    ####################*/
+    .matchWrap{padding:40px 0 25px; margin-bottom:40px;}
+    .matchArea{width:90%; margin:0 auto;}
+
+    .matchImgArea{width:100%; height:85px;}
+    .matchImgArea h3{font-size:19px}
+
+    .matchLeague{font-size:10px;}
+    .matchDate{font-size:10px;}
+    .matchResult{width:100%; margin:10px auto 5px; height:40px;}
+    .matchResult p{height:30px; text-align:left; padding:0 2%;}
+    p.matchScore{font-size:16px; line-height:33px;}
+
+    
+    .matchNews{border-top:1px solid #2a2a2a;}
+    .matchNews a{display:block; width:80%; height:80%; padding:5% 10%; color:#ddd;}
+    .matchNewsCate{font-size:11px;}
+    .matchNewsTitle{line-height:1.45em; padding:3px 0 7px; height:47px; font-size:10px;}
+    .matchNewsTime{display:block; font-size:10px; color:#cacaca;}
+
+
+    .match:hover .matchImgArea{height:93px;}
+    .matchImgArea, .matchNews a, p.matchScore span, .matchNewsTitle span, .matchLine{transition:all .1s ease-out;}
+    
+    /*#################    WTS    ####################*/
+    .WTS{width:460px;}
+    .WTSbox{width:100%; height:200px;}
+
+    .WTSboxTextArea{padding:8% 0 0 6%; height:157px}
+    .WTSbox h4{width:65%; font-size:20px;}
+    .WTSboxIcon{width:20px;}
+    .WTSboxText{width:95%; font-size:12px; margin:15px 0 7px;}
+    .WTboxTime{font-size:11px;}
+    a.WTSbtn{display:block; width:50%; height:25px; line-height:27px; font-size:11px; margin-top:15px;}
+
+    .WTStext{display:none;}
+    
+    .WTStitle{width:460px;}
+    .WTStitle .titleBar{width:400px}
+    .WTStitle .titleBar .titleTry{margin-left:105.5px;}
+    .WTStitle .titleBar a:hover:after{width:89%;}
+    /*#################    photoArea    ####################*/
+    .phototitle{margin-top:50px;}
+        
+    
+    .photoArea{width:100%; overflow:hidden;}
+    .photoScreen{width:100%; overflow:hidden; position:relative;}
+    .photoFilm{width:1000%;}
+    .photoScene{width:10%; padding-right:0%;}
+    .photoScene img{width:100%;}
+    
+    .photoScreenBtnArea{width:100%; left:0;}
+    .photoScreenBtn{margin-top:-13px; width:26px; height:26px;}
+    .photoScreenPrevBtn{left:2%;}
+    .photoScreenNextBtn{right:2%;}
+
+
+    .photoBoxWrap{width:100%; height:170px; margin:20px auto 30px; position:relative;}
+    .photoBox{width:88%; margin:0 auto; height:130px; padding:20px; position:static; box-shadow:7px 7px #F4BC46; color:#fff;}
+    
+    .photoBoxIcon{width:45px; height:32px;}
+    .photoBoxIcon span:last-child{line-height:32px; font-size:14px;}
+
+    .photoBoxCate{font-size:12px; color:#fff;}
+    .photoBox h3{font-size:20px; line-height:1.3em; color:#fff;}
+    .photoBox h3 span{padding-right:1%}
+    .photoBox h3 span:last-child{padding-right:0;}
+    .photoBoxTime{font-size:12px;}
+
+
+    .photoBox:hover {left:0; top:-105px; box-shadow:10px 10px #F4BC46;}
+    .photoBox, .photoBoxIcon span, .photoScreenBtn{transition:all .1s ease-out;}
+    
+    
+    /*#################    photoSubArea    ####################*/
+    .photoSubArea{width:95%; height:230px;}
+    .photoSubArea ul{width:100%; float:right;}
+    .photoSub{width:49%; float:left; margin-left:2%;}
+    .photoSub:first-child{margin-left:0;}
+    .photoSubImgArea{height:125px;}
+    .photoSubIcon{width:50px; height:38px;}
+    .photoSubIcon span:first-child{transform:translate(15px,10px);}
+
+    .photoSubCate{font-size:11px;}
+    .photoSubTextArea h4 span{font-size:13px;}
+    .photoSubTime{font-size:11px;}
+
+    .photoSubImgArea, .photoSubImgArea img, .photoSubTextArea h4 span{transition:all .1s ease-out;}
+
+    
+    /*#################  bottomBtn  ####################*/
+    .bottomBtnArea{display:none;}
+    
+    
+    /*#################  specialContent  ####################*/
+    .specialTitle img{width:26px;}
+    .specialTitle a h3{font-size:14px;}
+
+    .content ul{width:95%; padding:20px 0 35px;}
+
+    .content li div.textArea{height:auto;}
+    .content li div.textArea p{font-size:11px}
+    .content li div.textArea h4{font-size:10px;}
+    .content li .imgArea, .content li a p.op, .imgArea img, div.textArea p, div.textArea h4 span{transition:all .1s ease;}
+    
+    /*#################    footerGnb    ####################*/
+    .footerGnb ul{width:100%; height:200px; font-size:10px;}
+    .footerGnb_menu{padding-top:20px;}
+    .footer_gnb_title{height:30px;}   
+    
+    .footerGnb_menu ol{padding-top:0;}
+    .footerGnb_menu ol li{padding-top:8px;}
+    /*#################    footerSponsors    ####################*/
+    .sponsorsBtn{width:34px; top:-30px; margin-left:-17px;}
+    
+    .footerSponsors ul{padding:45px 0 20px;}
+
+    .footerSponsors ul{width:100%;}
+    .footerSponsors li{width:100%; height:63px; overflow:hidden;}
+
+    .footerSponsors li a{width:70px; padding:0 12px;}
+    .footerSponsors li a img{width:70px;}
+    .footerSponsors li a img.sponsorcolor{margin-left:-35px;}
+    
+    
+    .footerCopy div{width:100%; font-size:10px;}
+    .footerCopy div{width:90%; margin:0 auto; color:#999; font-size:12px;}
+
+    .footerCopy div p.mail span{padding:0 5px;}
+    
+    .mainVisualCate,
+    .matchNewsCate,
+    .photoSubCate
+    {font-family:"Oswald-Light"};
+    
+}
+
+
+/*mobile vertical*/
+@media all and (min-width:320px) and (max-width:478px){
+    #skipNav{display:none;}
+    
+    #headerWrap{height:67px!important;}
+    #header{display:none;}
+    #mobileHeader{display:block;}
+    .mobileH{display:none;}
+    .mobileV{display:block;}
+    
+    .mobileMenuArea{top:67px;}
+    
+    /* #containerWrap */
+    #containerWrap{padding-top:67px;}
+    
+    /* mainVisual */
+    .mainTextArea{width:100%; position:static; left:0; top:0; margin-left:0;}
+    .mainTextWrap{width:100%; background:#2F3133 url("../img/bg_logo1.png")no-repeat 97% 60%; background-size:40%; height:100%; text-indent:5%; padding:3% 0;}
+    .mainVisualCate{font-size:11px;}
+    .mainTextArea h3{font-size:17px; margin:1px 0 3px;}
+    .mainVisualTime{font-size:9px; text-indent:5%;}
+    
+    
+    .mainVisualBtn{margin-top:-23px; width:30px; height:45px;}
+    .mainVisualBtn span{width:12px; height:12px; top:16px;}
+    
+    .mainVisualNextBtn span{left:8px}
+    .mainVisualPrevBtn span{left:10px}
+    
+    .mainVisualPrevBtn{left:-8%;}
+    .mainVisualNextBtn{right:-8%;}
+    
+    /*#################    newsArea    ####################*/
+    .newsArea{width:95%; overflow:hidden; margin:20px auto 20px;}
+    .newsArea ul{width:100%;}
+    .news{width:100%; float:none; margin-bottom:20px;}
+    .news a{display:block; width:100%;}
+    .news:first-child{margin-right:0%;}
+    .news:last-child{margin-left:0%;}
+    
+    .newsCate{font-size:12px;}
+    .newsTextArea h4{height:auto; font-size:14px; padding:2% 0;}
+    .newsTime{font-size:11px; display:block;}
+    
+    
+    /*#################    contentsArea    ####################*/
+    .contentsArea{width:90%; margin-bottom:50px;}
+
+    .mainTicketsArea{width:100%; height:150px;}
+
+    .ticketsWrap{height:80px;}
+    .tickets{width:45%; height:80px; padding:2.5%; padding-bottom:0;}
+    .ticketLeagueImg{width:15%; margin-bottom:5px;}
+    .tickets h3{color:#fff; font-size:15px;}
+    .ticketsLine{height:0.5px;}
+    
+    .leagueInfo{font-size:9px; margin-top:5px;}
+    .ticketsBtn{width:50%; height:25px; line-height:27px; margin:5px 0 0 0; font-size:11px;}
+    .ticketsBtn:after{content:""; display:block; width:100%; height:0%; background-color:#00519e; position:absolute; left:0; bottom:0; z-index:2;}
+
+    .ticketsSlideBtn p{width:15%; padding-top:20px;}
+    .ticketsSlideBtn span{width:10px; height:10px; background-color:#dedede; border-radius:10px; margin:0 5px;}
+    
+    
+    .mainShopArea{width:100%; margin-left:0%; height:150px; margin-top:15px;}
+
+    .mainShopTextArea h3{width:90%; padding:5% 0 4%; margin:0 auto; font-size:15px;}
+    .mainShopText{width:90%; margin:0 auto; text-align:left; font-size:10px;}
+    .mainShopBtn{width:50%; height:25px; line-height:27px; margin:20px 0 0 5%; font-size:10px;}
+    .mainShopBtn:after{content:""; display:block; width:100%; height:0%; background-color:#00519e; position:absolute; left:0; bottom:0; z-index:2;}
+    .mainShopBtn h4{position:relative; z-index:3;}
+    
+    
+    .tickets h3 span, .ticketsBtn:after, .mainShopBtn:after, .ticketsLine{transition:all .1s ease-out;}
+    
+    
+    /*#################    matchWrap    ####################*/
+    .matchWrap{width:100%; padding:50px 0; margin-bottom:50px; background-size:230%}
+    .matchArea{width:95%; text-align:center;}
+    .matchDays{width:100%; padding:10px 0;}
+    .match{width:100%; float:none; margin-bottom:20px;}
+    .match:last-child{margin-bottom:0;}
+    .match:first-child{margin-right:0%;}
+    .match:last-child{margin-left:0%;}
+    
+    .matchInfoArea a{display:block; width:100%; height:120px; padding:6% 0%;}
+    .matchLeague{font-size:12px;}
+    .matchDate{font-size:13px;}
+    .matchLeague, .matchDate{margin-left:0;}
+    .matchResult{width:58%; margin:20px auto; overflow:hidden;}
+    .matchResult p{width:39%; float:left; margin:0; padding:0; text-align:center}
+    p.matchScore{width:22%}
+    .matchNews{display:none;}
+        
+    .matchImgArea, .matchNews a, p.matchScore span, .matchNewsTitle span, .matchLine{transition:all .1s ease-out;}
+    
+    
+    .WTS,
+    .WTStext,
+    .WTStitle
+    {display:none;}
+    
+    .phototitle{margin-top:50px;}
+    
+    /*#################    photoArea    ####################*/
+    .photoScene{width:10%; padding-right:.0%;}
+    .photoScene img{width:100%;}
+    
+    .photoScreenBtnArea{width:100%; left:0;}
+    .photoScreenBtn{margin-top:-13px; width:26px; height:26px;}
+    .photoScreenPrevBtn{left:2%;}
+    .photoScreenNextBtn{right:2%;}
+    
+    .photoBoxWrap{width:95%; height:130px; margin:20px auto 30px; position:relative;}
+    .photoBox{width:88%; margin:0 auto; height:90px; padding:20px; position:static; box-shadow:7px 7px #F4BC46; color:#fff;}
+    
+    .photoBoxIcon{width:30px; height:20px; margin-bottom:3px;}
+    .photoBoxIcon span:first-child{top:-1px; left:5px}
+    .photoBoxIcon span:last-child{line-height:20px; font-size:11px;}
+
+    .photoBoxCate{font-size:12px; color:#fff;}
+    .photoBox h3{font-size:14px; line-height:1.3em; color:#fff;}
+    .photoBox h3 span{padding-right:1%}
+    .photoBox h3 span:last-child{padding-right:0;}
+    .photoBoxTime{font-size:10px; display:block;}
+
+    .photoBox:hover {left:0; top:-105px; box-shadow:10px 10px #F4BC46;}
+    .photoBox, .photoBoxIcon span, .photoScreenBtn{transition:all .1s ease-out;}
+    
+    /*#################    photoSubArea    ####################*/
+    .photoSubArea{width:95%; margin:0 auto;}
+    .photoSubArea ul{width:100%}
+    .photoSub{width:100%; margin-left:0%; margin-bottom:3%}
+    
+    .photoSubTextArea{padding:2%;}
+    .photoSubCate{font-size:11px;}
+    .photoSubTextArea h4 span{font-size:14px;}
+    .photoSubTime{font-size:10px;}
+    
+     /*#################  bottomBtn  ####################*/
+    .bottomBtnArea{display:none;}
+    
+    /*#################    barArea    ####################*/
+    .titleBar{left:20px}
+    
+    
+    /*#################  specialContent  ####################*/
+    .specialTitle img{width:26px;}
+    .specialTitle a h3{font-size:14px;}
+
+
+    .content ul{width:95%; overflow:hidden; margin:0 auto; padding:20px 0 25px;}
+
+    .content li{width:100%; overflow:hidden; float:none; margin-bottom:2%;}
+    .content li:first-child{margin-right:0%;}
+    .content li:last-child{margin-left:0%;}
+    
+    .content li .imgArea{width:40%; margin-right:2%; float:left;}
+    .content li div.textArea{width:58%; height:100%; margin:0; float:left; padding-bottom:6.5%;}
+    .content li div.textArea p{font-size:12px; padding-top:10%; padding-bottom:8px;}
+    .content li div.textArea h4{font-size:11px;}
+    
+    /*#################    footerGnb    ####################*/
+    .footerGnb{padding:0px 0 30px;}
+    .footerGnb ul{width:100%; height:40px; line-height:40px; font-size:11px;}
+    
+    .footerGnb_menu{width:100%;  padding-top:0px;}
+    .footerGnb_menu a{width:100%; text-align:center;}
+    
+    .footerGnb_menu ol{display:none;}
+    
+    /*#################    footerSponsors    ####################*/
+    .sponsorsBtn{width:26px; margin-left:-13px; top:-20px;}
+    
+    .footerSponsors ul{width:100%; padding:35px 0 15px;}
+    .footerSponsors li{width:100%; height:60px; overflow:hidden;}
+    
+    .footerSponsors li a{width:60px; padding:0 2%;}
+    .footerSponsors li a img{width:60px;}
+    .footerSponsors li a img.sponsorcolor{margin-left:-30px;}
+    
+    
+    /*#################    footerCopy    ####################*/
+    .footerCopy{width:100%; text-align:center; font-size:11px;}
+    .footerCopy div{width:100%; height:auto;}   
+    .footerCopy div p{width:100%; float:none;}
+    .footerCopy div p.mail{float:none; text-align:center;}
+    
+    .phototitle{margin-top:30px;}
+    
+    
+    .mainVisualCate,
+    .matchNewsCate,
+    .photoSubCate
+    
+    {font-family:"Oswald-Light"};
+    
+}
+
+    

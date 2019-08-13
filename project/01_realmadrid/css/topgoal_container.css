@@ -1,0 +1,112 @@
+#containerWrap{width:100%; overflow:hidden; padding-top:97px;}
+
+/*#################    mainVisual    ####################*/
+#mainVisual{width:1600px; margin:0 auto; overflow:hidden;}
+#mainVisual ul{width:100%; margin:0 auto;}
+#mainVisual ul li{text-align:center; position:relative; overflow:hidden; height:433px; background-color:#ccc;}
+#mainVisual ul li img.main{width:100%;}
+
+#mainText{display:block; position:absolute; left:350px; top:70px; text-align:left; font-size:50px; line-height:1.1em; color:#414141;}
+
+
+/*#################    topgoalTitleWrap    ####################*/
+#topgoalTitleWrap{width:100%;}
+
+#topgoalTitle{width:960px; margin:50px auto 0; overflow:hidden;}
+#titleImg{width:45%;}
+
+
+.titleLank{width:145px; height:145px; position:relative; top:70px; float:left;}
+.titleLine{width:0; height:0; border-bottom:145px solid #00519E; border-left:145px solid transparent; position:absolute;}
+.titleLineW{width:0; height:0; border-bottom:144px solid #fff; border-left:144px solid transparent; position:absolute; right:0; top:1px;}
+.titleLank span{display:block; width:80px; height:120px; text-align:center; background-color:#fff; color:#414141; font-size:74px; position:absolute; left:50%; top:50%; margin-left:-40px; margin-top:-60px;}
+
+.titleMainImg{width:286px; float:left;}
+.titleMainImg img{width:100%;}
+
+
+#titleText{width:55%;}
+.titleSeason{font-size:23px; font-weight:100; margin-bottom:5px;}
+.titlename{font-size:50px;}
+.titleFullName{font-size:23px;}
+.titleSeason, .titlename, .titleFullName{line-height:1.3em; color:#414141;}
+
+.titleStat{width:100%; overflow:hidden; margin:15px 0;}
+.titleStat li{float:left; width:22%; padding:0 1%;}
+li.titleStat2{border-right:1px solid #dfdfdf; border-left:1px solid #dfdfdf;}
+.titleStat li span{display:block; text-align:center; font-size:45px; color:#00519E;}
+.titleStat li span.tStatName{font-size:12px; color:#717171;}
+
+li.tStatBtn{width:24%; height:22px; line-height:22px; margin-right:0px; margin-top:34px; border:1px solid #00519E; padding:5px; text-align:center; font-size:14px; float:right;}
+li.tStatBtn:hover{background-color:#00519E;}
+li.tStatBtn:hover a{color:#fff;}
+li.tStatBtn, li.tStatBtn a{transition:all .3s ease-in-out;}
+
+.titleVideo{width:100%;}
+.titleVideo p{width:48%; height:120px; background-color:#ccc; float:left;}
+.titleVideo p:first-child{margin-right:4%;}
+.titleVideo p img{width:100%;}
+
+.readMore{width:100%; height:55px; line-height:55px; background-color:#efefef; text-align:center; border-bottom:2px solid #ddd; position:relative;}
+.readMore span:hover{color:#00519E;}
+.readMore:before{content:""; display:block; width:0; height:0; border-bottom:18px solid #efefef; border-left:16px solid transparent; border-right:16px solid transparent; position:absolute; left:50%; top:-18px; margin-left:-9px;}
+
+
+#titleImg, #titleText{float:left;}
+
+
+/*#################    goalAreaWrap    ####################*/
+#goalAreaWrap{width:100%; overflow:hidden; margin-bottom:50px;}
+#goalArea{width:960px; margin:0 auto;}
+
+.topGoal{width:100%; height:120px; padding:45px 0; border-bottom:1px solid #ccc; cursor:pointer;}
+.topGoal:hover .goalCir{background-color:#00519E;}
+.goalImg{width:27%;}
+
+.goalLank{width:100px; height:100px; position:relative; top:10px;}
+.goalLine{width:0; height:0; border-bottom:100px solid #00519E; border-left:100px solid transparent; position:absolute; right:0; top:0;}
+.goalLineW{width:0; height:0; border-bottom:100px solid #fff; border-left:100px solid transparent; position:absolute; right:0; top:1px;}
+.goalLank span{display:block; width:68px; height:68px; line-height:64px; text-align:center; background-color:#fff; color:#414141; font-size:50px; position:absolute; left:50%; top:50%; margin-left:-34px; margin-top:-34px;}
+
+
+.goalCir{width:120px; height:120px; border-radius:60px; overflow:hidden; background-color:#ccc; margin-left:10px; transition:background-color .3s ease-in-out;}
+.goalCir p{width:110px; height:110px; border-radius:55px; overflow:hidden; margin:5px auto;}
+.goalCir img{width:100%;}
+.goalLank, .goalCir{float:left;}
+
+
+.goalText{width:73%; height:100%;}
+
+.topName{margin:7px 0 0 20px; width:200px;}
+.goalSeason{font-size:13px; margin-bottom:5px;}
+.goalName{font-size:37px; font-weight:400; line-height:1.3em;}
+.fullName{font-size:17px;}
+.goalSeason, .goalName, .fullName{color:#414141; display:block;}
+
+
+.goalStat li{width:120px; text-align:center; margin-top:10px; float:left;}
+.goalStat li.goalStat2{border-right:1px solid #dfdfdf; border-left:1px solid #dfdfdf;}
+.goalStat li span{display:block;}
+.stat{font-size:48px; color:#00519E;}
+.statTitle{font-size:12px; color:#717171;}
+
+.topName, .goalStat, .goalBtn{float:left;}
+
+
+.goalBtn{font-size:13px; width:76px; text-align:center; height:22px; line-height:22px; border:1px solid #00519E; padding:5px 15px; margin-top:43px; float:right;}
+
+.goalBtn:hover{background-color:#00519E;}
+.goalBtn:hover a{color:#fff;}
+.goalBtn, .goalBtn a{transition:all .3s ease-in-out;}
+
+
+
+
+
+.goalImg, .goalText{float:left;}
+.titleSeason, .titleFullName, .goalSeason, .fullName{font-family:"Oswald-Light"}
+
+
+
+
+

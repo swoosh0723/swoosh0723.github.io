@@ -1,0 +1,162 @@
+#containerWrap{width:100%; max-width:1900px; min-width:960px; margin:0 auto; overflow:hidden; padding-top:97px;}
+
+/*#################    mainVisual    ####################*/
+#mainVisual{width:100%}
+#mainVisual ul{height:100%;}
+#mainVisual ul li{text-align:center; position:relative;}
+#mainVisual ul li img.main{width:100%;}
+#mainVisual .mainText{display:none; font-size:90px; text-align:left; color:#fff; line-height:1em; font-weight:bold; position:absolute; left:370px; top:150px;}
+#mainVisual .mainText span{font-size:60px;}
+#mainVisual .mainText:before{content:""; display:block; width:100px; height:2px; background-color:#fff;}
+#mainVisual .mainText:after{content:""; display:block; width:100px; height:2px; background-color:#fff; margin-top:40px;}
+
+
+
+/*#################    distefanoTitle   ####################*/
+#distefanoTitle{width:960px; height:250px; margin:65px auto 50px; position:relative; border-bottom:1px solid #cacaca;}
+
+#distefanoTitle p.line{width:100%; height:1px; background-color:#cacaca;}
+#distefanoTitle p.titleLogo {width:45px; padding:0 40px; background-color:#fff; position:absolute; left:50%; top:-40px; margin-left:-70px;}
+#distefanoTitle p.titleLogo img{width:100%;}
+
+
+#distefanoTitle h3{width:960px; padding:35px 10px 5px; margin:0 auto; text-align:center; font-size:45px; font-weight:1000; color:#00519E;line-height:1.4em;}
+#distefanoTitle .text{display:block; text-align:center; font-size:14px; color:#818181;}
+
+#distefanoTitle .seeWrap{width:280px; margin:17px auto 0; overflow:hidden;}
+#distefanoTitle .see1, #distefanoTitle .see2{color:#aeaeae; height:28px; text-align:center; float:left; transition:color .3s ease-in-out;}
+#distefanoTitle .see1{width:140px;}
+#distefanoTitle .see2{width:140px; position:relative;}
+#distefanoTitle .see1 span, #distefanoTitle .see2 span{font-size:13px;}
+#distefanoTitle .see2 span{padding-left:40px;}
+#distefanoTitle .see2 img{width:18px; padding-left:20px; vertical-align:bottom; position:absolute; left:0; top:4px; border-left:1px solid #cacaca;}
+#distefanoTitle .see2 .see2B{opacity:0; transition:opacity .2s ease-in-out;}
+
+#distefanoTitle .see1:hover, #distefanoTitle .see2:hover{color:#00519E;}
+#distefanoTitle .see2:hover .see2B{opacity:1;}
+
+
+
+/*#################    distefanoArea    ####################*/
+#distefanoArea{width:960px; height:6700px; margin:0 auto;}
+#distefanoArea ul{width:100%; height:100%;}
+#distefanoArea ul li{width:470px; height:514px; float:left; border-top:2px solid #00519E; position:relative;}
+
+#distefanoArea ul .diBig{width:960px; height:514px; margin:30px 0 40px;}
+
+.diContent2, .diContent5, .diContent8, .diContent11, .diContent14, .diContent17{margin-left:20px;}
+
+/*#################    distefanoArea + imgArea   ####################*/
+#distefanoArea .imgArea{width:100%; height:350px; overflow:hidden; position:relative;}
+#distefanoArea .imgArea img{width:100%;}
+#distefanoArea .imgArea .imgOp{width:100%; height:100%; position:absolute; left:0; top:0; background-color:rgba(10,10,10,0.6);}
+#distefanoArea a{display:block;}
+
+#distefanoArea .diContent18 .imgArea{text-align:center;}
+#distefanoArea .diContent18 .imgArea img{width:80%; margin-top:14px;}
+
+/*#################    distefanoArea + textArea   ####################*/
+#distefanoArea .textArea{width:440px; height:130px; padding:15px; clear:both;}
+#distefanoArea .diBig .textArea{width:930px; height:130px; background-color:rgba(250,250,250,1);}
+
+#distefanoArea .textArea .cate{font-size:14px; color:#00519E;}
+#distefanoArea .textArea h4{height:50px; margin:5px 0 18px; font-size:16px; color:#515151; font-weight:100;}
+
+
+/*#################   distefanoArea + photo,video ####################*/
+#distefanoArea .textArea .logoImg{width:28px; height:30px; margin-right:20px; float:left;}
+#distefanoArea .textArea .logoImg img{height:100%;}
+#distefanoArea .textArea .diPhoto, #distefanoArea .textArea .diVideo {width:100px; padding:0 13px; border-left:1px solid #ccc; margin-top:11px; font-size:12px; color:#515151; float:left; position:relative;}
+#distefanoArea .textArea .iconBlue{position:absolute; left:13px; top:0; opacity:0;}
+/*포토, 비디오 파랑색 아이콘*/
+#distefanoArea .textArea .diPhoto img, #distefanoArea .textArea .diVideo img{width:18px; vertical-align:bottom; padding-right:10px;}
+
+
+
+
+
+/*#################    distefanoArea + hover   ####################*/
+
+#distefanoArea li:hover .imgArea img{transform:scale(1.1)}
+#distefanoArea li:hover .imgArea .imgOp{background-color:rgba(10,10,10,0.0)}
+#distefanoArea li:hover h4{color:#00519E;}
+
+#distefanoArea .textArea .diPhoto:hover .iconBlue, #distefanoArea .textArea .diVideo:hover .iconBlue{opacity:1;}
+#distefanoArea .textArea .diPhoto:hover, #distefanoArea .textArea .diVideo:hover {color:#00519E;}
+
+
+.imgArea .imgOp, .diLine, .textArea h4, .iconBlue, .diPhoto, .diVideo{transition:all .2s ease-in-out;}
+
+#distefanoArea .imgArea img{transition:all .3s ease-in-out;}
+
+/*#################    distefanoArea + border   ####################*/
+
+/*#################    left  ####################*/
+.leftBorderB, .leftBorderW{position:absolute; left:-2px; top:-1px; width:2px; height:0; z-index:1;}
+
+.leftBorderB{transition:all .4s linear}
+.leftBorderW{transition:all .4s linear .4s}
+
+#distefanoArea li:hover .leftBorderB{width:2px; height:517px; background-color:#00519E;}
+#distefanoArea li:hover .leftBorderW{width:2px; height:517px; background-color:#fff;}
+
+
+/*#################    bottom  ####################*/
+.bottomBorderB, .bottomBorderW{position:absolute; left:-2px; bottom:-2px; width:0; height:2px; z-index:2;}
+
+.bottomBorderB{transition:all .4s linear .4s}
+.bottomBorderW{transition:all .4s linear .7s}
+
+#distefanoArea li:hover .bottomBorderB{width:474px; height:2px; background-color:#00519E;}
+#distefanoArea li:hover .bottomBorderW{width:474px; height:2px; background-color:#fff;}
+
+/*#################    right  ####################*/
+.rightBorderB, .rightBorderW{position:absolute; right:-2px; bottom:-2px; width:2px; height:0; z-index:1;}
+
+.rightBorderB{transition:all .4s linear .8s}
+.rightBorderW{transition:all .4s linear 1s}
+
+#distefanoArea li:hover .rightBorderB{width:2px; height:517px; background-color:#00519E;}
+#distefanoArea li:hover .rightBorderW{width:2px; height:517px; background-color:#fff;}
+
+
+/*#################    distefanoArea + border_B   ####################*/
+
+/*#################    left_B  ####################*/
+.leftBorderB_B, .leftBorderW_B{position:absolute; left:-2px; top:-2px; width:2px; height:0; z-index:1;}
+
+.leftBorderB_B{transition:all .4s linear}
+.leftBorderW_B{transition:all .4s linear .3s}
+
+#distefanoArea li:hover .leftBorderB_B{width:2px; height:515px; background-color:#00519E;}
+#distefanoArea li:hover .leftBorderW_B{width:2px; height:515px; background-color:#fff;}
+
+
+/*#################    bottom_B  ####################*/
+.bottomBorderB_B, .bottomBorderW_B{position:absolute; left:-2px; bottom:0px; width:0px; height:2px; z-index:2;}
+
+.bottomBorderB_B{transition:all .6s linear .4s}
+.bottomBorderW_B{transition:all .6s linear .7s}
+
+#distefanoArea li:hover .bottomBorderB_B{width:963px; height:2px; background-color:#00519E;}
+#distefanoArea li:hover .bottomBorderW_B{width:963px; height:2px; background-color:#fff;}
+
+/*#################    right_B  ####################*/
+.rightBorderB_B, .rightBorderW_B{position:absolute; right:-2px; bottom:1px; width:2px; height:0; z-index:1;}
+
+.rightBorderB_B{transition:all .4s linear .9s}
+.rightBorderW_B{transition:all .4s linear 1.2s}
+
+#distefanoArea li:hover .rightBorderB_B{width:2px; height:515px; background-color:#00519E;}
+#distefanoArea li:hover .rightBorderW_B{width:2px; height:515px; background-color:#fff;}
+
+
+
+
+
+
+
+
+
+
+#distefanoArea .textArea .cate, #distefanoArea .textArea .diPhoto, #distefanoArea .textArea .diVideo, #distefanoTitle .see1 span, #distefanoTitle .see2 span {font-family:"Oswald-Light"};

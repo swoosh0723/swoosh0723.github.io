@@ -1,0 +1,416 @@
+#containerWrap{width:100%; max-width:1900px; min-width:960px; margin:0 auto; overflow:hidden; padding-top:97px;}
+
+/*#################    mainVisual    ####################*/
+#mainVisual{width:100%; margin:0 auto; overflow:hidden;}
+#mainVisual ul{width:100%; margin:0 auto;}
+#mainVisual ul li{text-align:center; position:relative; overflow:hidden; }
+#mainVisual ul li img.main{width:100%;}
+
+#mainText{display:block; position:absolute; left:350px; top:70px; text-align:left; font-size:50px; line-height:1.1em; color:#414141;}
+
+
+
+/*#################    ticketingTitle   ####################*/
+#ticketingTitle{width:960px; height:135px; margin:65px auto 0; position:relative;}
+
+#ticketingTitle p.line{width:100%; height:1px; background-color:#cacaca;}
+#ticketingTitle p.titleLogo{width:120px; text-align:center; background-color:#fff; position:absolute; left:50%; top:-35px; margin-left:-60px;}
+#ticketingTitle p.titleLogo img{width:42px;}
+
+
+#ticketingTitle h3{width:960px; padding:35px 0 5px; text-align:center; font-size:45px; color:#00519E;line-height:1.4em;}
+#ticketingTitle .text{display:block; text-align:center; font-size:16px; color:#818181; text-transform:capitalize;}
+
+
+
+/*#################    .ticketsNav   ####################*/
+.ticketsNav{width:960px; height:40px; margin:0 auto; font-size:15px;}
+.ticketsNav p{width:316px; height:100%; text-align:center; float:left; background-color:#aaa; color:#fff; line-height:38px; transition:all .4s ease;}
+.ticketsNav p:first-child{margin-left:5px;}
+.ticketsNav em{ display:inline-block;}
+.ticketsNavNum{display:inline-block; width:18px; height:18px; border-radius:30px; color:#fff; background-color:#ccc; margin-right:10px; line-height:20px; font-size:12px; font-style:italic;}
+
+.SBS{text-align:center; padding:30px 0 0;}
+
+.TicketingMachinesArea{width:200%; height:790px; margin-top:20px; position:relative;}
+.TicketingMachines{width:100%; position:absolute;}
+
+
+/*#################    .stadiumWrapper   ####################*/
+.stadiumArea1, .stadiumArea2{width:50%; height:790px; overflow:hidden; float:left;}
+.stadiumArea1{height:600px;}
+.stadiumArea1 h3, .stadiumArea2 h3{position:relative; z-index:20; text-align:center; font-size:19px; color:#414141;}
+.stadiumWrapper{width:608px; height:570px; margin:0 auto; background-color:#fff; position:relative; top:0px; left:0; cursor:pointer;}
+.stadiumWrapper span{display:block;}
+
+.stadiumArea2 .stadiumWrapper{width:560px; height:525px;}
+
+
+.stadiumTitle{position:absolute;width:24%; height:26%; left:38%; top:31%; font-size:12px; border-radius:50%; background-color:#04518C; z-index:15; text-align:center; color:#fff; border:2px solid #fff; box-shadow:4px 5px 13px #818181;}
+.stadiumTitle em{display:block; margin-top:52px; font-size:17px;}
+
+.stadiumArea2 .stadiumTitle{width:24%; height:26%; left:38%; top:31%; font-size:12px;}
+.stadiumArea2 .stadiumTitle em{margin-top:48px}
+
+
+
+
+/*################  .stadiumLine  ################*/
+span.stadiumLine{display:block; width:0.25%; height:200%; background-color:#fff; position:absolute; left:49.8%; top:-50%; z-index:11}
+span.stadiumLine1{transform:rotate(0deg)}
+span.stadiumLine2{transform:rotate(9deg)}
+span.stadiumLine3{transform:rotate(18deg)}
+span.stadiumLine4{transform:rotate(27deg)}
+span.stadiumLine5{transform:rotate(36deg)}
+span.stadiumLine6{transform:rotate(47deg)}/*!!!!!!!!!!!!!!*/
+span.stadiumLine7{transform:rotate(54deg)}
+span.stadiumLine8{transform:rotate(63deg)}
+span.stadiumLine9{transform:rotate(72deg)}
+span.stadiumLine10{transform:rotate(81deg)}
+span.stadiumLine11{transform:rotate(90deg)}
+span.stadiumLine12{transform:rotate(99deg)}
+span.stadiumLine13{transform:rotate(108deg)}
+span.stadiumLine14{transform:rotate(117deg)}
+span.stadiumLine15{transform:rotate(125deg)}
+span.stadiumLine16{transform:rotate(132deg)}/*!!!!!!!!!!!!!!!*/
+span.stadiumLine17{transform:rotate(144deg)}
+span.stadiumLine18{transform:rotate(153deg)}
+span.stadiumLine19{transform:rotate(162deg)}
+span.stadiumLine20{transform:rotate(171deg)}
+
+
+/*################  .allSpace4  ################*/
+.allSpace4{width:82%; height:90%; background-color:#fff; position:absolute; left:9%; top:3%; z-index:3;
+border-top-left-radius:0% 100%;
+border-top-right-radius:0% 100%;
+border-bottom-right-radius:40% 35%;
+border-bottom-left-radius:40% 35%;
+}
+.allSpace3{width:70%; height:84%; background-color:#fff; position:absolute;
+left:15%; top:3%; z-index:5;
+border-top-left-radius:0% 100%;
+border-top-right-radius:0% 100%;
+border-bottom-right-radius:40% 35%;
+border-bottom-left-radius:40% 35%;
+}
+.allSpace2{width:58%; height:78%; background-color:#fff; position:absolute;
+left:21%; top:2%; z-index:7;
+border-radius:0 0 20% 20%;}
+.floor3Space2{width:15%; height:15%; background-color:#fff; position:absolute; left:0%; top:2%; z-index:2; transform:rotate(35deg)}
+.floor3Space3{width:15%; height:15%; background-color:#fff; position:absolute; right:0%; top:0.5%; z-index:2; transform:rotate(-36deg)}
+
+.allSpace2-2{width:20%; height:20%; background-color:#fff; position:absolute;
+left:10%; top:-10%; z-index:5; transform:rotate(42deg)}
+.allSpace2-1{width:20%; height:20%; background-color:#fff; position:absolute;
+right:10%; top:-10%; z-index:5; transform:rotate(-42deg)}
+.allSpace1{width:42%; height:57%; background-color:#fff; position:absolute;
+left:29%; top:15.5%; z-index:10;
+border-radius:14%; cursor:auto;}
+
+.stadiumFloor2-1Space1{width:10%; height:5%; background-color:#fff; position:absolute;
+left:15%; top:1%; z-index:8; transform:rotate(42deg)}
+.stadiumFloor2-1Space2{width:10%; height:5%; background-color:#fff; position:absolute;
+right:15%; top:1%; z-index:8; transform:rotate(-42deg)}
+
+
+.floor3Space1{width:60%; height:11%; position:absolute; left:50%; margin-left:-30%; top:-5%; background-color:#fff; z-index:15}
+
+
+
+.stadiumA{background-color:#8cafca; transition:background-color .3s ease;}
+.stadiumB{background-color:#96e0d1; transition:background-color .3s ease;}
+.stadiumC{background-color:#f9a6b1; transition:background-color .3s ease;}
+.stadiumD{background-color:#fad68d; transition:background-color .3s ease;}
+.stadiumE{background-color:#ffec8a; transition:background-color .3s ease;}
+.stadiumF{background-color:#ccaaff; transition:background-color .3s ease;}
+.stadiumG{background-color:#9fa6af; transition:background-color .3s ease;}
+.stadiumH{background-color:#FBD4FF; transition:background-color .3s ease;}
+
+/*################  #stadiumFloor3Area  ################*/
+.stadiumFloor3{width:100%; height:100%;
+position:absolute; left:0; top:0; z-index:1;
+border-bottom-right-radius:30% 40%;
+border-bottom-left-radius:30% 40%;
+border-top-right-radius:30% 40%;
+border-top-left-radius:30% 40%;
+overflow:hidden; box-shadow:5px 5px 10px #ccc;}
+.stadiumFloor3Area{width:100%; height:100%; position:relative;}
+.stadiumFloor3A1{width:18%; height:100%; position:absolute; left:0; top:0; z-index:3}
+.stadiumFloor3A2{width:10%; height:20%; position:absolute; left:11.5%; bottom:0%; z-index:3; transform:rotate(36deg)}
+.stadiumFloor3A3{width:20%; height:50%; position:absolute; right:0; top:0; z-index:3;}
+
+.stadiumFloor3B{width:74%; height:10%; position:absolute; left:13%; bottom:0%; z-index:1;}
+
+
+.stadiumFloor3C1{width:50%; height:100%; position:absolute; right:0; top:0; z-index:2}
+
+
+
+/*################  #stadiumFloor2-2Area  ################*/
+.stadiumFloor2-2{width:80%; height:88%; background-color:#ccc; position:absolute; left:10%; top:4%; z-index:4;
+border-top-left-radius:0% 100%;
+border-top-right-radius:0% 100%;
+border-bottom-right-radius:40% 35%;
+border-bottom-left-radius:40% 35%;
+overflow:hidden; box-shadow:5px 5px 5px #ccc;}
+
+.stadiumFloor2-2Area{width:100%; height:100%;}
+
+.stadiumFloor2-2A1{width:15%; height:100%; position:absolute; left:0; top:0; z-index:2}
+.stadiumFloor2-2A2{width:10%; height:10%; position:absolute; left:8%; bottom:4%; z-index:2; transform:rotate(35deg)}
+
+
+.stadiumFloor2-2B{width:100%; height:16%; position:absolute; left:0; bottom:0; z-index:1}
+
+.stadiumFloor2-2C1{width:33%; height:100%; position:absolute; right:0; top:0; z-index:3}
+.stadiumFloor2-2C2{width:10%; height:10%; position:absolute; right:25%; bottom:1%; z-index:3; transform:rotate(-18deg)}
+
+
+
+
+/*################  #stadiumFloor2-1Area  ################*/
+.stadiumFloor2-1{width:68%; height:84%; position:absolute;
+left:16%; top:2%; z-index:6;
+border-top-left-radius:0% 100%;
+border-top-right-radius:0% 100%;
+border-bottom-right-radius:40% 35%;
+border-bottom-left-radius:40% 35%;
+overflow:hidden; box-shadow:2px 2px 10px #aaa;}
+
+.stadiumFloor2-1Area{width:100%; height:100%;}
+.stadiumFloor2-1Area .stadiumLineArea span{width:0.3%}
+
+
+
+.stadiumFloor2-1H1{width:10%; height:17%; position:absolute; left:0; top:0; z-index:1}
+.stadiumFloor2-1H2{width:25%; height:17%; position:absolute; left:12%; bottom:0; z-index:1;}
+.stadiumFloor2-1A1{width:10%; height:100%; position:absolute; left:0; top:17%; z-index:2}
+.stadiumFloor2-1A2{width:15%; height:5%; position:absolute; left:-4%; top:14.7%; z-index:2; transform:rotate(42deg)}
+.stadiumFloor2-1A3{width:15%; height:10%; position:absolute; left:4%; bottom:8%; z-index:2; transform:rotate(-54deg)}
+
+
+
+.stadiumFloor2-1B1{width:53%; height:17%; position:absolute; left:35%; bottom:0; z-index:3;}
+.stadiumFloor2-1B2{width:10%; height:10%; position:absolute; left:32.5%; bottom:-2%; z-index:3; transform:rotate(19deg)}
+
+
+
+.stadiumFloor2-1C1{width:10%; height:100%; position:absolute; right:0; top:0; z-index:4}
+.stadiumFloor2-1C2{width:10%; height:10%; position:absolute; right:5%; bottom:5%; z-index:4; transform:rotate(-38deg)}
+
+.stadiumFloor2-1D1{width:10%; height:50%; position:absolute; right:0; top:0; z-index:5}
+
+
+
+
+
+/*################  #stadiumFloor1  ################*/
+.stadiumFloor1{width:56%; height:70%; position:absolute;
+left:22%; top:9%; z-index:9;
+border-radius:20%;
+overflow:hidden; box-shadow:2px 2px 10px #aaa;}
+.stadiumFloor1Area{width:100%; height:100%; background-color:#ccc;}
+.stadiumFloor1Area .stadiumLineArea span{width:0.35%}
+
+.stadiumFloor1D1{width:70%; height:65%; position:absolute; right:0; top:0; z-index:9;}
+.stadiumFloor1D2{width:10%; height:10%; position:absolute; left:35%; top:0; z-index:11;}/*선없애주기 위해서 덮은 면적*/
+.stadiumFloor1D3{width:5%; height:10%; position:absolute; right:40%; top:0; z-index:11;}/*선없애주기 위해서 덮은 면적*/
+.stadiumFloor1D4{width:15%; height:5%; position:absolute; right:0; top:35%; z-index:11;}/*선없애주기 위해서 덮은 면적*/
+.stadiumFloor1D5{width:17%; height:5%; position:absolute; right:-2%; top:20%; z-index:11; transform:rotate(-35deg)}/*선없애주기 위해서 덮은 면적*/
+.stadiumFloor1D6{width:17%; height:7%; position:absolute; right:-2%; top:55%; z-index:11; transform:rotate(18deg)}
+
+
+
+.stadiumFloor1E1{width:20%; height:30%; position:absolute; left:0; top:43%; z-index:7;}
+.stadiumFloor1E2{width:15%; height:15%; position:absolute; left:0; top:51%; z-index:11;}/*선없애주기 위해서 덮은 면적*/
+
+
+
+.stadiumFloor1F1{width:50%; height:100%;  position:absolute; left:0; top:0; z-index:6;}
+.stadiumFloor1F2{width:17%; height:25%; position:absolute; left:14.3%; top:-10%; z-index:11; transform:rotate(-19deg)}/*선없애주기 위해서 덮은 면적*/
+.stadiumFloor1F3{width:23%; height:10%; position:absolute; left:-2%; top:34.5%; z-index:11; transform:rotate(9deg)}/*선없애주기 위해서 덮은 면적*/
+.stadiumFloor1F4{width:20%; height:20%; position:absolute; left:0%; bottom:13%; z-index:8; transform:rotate(63deg)}
+
+
+
+.stadiumFloor1B1{width:60%; height:20%; position:absolute; right:10%; bottom:0%; z-index:4;}
+.stadiumFloor1B2{width:15%; height:15%; position:absolute; left:22.5%; bottom:-5%; z-index:4; transform:rotate(27deg)}
+
+
+
+.stadiumFloor1G1{width:13%; height:30%; position:absolute; right:0; bottom:12%; z-index:10;}
+.stadiumFloor1G2{width:20%; height:20%;  position:absolute; right:-5%; bottom:4%; z-index:6; transform:rotate(54deg)}
+
+
+.groundWrap{width:30%; height:43%; position:absolute;
+left:35%; top:22%; z-index:11; box-shadow:5px 5px 20px #ccc; cursor:auto; opacity:0.5}
+.groundArea{width:100%; height:100%; position:relative; background-color:#ccc;}
+
+.ground1{width:50%; height:100%; position:absolute; left:0; top:0; background-color:#1BBC9B; z-index:1}
+.ground2{width:50%; height:100%; position:absolute; right:0; top:0; background-color:#33daaa; z-index:1}
+
+.ground3{width:21.5%; height:14%; position:absolute; left:50%; margin-left:-21.5%; top:0; background-color:#1BBC9B; z-index:3;}
+.ground4{width:22%; height:14%; position:absolute; left:50%; top:0; background-color:#33daaa; z-index:3;}
+.ground5{width:45%; height:14.5%; position:absolute; left:50%; margin-left:-22.5%; top:0; background-color:#fff; z-index:2;}
+.ground6{width:22%; height:8%; position:absolute; left:50%; margin-left:-11%; top:0; background-color:#fff; z-index:4;}
+.ground7{width:10.3%; height:7.5%; position:absolute; left:50%; margin-left:-10.3%; top:0; background-color:#1BBC9B; z-index:5;}
+.ground8{width:10%; height:7.5%; position:absolute; left:50%; top:0; background-color:#33daaa; z-index:5;}
+
+.ground9{width:21.5%; height:13.9%; position:absolute; left:50%; margin-left:-21.5%; bottom:0; background-color:#1BBC9B; z-index:3;}
+.ground10{width:22%; height:13.9%; position:absolute; left:50%; bottom:0; background-color:#33daaa; z-index:3;}
+.ground11{width:45%; height:14.5%; position:absolute; left:50%; margin-left:-22.5%; bottom:0; background-color:#fff; z-index:2;}
+.ground12{width:22%; height:8%; position:absolute; left:50%; margin-left:-11%; bottom:0; background-color:#fff; z-index:4;}
+.ground13{width:10.3%; height:7.3%; position:absolute; left:50%; margin-left:-10.3%; bottom:0; background-color:#1BBC9B; z-index:5;}
+.ground14{width:10%; height:7.3%; position:absolute; left:50%; bottom:0; background-color:#33daaa; z-index:5;}
+
+
+.ground15{width:100%; height:.6%; position:absolute; right:0; top:50%; margin-top:-0.25%; background-color:#fff; z-index:4;}
+.ground16{width:26%; height:19%; border-radius:50%; border:2px solid #fff; position:absolute; left:50%; top:50%; margin-left:-14%; margin-top:-13.5%; z-index:4;}
+
+
+
+
+
+
+
+/*################  .stadiumArea2  ################*/
+.stadiumArea2 .stadiumFloor3,
+.stadiumArea2 .stadiumFloor2-2,
+.stadiumArea2 .stadiumFloor2-1,
+.stadiumArea2 .stadiumFloor1{box-shadow:2px 2px 5px #ccc;}
+
+
+/*################  .ticketPriceArea  ################*/
+.ticketPriceArea{width:940px; margin:0px auto 500px; height:260px; position:relative;}
+
+
+.ticketPriceArea h4{font-size:18px; height:50px; text-align:center;}
+.ticketPriceArea h4 span{display:inline-block; width:23px; height:23px; border-radius:20px; margin-right:10px; background-color:#04518C; vertical-align:top}
+
+.stadiumAPrice{width:100%; height:200px; position:relative; margin:50px 0 100px;}
+.standInfo{width:229px; height:97%; cursor:pointer; color:#aaa; border:1px solid #dadada; border-top:2.5px solid #dadada; transition:all .3s ease; position:absolute; top:0; background-color:#fff}
+.standInfo1{left:0;}
+.standInfo2{left:237px;}
+.standInfo3{left:474px;}
+.standInfo4{left:711px;}
+
+
+
+
+.standInfo:hover{box-shadow:3px 3px 15px #ddd; border-top-color:#00519e; color:#313131;}
+.standInfo:hover input{color:#00519e;}
+.standInfo:hover .standName{border-bottom-color:#00519e;}
+
+.standName{text-align:center; width:80%; height:36%; line-height:77px; margin:0 auto; border-bottom:1px solid #dadada; margin-bottom:10%;}
+.standPrice, .standSeats{width:92%; height:30%; padding-left:8%;}
+.standPrice span{display:inline-block;}
+.standPrice p span:first-child{width:30%; font-size:13px;}
+.standPrice p span:last-child{width:70%; font-size:15px;}
+
+.standSeats{height:15%;}
+.standSeats label{width:30%; display:inline-block; font-size:14px;}
+.standSeats input{width:20%; font-size:17px; color:#aaa;}
+.standSeats span{width:35%; font-size:13px;}
+.standVer{margin-right:1%; font-size:15px;}
+input{border:none;}
+span.seatsQ{display:inline-block; width:13px; height:13px; border-radius:15px; text-align:center; font-size:9px; margin-left:10px; border:1px solid #aaa; cursor:help; vertical-align:middle;}
+
+span.seatsQ:hover{background-color:#414145; border-color:#414145; color:#fff;}
+
+
+
+/*################  .getTicketsArea  ################*/
+.getTicketsArea{width:74%; height:193.5px; margin-bottom:100px; overflow:hidden; border:1px solid #dadada; border-top:2.5px solid #00519e; position:absolute; left:225%; top:0; z-index:5; box-shadow:3px 3px 15px #ddd; background-color:#fff}
+.ticketsImg{width:20%; height:100%; float:left;}
+.ticketsImg img{width:70%; padding:15%; padding-top:35%;}
+.ticketsInfo{width:20%; height:60%; float:left; margin-top:7%;}
+.ticketsInfo span{font-size:13px; color:#515151; display:block;}
+span.ticketsInfoVS{font-size:15px; color:#313131; padding:8px 0;}
+
+
+
+.ticketsPriceClac{width:34%; padding-left:5%; height:80%; margin-top:4%; border-left:1px solid #dadada; float:left;}
+.standSeatsNum{width:100%; height:23%; padding-top:15%;}
+.standNumberOfTickets{vertical-align:middle; margin-bottom:5px; border:none; background-color:#fff; border:1px solid #dadada;}
+.standSeatsNum span, .standPriceResultArea label{width:50%; display:block; float:left; font-size:15px;}
+
+
+.standPriceResultArea{width:100%;}
+.standPriceResultArea label{margin-top:4px;}
+#standPriceResult{font-size:25px; color:#00519e;}
+#standPriceResult{width:27%;}
+
+
+.getTicketBtn{width:20%; height:90%; padding-top:4%; float:left;}
+.getTicketBtn button{border:none; display:block; cursor:pointer; transition:all .3s ease; outline:none;}
+.getTicketBtn button:first-child{width:90%; height:70%; background-color:#00519e; color:#fff; font-size:16px;}
+.getTicketBtn button:first-child:hover{background-color:#196ab7;}
+
+.getTicketBtn button:last-child{width:90%; height:13%; margin-top:5%; background-color:#dadada;}
+.getTicketBtn button:last-child:hover{background-color:#aaa; color:#fff;}
+
+
+
+/*################  ticketsPriceTable ################*/
+.ticketsPriceTableArea{width:800px; margin:30px auto 50px; font-size:14px;}
+
+.ticketsPriceTableArea h4{font-size:17px; margin-bottom:20px; text-indent:5px;}
+.tPriceInfo{text-align:right; border:1px solid #ccc; border-bottom:none;}
+.tPriceInfo span{display:inline-block; width:118px; height:35px; line-height:35px; text-align:center; border-left:1px solid #ccc;}
+.tPriceInfo span:first-child{width:117px;}
+
+.ticketsPriceTable{width:100%; overflow:hidden;}
+
+
+.tPrice{width:100%; overflow:hidden;}
+.tPrice span{display:block; width:100%; height:44px; line-height:44px; border-bottom:1px solid #ccc; border-right:1px solid #ccc; text-indent:35px;}
+.tPrice strong{border-bottom:1px solid #ccc; margin-left:25px; line-height:40px; font-weight:100; font-size:15px;}
+/*
+.tPrice1 strong{border-bottom-color:#82a8c6}
+.tPrice2 strong{border-bottom-color:#cbf0e8}
+.tPrice3 strong{border-bottom-color:#fcd3d8}
+.tPrice4 strong{border-bottom-color:#eadfad}
+.tPrice5 strong{border-bottom-color:#bec0e6}
+.tPrice6 strong{border-bottom-color:#fadfa1}
+.tPrice7 strong{border-bottom-color:#faeaff}
+.tPrice8 strong{border-bottom-color:#b6b9be}*/
+
+.tPrice1 strong{border-bottom-color:#04518C}
+.tPrice2 strong{border-bottom-color:#1BBC9B}
+.tPrice3 strong{border-bottom-color:#F23C55}
+.tPrice4 strong{border-bottom-color:#F5A503}
+.tPrice5 strong{border-bottom-color:#8F45FF}
+.tPrice6 strong{border-bottom-color:#ffd500}
+.tPrice7 strong{border-bottom-color:#F2Beee}
+.tPrice8 strong{border-bottom-color:#2D3E50}
+
+
+
+
+.tPriceTitle{width:350px; border:1px solid #ccc; border-top:none;}
+
+.tPriceArea{width:210px; font-size:13px;}
+.tPriceInfo1, .tPriceInfo2{width:118px; font-size:13px;}
+.tPriceInfo1 span, .tPriceInfo2 span{text-align:center; text-indent:0;}
+
+.tPriceArea, .tPriceInfo2{background-color:}
+
+
+
+.tPrice1 .tPriceTitle{border-top:1px solid #ccc;}
+.tPrice1 span:first-child{border-top:1px solid #ccc; height:43px;}
+.tPrice1 li{height:178px;}
+.tPrice2 li{height:179px;}
+.tPrice3 li{height:134px;}
+.tPrice4 li{height:89px;}
+.tPrice5 li{height:89px;}
+.tPrice6 li{height:44px;}
+.tPrice7 li{height:89px;}
+.tPrice8 li{height:44px;}
+
+
+.tPrice1, .tPrice3, .tPrice5, .tPrice7{ background-color:#f3f3f3;}
+
+.tPrice li{float:left; bottom:1px solid #ccc;}
+
+.ticketPriceArea, .standSeats input, .ticketsPriceTableArea{font-family:"Oswald-Light"};

@@ -1,0 +1,123 @@
+#containerWrap{width:100%; max-width:1900px; min-width:960px; margin:0 auto; overflow:hidden; padding-top:97px;}
+/*#################    mainVisual    ####################*/
+#mainVisual{width:100%; overflow:hidden;}
+#mainVisual ul{width:100%;}
+#mainVisual ul li{text-align:center; position:relative; overflow:hidden;}
+#mainVisual ul li img.main{width:100%;}
+
+#mainText{display:block; position:absolute; left:350px; top:70px; text-align:left; font-size:50px; line-height:1.1em; color:#414141;}
+
+/*#################    ticketingTitle   ####################*/
+#photoSub1Title{width:960px; height:135px; margin:65px auto 10px; position:relative; border-bottom:1px solid #cacaca;}
+
+#photoSub1Title p.line{width:100%; height:1px; background-color:#cacaca;}
+#photoSub1Title p.titleLogo{width:120px; text-align:center; background-color:#fff; position:absolute; left:50%; top:-35px; margin-left:-60px;}
+#photoSub1Title p.titleLogo img{width:42px;}
+
+
+#photoSub1Title h3{width:960px; padding:35px 0 5px; text-align:center; font-size:45px; color:#00519E;line-height:1.4em;}
+#photoSub1Title .text{display:block; text-align:center; font-size:16px; color:#818181; text-transform:capitalize;}
+
+/*#################    mainSnsArea   ####################*/
+.mainSnsArea{width:960px; margin:0 auto; text-align:center;}
+.mainSnsArea a{width:25px; display:inline-block; margin:5px 3px 10px;}
+.mainSnsArea a img{width:100%;}
+
+
+/*#################    galleryArea   ####################*/
+.galleryArea{width:960px; margin:0 auto 20px;}
+.galleryArea ul{width:100%; overflow:hidden;}
+.galleryArea ul li{width:310px; height:168px; margin:5px; float:left; overflow:hidden; position:relative; cursor:zoom-in; animation:photoSub 2s 1 ease;}
+.galleryArea ul li a{width:100%; height:100%; display:block;}
+.galleryArea ul li img{width:100%; transition:all .3s ease-in-out;}
+.galleryArea ul li span{display:block; position:absolute; left:0; top:0; background:rgba(0,0,0,0.4); width:100%; height:100%; transition:opacity .5s ease-in-out}
+.galleryArea ul li:hover img{transform:scale(1.1)}
+.galleryArea ul li:hover span{opacity:0}
+
+
+@keyframes photoSub{
+        0%{opacity:0; transform:translateY(300px)}
+        100%{opacity:1; transform:translateY(0)}
+}
+.galleryArea ul li.photo1{animation-duration:1s}
+.galleryArea ul li.photo2{animation-duration:1.2s}
+.galleryArea ul li.photo3{animation-duration:1.3s}
+.galleryArea ul li.photo4{animation-duration:1.4s}
+.galleryArea ul li.photo5{animation-duration:1.5s}
+.galleryArea ul li.photo6{animation-duration:1.6s}
+.galleryArea ul li.photo7{animation-duration:1.7s}
+.galleryArea ul li.photo8{animation-duration:1.8s}
+.galleryArea ul li.photo9{animation-duration:1.9s}
+.galleryArea ul li.photo10{animation-duration:2.0s}
+.galleryArea ul li.photo11{animation-duration:2.1s}
+.galleryArea ul li.photo12{animation-duration:2.2s}
+.galleryArea ul li.photo13{animation-duration:2.3s}
+.galleryArea ul li.photo14{animation-duration:2.4s}
+.galleryArea ul li.photo15{animation-duration:2.5s}
+.galleryArea ul li.photo16{animation-duration:2.6s}
+.galleryArea ul li.photo17{animation-duration:2.7s}
+.galleryArea ul li.photo18{animation-duration:2.8s}
+.galleryArea ul li.photo19{animation-duration:2.9s}
+.galleryArea ul li.photo20{animation-duration:3.0s}
+.galleryArea ul li.photo21{animation-duration:3.1s}
+.galleryArea ul li.photo22{animation-duration:3.2s}
+.galleryArea ul li.photo23{animation-duration:3.3s}
+.galleryArea ul li.photo24{animation-duration:3.4s}
+.galleryArea ul li.photo25{animation-duration:3.5s}
+.galleryArea ul li.photo26{animation-duration:3.6s}
+.galleryArea ul li.photo27{animation-duration:3.7s}
+.galleryArea ul li.photo28{animation-duration:3.8s}
+.galleryArea ul li.photo29{animation-duration:3.9s}
+.galleryArea ul li.photo30{animation-duration:4.0s}
+.galleryArea ul li.photo31{animation-duration:4.1s}
+.galleryArea ul li.photo32{animation-duration:4.2s}
+.galleryArea ul li.photo33{animation-duration:4.3s}
+.galleryArea ul li.photo34{animation-duration:4.4s}
+.galleryArea ul li.photo35{animation-duration:4.5s}
+.galleryArea ul li.photo36{animation-duration:4.6s}
+.galleryArea ul li.photo37{animation-duration:4.7s}
+.galleryArea ul li.photo38{animation-duration:4.8s}
+.galleryArea ul li.photo39{animation-duration:4.9s}
+.galleryArea ul li.photo40{animation-duration:5.0s}
+.galleryArea ul li.photo41{animation-duration:5.1s}
+.galleryArea ul li.photo42{animation-duration:5.2s}
+.galleryArea ul li.photo43{animation-duration:5.3s}
+.galleryArea ul li.photo44{animation-duration:5.4s}
+.galleryArea ul li.photo45{animation-duration:5.5s}
+.galleryArea ul li.photo46{animation-duration:5.6s}
+.galleryArea ul li.photo47{animation-duration:5.7s}
+.galleryArea ul li.photo48{animation-duration:5.8s}
+.galleryArea ul li.photo49{animation-duration:5.9s}
+.galleryArea ul li.photo50{animation-duration:6.0s}
+.galleryArea ul li.photo51{animation-duration:6.1s}
+.galleryArea ul li.photo52{animation-duration:6.2s}
+.galleryArea ul li.photo53{animation-duration:6.3s}
+.galleryArea ul li.photo54{animation-duration:6.4s}
+.galleryArea ul li.photo55{animation-duration:6.5s}
+.galleryArea ul li.photo56{animation-duration:6.6s}
+.galleryArea ul li.photo57{animation-duration:6.7s}
+.galleryArea ul li.photo58{animation-duration:6.8s}
+.galleryArea ul li.photo59{animation-duration:6.9s}
+.galleryArea ul li.photo60{animation-duration:7.0s}
+.galleryArea ul li.photo61{animation-duration:7.1s}
+.galleryArea ul li.photo62{animation-duration:7.2s}
+.galleryArea ul li.photo63{animation-duration:7.3s}
+.galleryArea ul li.photo64{animation-duration:7.4s}
+.galleryArea ul li.photo65{animation-duration:7.5s}
+.galleryArea ul li.photo66{animation-duration:7.6s}
+.galleryArea ul li.photo67{animation-duration:7.7s}
+.galleryArea ul li.photo68{animation-duration:7.8s}
+.galleryArea ul li.photo69{animation-duration:7.9s}
+
+
+/*#################    full  ####################*/
+
+.full{width:100%; height:100%; position:fixed; top:0; left:0; background:rgba(0,0,0,0.6); cursor:zoom-out; z-index:30;}
+
+.view{position:fixed; left:50%; z-index:31; cursor:zoom-out; transform:translate(-50%, -50%);}
+.view p{transition:all .3s ease;}
+.view p img{width:600px; border:1px solid #fff; box-shadow:5px 5px 15px #111}
+
+
+
+#photoSub1Title .text{font-family:"Oswald-Light"};

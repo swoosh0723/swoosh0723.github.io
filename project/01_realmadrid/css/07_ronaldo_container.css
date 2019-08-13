@@ -1,0 +1,132 @@
+#containerWrap{width:100%; padding-top:97px;}
+
+/*#################    titleLogo    ####################*/
+p.line{width:100%; height:1px; background-color:#cacaca;}
+div.titleLogo {width:90px; text-align:center; background-color:#fff; padding:0 55px; position:absolute; left:50%; top:-40px; margin-left:-100px; color:#515151;}
+div.titleLogo img{width:45px;}
+
+
+/*#################    mainVisual (video)    ####################*/
+#VideoWrap{width:100%; position:relative;}
+.videoCover{width:100%; background-color:#222;}
+
+#videoControlWrap{position:absolute; left:50%; top:50%; margin-left:-45px; margin-top:-45px; z-index:5}
+
+.videoControl{width:90px; height:90px; background-color:rgba(10,10,10,0.8) ; border-radius:100px; position:relative; cursor:pointer;}
+
+.videoTry{display:block; border-left:30px solid #fff; border-top:20px solid transparent; border-bottom:20px solid transparent; position:absolute; left:50%; top:50%; margin-left:-10px; margin-top:-20px;}
+.videoPause{display:none; width:10px; height:40px; background-color:#fff; position:absolute; top:50%; margin-top:-20px;}
+.videoPause1{left:50px;}
+.videoPause2{left:30px;}
+
+
+.videoControl:hover .videoTry{border-left-color:#F4BC46}
+.videoControl:hover .videoPause{background-color:#F4BC46}
+.videoTry, .videoPause{transition:all .2s ease;}
+
+/*#################    profileWrap    ####################*/
+#profileWrap{width:100%; height:880px;}
+
+
+/*#################    profileWrap + left   ####################*/
+#leftWrap{width:50%; height:930px; background-color:#00519E; color:#fff;}
+#leftProfile{width:390px; height:850px; padding:40px 40px 40px 0; float:right;}
+#leftProfile h4{font-size:35px; text-align:right;}
+#leftProfile span.proNumber{display:block; font-size:60px; margin-top:30px; text-align:right;}
+#leftProfile p.playerInfo{font-size:17px; margin:40px 0;}
+#leftProfile span.slash{font-weight:400; font-size:18px;}
+#leftProfile p.bio{font-size:14px; line-height:1.6em; font-family:Oswald-Light;}
+
+
+/*#################    profileWrap + right   ####################*/
+#rightWrap{width:50%; height:930px; background-color:#eaeaea;}
+#rightProfile{width:100%; height:930px; padding:40px 0 40px 40px;
+        background-image:url("../img/profile/profile_bg.png");
+        background-repeat:no-repeat;
+        background-position:center center;}
+#rightProfile p{width:550px; height:570px;}
+#rightProfile p img{width:100%; padding-left:40px; padding-top:50px;}
+
+#leftWrap, #rightWrap{float:left;}
+
+
+/*#################    cup   ####################*/
+#cup{width:100%; height:361px; margin:140px 0 120px; position:relative;}
+
+#cup ul {width:940px; height:200px; padding:130px 10px 10px; margin:0 auto;}
+#cup ul li{width:96px; height:200px; padding:0 10px; text-align:center; border-left:1px solid #eaeaea; float:left; color:#b3b3b3; transition:color .2s ease-in-out; cursor:pointer;}
+/*  li 한칸의 넓이 117px == width:96px + border:1px + padding:0 10px */
+#cup ul li:last-child{width:95px; border-right:1px solid #eaeaea;}
+
+#cup p.cupImg{width:90px; height:107px;}
+#cup p.cupImg img{width:95%; transition:all .2s ease-in-out;}
+#cup p.cupText{width:100%; height:45px; padding-top:22px; font-size:13px;}
+#cup p.cupText strong{font-weight:400;}
+#cup em{font-style:normal; font-size:30px; font-weight:700;}
+
+#cup li:hover{color:#00519E;}
+#cup li:hover p.cupImg img{transform:scale(1.1,1.1)}
+
+
+/*#################    galleries   ####################*/
+#galleries{width:100%; position:relative;}
+
+#galleries ul{width:100%; height:210px; margin-top:115px;}
+#galleries ul li{width:33.3%; height:100%; float:left;}
+#galleries ul li img{width:100%; height:100%;}
+
+
+/*#################    stats   ####################*/
+#statistics{width:100%; height:340px; position:relative; margin:140px 0 120px;}
+
+#statistics ul{width:940px; height:130px; padding:0 10px; margin:120px auto 70px;}
+#statistics ul li{width:135px; padding:0 10px; height:130px; text-align:center; border-left:1px solid #eaeaea; float:left; color:#b3b3b3; transition:color .2s ease-in-out; cursor:pointer;}
+/* li 한칸의 넓이 156px == width:135px + border:1px + padding:0 10px */
+#statistics ul li:last-child{width:134px; border-right:1px solid #eaeaea;}
+
+#statistics p.statsNumber{width:100%; height:95px; line-height:95px; font-size:55px; font-weight:700; transition:all .2s ease-in-out;}
+#statistics p.statsText{width:100%; height:20px; font-size:14px; padding-top:15px;}
+
+#statistics li:hover{color:#00519E;}
+#statistics li:hover p.statsNumber{transform:scale(1.1,1.1)}
+
+#statistics #statsMore{text-align:center; margin:0 auto; font-size:15px; font-weight:700; color:#b3b3b3; transition:color .3s ease-in-out; cursor:pointer;}
+
+#statistics #statsMore:hover{color:#00519E;}
+
+
+
+/*#################    allProfile   ####################*/
+#allProfile{width:100%; background-color:#eaeaea;}
+#allProfile #forward{width:90%; margin:0 auto;}
+
+#allProfile ul {width:100%; height:328px; padding:75px 0;}
+#allProfile ul li{width:218px; height:328px; background-color:#fff; border:1px solid #eaeaea; border-top:1px solid #00519E; margin-left:20px; margin-bottom:20px; float:left;}
+#allProfile ul li:first-child{margin-left:0;}
+
+
+div.sqImg {width:100%; height:195px; text-align:center; background-color:#fafafa; overflow:hidden;}
+div.sqImg img{height:100%;}
+p.sqline{width:90%; height:4px; background-color:#cacaca; float:right;}
+
+div.sqTextArea{width:218px; height:130px;}
+div.sqText{width:198px; height:110px; margin:15px 10px 10px;  position:relative;}
+div.sqText h4{color:#333; height:43px; font-size:18px; font-weight:700;}
+div.sqText span{font-size:11px; color:#aaa; display:inline-block; padding-top:5px}
+div.sqText p.flag img{width:18px; padding-right:10px; vertical-align:middle;}
+div.sqText p.flag span{padding-top:0;}
+div.sqText p{padding-top:22px;}
+div.sqText span.sqnumber{position:absolute; right:10px; bottom:-17px; font-size:100px; font-weight:700; letter-spacing:-6px; color:#eaeaea;}
+
+
+#allProfile div.sqImg img, #allProfile p.sqline, #allProfile .sqText h4, #allProfile .sqText span{transition:height .4s ease-in-out, color .4s ease-in-out, background-color .4s ease-in-out;}
+
+
+/*#################    allProfile + hover   ####################*/
+#allProfile ul li a:hover div.sqImg img{height:115%;}
+#allProfile ul li a:hover p.sqline {background-color:#00519E;}
+#allProfile ul li a:hover .sqText h4{color:#00519E;}
+#allProfile ul li a:hover .sqText span{color:#00519E;}
+
+
+

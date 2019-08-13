@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8"/>
+	<title>강현서기_register</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.color.js"></script>
+	<script type="text/javascript" src="js/header.js"></script>
+	<script type="text/javascript" src="js/bottomBtn.js"></script>
+	<!--공통-->
+	<script type="text/javascript" src="js/register.js"></script>
+    <script type="text/javascript" src="js/register_form.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/header.css"/>
+	<link rel="stylesheet" type="text/css" href="css/register_container.css"/>
+	<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+</head>
+ <body>
+	<div id="wrap">
+		<div id="containerWrap">
+			<div id="registerTitleArea">
+				<div id="registerTitle">
+                    <a href="index.html" title="로고"><img src="img/real_logo_big.png" alt="logo"/></a>
+					<h3>REGISTER FOR FREE</h3>
+					<span></span>
+				</div>
+			</div>
+			<div id="registerContentArea">
+				<div id="registerContent">
+					<h4 class="registerContentTitle">Be the first for exclusive content and competitions</h4>
+					<p class="registerContentTitle2">FIND OUT MORE<span></span></p>
+				</div>
+				<div id="screen">
+					<ul id="film">
+						<li class="scene">
+							<h4>Prize Giveaways</h4>
+							<p>Win signed shirts and unique City experiences.</p>
+							<span><img src="img/registerimg3.png" alt="registerimg"/></span>
+						</li>
+						<li class="scene">
+							<h4>Newsletters</h4>
+							<p>Receive match build-up, post-match summaries, and official news and videos - straight to your inbox.</p>
+							<span><img src="img/registerimg1.png" alt="registerimg"/></span>
+						</li>
+						<li class="scene">
+							<h4>Exclusive videos</h4>
+							<p>Watch match highlights, live friendlies and more.</p>
+							<span><img src="img/registerimg2.png" alt="registerimg"/></span>
+						</li>
+						<li class="scene">
+							<h4>Improved experience</h4>
+							<p>Enable personalised content and express checkout.</p>
+							<span><img src="img/registerimg4.png" alt="registerimg"/></span>
+						</li>
+					</ul>
+					<div id="resgisterBtn">
+						<p class="resgisterNextBtn"></p>
+						<p class="resgisterPrevBtn"></p>
+					</div>
+				</div>
+
+			</div>
+			<div id="registerSnsArea">
+				<div id="registerSns">
+					<p>Already have an account?</p><a href="sub_login.html" title="login">Come On! Login</a>
+					<h4>Register with your preferred social channel</h4>
+					<ul>
+						<li><a href="#none" title="facebook"><img src="img/sns/regi_facebook.png" alt="facebook"/><img src="img/sns/regiW_facebook.png" alt="facebook" class="snsIconW"/>FACEBOOK</a></li>
+						<li><a href="#none" title="google"><img src="img/sns/regi_google.png" alt="google"/><img src="img/sns/regiW_google.png" alt="google" class="snsIconW"/>Google</a></li>
+						<li><a href="#none" title="yahoo"><img src="img/sns/regi_yahoo.png" alt="yahoo"/><img src="img/sns/regiW_yahoo.png" alt="yahoo" class="snsIconW"/>Yahoo</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="registerFormArea">
+				<div id="registerForm">
+					<h3><img src="img/real_logo.png" alt="logo"/><span>CREAT ACCOUNT</span></h3>
+					<form action="#" method="post">
+						<fieldset></fieldset>
+						<div class="formArea">
+							<p class="formBox"><label for="firstname">First name</label><input id="firstname" type="text" name="firstname" maxlength="20"/></p>
+							<p class="formBox"><label for="lastname">Last name</label><input id="lastname" type="text" name="lastname" maxlength="20"/></p>
+						</div>
+						<div class="formArea">
+							<p class="formBox"><label for="useremail">Email address</label><input id="useremail" type="email" name="useremail" maxlength="40"/></p>
+						</div>
+						<div class="formArea">
+							<p class="formBox"><label for="userpass">Passward</label><input id="userpass" type="password" name="userpass" maxlength="30"/></p>
+							<p class="formBox"><label for="userpass2">Re-type Passward</label><input id="userpass2" type="password" name="userpass2" maxlength="30"/></p>
+						</div>
+						<div class="formArea formDateArea">
+							<h4>Date of birth<strong>?</strong></h4>
+							<p class="formBox"><label for="userDD">DD</label>
+                            <select class="userDD" id="userDD" name="userDD">
+                                <option value="none1" class="noneOption"></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+							</p>
+							<p class="formBox"><label for="userMM">MM</label>
+                                <select class="userMM" id="userMM" name="userMM">
+                                    <option value="none1"></option>
+                                    <option value="1">January</option>
+                                    <option value="2">February</option>
+                                    <option value="3">March</option>
+                                    <option value="4">April</option>
+                                    <option value="5">May</option>
+                                    <option value="6">June</option>
+                                    <option value="7">July</option>
+                                    <option value="8">August</option>
+                                    <option value="9">September</option>
+                                    <option value="10">October</option>
+                                    <option value="11">November</option>
+                                    <option value="12">December</option>
+                                </select>
+							</p>
+							<p class="formBox"><label for="userYYYY">YYYY</label>
+                                <select class="userYYYY" id="userYYYY" name="userYYYY">
+                                    <option value="none1"></option>
+                                    <option>2004</option>
+                                    <option>2003</option>
+                                    <option>2002</option>
+                                    <option>2001</option>
+                                    <option>2000</option>
+                                    <option>1999</option>
+                                    <option>1998</option>
+                                    <option>1997</option>
+                                    <option>1996</option>
+                                    <option>1995</option>
+                                    <option>1994</option>
+                                    <option>1993</option>
+                                    <option>1992</option>
+                                    <option>1991</option>
+                                    <option>1990</option>
+                                    <option>1989</option>
+                                    <option>1988</option>
+                                    <option>1987</option>
+                                    <option>1986</option>
+                                    <option>1985</option>
+                                    <option>1984</option>
+                                    <option>1983</option>
+                                    <option>1982</option>
+                                    <option>1981</option>
+                                    <option>1980</option>
+                                    <option>1979</option>
+                                    <option>1978</option>
+                                    <option>1977</option>
+                                    <option>1976</option>
+                                    <option>1975</option>
+                                    <option>1974</option>
+                                    <option>1973</option>
+                                    <option>1972</option>
+                                    <option>1971</option>
+                                    <option>1970</option>
+                                    <option>1969</option>
+                                    <option>1968</option>
+                                    <option>1967</option>
+                                    <option>1966</option>
+                                    <option>1965</option>
+                                    <option>1964</option>
+                                    <option>1963</option>
+                                    <option>1962</option>
+                                    <option>1961</option>
+                                    <option>1960</option>
+                                    <option>1959</option>
+                                    <option>1958</option>
+                                    <option>1957</option>
+                                    <option>1956</option>
+                                    <option>1955</option>
+                                    <option>1954</option>
+                                    <option>1953</option>
+                                    <option>1952</option>
+                                    <option>1951</option>
+                                    <option>1950</option>
+                                    <option>1949</option>
+                                    <option>1948</option>
+                                    <option>1947</option>
+                                    <option>1946</option>
+                                    <option>1945</option>
+                                    <option>1944</option>
+                                    <option>1943</option>
+                                    <option>1942</option>
+                                    <option>1941</option>
+                                    <option>1940</option>
+                                    <option>1939</option>
+                                    <option>1938</option>
+                                    <option>1937</option>
+                                    <option>1936</option>
+                                    <option>1935</option>
+                                    <option>1934</option>
+                                    <option>1933</option>
+                                    <option>1932</option>
+                                    <option>1931</option>
+                                    <option>1930</option>
+                                    <option>1929</option>
+                                    <option>1928</option>
+                                    <option>1927</option>
+                                    <option>1926</option>
+                                    <option>1925</option>
+                                    <option>1924</option>
+                                    <option>1923</option>
+                                    <option>1922</option>
+                                    <option>1921</option>
+                                    <option>1920</option>
+                                    <option>1919</option>
+                                    <option>1918</option>
+                                    <option>1917</option>
+                                    <option>1916</option>
+                                    <option>1915</option>
+                                    <option>1914</option>
+                                    <option>1913</option>
+                                    <option>1912</option>
+                                    <option>1911</option>
+                                    <option>1910</option>
+                                    <option>1909</option>
+                                    <option>1908</option>
+                                    <option>1907</option>
+                                    <option>1906</option>
+                                    <option>1905</option>
+                                    <option>1904</option>
+                                    <option>1903</option>
+                                    <option>1902</option>
+                                    <option>1901</option>
+                                    <option>1900</option>
+                                </select>
+							</p>
+							<p class="toolTip toolTip1-1">
+								Knowing your date of birth allows us to send you a special Happy Birthday message every year
+							</p>
+							<p class="toolTip2 toolTip2-1"></p>
+						</div>
+						<div class="formArea formLocationArea">
+							<h4>Location<strong>?</strong></h4>
+							<p class="formBox"><label for="userCountry">Country of residence</label><select class="userCountry" name="userCountry" id="userCountry">
+                            <option value="none1"></option>
+                            <option>Afghanistan</option>
+                            <option>Albania</option>
+                            <option>Algeria</option>
+                            <option>American Samoa</option>
+                            <option>Andorra</option>
+                            <option>Angola</option>
+                            <option>Anguilla</option>
+                            <option>Antarctica</option>
+                            <option>Antigua and Barbuda</option>
+                            <option>Argentina</option>
+                            <option>Armenia</option>
+                            <option>Aruba</option>
+                            <option>Australia</option>
+                            <option>Austria</option>
+                            <option>Azerbaijan</option>
+                            <option>Bahamas</option>
+                            <option>Bahrain</option>
+                            <option>Bangladesh</option>
+                            <option>Barbados</option>
+                            <option>Belarus</option>
+                            <option>Belgium</option>
+                            <option>Belize</option>
+                            <option>Benin</option>
+                            <option>Bermuda</option>
+                            <option>Bhutan</option>
+                            <option>Bolivia</option>
+                            <option>Bosnia and Herzegovina</option>
+                            <option>Botswana</option>
+                            <option>Bouvet Island</option>
+                            <option>Brazil</option>
+                            <option>British Indian Ocean Territory</option>
+                            <option>British Virgin Isles</option>
+                            <option>Brunei Darussalam</option>
+                            <option>Bulgaria</option>
+                            <option>Burkina Faso</option>
+                            <option>Burundi</option>
+                            <option>Cambodia</option>
+                            <option>Cameroon</option>
+                            <option>Canada</option>
+                            <option>Canary Islands</option>
+                            <option>Cape Verde</option>
+                            <option>Cayman Islands</option>
+                            <option>Central African Republic</option>
+                            <option>Chad</option>
+                            <option>Chile</option>
+                            <option>China</option>
+                            <option>Christmas Island</option>
+                            <option>Cocos (Keeling) Islands</option>
+                            <option>Colombia</option>
+                            <option>Comoros</option>
+                            <option>Congo</option>
+                            <option>Congo Republic of</option>
+                            <option>Cook Islands</option>
+                            <option>Costa Rica</option>
+                            <option>Cote d'Ivoire</option>
+                            <option>Croatia</option>
+                            <option>Cuba</option>
+                            <option>Cyprus</option>
+                            <option>Czech Republic</option>
+                            <option>Denmark</option>
+                            <option>Djibouti</option>
+                            <option>Dominica</option>
+                            <option>Dominican Republic</option>
+                            <option>East Timor</option>
+                            <option>Ecuador</option>
+                            <option>Egypt</option>
+                            <option>El Salvador</option>
+                            <option>Equatorial Guinea</option>
+                            <option>Eritrea</option>
+                            <option>Estonia</option>
+                            <option>Ethiopia</option>
+                            <option>Falkland Islands (Malvinas)</option>
+                            <option>Faroe Islands</option>
+                            <option>Fiji</option>
+                            <option>Finland</option>
+                            <option>France</option>
+                            <option>French Guiana</option>
+                            <option>French Polynesia</option>
+                            <option>French Southern Territories</option>
+                            <option>Gabon</option>
+                            <option>Gambia</option>
+                            <option>Georgia</option>
+                            <option>Germany</option>
+                            <option>Ghana</option>
+                            <option>Gibraltar</option>
+                            <option>Greece</option>
+                            <option>Greenland</option>
+                            <option>Grenada</option>
+                            <option>Guadeloupe</option>
+                            <option>Guam</option>
+                            <option>Guatemala</option>
+                            <option>Guernsey</option>
+                            <option>Guinea</option>
+                            <option>Guinea-Bissau</option>
+                            <option>Guyana</option>
+                            <option>Haiti</option>
+                            <option>Heard Island</option>
+                            <option>Holy See (Vatican City State)</option>
+                            <option>Honduras</option>
+                            <option>Hong Kong</option>
+                            <option>Hungary</option>
+                            <option>Iceland</option>
+                            <option>India</option>
+                            <option>Indonesia</option>
+                            <option>Iran, Islamic Republic of</option>
+                            <option>Iraq</option>
+                            <option>Ireland</option>
+                            <option>Israel</option>
+                            <option>Italy</option>
+                            <option>Jamaica</option>
+                            <option>Japan</option>
+                            <option>Jersey</option>
+                            <option>Jordan</option>
+                            <option>Kazakstan</option>
+                            <option>Kenya</option>
+                            <option>Kiribati</option>
+                            <option>Korea, People's Republic</option>
+                            <option>Korea, Republic of</option>
+                            <option>Kuwait</option>
+                            <option>Kyrgyzstan</option>
+                            <option>Lao People's Democratic Republic</option>
+                            <option>Lao People's' Republic</option>
+                            <option>Latvia</option>
+                            <option>Lebanon</option>
+                            <option>Lesotho</option>
+                            <option>Liberia</option>
+                            <option>Libyan Arab Jamahiriya</option>
+                            <option>Liechtenstein</option>
+                            <option>Lithuania</option>
+                            <option>Luxembourg</option>
+                            <option>Macau</option>
+                            <option>Macedonia</option>
+                            <option>Madagascar</option>
+                            <option>Malawi</option>
+                            <option>Malaysia</option>
+                            <option>Maldives</option>
+                            <option>Mali</option>
+                            <option>Malta</option>
+                            <option>Marshall Islands</option>
+                            <option>Martinique</option>
+                            <option>Mauritania</option>
+                            <option>Mauritius</option>
+                            <option>Mayotte</option>
+                            <option>Mexico</option>
+                            <option>Micronesia</option>
+                            <option>Moldova, Republic of</option>
+                            <option>Monaco</option>
+                            <option>Mongolia</option>
+                            <option>Montenegro</option>
+                            <option>Montserrat</option>
+                            <option>Morocco</option>
+                            <option>Mozambique</option>
+                            <option>Myanmar</option>
+                            <option>Namibia</option>
+                            <option>Nauru</option>
+                            <option>Nepal</option>
+                            <option>Netherlands</option>
+                            <option>Netherlands Antilles</option>
+                            <option>New Caledonia</option>
+                            <option>New Zealand</option>
+                            <option>Nicaragua</option>
+                            <option>Niger</option>
+                            <option>Nigeria</option>
+                            <option>Niue</option>
+                            <option>Norfolk Island</option>
+                            <option>Northern Ireland</option>
+                            <option>Northern Mariana Islands</option>
+                            <option>Norway</option>
+                            <option>Oman</option>
+                            <option>Pakistan</option>
+                            <option>Palau</option>
+                            <option>Palestinian Territory</option>
+                            <option>Panama</option>
+                            <option>Papua New Guinea</option>
+                            <option>Paraguay</option>
+                            <option>People's Republic of China</option>
+                            <option>Peru</option>
+                            <option>Philippines</option>
+                            <option>Pitcairn</option>
+                            <option>Poland</option>
+                            <option>Portugal</option>
+                            <option>Puerto Rico</option>
+                            <option>Qatar</option>
+                            <option>Republic of Ireland</option>
+                            <option>Reunion</option>
+                            <option>Romania</option>
+                            <option>Russian Federation</option>
+                            <option>Rwanda</option>
+                            <option>Saint Helena</option>
+                            <option>Saint Kitts and Nevis</option>
+                            <option>Saint Lucia</option>
+                            <option>Saint Pierre and Miquelon</option>
+                            <option>Saint Vincent &amp; Grenadines</option>
+                            <option>Samoa</option>
+                            <option>San Marino</option>
+                            <option>Sao Tome and Principe</option>
+                            <option>Saudi Arabia</option>
+                            <option>Senegal</option>
+                            <option>Serbia</option>
+                            <option>Seychelles</option>
+                            <option>Sierra Leone</option>
+                            <option>Singapore</option>
+                            <option>Slovakia</option>
+                            <option>Slovenia</option>
+                            <option>Solomon Islands</option>
+                            <option>Somalia</option>
+                            <option>South Africa</option>
+                            <option>South Georgia &amp; S'wich Islands</option>
+                            <option>Spain</option>
+                            <option>Sri Lanka</option>
+                            <option>Sudan</option>
+                            <option>Suriname</option>
+                            <option>Svalbard and Jan Mayen</option>
+                            <option>Swaziland</option>
+                            <option>Sweden</option>
+                            <option>Switzerland</option>
+                            <option>Syrian Arab Republic</option>
+                            <option>Taiwan, Province of China</option>
+                            <option>Tajikistan</option>
+                            <option>Tanzania</option>
+                            <option>Tanzania, United Republic of</option>
+                            <option>Thailand</option>
+                            <option>Togo</option>
+                            <option>Tokelau</option>
+                            <option>Tonga</option>
+                            <option>Trinidad and Tobago</option>
+                            <option>Tunisia</option>
+                            <option>Turkey</option>
+                            <option>Turkmenistan</option>
+                            <option>Turks and Caicos Islands</option>
+                            <option>Tuvalu</option>
+                            <option>Uganda</option>
+                            <option>Ukraine</option>
+                            <option>United Arab Emirates</option>
+                            <option>United Kingdom</option>
+                            <option>United States</option>
+                            <option>United States Outlying Islands</option>
+                            <option>Uruguay</option>
+                            <option>Uzbekistan</option>
+                            <option>Vanuatu</option>
+                            <option>Venezuela</option>
+                            <option>Vietnam</option>
+                            <option>Virgin Islands, British</option>
+                            <option>Virgin Islands, U.S.</option>
+                            <option>Wallis and Futuna</option>
+                            <option>West Indies</option>
+                            <option>Western Sahara</option>
+                            <option>Yemen</option>
+                            <option>Zambia</option>
+                            <option>Zimbabwe</option>
+                            </select></p>
+							<p class="formBox"><label for="usercity">City</label><input id="usercity" type="text" name="usercity" maxlength="30"//></p>
+							<p class="toolTip toolTip1-2">
+								Knowing your location allows us to tailor content to your country of residence
+							</p>
+							<p class="toolTip2 toolTip2-2"></p>
+						</div>
+                        <div id="registerCopyArea">
+                            <div id="registerCopy">
+                                <p class="registerCopyText">
+                                    Real Madrid Football Group will always protect your data and use it wisely. Real Madrid, the Football Group and our Commercial Partners will use your personal information to provide you with products, services, to keep in touch with you – via email and SMS about exciting promotions, news, features and activities and personalise your experience on our site in accordance with our Privacy Policy. By clicking register you agree to us using your personal details for all these purposes.
+                                </p>
+                                <p class="registerCheckArea">
+                                    <input id="registerCheck" type="checkbox" name="registerCheck"/><label for="registerCheck"><span><a class="checkImg"></a></span>I want to receive news, giveaways and exclusive offers from Real Madrid Football Club and Football Group</label>
+                                </p>
+                                <div class="registerBtnArea">
+                                    <input id="registerBtn" type="button" value="Register"/>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>    
+		    </div>
+        </div>
+	</div>
+ </body>
+ </html>

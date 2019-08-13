@@ -1,0 +1,84 @@
+#containerWrap{width:100%; max-width:1900px; min-width:960px; margin:0 auto; overflow:hidden; padding-top:97px;}
+
+/*#################    mainVisual    ####################*/
+#mainVisual{width:100%; margin:0 auto; overflow:hidden;}
+#mainVisual ul{width:100%; margin:0 auto;}
+#mainVisual ul li{text-align:center; position:relative;}
+#mainVisual ul li img.main{width:100%;}
+
+
+/*#################    honoursTitle   ####################*/
+#honoursTitle{width:960px; height:135px; margin:65px auto 30px; position:relative; border-bottom:1px solid #cacaca;}
+
+#honoursTitle p.line{width:100%; height:1px; background-color:#cacaca;}
+#honoursTitle p.titleLogo {width:120px; text-align:center; background-color:#fff; position:absolute; left:50%; top:-35px; margin-left:-60px;}
+#honoursTitle p.titleLogo img{width:42px;}
+
+
+#honoursTitle h3{width:960px; padding:35px 0 5px; text-align:center; font-size:45px; color:#00519E;line-height:1.4em;}
+
+
+
+
+
+
+/*#################    interCupArea    ####################*/
+.interCupArea, .naCupArea{width:960px; margin:0 auto;}
+.interCupArea em, .naCupArea em{font-style:normal;}
+.cupCate{font-size:16px; color:#717171; margin:80px 0 30px;}
+.naCupArea .cupCate{margin-top:100px;}
+.naCupArea{padding-bottom:90px;}
+
+.interCup, .naCup{width:100%; border-top:1px solid #cecece; cursor:pointer; transition:all .5s ease-in-out;}
+.cupTitle{width:100%; overflow:hidden;}
+.cupImg, .cupText, .cupArrow{float:left; height:170px; margin:15px 0;}
+.cupImg{width:20%;}
+.cupText{width:70%;}
+.cupArrow{width:10%; text-align:center; line-height:140px;}
+.cupArrow img{width:23px; transition:transform .3s ease-in-out;}
+.rote{transform:rotatex(180deg);}
+
+
+.cupText em{display:block; font-size:45px; line-height:0.9em; font-weight:700; color:#00519E; margin:30px 0 10px;}
+.cupText strong{font-size:17px;}
+
+/*#################    interCupArea    ####################*/
+.cupListArea{width:100%;}
+.cupList{width:960px; overflow:hidden;}
+.cupfilm{width:9920px; height:230px; transition:all .3s ease-in-out}
+.cupScene{width:300px; float:left; margin-right:10px;}
+.cupImgArea{width:100%; height:170px; overflow:hidden;}
+.cupImgArea img{width:100%; transition:transform .5s ease;}
+.cupScene h4{text-align:center; padding:10px 0;}
+
+.interCupLi{display: none;}
+
+
+.cupScene:hover h4, .cupScene:hover h4{color:#00519E;}
+.cupImgArea:hover img, .cupImgArea:hover img{transform:scale(1.1);}
+
+
+.honoursBtnArea{width:130px; margin:0px auto 10px; overflow:hidden;}
+.honoursBtn{width:24px; line-height:19px; height:24px; border:1px solid #00519e; border-radius:25px; float:left; transition:all .3s ease}
+.honoursBtn span{display:inline-block; width:6px; height:6px; border-top:1px solid #00519e; transition:all .3s ease}
+.honoursPrevBtn span{border-left:1px solid #00519e; transform:rotate(-43deg); margin-left:10px;}
+.honoursNextBtn span{border-right:1px solid #00519e; transform:rotate(45deg);margin-left:7px;}
+
+.honoursBtn:hover {background-color:#00519e;}
+.honoursBtn:hover span{border-color:#fff;}
+
+
+
+.honoursPageNum{width:78px; line-height:27px; text-align:center; font-size:14px; float:left;}
+.honoursPageNum span{display:inline-block; margin:0 2px;}
+
+
+
+.interCupLi li a h4, .cupScene h4, .honoursPageNum{font-family:"Oswald-Light"};
+
+
+
+
+
+
+

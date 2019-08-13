@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Real Madrid Ticket</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.color.js"></script>
+	<script type="text/javascript" src="js/header.js"></script>
+	<script type="text/javascript" src="js/bottomBtn.js"></script>
+	<!--공통부분-->
+	<script type="text/javascript" src="js/ticketing.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/header.css"/>
+	<link rel="stylesheet" type="text/css" href="css/ticketing_container.css"/>
+	<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+</head>
+ <body>
+	<div id="wrap">
+		<div id="headerWrap">
+			<div id="header">
+			    <div class="header-top-menu">
+			        <h1>
+                        <a href="index.html" title="레알마드리드">
+                            <img src="img/headerlogo.png" alt="레알마드리드 로고" class="header-logo"/>
+                            <img src="img/headerlogo-path.png" alt="레알마드리드 로고" class="header-logo-path"/>
+                        </a>
+                    </h1>
+                    <div id="mainInfo">
+                        <h2>mainInfo영역</h2>
+                        <ul>
+                            <li>
+                                <a href="sub_register.html" title="회원가입">
+                                    Register
+                                </a>
+                                <span>|</span>
+                            </li>
+                            <li>
+                                <a href="sub_login.html" title="로그인">
+                                    Login
+                                </a>
+                                <span>|</span>
+                            </li>
+                            <li class="language">
+                                <a href="#none" title="언어선택">
+                                    <img src="img/LangUSA.png" alt="언어선택 대한민국"/>ENG
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="gnb">
+                        <h2>gnb영역</h2>
+                        <ul class="main-menu-area">
+                            <li class="main-menu main-menu0">
+                                <a href="sub_news.html" title="FOOTBALL">
+                                    FOOTBALL
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li class="main-menu main-menu1">
+                                <a href="sub_history.html" title="ABOUT REAL MADRID">
+                                    ABOUT REAL MADRID
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li class="main-menu main-menu2">
+                                <a href="kit.html" title="SPECIAL FEATURES">
+                                    SPECIAL FEATURES
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li class="main-menu main-menu3">
+                                <a href="sub_ticketing.html" title="TICKETS">
+                                    TICKETS&nbsp;&amp;&nbsp;HOSPITALITY
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li class="main-menu main-menu4">
+                                <a href="sub_shop.html" title="SHOP">
+                                    SHOP
+                                    <span></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>   
+			    </div>
+                <div class="sub-menu-wrap">
+                    <div class="sub-menu-area">
+                        <p class="main-menu-area-bg main-menu-area-bg0">
+                            <img src="img/sub-menu-bg0.png" alt="sub-menu-bg">
+                        </p>
+                        <ul class="sub-menu-cateroy sub-menu-cateroy0">
+                            <li>
+                                <a href="sub_news.html" title="NEWS">
+                                    NEWS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_schedule.html" title="SCHEDULE">
+                                    SCHEDULE
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_photo.html" title="PHOTO GALLERY">
+                                    GALLERY
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_squad.html" title="VIDEO GALLERY">
+                                    SQUAD
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="sub-menu-cateroy sub-menu-cateroy1">
+                            <li>
+                                <a href="sub_history.html" title="HISTORY">
+                                    HISTORY
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_honours.html" title="HONOURS">
+                                    HONOURS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_santiago.html" title="SANTIAGO BERNABEU">
+                                    SANTIAGO BERNABEU
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="sub-menu-cateroy sub-menu-cateroy2">
+                            <li>
+                                <a href="sub_undecima.html" title="UNDECIMA">
+                                    UNDECIMA
+                                </a>
+                            </li>
+                            <li class="subMenu">
+                                <a href="kit.html" title="UNIFORM">
+                                    UNIFORM
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_distefano.html" title="DI STEFANO">
+                                    DI STEFANO
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_topgoal.html" title="ALL-TIME TOP GOALSCORER">
+                                    TOP GOALSCORER
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="sub-menu-cateroy sub-menu-cateroy3">
+                            <li>
+                                <a href="sub_ticket.html" title="TICKET">
+                                    TICKETS INFORMATION
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_ticketing.html" title="TICKET">
+                                    TICKETING
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_hospitality.html" title="HOSPITALITY">
+                                    HOSPITALITY
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="sub-menu-cateroy sub-menu-cateroy4">
+                            <li>
+                                <a href="sub_shop.html" title="Online Shop">
+                                    SHOP
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+			<div id="mobileHeader">
+                <h2>모바일 헤더</h2>
+                <div class="mobileH">
+                    <div class="mobileHBtnArea">
+                        <div class="mobileBtnWrap">
+                            <p class="mobileBtn">
+                                <span class="mobilebtnBar mobilebtnBar1"></span>
+                                <span class="mobilebtnBar mobilebtnBar2"></span>
+                                <span class="mobilebtnBar mobilebtnBar3"></span>
+                            </p>
+                            <h3>Menu</h3>
+                        </div>
+                    </div>
+                    <div class="mobileHLogo">
+                        <a href="index.html" title="로고"><img src="img/ver_reallogo.png" alt="모바일가로 로고"></a>
+                    </div>
+                    <div class="mobilemainInfo">
+                       <a href="sub_register.html">Register</a><span>|</span>
+                       <a href="sub_login.html">Login</a>
+                    </div>
+                </div>
+                <div class="mobileV">
+                    <div class="mobileVBtnArea">
+                        <div class="mobileBtnWrap">
+                            <p class="mobileBtn">
+                                <span class="mobilebtnBar mobilebtnBar1"></span>
+                                <span class="mobilebtnBar mobilebtnBar2"></span>
+                                <span class="mobilebtnBar mobilebtnBar3"></span>
+                            </p>
+                            <h3>Menu</h3>
+                        </div>
+                    </div>
+                    <div class="mobileVLogo">
+                        <a href="index.html" title="로고"><img src="img/headerlogo.png" alt="모바일세로 로고"></a>
+                    </div>
+                    <div class="mobilemainInfo mobileVmainInfo">
+                       <a href="sub_register.html">Register</a><span>|</span>
+                       <a href="sub_login.html">Login</a>
+                    </div>
+                </div>
+			    <div class="mobileMenuArea">
+			        <ul>
+                        <li>
+                            <a class="mobileMenu" href="#none" title="football">FOOTBALL<span class="mobileTry1"></span></a>
+                            <ol>
+                                <li class="mobileSubMenu"><a href="sub_news.html" title="NEWS">NEWS<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_schedule.html" title="SCHEDULE">SCHEDULE<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_photo.html" title="PHOTO GALLERY">PHOTO GALLERY<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="#none" title="VIDEO GALLERY">VIDEO GALLERY<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_squad.html" title="SQUAD">SQUAD<span class="mobileTry"></span></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a class="mobileMenu" href="#none" title="ABOUT REAL MADRID">ABOUT REAL MADRID<span class="mobileTry1"></span></a>
+                            <ol>
+                                <li class="mobileSubMenu"><a href="sub_history.html" title="HISTORY">HISTORY<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_honours.html" title="HONOURS">HONOURS<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_santiago.html" title="SANTIAGO BERNABEU">SANTIAGO BERNABEU<span class="mobileTry"></span></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a class="mobileMenu" href="#none" title="SPECIAL FEATURES">SPECIAL FEATURES<span class="mobileTry1"></span></a>
+                            <ol>
+                                <li class="mobileSubMenu"><a href="sub_undecima.html" title="UNDECIMA">UNDECIMA<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="kit.html" title="UNIFORM">UNIFORM<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_distefano.html" title="DI STEFANO">DI STEFANO<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_topgoal.html" title="ALL-TIME TOP GOALSCORER">TOP GOALSCORER<span class="mobileTry"></span></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a class="mobileMenu" href="#none" title="TICKETS &amp; HOSPITALITY">TICKETS &amp; HOSPITALITY<span class="mobileTry1"></span></a>
+                            <ol>
+                                <li class="mobileSubMenu"><a href="sub_ticket.html" title="TICKET">TICKETS INFORMATION<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_ticketing.html" title="TICKET">TICKETING<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_hospitality.html" title="HOSPITALITY">HOSPITALITY<span class="mobileTry"></span></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a class="mobileMenu" href="#none" title="SHOP">SHOP<span class="mobileTry1"></span></a>
+                            <ol>
+                                <li class="mobileSubMenu"><a href="sub_shop.html" title="Online Shop">Shop Online<span class="mobileTry"></span></a></li>
+                            </ol>
+                        </li>
+                    </ul>
+			    </div>
+			</div>
+		</div>
+		<div id="containerWrap">
+			<div id="mainVisual">
+				<h2>메인비주얼 영역</h2>
+				<ul>
+					<li>
+						<div id="mainImg">
+							<img class="main" src="img/main/main_ticketing.png" alt="메인이미지"/>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div id="ticketingTitle">
+				<h2>ticket 타이틀 영역</h2>
+				<p class="line"></p>
+				<p class="titleLogo"><img src="img/small_logo.png" alt="로고이미지"/></p>
+				<h3>REAL MADRID TICKETING</h3>
+				<span class="text"></span>
+			</div>
+			<div class="ticketsNav">
+				<p><span class="ticketsNavNum">1&nbsp;</span><em>STAND AREA SELECTION</em></p>
+				<p><span class="ticketsNavNum">2&nbsp;</span><em>SEATS SELECTION</em></p>
+				<p><span class="ticketsNavNum">3&nbsp;</span><em>TICKETS SELECTION</em></p>
+			</div>
+			<div class="SBS"><em>Santiago Bernabéu Stadium</em></div>
+			<div class="TicketingMachinesArea">
+				<div class="TicketingMachines">
+					<div class="stadiumArea1">
+						<div class="stadiumWrapper">
+							<div class="stadiumFloor3">
+								<div class="stadiumFloor3Area">
+									<span class="stadiumFloor3A1 stadiumA stadiumSeat"></span>
+									<span class="stadiumFloor3A2 stadiumA stadiumSeat"></span>
+									<span class="stadiumFloor3A3 stadiumA stadiumSeat"></span>
+									<span class="stadiumFloor3B stadiumB stadiumSeat"></span>
+									<span class="stadiumFloor3C1 stadiumC stadiumSeat"></span>
+									<div class="stadiumLine">
+										<span class="stadiumLineArea">
+											<span class="stadiumLine1 stadiumLine"></span>
+											<span class="stadiumLine2 stadiumLine"></span>
+											<span class="stadiumLine3 stadiumLine"></span>
+											<span class="stadiumLine4 stadiumLine"></span>
+											<span class="stadiumLine5 stadiumLine"></span>
+											<span class="stadiumLine6 stadiumLine"></span>
+											<span class="stadiumLine7 stadiumLine"></span>
+											<span class="stadiumLine8 stadiumLine"></span>
+											<span class="stadiumLine9 stadiumLine"></span>
+											<span class="stadiumLine10 stadiumLine"></span>
+											<span class="stadiumLine11 stadiumLine"></span>
+											<span class="stadiumLine12 stadiumLine"></span>
+											<span class="stadiumLine13 stadiumLine"></span>
+											<span class="stadiumLine14 stadiumLine"></span>
+											<span class="stadiumLine15 stadiumLine"></span>
+											<span class="stadiumLine16 stadiumLine"></span>
+											<span class="stadiumLine17 stadiumLine"></span>
+											<span class="stadiumLine18 stadiumLine"></span>
+											<span class="stadiumLine19 stadiumLine"></span>
+											<span class="stadiumLine20 stadiumLine"></span>
+										</span>
+									</div>
+									<span class="stadiumFloor3Space1"></span>
+									<span class="stadiumFloor3Space2"></span>
+								</div>
+							</div>
+							<span class="floor3Space1"></span>
+							<span class="floor3Space2"></span>
+							<span class="floor3Space3"></span>
+							<span class="allSpace4"></span>
+							<div class="stadiumFloor2-2">
+								<div class="stadiumFloor2-2Area">
+									<span class="stadiumFloor2-2A1 stadiumA stadiumSeat"></span>
+									<span class="stadiumFloor2-2A2 stadiumA stadiumSeat"></span>
+									<span class="stadiumFloor2-2B stadiumB stadiumSeat"></span>
+									<span class="stadiumFloor2-2C1 stadiumC stadiumSeat"></span>
+									<span class="stadiumFloor2-2C2 stadiumC stadiumSeat"></span>
+									<div class="stadiumLine">
+										<span class="stadiumLineArea">
+											<span class="stadiumLine1 stadiumLine"></span>
+											<span class="stadiumLine2 stadiumLine"></span>
+											<span class="stadiumLine3 stadiumLine"></span>
+											<span class="stadiumLine4 stadiumLine"></span>
+											<span class="stadiumLine5 stadiumLine"></span>
+											<span class="stadiumLine6 stadiumLine"></span>
+											<span class="stadiumLine7 stadiumLine"></span>
+											<span class="stadiumLine8 stadiumLine"></span>
+											<span class="stadiumLine9 stadiumLine"></span>
+											<span class="stadiumLine10 stadiumLine"></span>
+											<span class="stadiumLine11 stadiumLine"></span>
+											<span class="stadiumLine12 stadiumLine"></span>
+											<span class="stadiumLine13 stadiumLine"></span>
+											<span class="stadiumLine14 stadiumLine"></span>
+											<span class="stadiumLine15 stadiumLine"></span>
+											<span class="stadiumLine16 stadiumLine"></span>
+											<span class="stadiumLine17 stadiumLine"></span>
+											<span class="stadiumLine18 stadiumLine"></span>
+											<span class="stadiumLine19 stadiumLine"></span>
+											<span class="stadiumLine20 stadiumLine"></span>
+										</span>
+									</div>
+								</div>
+							</div>
+							<span class="allSpace3"></span>
+							<span class="stadiumFloor2-1Space1"></span>
+							<span class="stadiumFloor2-1Space2"></span>
+							<div class="stadiumFloor2-1">
+								<div class="stadiumFloor2-1Area">
+									<span class="stadiumFloor2-1H1 stadiumH stadiumSeat"></span>
+									<span class="stadiumFloor2-1H2 stadiumH stadiumSeat"></span>
+									<span class="stadiumFloor2-1A1 stadiumA stadiumSeat"></span>
+									<span class="stadiumFloor2-1A2 stadiumA stadiumSeat"></span>
+									<span class="stadiumFloor2-1A3 stadiumA stadiumSeat"></span>
+									<span class="stadiumFloor2-1B1 stadiumB stadiumSeat"></span>
+									<span class="stadiumFloor2-1B2 stadiumB stadiumSeat"></span>
+									<span class="stadiumFloor2-1C1 stadiumC stadiumSeat"></span>
+									<span class="stadiumFloor2-1C2 stadiumC stadiumSeat"></span>
+									<span class="stadiumFloor2-1D1 stadiumD stadiumSeat"></span>
+									<div class="stadiumLine">
+										<span class="stadiumLineArea">
+											<span class="stadiumLine1 stadiumLine"></span>
+											<span class="stadiumLine2 stadiumLine"></span>
+											<span class="stadiumLine3 stadiumLine"></span>
+											<span class="stadiumLine4 stadiumLine"></span>
+											<span class="stadiumLine5 stadiumLine"></span>
+											<span class="stadiumLine6 stadiumLine"></span>
+											<span class="stadiumLine7 stadiumLine"></span>
+											<span class="stadiumLine8 stadiumLine"></span>
+											<span class="stadiumLine9 stadiumLine"></span>
+											<span class="stadiumLine10 stadiumLine"></span>
+											<span class="stadiumLine11 stadiumLine"></span>
+											<span class="stadiumLine12 stadiumLine"></span>
+											<span class="stadiumLine13 stadiumLine"></span>
+											<span class="stadiumLine14 stadiumLine"></span>
+											<span class="stadiumLine15 stadiumLine"></span>
+											<span class="stadiumLine16 stadiumLine"></span>
+											<span class="stadiumLine17 stadiumLine"></span>
+											<span class="stadiumLine18 stadiumLine"></span>
+											<span class="stadiumLine19 stadiumLine"></span>
+											<span class="stadiumLine20 stadiumLine"></span>
+										</span>
+									</div>
+								</div>
+							</div>
+							<span class="allSpace2-1"></span>
+							<span class="allSpace2-2"></span>
+							<span class="allSpace2"></span>
+							<div class="stadiumFloor1">
+								<div class="stadiumFloor1Area">
+									<span class="stadiumFloor1C1 stadiumC stadiumSeat"></span>
+									<span class="stadiumFloor1C2 stadiumC stadiumSeat"></span>
+									<span class="stadiumFloor1B1 stadiumB stadiumSeat"></span>
+									<span class="stadiumFloor1D1 stadiumD stadiumSeat"></span>
+									<span class="stadiumFloor1D2 stadiumD stadiumSeat"></span>
+									<span class="stadiumFloor1D3 stadiumD stadiumSeat"></span>
+									<span class="stadiumFloor1D4 stadiumD stadiumSeat"></span>
+									<span class="stadiumFloor1D5 stadiumD stadiumSeat"></span>
+									<span class="stadiumFloor1D6 stadiumD stadiumSeat"></span>
+									<span class="stadiumFloor1E1 stadiumE stadiumSeat"></span>
+									<span class="stadiumFloor1E2 stadiumE stadiumSeat"></span>
+									<span class="stadiumFloor1F1 stadiumF stadiumSeat"></span>
+									<span class="stadiumFloor1F2 stadiumF stadiumSeat"></span>
+									<span class="stadiumFloor1F3 stadiumF stadiumSeat"></span>
+									<span class="stadiumFloor1F4 stadiumF stadiumSeat"></span>
+									<span class="stadiumFloor1G1 stadiumG stadiumSeat"></span>
+									<span class="stadiumFloor1G2 stadiumG stadiumSeat"></span>
+									<div class="stadiumLine">
+										<span class="stadiumLineArea">
+											<span class="stadiumLine1 stadiumLine"></span>
+											<span class="stadiumLine2 stadiumLine"></span>
+											<span class="stadiumLine3 stadiumLine"></span>
+											<span class="stadiumLine4 stadiumLine"></span>
+											<span class="stadiumLine5 stadiumLine"></span>
+											<span class="stadiumLine6 stadiumLine"></span>
+											<span class="stadiumLine7 stadiumLine"></span>
+											<span class="stadiumLine8 stadiumLine"></span>
+											<span class="stadiumLine9 stadiumLine"></span>
+											<span class="stadiumLine10 stadiumLine"></span>
+											<span class="stadiumLine11 stadiumLine"></span>
+											<span class="stadiumLine12 stadiumLine"></span>
+											<span class="stadiumLine13 stadiumLine"></span>
+											<span class="stadiumLine14 stadiumLine"></span>
+											<span class="stadiumLine15 stadiumLine"></span>
+											<span class="stadiumLine16 stadiumLine"></span>
+											<span class="stadiumLine17 stadiumLine"></span>
+											<span class="stadiumLine18 stadiumLine"></span>
+											<span class="stadiumLine19 stadiumLine"></span>
+											<span class="stadiumLine20 stadiumLine"></span>
+										</span>
+									</div>
+								</div>
+							</div>
+							<span class="allSpace1"></span>
+							<div class="groundWrap">
+								<p class="groundArea">
+									<span class="ground1"></span>
+									<span class="ground2"></span>
+									<span class="ground3"></span>
+									<span class="ground4"></span>
+									<span class="ground5"></span>
+									<span class="ground6"></span>
+									<span class="ground7"></span>
+									<span class="ground8"></span>
+									<span class="ground9"></span>
+									<span class="ground10"></span>
+									<span class="ground11"></span>
+									<span class="ground12"></span>
+									<span class="ground13"></span>
+									<span class="ground14"></span>
+									<span class="ground15"></span>
+									<span class="ground16"></span>
+								</p>
+							</div>
+							<span class="stadiumTitle">
+								<em>ZINEDINE</em>
+								<i>STAND AREA</i>
+							</span>
+						</div>
+					</div>
+					
+					<div class="stadiumArea2">
+						<div class="stadiumWrapper">
+							<div class="stadiumFloor3">
+								<div class="stadiumFloor3Area">
+									<span class="stadiumFloor3A1 stadiumA stadiumSeat"></span>
+									<span class="stadiumFloor3A2 stadiumA stadiumSeat"></span>
+									<span class="stadiumFloor3A3 stadiumA stadiumSeat"></span>
+									<span class="stadiumFloor3B stadiumB stadiumSeat"></span>
+									<span class="stadiumFloor3C1 stadiumC stadiumSeat"></span>
+									<div class="stadiumLine">
+										<span class="stadiumLineArea">
+											<span class="stadiumLine1 stadiumLine"></span>
+											<span class="stadiumLine2 stadiumLine"></span>
+											<span class="stadiumLine3 stadiumLine"></span>
+											<span class="stadiumLine4 stadiumLine"></span>
+											<span class="stadiumLine5 stadiumLine"></span>
+											<span class="stadiumLine6 stadiumLine"></span>
+											<span class="stadiumLine7 stadiumLine"></span>
+											<span class="stadiumLine8 stadiumLine"></span>
+											<span class="stadiumLine9 stadiumLine"></span>
+											<span class="stadiumLine10 stadiumLine"></span>
+											<span class="stadiumLine11 stadiumLine"></span>
+											<span class="stadiumLine12 stadiumLine"></span>
+											<span class="stadiumLine13 stadiumLine"></span>
+											<span class="stadiumLine14 stadiumLine"></span>
+											<span class="stadiumLine15 stadiumLine"></span>
+											<span class="stadiumLine16 stadiumLine"></span>
+											<span class="stadiumLine17 stadiumLine"></span>
+											<span class="stadiumLine18 stadiumLine"></span>
+											<span class="stadiumLine19 stadiumLine"></span>
+											<span class="stadiumLine20 stadiumLine"></span>
+										</span>
+									</div>
+									<span class="stadiumFloor3Space1"></span>
+									<span class="stadiumFloor3Space2"></span>
+								</div>
+							</div>
+							<span class="floor3Space1"></span>
+							<span class="floor3Space2"></span>
+							<span class="floor3Space3"></span>
+							<span class="allSpace4"></span>
+							<div class="stadiumFloor2-2">
+								<div class="stadiumFloor2-2Area">
+									<span class="stadiumFloor2-2A1 stadiumA stadiumSeat"></span>
+									<span class="stadiumFloor2-2A2 stadiumA stadiumSeat"></span>
+									<span class="stadiumFloor2-2B stadiumB stadiumSeat"></span>
+									<span class="stadiumFloor2-2C1 stadiumC stadiumSeat"></span>
+									<span class="stadiumFloor2-2C2 stadiumC stadiumSeat"></span>
+									<div class="stadiumLine">
+										<span class="stadiumLineArea">
+											<span class="stadiumLine1 stadiumLine"></span>
+											<span class="stadiumLine2 stadiumLine"></span>
+											<span class="stadiumLine3 stadiumLine"></span>
+											<span class="stadiumLine4 stadiumLine"></span>
+											<span class="stadiumLine5 stadiumLine"></span>
+											<span class="stadiumLine6 stadiumLine"></span>
+											<span class="stadiumLine7 stadiumLine"></span>
+											<span class="stadiumLine8 stadiumLine"></span>
+											<span class="stadiumLine9 stadiumLine"></span>
+											<span class="stadiumLine10 stadiumLine"></span>
+											<span class="stadiumLine11 stadiumLine"></span>
+											<span class="stadiumLine12 stadiumLine"></span>
+											<span class="stadiumLine13 stadiumLine"></span>
+											<span class="stadiumLine14 stadiumLine"></span>
+											<span class="stadiumLine15 stadiumLine"></span>
+											<span class="stadiumLine16 stadiumLine"></span>
+											<span class="stadiumLine17 stadiumLine"></span>
+											<span class="stadiumLine18 stadiumLine"></span>
+											<span class="stadiumLine19 stadiumLine"></span>
+											<span class="stadiumLine20 stadiumLine"></span>
+										</span>
+									</div>
+								</div>
+							</div>
+							<span class="allSpace3"></span>
+							<span class="stadiumFloor2-1Space1"></span>
+							<span class="stadiumFloor2-1Space2"></span>
+							<div class="stadiumFloor2-1">
+								<div class="stadiumFloor2-1Area">
+									<span class="stadiumFloor2-1H1 stadiumH stadiumSeat"></span>
+									<span class="stadiumFloor2-1H2 stadiumH stadiumSeat"></span>
+									<span class="stadiumFloor2-1A1 stadiumA stadiumSeat"></span>
+									<span class="stadiumFloor2-1A2 stadiumA stadiumSeat"></span>
+									<span class="stadiumFloor2-1A3 stadiumA stadiumSeat"></span>
+									<span class="stadiumFloor2-1B1 stadiumB stadiumSeat"></span>
+									<span class="stadiumFloor2-1B2 stadiumB stadiumSeat"></span>
+									<span class="stadiumFloor2-1C1 stadiumC stadiumSeat"></span>
+									<span class="stadiumFloor2-1C2 stadiumC stadiumSeat"></span>
+									<span class="stadiumFloor2-1D1 stadiumD stadiumSeat"></span>
+									<div class="stadiumLine">
+										<span class="stadiumLineArea">
+											<span class="stadiumLine1 stadiumLine"></span>
+											<span class="stadiumLine2 stadiumLine"></span>
+											<span class="stadiumLine3 stadiumLine"></span>
+											<span class="stadiumLine4 stadiumLine"></span>
+											<span class="stadiumLine5 stadiumLine"></span>
+											<span class="stadiumLine6 stadiumLine"></span>
+											<span class="stadiumLine7 stadiumLine"></span>
+											<span class="stadiumLine8 stadiumLine"></span>
+											<span class="stadiumLine9 stadiumLine"></span>
+											<span class="stadiumLine10 stadiumLine"></span>
+											<span class="stadiumLine11 stadiumLine"></span>
+											<span class="stadiumLine12 stadiumLine"></span>
+											<span class="stadiumLine13 stadiumLine"></span>
+											<span class="stadiumLine14 stadiumLine"></span>
+											<span class="stadiumLine15 stadiumLine"></span>
+											<span class="stadiumLine16 stadiumLine"></span>
+											<span class="stadiumLine17 stadiumLine"></span>
+											<span class="stadiumLine18 stadiumLine"></span>
+											<span class="stadiumLine19 stadiumLine"></span>
+											<span class="stadiumLine20 stadiumLine"></span>
+										</span>
+									</div>
+								</div>
+							</div>
+							<span class="allSpace2-1"></span>
+							<span class="allSpace2-2"></span>
+							<span class="allSpace2"></span>
+							<div class="stadiumFloor1">
+								<div class="stadiumFloor1Area">
+									<span class="stadiumFloor1C1 stadiumC stadiumSeat"></span>
+									<span class="stadiumFloor1C2 stadiumC stadiumSeat"></span>
+									<span class="stadiumFloor1B1 stadiumB stadiumSeat"></span>
+									<span class="stadiumFloor1D1 stadiumD stadiumSeat"></span>
+									<span class="stadiumFloor1D2 stadiumD stadiumSeat"></span>
+									<span class="stadiumFloor1D3 stadiumD stadiumSeat"></span>
+									<span class="stadiumFloor1D4 stadiumD stadiumSeat"></span>
+									<span class="stadiumFloor1D5 stadiumD stadiumSeat"></span>
+									<span class="stadiumFloor1D6 stadiumD stadiumSeat"></span>
+									<span class="stadiumFloor1E1 stadiumE stadiumSeat"></span>
+									<span class="stadiumFloor1E2 stadiumE stadiumSeat"></span>
+									<span class="stadiumFloor1F1 stadiumF stadiumSeat"></span>
+									<span class="stadiumFloor1F2 stadiumF stadiumSeat"></span>
+									<span class="stadiumFloor1F3 stadiumF stadiumSeat"></span>
+									<span class="stadiumFloor1F4 stadiumF stadiumSeat"></span>
+									<span class="stadiumFloor1G1 stadiumG stadiumSeat"></span>
+									<span class="stadiumFloor1G2 stadiumG stadiumSeat"></span>
+									<div class="stadiumLine">
+										<span class="stadiumLineArea">
+											<span class="stadiumLine1 stadiumLine"></span>
+											<span class="stadiumLine2 stadiumLine"></span>
+											<span class="stadiumLine3 stadiumLine"></span>
+											<span class="stadiumLine4 stadiumLine"></span>
+											<span class="stadiumLine5 stadiumLine"></span>
+											<span class="stadiumLine6 stadiumLine"></span>
+											<span class="stadiumLine7 stadiumLine"></span>
+											<span class="stadiumLine8 stadiumLine"></span>
+											<span class="stadiumLine9 stadiumLine"></span>
+											<span class="stadiumLine10 stadiumLine"></span>
+											<span class="stadiumLine11 stadiumLine"></span>
+											<span class="stadiumLine12 stadiumLine"></span>
+											<span class="stadiumLine13 stadiumLine"></span>
+											<span class="stadiumLine14 stadiumLine"></span>
+											<span class="stadiumLine15 stadiumLine"></span>
+											<span class="stadiumLine16 stadiumLine"></span>
+											<span class="stadiumLine17 stadiumLine"></span>
+											<span class="stadiumLine18 stadiumLine"></span>
+											<span class="stadiumLine19 stadiumLine"></span>
+											<span class="stadiumLine20 stadiumLine"></span>
+										</span>
+									</div>
+								</div>
+							</div>
+							<span class="allSpace1"></span>
+							<div class="groundWrap">
+								<p class="groundArea">
+									<span class="ground1"></span>
+									<span class="ground2"></span>
+									<span class="ground3"></span>
+									<span class="ground4"></span>
+									<span class="ground5"></span>
+									<span class="ground6"></span>
+									<span class="ground7"></span>
+									<span class="ground8"></span>
+									<span class="ground9"></span>
+									<span class="ground10"></span>
+									<span class="ground11"></span>
+									<span class="ground12"></span>
+									<span class="ground13"></span>
+									<span class="ground14"></span>
+									<span class="ground15"></span>
+									<span class="ground16"></span>
+								</p>
+							</div>
+							<span class="stadiumTitle">
+								<em>ZINEDINE</em>
+								<i>STAND AREA</i>
+							</span>
+						</div>
+						<div class="ticketPriceArea">
+						<ul class="stadiumAPrice">
+							<li class="standInfo standInfo1">
+								<p class="standName">ZINEDINE STAND 3A floor</p>
+								<div class="standPrice">
+									<p><span>PÚBLICO</span><span>50€</span></p>
+									<p><span>SOCIO</span><span>40€</span></p>
+								</div>
+								<p class="standSeats">
+								  <label for="zinedine3Num3A">SEATS</label><input type="text" id="zinedine3Num3A" name="zinedine3Num3A" value="100" readonly/><span class="standVer">/</span><span>7890</span><span class="seatsQ">?</span>
+								</p>
+							</li>
+							<li class="standInfo standInfo2">
+								<p class="standName">ZINEDINE STAND 3B floor</p>
+								<div class="standPrice">
+									<p class="publicoPrice"><span>PÚBLICO</span><span>40€</span></p>
+									<p class="socioPrice"><span>SOCIO</span><span>32€</span></p>
+								</div>
+								<p class="standSeats">
+								 <label for="zinedine3Num3B">SEATS</label><input type="text" id="zinedine3Num3B" name="zinedine3Num3B" value="1328" readonly/><span class="standVer">/</span><span>6730</span><span class="seatsQ">?</span>
+								</p>
+							</li>
+							<li class="standInfo standInfo3">
+								<p class="standName">ZINEDINE STAND 2-2 floor</p>
+							   <div class="standPrice">
+									<p><span>PÚBLICO</span><span>60€</span></p>
+									<p><span>SOCIO</span><span>68€</span></p>
+								</div>
+								<p class="standSeats">
+									<label for="zinedine3Num2_2">SEATS</label><input type="text" id="zinedine3Num2_2" name="zinedine3Num2_2" value="143" readonly/><span class="standVer">/</span><span>6913</span><span class="seatsQ">?</span>
+								</p>
+							</li>
+							<li class="standInfo standInfo4">
+								<p class="standName">ZINEDINE STAND 2-1 floor</p>
+								<div class="standPrice">
+									<p><span>PÚBLICO</span><span>85€</span></p>
+									<p><span>SOCIO</span><span>68€</span></p>
+								</div>
+								<p class="standSeats">
+									<label for="zinedine3Num2_1">SEATS</label><input type="text" id="zinedine3Num2_1" name="zinedine3Num2_1" value="763" readonly/><span class="standVer">/</span><span>3440</span>
+									<span class="seatsQ">?</span>
+								</p>
+							</li>
+						</ul>
+						<div class="getTicketsArea">
+							<p class="ticketsImg"><img src="img/real_logo_big.png" alt="logo이미지"></p>
+							<p class="ticketsInfo">
+								<span>MATCH</span>
+								<span class="ticketsInfoVS">Real Madrid VS Bracelna</span>
+								<span>Primera Liga</span>
+								<span>Round&nbsp;&nbsp;14</span>
+							</p>
+							<div class="ticketsPriceClac">
+								<p class="standSeatsNum">
+									<span>Number Of Tickets</span>
+									<select class="standNumberOfTickets" name="ticektNums">
+										<option value="0">0</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+										<option value="6">6</option>
+										<option value="7">7</option>
+										<option value="8">8</option>
+									</select>
+								</p>
+								<p class="standPriceResultArea">
+									<label for="standPriceResult">Total Price</label><input type="text" id="standPriceResult" name="standPriceResult" value="0" readonly/><span>€</span>
+								</p>
+							</div>
+							<p class="getTicketBtn">
+								<button>GET TICKETS</button>
+								<button>Cancel</button>
+							</p>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="ticketsPriceTableArea">
+				<h4>Tickets Pirce List</h4>
+				<p class="tPriceInfo"><span>PÚBLICO</span><span>SOCIO</span></p>
+				<div class="ticketsPriceTable">
+					<ul class="tPrice tPrice1">
+						<li class="tPriceTitle">
+								<strong>ZIEDINE STAND</strong>
+						</li>
+						<li class="tPriceArea">
+							<span>ZIEDINE&nbsp;&nbsp;&nbsp;3A</span>
+							<span>ZIEDINE&nbsp;&nbsp;&nbsp;3B</span>
+							<span>ZIEDINE&nbsp;&nbsp;&nbsp;2-2</span>
+							<span>ZIEDINE&nbsp;&nbsp;&nbsp;2-1</span>
+						</li>
+						<li class="tPriceInfo1">
+							<span>50€</span>
+							<span>40€</span>
+							<span>60€</span>
+							<span>85€</span>
+						</li>
+						<li class="tPriceInfo2">
+							<span>30€</span>
+							<span>32€</span>
+							<span>48€</span>
+							<span>68€</span>
+						</li>
+					</ul>
+					<ul class="tPrice tPrice2">
+						<li class="tPriceTitle">
+								<strong>RAUL STAND</strong>
+						</li>
+						<li class="tPriceArea">
+							<span>RAUL&nbsp;&nbsp;&nbsp;3</span>
+							<span>RAUL&nbsp;&nbsp;&nbsp;2-2</span>
+							<span>RAUL&nbsp;&nbsp;&nbsp;2-1</span>
+							<span>RAUL&nbsp;&nbsp;&nbsp;1</span>
+						</li>
+						<li class="tPriceInfo1">
+							<span>50€</span>
+							<span>80€</span>
+							<span>100€</span>
+							<span>130€</span>
+						</li>
+						<li class="tPriceInfo2">
+							<span>40€</span>
+							<span>64€</span>
+							<span>80€</span>
+							<span>104€</span>
+						</li>
+					</ul>
+					<ul class="tPrice tPrice3">
+						<li class="tPriceTitle">
+								<strong>Di STEFANO STAND</strong>
+						</li>
+						<li class="tPriceArea">
+							<span>Di STEFANO&nbsp;&nbsp;&nbsp;3</span>
+							<span>Di STEFANO&nbsp;&nbsp;&nbsp;2-2</span>
+							<span>Di STEFANO&nbsp;&nbsp;&nbsp;2-1</span>
+						</li>
+						<li class="tPriceInfo1">
+							<span>50€</span>
+							<span>60€</span>
+							<span>85€</span>
+						</li>
+						<li class="tPriceInfo2">
+							<span>40€</span>
+							<span>48€</span>
+							<span>68€</span>
+						</li>
+					</ul>
+					<ul class="tPrice tPrice4">
+						<li class="tPriceTitle">
+								<strong>BUTRAGUENO STAND</strong>
+						</li>
+						<li class="tPriceArea">
+							<span>BUTRAGUENO&nbsp;&nbsp;&nbsp;2-1</span>
+							<span>BUTRAGUENO&nbsp;&nbsp;&nbsp;1</span>
+						</li>
+						<li class="tPriceInfo1">
+							<span>100€</span>
+							<span>130€</span>
+						</li>
+						<li class="tPriceInfo2">
+							<span>80€</span>
+							<span>104€</span>
+						</li>
+					</ul>
+					<ul class="tPrice tPrice5">
+						<li class="tPriceTitle">
+								<strong>PRIMIUM STAND</strong>
+						</li>
+						<li class="tPriceArea">
+							<span>PRIMIUM&nbsp;&nbsp;&nbsp;1A</span>
+							<span>PRIMIUM&nbsp;&nbsp;&nbsp;1B</span>
+						</li>
+						<li class="tPriceInfo1">
+							<span>130€</span>
+							<span>140€</span>
+						</li>
+						<li class="tPriceInfo2">
+							<span>104€</span>
+							<span>112€</span>
+						</li>
+					</ul>
+					<ul class="tPrice tPrice6">
+						<li class="tPriceTitle">
+								<strong>VIP STAND</strong>
+						</li>
+						<li class="tPriceArea">
+							<span>VIP</span>
+						</li>
+						<li class="tPriceInfo1">
+							<span>200€</span>
+						</li>
+						<li class="tPriceInfo2">
+							<span>184€</span>
+						</li>
+					</ul>
+					<ul class="tPrice tPrice7">
+						<li class="tPriceTitle">
+								<strong>STUDENT STAND</strong>
+						</li>
+						<li class="tPriceArea">
+							<span>STUDENT&nbsp;&nbsp;&nbsp;2-1A</span>
+							<span>STUDENT&nbsp;&nbsp;&nbsp;2-1B</span>
+						</li>
+						<li class="tPriceInfo1">
+							<span>40€</span>
+							<span>50€</span>
+						</li>
+						<li class="tPriceInfo2">
+							<span>32€</span>
+							<span>40€</span>
+						</li>
+					</ul>
+					<ul class="tPrice tPrice8">
+						<li class="tPriceTitle">
+								<strong>FAMILY STAND</strong>
+						</li>
+						<li class="tPriceArea">
+							<span>FAMILY</span>
+						</li>
+						<li class="tPriceInfo1">
+							<span>120€</span>
+						</li>
+						<li class="tPriceInfo2">
+							<span>96€</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+	<!--####################	공통 부분	####################-->
+	<!--######################################################-->
+	<!--######################################################-->
+			<div class="bottomBtnArea">
+				<div class="shopBtn">
+					<a href="sub_shop.html" title="shopBtn">
+						<img src="img/shopping-cart1-512.png" alt="shopBtn"><span>Go To Shop</span>
+					</a>
+				</div>
+				<div class="BTT">
+					<a href="#none" title="btt"><span>Back To Top</span></a>
+				</div>
+			</div>
+			<div class="specialContent" id="specialContent">
+				<h2>컨텐츠 영역</h2>
+				<div class="content">
+					<div class="specialTitle">
+						<a href="#none" title="logo">
+							<img src="img/small_logo.png" alt="스몰로고" class="titleLogo"/>
+							<h3>Special Features</h3>
+						</a>
+					</div>
+					<ul>
+					   <li>
+							<a href="sub_undecima.html" title="유럽챔피언 레알마드리드 이미지">
+								<div class="imgArea">
+									<img class="spSum" src="img/undecima3.png" alt="La Undécima!"/>
+								</div>
+								<div class="textArea">
+									<p>SPECIAL FEATURES</p>
+									<h4>
+										<span>Real Madrid extended their legend in Europe</span>
+									</h4>
+								</div>
+							</a>
+					   </li>
+					   <li>
+							<a href="sub_distefano.html" title="디스테파노 이미지">
+								<div class="imgArea">
+									<img class="spSum"  src="img/distefano.png" alt="Alfredo Di Stéfano, the best player of all time"/>
+								</div>
+								<div class="textArea">
+									<p>SPECIAL FEATURES</p>
+									<h4>
+										<span>Alfredo Di Stéfano, the best player of all time</span>
+									</h4>
+								</div>
+							</a>
+					   </li>
+					   <li>
+							<a href="sub_santiago.html" title="새로운 베르나베우 이미지">
+								<div class="imgArea">
+									<img class="spSum"  src="img/santiago.png" alt="A dream stadium"/>
+								</div>
+								<div class="textArea">
+									<p>SPECIAL FEATURES</p>
+									<h4>
+										<span>A dream stadium Santiago Bernabéu</span>
+									</h4>
+								</div>
+							</a>
+					   </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="footerWrap">
+			<div class="footerSns">
+				<h2>sns 영역</h2>
+				<ul>
+					<li><a href="https://twitter.com/realmadriden" title="트위터 이미지"><img src="img/sns/social_twitter.png" alt="트위터 이미지"/></a></li>
+					<li><a href="https://plus.google.com/+realmadrid" title="구글플러스 이미지"><img src="img/sns/social_g_plus.png" alt="구글플러스 이미지"/></a></li>
+					<li><a href="https://www.facebook.com/RealMadrid/" title="페이스북 이미지"><img src="img/sns/social_facebook.png" alt="페이스북 이미지"/></a></li>
+					<li><a href="https://www.instagram.com/realmadrid/" title="인스타그램 이미지"><img src="img/sns/social_instagram.png" alt="인스타그램 이미지"/></a></li>
+					<li><a href="https://www.youtube.com/realmadrid" title="유투브 이미지"><img src="img/sns/social_youtube.png" alt="유투브 이미지"/></a></li>
+					<li><a href="https://www.snapchat.com/add/realmadrid" title="스냅챕이미지"><img src="img/sns/social_snapchat.png" alt="스냅챕이미지"/></a></li>
+				</ul>
+			</div>
+			<div class="footerGnb">
+				<h2>footer gnb 영역</h2>
+				<ul>
+					<li class="footerGnb_menu">
+						<a href="#none" title="FOOTBALL" class="footer_gnb_title">FOOTBALL</a>
+						<ol>
+							<li><a href="sub_news.html" title="NEWS">NEWS</a></li>
+							<li><a href="sub_schedule.html" title="SCHEDULE">SCHEDULE</a></li>
+							<li><a href="sub_photo.html" title="PHOTO GALLERY">PHOTO GALLERY</a></li>
+							<li><a href="#none" title="VIDEO GALLERY">VIDEO GALLERY</a></li>
+							<li><a href="sub_squad.html" title="SQUAD">SQUAD</a></li>
+						</ol>
+					</li>
+					<li class="footerGnb_menu">
+						<a href="#none" title="ABOUT REAL MADRID" class="footer_gnb_title">ABOUT RM</a>
+						<ol>
+							<li><a href="sub_history.html" title="HISTORY">HISTORY</a></li>
+							<li><a href="sub_honours.html" title="HONOURS">HONOURS</a></li>
+							<li><a href="sub_santiago.html" title="SANTIAGO BERNABEU">SANTIAGO BERNABEU</a></li>
+						</ol>
+					</li>
+					<li class="footerGnb_menu">
+						<a href="#none" title="MEMBERS" class="footer_gnb_title">SPECIAL FEATURES</a>
+						<ol>
+							<li><a href="sub_undecima.html" title="UNDECIMA">UNDECIMA</a></li>
+							<li><a href="sub_distefano.html" title="DI STEFANO">DI STEFANO</a></li>
+							<li><a href="kit.html" title="UNIFORM">UNIFORM</a></li>
+							<li><a href="sub_topgoal.html" title="ALL-TIME TOP GOALSCORER">TOP GOALSCORER</a></li>
+						</ol>
+					</li>
+					<li class="footerGnb_menu">
+						<a href="#none" title="TICKETS&amp;HOSPITALITY" class="footer_gnb_title">TICKETS&amp; HOSPITALITY</a>
+						<ol>
+							<li><a href="sub_ticket.html" title="TICKET">TICKETS</a></li>
+							<li><a href="sub_hospitality.html" title="HOSPITALITY">HOSPITALITY</a></li>
+						</ol>
+					</li>
+					<li class="footerGnb_menu">
+						<a href="#none" title="SHOP" class="footer_gnb_title">SHOP</a>
+						<ol>
+							<li><a href="sub_shop.html" title="Online Shop">Shop Online</a></li>
+							<li><a href="sub_register.html" title="Online Shop">Register</a></li>
+							<li><a href="sub_login.html" title="Online Shop">Login</a></li>
+						</ol>
+					</li>
+				</ul>
+			</div>
+			<div class="footerSponsors">
+				<h2>footer 스폰서 영역</h2>
+				<div class="sponsorsBtn">
+					<a>
+						<img src="img/small_logo.png" alt="스몰로고"/>
+					</a>
+				</div>
+				<ul>
+					<li class="goldSponsors">
+					   <a href="http://shop.adidas.co.kr/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/adidas.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/adidas.png" alt="스폰서 이미지"/></a>
+					   <a href="http://www.emirates.com/kr/korean/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/Emirates.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/Emiratesc.png" alt="스폰서이미지 컬러"></a>
+					   <a href="http://www.ipic.ae/english" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/ipic.png" alt=""/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/ipic.png" alt=""/></a>
+					</li>
+					<li class="silverSponsors">
+						<a href="http://www.hankooktire.com/kr/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/hankook.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/hankook.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.cepsa.com/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/cepsa.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/cepsa120x100.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.mahou.es/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/mahou.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/mahou.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.audi.co.kr/kr/brand/kn.html" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/audi.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/audi_120x100.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.microsoft.com/ko-kr" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/microsoft.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/microsoft.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.hugoboss.com/asia/home" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/boss.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/boss120x100.png" alt="스폰서이미지 컬러"/></a>
+					</li>
+					<li class="bronzeSponsors1">
+						<a href="http://www.cocacola.co.kr/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/cocacola.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/coke120x100.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.nivea.co.kr/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/nivea.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/nivea120x100.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.sanitas.es/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/Sanitas.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/Sanitas120x100.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.stc.com.sa/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/stc.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/stc.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.samsung.co.kr/main.do" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/samsung.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/colorS.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://solandecabras.es/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/Solan.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/Solan.png" alt="스폰서이미지 컬러"/></a>
+					</li>
+					<li class="bronzeSponsors2">
+						<a href="https://www.nbad.com" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/NBAD.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/NBAD.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://ooredoo.com/en/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/ooredoo.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/ooredoo.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://tecate.com/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/tecate.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/tecate.png" alt="스폰서이미지 컬러"/></a>
+						<a href="#none" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/FUD.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/FUD.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://sport.bt.com/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/btSport.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/btSport.png" alt="스폰서이미지 컬러"/></a>
+					</li>
+				</ul>
+			</div>
+			<div class="footerCopy">
+				<h2>카피라이터 영역</h2>
+				<div>
+					<p>KANG HYEON SEOK &copy; 2016 All rights reserved</p>
+					<p class="mail">delatero0723@gmail.com<span>|</span>Seoulsup 2-gil, Seongdong-gu, SEOUL</p>
+				</div>
+			</div>
+		</div>
+	</div>
+ </body>
+ </html>

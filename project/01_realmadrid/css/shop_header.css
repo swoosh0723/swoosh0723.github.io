@@ -1,0 +1,43 @@
+header{width:100%; height:157px; padding-top:20px;}
+
+/*#############     header + topMenu    #############*/
+#topMenu{width:960px; height:115px; margin:0 auto;}
+
+#topMenu h1{float:left;}
+#topMenu h1 a{display:block; width:325px;}
+#topMenu h1 a img{width:100%; padding-top:10px;}
+
+#topMenu form{width:257px; float:left; margin:50px 0 0 50px;}
+#topMenu form fieldset{border:1px solid #ccc;}
+#topMenu form legend{display:none;}
+#topMenu form input{width:230px; height:24px; border:none; text-indent:10px; outline:none;}
+#topMenu form button{border:none; border-left:1px solid #ccc; width:24px; height:24px; vertical-align:middle;}
+
+
+/*#############     header + infoMenuWrap    #############*/
+
+#infoMenu {width:145px; margin-top:50px; float:right; height:25px;}
+#infoMenu li{display:inline-block; vertical-align:middle; cursor:pointer;}
+#infoMenu li a, #infoMenu li span{font-size:12px; color:#515151;}
+#infoMenu li span{padding:0 5px 0 10px;}
+#infoMenu li:hover a{color:#00519E;}
+
+#infoMenu li.basket {width:26px; height:23px; margin-left:20px; position:relative;}
+#infoMenu li.basket img{position:absolute; left:0; top:0;}
+
+/*#############     header + gnbWrap    #############*/
+#gnbWrap{width:100%; height:40px; line-height:40px; border-top:1px solid #ccc; border-bottom:1px solid #ccc;}
+#gnb{width:960px; height:40px; margin:0 auto;}
+#gnb ul li{float:left; transition:background-color .2s ease-in-out; cursor:pointer;}
+#gnb ul li a{font-size:12px; padding:0 16px; color:#515151; transition:color .2s ease-in-out;}
+#gnb ul li:last-child{background-color:#00519E;}
+#gnb ul li:last-child a{color:#fff;}
+
+#gnb ul li:hover{background-color:#00519E;}
+#gnb ul li:hover a{color:#fff;}
+#gnb ul li:last-child:hover{background-color:#0079ec}
+
+
+#infoMenu li,
+#infoMenu li a
+{font-family:"Oswald-Light"};

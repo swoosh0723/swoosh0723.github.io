@@ -1,0 +1,292 @@
+#containerWrap{overflow:hidden; width:100%; max-width:1900px; margin:0 auto; padding-top:97px;}
+
+/*#################    mainVisual    ####################*/
+.mainVisual{width:100%; overflow:hidden;  position:relative;}
+.mainFilm{width:400%; overflow:hidden;}
+.mainScene{width:25%; overflow:hidden; float:left; position:relative;}
+.mainScene a{display:block; width:100%; height:100%; overflow:hidden;}
+
+
+.mainImgArea{ text-align:center;}
+.mainImgArea img{width:100%;}
+.mainTextArea{width:960px; position:absolute; left:50%; bottom:5%; margin-left:-480px;}
+.mainTextWrap{background-color:rgba(20,20,20,0.7); height:100%; text-indent:5%; padding:2% 0;}
+.mainTextWrap a{color:#fff;}
+.mainTextWrap0{width:69%}
+.mainTextWrap1{width:54%}
+.mainTextWrap2{width:85%}
+.mainTextWrap3{width:64%}
+.mainVisualCate{font-size:15px;}
+.mainTextArea h3{font-size:43px; line-height:1em; margin:5px 0 15px;}
+.mainTextArea h3 span{border-bottom:1px solid transparent;}
+.mainVisualTime{font-size:14px; display:block; color:#ddd; text-indent:5%}
+
+
+.mainVisualBtn{position:absolute; top:50%; margin-top:-32px; width:56px; height:64px; cursor:pointer; background-color:rgba(20,20,20,0.6);}
+.mainVisualBtn span{display:block; width:22px; height:22px; border-top:2px solid; border-color:rgba(255,255,255,0.5); position:relative; top:20px;}
+.mainVisualPrevBtn span{border-left:2px solid rgba(255,255,255,0.5); transform:rotate(-45deg); left:22px}
+.mainVisualNextBtn span{border-right:2px solid rgba(255,255,255,0.5); transform:rotate(45deg); left:11px;}
+
+.mainVisualPrevBtn{left:-6%;}
+.mainVisualNextBtn{right:-6%;}
+
+.mainTextWrap:hover span, .mainTextWrap:focus span{border-color:#00519e;}
+.mainVisualBtn:hover span, .mainVisualBtn:focus span{border-color:#fff;}
+.mainVisualBtn:hover, .mainVisualBtn:focus{background-color:rgba(10,10,10,0.8);}
+.mainVisual:hover .mainVisualPrevBtn, .mainVisual:focus .mainVisualPrevBtn{left:0%}
+.mainVisual:hover .mainVisualNextBtn, .mainVisual:focus .mainVisualNextBtn{right:0%}
+
+.mainTextArea h3 span, .mainVisualBtn span, .mainVisualBtn{transition:all .2s ease-out;}
+
+
+
+/*#################    newsArea    ####################*/
+.newsArea{width:960px; overflow:hidden; margin:30px auto 50px;}
+.newsArea ul{width:100%;}
+.news{width:32%; float:left;}
+.news a{display:block; width:100%;}
+.news:first-child{margin-right:2%;}
+.news:last-child{margin-left:2%;}
+
+.newsImgArea{width:100%; overflow:hidden;}
+.newsImgArea img{width:100%;}
+.newsTextArea{width:100%;}
+.newsCate{display:block; font-size:12px; padding-top:10px}
+.newsTextArea h4{height:52px;}
+.newsTextArea h4 span{border-bottom:1px solid transparent;}
+.newsTime{font-size:12px; color:#818181;}
+
+.news:hover .newsImgArea{transform:scale(0.95)}
+.news:hover .newsImgArea img{transform:scale(1.05)}
+.news:hover .newsTextArea h4 span{border-color:#00519e;}
+
+.newsImgArea, .newsImgArea img, .newsTextArea h4 span{transition:all .2s ease-out;}
+
+
+/*#################    contentsArea    ####################*/
+.contentsArea{width:960px; margin:0 auto 70px; overflow:hidden;}
+
+.mainTicketsArea{width:66%; height:308px; overflow:hidden; background:#2f3133 url("../img/bgline4.png")}
+
+.ticketsWrap{width:200%; height:88%;}
+.tickets{width:44%; height:85%; padding:3%; padding-bottom:0; float:left;}
+.tickets a{display:block; width:100%; height:100%;}
+.ticketLeagueImg{display:block; width:13%; margin-bottom:10px;}
+.ticketLeagueImg img{width:100%}
+.tickets h3{display:inline-block; color:#fff; font-size:40px; width:auto; overflow:hidden;}
+.ticketsLine{display:block; height:1px; background-color:#F4BC46; transform:scale(0);}
+
+.leagueInfo{color:#ced1d4; font-size:16px; margin-top:5px;}
+.ticketsBtn{display:block; width:50%; height:33px; line-height:35px; margin:63px auto 0; text-align:center; font-size:14px; border:1px solid #00519e; color:#fff; letter-spacing:0.15em; position:relative;}
+.ticketsBtn:after{content:""; display:block; width:100%; height:0%; background-color:#00519e; position:absolute; left:0; bottom:0; z-index:2;}
+.ticketsBtn h4{position:relative; z-index:3;}
+
+.ticketsSlideBtn{width:100%; height:12%;}
+.ticketsSlideBtn p{width:10%; float:right; padding-right:2%;}
+.ticketsSlideBtn span{display:inline-block; text-align:right; width:12px; height:12px; background-color:#dedede; border-radius:10px; margin:0 7px; cursor:pointer;}
+.ticketsSlideBtn span:first-child{background-color:#F4BC46;}
+
+.mainShopArea{width:32%; margin-left:2%; height:308px; background-color:#ccc; position:relative;}
+.mainShopArea a{display:block; width:100%; height:100%;}
+.mainShopArea img{width:100%;}
+
+.mainShopTextArea{width:100%; height:100%; position:absolute; left:0; top:0;}
+.mainShopTextArea h3{width:80%; padding:15% 0 4%; margin:0 auto; font-size:25px; line-height:1.2em; color:#fff;}
+.mainShopText{color:#fff; width:80%; margin:0 auto; text-align:center;}
+.mainShopBtn{color:#fff;display:block; border:1px solid #00519e; width:75%; margin:27px auto 0; height:33px; line-height:35px; text-align:center; font-size:12px;
+letter-spacing:0.15em; position:relative;}
+.mainShopBtn:after{content:""; display:block; width:100%; height:0%; background-color:#00519e; position:absolute; left:0; bottom:0; z-index:2;}
+.mainShopBtn h4{position:relative; z-index:3;}
+
+
+.mainTicketsArea, .mainShopArea{float:left;}
+
+.tickets:hover .ticketsBtn:after, .mainShopArea:hover .mainShopBtn:after{height:100%;}
+.tickets:hover .ticketsLine{transform:scale(1)}
+
+.tickets h3 span, .ticketsBtn:after, .mainShopBtn:after, .ticketsLine{transition:all .2s ease-out;}
+
+
+/*#################    matchWrap    ####################*/
+.matchWrap{width:100%; padding:50px 0; margin-bottom:80px; overflow:hidden; background:#1a1a1a url("../img/bg_logo.png")no-repeat center center;}
+.matchArea{width:960px; margin:0 auto;}
+.matchDays{width:100%; padding:10px 0; overflow:hidden;}
+.match{width:32%; float:left;}
+.match:first-child{margin-right:2%;}
+.match:last-child{margin-left:2%;}
+
+
+.matchImgArea{width:100%; height:180px; overflow:hidden; position:relative; background-color:#ccc; cursor: pointer;}
+.matchImgArea img{width:100%;}
+.matchImgArea h3{text-align:center; position:absolute; left:50%; top:40%; color:#fff; font-size:36px; text-transform:uppercase; transform:translate(-50%,0); width:initial; overflow:hidden;}
+.matchLine{display:block; margin:0 auto; height:1px; background-color:#F4BC46; transform:scale(0);}
+
+.matchInfoArea a{display:block; width:88%; height:88%; padding:6%; padding-bottom:0; color:#ddd;}
+.matchLeague{font-size:13px;}
+.matchDate{font-size:11px;}
+.matchLeague, .matchDate{display: block; margin-left:10px;}
+.matchResult{width:75%; margin:30px 0; overflow:hidden;}
+.matchResult p{float:left; height:45px; text-align:left; padding:0 3%;}
+.matchResult img{height:100%;}
+p.matchScore{font-size:25px; line-height:45px;}
+p.matchScore span{border-bottom:1px solid transparent;}
+
+
+.matchNews{border-top:1px solid #2a2a2a;}
+.matchNews a{display:block; width:80%; height:80%; padding:5% 10%; color:#ddd;}
+.matchNewsCate{font-size:12px;}
+.matchNewsTitle{line-height:1.45em; padding:3px 0 7px; height:38px; font-size:15px;}
+.matchNewsTitle span{border-bottom:1px solid transparent;}
+.matchNewsTime{font-size:12px; color:#cacaca;}
+
+
+.matchInfoArea, .matchNews{background-color:rgba(47,49,51,0.35);}
+
+.match:hover .matchImgArea{height:195px;}
+.match:hover .matchLine{transform:scale(1)}
+.match:hover .matchNews a{padding:2.5% 10%;}
+.match:hover p.matchScore span, .match:hover .matchNewsTitle span{border-color:#F4BC46;}
+.matchImgArea, .matchNews a, p.matchScore span, .matchNewsTitle span, .matchLine{transition:all .2s ease-out;}
+
+
+
+/*#################    WTS    ####################*/
+.WTS{width:960px; margin:0 auto; position:relative;}
+.WTSbox{width:700px; height:320px; background:#00519e url("../img/bgline3.png"); color:#fff; line-height:1.3em;}
+
+.WTSboxTextArea{padding:9% 0 0 10%}
+.WTSbox h4{width:65%; font-size:28px;}
+.WTSboxIcon{width:30px; margin-left:3%}
+.WTSboxText{display:block; width:70%; font-size:16px; margin:30px 0 15px;}
+.WTboxTime{font-size:13px; color:#eee;}
+a.WTSbtn{display:block; width:24%; height:33px; line-height:35px; text-align:center; font-size:12px; border:1px solid #fff; color:#fff; letter-spacing:0.15em; margin-top:30px; position:relative;}
+a.WTSbtn strong{font-weight:100; position:relative; z-index:3}
+a.WTSbtn:after{content:""; display:block; width:100%; height:0%; background-color:#fff; position:absolute; left:0; bottom:0; z-index:2; transition:height .2s ease-out;}
+
+a.WTSbtn:hover:after{height:100%;}
+a.WTSbtn:hover{color:#00519e;}
+
+.WTStext{position:absolute; right:0; top:60px; width:37%; font-size:28px; line-height:1.54em; text-transform:uppercase; background:#2f3133 url("../img/bgline4.png"); box-shadow:7px -7px #F4BC46;}
+.WTStext h3{padding:11% 8% 2%; letter-spacing:-0.04em; padding-left:14%; position:relative;}
+.WTStext h3 a{color:#fff; display:block; width:100%; height:100%;}
+.WTStext h3 a:before{content:'"'; display:inline; position:absolute; left:10%;}
+.WTStext h3 a:after{content:'"'; display:inline; position:absolute; left:66%;}
+.WTStext h3 a span{display:inline-block; border-bottom:1px solid transparent; height:auto;}
+.WTStext i{display:block; font-size:13px; vertical-align:top; letter-spacing:0; line-height:50px; padding-left:14%; padding-bottom:2%; color:#fff}
+
+
+
+.WTStext:hover {right:5px; top:65px; box-shadow:12px -12px #F4BC46;}
+.WTStext:hover a span{border-color:#F4BC46;}
+
+.WTStext, .WTStext h3 a span{transition:all .2s ease-out;}
+
+/*#################    photoArea    ####################*/
+.photoArea{width:100%; overflow:hidden;}
+.photoScreen{width:100%; overflow:hidden; position:relative;}
+.photoFilm{width:1000%;}
+.photoScene{width:9.3%; padding-right:.7%; overflow:hidden; float:left; text-align:right;}
+.photoScene img{width:1000px;}
+
+.photoScreenBtnArea{width:94%; margin:0 auto; position:absolute; left:5%; top:50%;}
+.photoScreenBtnWrap{width:100%; position:relative;}
+.photoScreenBtn{position:absolute; margin-top:-20px; width:40px; height:40px; border-top:2px solid #818181; cursor:pointer;}
+.photoScreenPrevBtn{left:3%; border-left:2px solid #818181; transform:rotate(-45deg)}
+.photoScreenNextBtn{right:3%; border-right:2px solid #818181; transform:rotate(45deg)}
+
+.photoScreenPrevBtn:hover, .photoScreenNextBtn:hover {border-color:#F4BC46;}
+
+
+.photoBoxWrap{width:960px; height:40px; margin:0 auto; position:relative;}
+.photoBox{width:220px; height:205px; padding:30px; background:#2f3133 url("../img/bgline4.png"); position:absolute; left:5px; top:-100px; box-shadow:7px 7px #F4BC46; color:#fff;}
+.photoBoxIcon{width:52px; height:37px; margin-bottom:10px; position:relative;}
+.photoBoxIcon span{position:absolute; width:80%; height:85%;}
+.photoBoxIcon span:first-child{top:0; left:7px; background-color:#fff;}
+.photoBoxIcon span:last-child{bottom:0; background-color:#fff; box-shadow:2px -2px #2f3133; text-align:center; line-height:33px; font-size:15px;}
+
+.photoBoxCate{font-size:12px; color:#fff;}
+.photoBox h3{font-size:25px; line-height:1.3em; color:#fff;}
+.photoBox h3 span{display:inline-block; width:auto; height:auto; border-bottom:1px solid transparent;}
+.photoBoxTime{font-size:12px; color:#cacaca;}
+
+
+.photoBox:hover {left:0; top:-105px; box-shadow:12px 12px #F4BC46;}
+.photoBox:hover .photoBoxIcon span{background-color:#F4BC46;}
+.photoBox:hover h3 span{border-color:#F4BC46;}
+
+.photoBox, .photoBoxIcon span, .photoScreenBtn{transition:all .2s ease-out;}
+
+/*#################    photoSubArea    ####################*/
+.photoSubArea{width:960px; margin:0 auto; height:300px;}
+.photoSubArea ul{width:66%; float:right;}
+.photoSub{width:49%; float:left; margin-left:1%;}
+.photoSubImgArea{width:100%; height:175px; overflow:hidden; position:relative;}
+.photoSubImgArea img{width:100%;}
+.photoSubIcon{width:55px; height:42px; position:absolute; left:0; bottom:0px; background-color:rgba(15,15,15,0.8);}
+.photoSubIcon span{display:block; width:50%; height:40%; background-color:#fff;}
+.photoSubIcon span:first-child{transform:translate(15px,11px); border-top:1px solid #fff; border-right:1px solid #fff; background-color:transparent;}
+.photoSubIcon span:last-child{transform:translate(12px,-3px);}
+
+
+.photoSubTextArea{width:90%; padding:5%; padding-top:3%}
+.photoSubCate{font-size:12px;}
+.photoSubTextArea h4 span{border-bottom:1px solid transparent;}
+.photoSubTime{font-size:12px; color:#818181;}
+
+
+.photoSub:hover .photoSubImgArea{transform:scale(0.95)}
+.photoSub:hover .photoSubImgArea img{transform:scale(1.05)}
+.photoSub:hover .photoSubTextArea h4 span{border-color:#00519e;}
+.photoSub:hover .photoSubIcon span:first-child{border-color:#F4BC46;}
+.photoSub:hover .photoSubIcon span:last-child{background-color:#F4BC46;}
+.photoSubImgArea, .photoSubImgArea img, .photoSubTextArea h4 span{transition:all .2s ease-out;}
+
+
+/*#################    barArea    ####################*/
+.barArea{width:960px; margin:0 auto; position:relative;}
+.titleBar{position:absolute; left:50px; top:-20px; height:40px; line-height:40px; background-color:#F4BC46; z-index:10;}
+.titleBar a{display:block; width:100%; height:100%; position:relative;}
+.titleBar a:after{content:""; display:block; width:0%; height:100%; background-color:#2f3133; position:absolute; left:0; bottom:0; z-index:2; transition:width .3s ease-out;}
+.titleBar h3{color:#212121; letter-spacing:0.1em; font-size:15px; padding-left:25px; position:relative; z-index:3; float:left; transition:all .3s ease-in-out;}
+.titleTry{width:45px; height:100%; background-color:#F4BC46; margin-left:160px; float:left; position:relative;}
+
+.titleTry span:before, .titleTry span:after{content:""; display:block; position:absolute; top:15px;
+border-left:6px solid #2f3133;
+border-top:5px solid transparent;
+border-bottom:5px solid transparent;
+}
+.titleTry span:before{left:20px;}
+.titleTry span:after{left:18px; z-index:2; border-left-color:#F4BC46}
+
+.titleBar a:hover:after{width:88%;}
+.titleBar a:hover h3{color:#fff; transform:translateX(13px)}
+.matchTitle .titleBar a:hover:after, .phototitle .titleBar a:hover:after{width:86%;}
+.WTStitle .titleBar a:hover:after{width:90%;}
+
+.phototitle{margin-top:100px;}
+
+h3,h4{font-weight:100;}
+
+
+.mainVisualTime,
+.newsTextArea h4,    
+.newsTime,
+.leagueInfo,
+.mainShopText,
+.matchNewsTitle,
+.matchNewsTime,
+.matchLeague,
+.matchDate,
+p.matchScore,
+.barArea,
+.WTSbox h4,    
+.WTboxTime,
+.photoBoxCate,
+.photoBoxTime,
+.photoSubTextArea h4,    
+.photoSubTime,
+.ticketsBtn,
+.mainShopBtn,
+a.WTSbtn,
+.WTSboxText,
+.WTStext i{font-family:"Oswald-Light"};

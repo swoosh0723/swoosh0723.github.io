@@ -1,0 +1,20 @@
+footer{width:100%; background-color:#eaeaea; border:1px solid #ccc;}
+
+/*#############     copy   #############*/
+#copy{width:960px; overflow:hidden; margin:0 auto; padding:30px 0 15px;}
+#copy #footerLogo{float:left; padding-right:70px;}
+#copy #footerLogo img{width:93%;}
+#copy #copyText{padding-top:10px; font-size:11px; color:#aaa}
+
+
+/*#############     footerGnbWrap   #############*/
+#footerGnbWrap{width:100%; border:1px solid #ccc;}
+#footerGnb{width:960px; text-align:right; height:40px; line-height:40px; margin:0 auto; font-size:12px; color:#777;}
+#footerGnb li{display:inline;}
+#footerGnb li a{color:#777;}
+#footerGnb li span{padding:0 5px 0 10px;}
+#footerGnb li:hover a{color:#00519E;}
+
+#copy #copyText,
+#footerGnb li a
+{font-family:"Oswald-Light"};

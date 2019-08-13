@@ -1,0 +1,22 @@
+
+*{margin:0; padding:0;}
+a:link, a:visited{text-decoration:none; color:#414141;}
+a:focus,a:hover{text-decoration:none;}
+li{list-style:none;}
+
+body,header,nav,section,footer, article{margin:0; padding:0;}
+img{border:none;}
+
+h2{width:1px; height:1px; line-height:0px; font-size:1px; position:absolute; left:-9999px; overflow:hidden;}
+
+@font-face{font-family:"Oswald-Regular"; src:url("../font/Oswald-Regular.woff");}
+@font-face{font-family:"Oswald-Light"; src:url("../font/Oswald-Light.woff");}
+@font-face{font-family:"NotoSansCJKkr-DemiLight"; src:url("../font/NotoSansCJKkr-DemiLight.woff");}
+body{font-family:"Oswald-Regular", sans-serif; color:#414141;}
+
+
+/*######## skipNav ########*/
+#skipNav{width:100%; top:-31px; position:absolute; z-index:99}
+#skipNav p a{display:block; width:100%; background-color:#2d2d2d; color:#fff; text-align:center; border-bottom:1px solid #00519e; line-height:30px; font-size:14px; outline:none; position:absolute;}
+#skipNav p a:focus{top:31px;}
+/*#########################*/

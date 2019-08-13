@@ -1,0 +1,160 @@
+#headerWrap
+    {    
+        position:fixed;
+        z-index:200;
+        width:100%; 
+        height:97px; 
+        background:rgba(255,255,255,0.96);
+        
+        transition:all .15s ease-out
+    }
+
+/*#################    header    ####################*/
+#header{width:100%; height:100%;}
+.header-top-menu{position:relative; width:960px; height:100%; margin:0 auto;}
+#header h1{position:absolute; left:10px; top:24px; width:200px; height:74px; transition:all .15s ease-out;}
+#header h1 a{position:relative; display:block;}
+#header h1 img:nth-child(1){position:absolute; left:0; top:0; width:47px;}
+#header h1 img:nth-child(2){position:absolute; left:58px; top:31px; width:142px;}
+
+/* sticy */
+.header-sticy
+    {
+        height:75px!important;
+        box-shadow:0 0 20px 4px rgba(0, 0, 0, 0.5);
+    }
+
+/*#################    mainInfo    ####################*/
+#mainInfo{width:937px; height:22px; line-height:21px; padding-top:15px; font-size:13px; transition:all .15s ease-out;}
+#mainInfo ul{text-align:right;}
+#mainInfo li{display:inline;}
+#mainInfo li a{padding:2px 12px 2px 6px; transition:color .3s ease-in-out;}
+#mainInfo li a:hover{text-decoration:underline; color:#00519E;}
+#mainInfo li span{color:#ccc;}
+
+#mainInfo li{position:relative;}
+#mainInfo li.language a{padding-right:0; padding-left:29px;}
+#mainInfo li.language img{width:15px; position:absolute; left:6px; top:5px;}
+
+
+/*#################    gnb    ####################*/
+#gnb{float:right; font-size:15px;}
+.main-menu-area{overflow:hidden; padding-top:5px;}
+.main-menu{float:left; position:relative; width:auto; text-align:right;}
+.main-menu a{display:block; padding:15px 22px 18px;}
+.main-menu span
+    {
+        content:"";
+        display:block;
+        position:absolute;
+        left:0;
+        bottom:0px;
+        z-index:11;
+        width:100%;
+        height:1.5px;
+        background-color:#00519E;
+        transform:scale(0);
+    }
+
+.main-menu-search a{color:#333;}
+.main-menu-search img{width:12px; padding-top:23px;}
+
+.sub-menu-wrap{overflow:hidden; position:absolute; left:0; top:97px; z-index:10; width:100%; background:rgba(255,255,255,0.96); border-top:1px solid #ccc; border-bottom:1px solid #ccc;}
+.sub-menu-area{position:relative; width:680px; height:220px; margin:0 auto; padding-left:280px;}
+.main-menu-area-bg{position:absolute; top:-10px; left:-100px; z-index:11; width:460px;}
+.main-menu-area-bg img
+    {
+        width:100%;
+        -webkit-user-drag:none;
+        -khtml-user-drag:none;
+        -moz-user-drag:none;
+        -o-user-drag:none;
+        user-drag:none;
+    }
+
+.sub-menu-cateroy{float:left; height:205px; padding-top:15px; padding-left:22px; font-size:13px; border-right:1px solid #ccc;}
+.sub-menu-cateroy0{position:relative; z-index:12; width:79px;}
+.sub-menu-cateroy1{width:142px;}
+.sub-menu-cateroy2{width:130px;}
+.sub-menu-cateroy3{width:161px;}
+.sub-menu-cateroy4{width:50px; border-right:none;}
+
+.sub-menu-cateroy a{display:block; padding:8px 0;}
+
+
+.main-menu span
+    {
+        transition:all .15s ease-out
+    }
+
+
+/*#################    mobileHeader    ####################*/
+#mobileHeader{display:none; position:relative; background-color:#fff;}
+
+/*#################    mobileH    ####################*/
+.mobileH{overflow:hidden; padding:15px 0;  position:relative; height:47px;}
+.mobileV{overflow:hidden; padding:10px 0; display:none; position:relative; height:47px;}
+
+
+.mobileHBtnArea{width:20%; margin-top:10px;}
+.mobileBtnWrap{margin-left:15%; cursor:pointer;}
+.mobileBtn{width:30px; height:26px; float:left;}
+.mobilebtnBar{display:block; width:80%; height:2px; margin:5px auto 0; background-color:#aaa; border-radius:5px; position:relative;}
+.mobilebtnBar:after{content:""; display:block; width:0; height:100%; border-radius:5px; position:absolute; left:0; top:0; background-color:#00519e;}
+.mobilebtnBar1T{transform:rotate(45deg) translate(3px,7px)}
+.mobilebtnBar2T{width:0;}
+.mobilebtnBar3T{transform:rotate(-45deg) translate(3px,-7px)}
+
+.mobileBtnWrap h3{font-size:16px; float:left; line-height:26px; margin-left:7px;}
+
+.mobileHLogo{position:absolute; left:50%; top:17px; margin-left:-100px}
+.mobileHLogo a{display:block; width:180px; padding:0 10px; margin:0 auto;}
+.mobileHLogo img{width:100%;}
+
+.mobilemainInfo{width:30%; float:right; padding-right:3%; text-align:right}
+.mobilemainInfo a{font-size:13px;}
+.mobilemainInfo span{padding:0 5%; font-size:12px;}
+
+.mobileVmainInfo a{font-size:11px;}
+
+/*#################    mobileV    ####################*/
+.mobileVLogo{position:absolute; left:50%; top:50%; margin-left:-25px; margin-top:-21px;}
+.mobileVLogo a{display:block; height:41px; padding:0 10px;}
+.mobileVLogo a img{height:100%;}
+
+.mobileVBtnArea{width:30%; margin-top:10px;}
+
+.mobileBtnWrap:hover .mobilebtnBar:after{width:100%;}
+.mobileBtnWrap:hover h3{color:#00519e;}
+.mobilemainInfo a:hover{text-decoration:underline; color:#00519e;}
+
+.mobileHmainInfo a, .mobilebtnBar:after {transition:all .15s ease-in-out;}
+.mobilebtnBar{transition:all .2s ease;}
+
+.mobilebtnBar2:after{transition-delay:.1s}
+.mobilebtnBar3:after{transition-delay:.2s}
+
+/*#################    mobileMenuArea    ####################*/
+.mobileMenuArea{width:100%; font-size:15px; position:absolute; left:0; top:77px; z-index:30}
+.mobileMenuArea ul{width:100%;}
+.mobileMenuArea ul li{width:100%;}
+
+a.mobileMenu{display:block; color:#fff; text-indent:20px; padding:20px 0; border-bottom:1px solid #888; position:relative; background:rgba(5,5,5,0.92); transition:all .2s ease;}
+a.mobileMenuBC{background:rgba(0,81,158,0.90);}
+
+.mobileTry1{display:block; width:8px; height:8px; position:absolute; border-top:1px solid #fff; border-right:1px solid #fff; transform:rotate(45deg); right:8%; bottom:28px; transition:all .2s ease;}
+.mobileTryRote{transform:rotate(135deg);}
+
+
+.mobileMenuArea ol{position:relative; background:rgba(20,20,20,0.92)}
+
+.mobileSubMenu{text-indent:20px; padding:8px 0; border-bottom:1px solid #999;}
+.mobileSubMenu a{color:#fff; display:block; width:90%; margin-left:2%; font-size:13px; border-left:4px solid #F4BC46; padding:7px 0;}
+
+
+#mainInfo, 
+.sub-menu-wrap,
+.mobilemainInfo,
+.mobileBtnWrap h3,
+.mobileMenuArea
+{font-family:"Oswald-Light"};

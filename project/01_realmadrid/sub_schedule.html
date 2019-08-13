@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Real Madrid Schedule</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.color.js"></script>
+	<script type="text/javascript" src="js/header.js"></script>
+	<script type="text/javascript" src="js/bottomBtn.js"></script>
+	<!--공통부분-->
+	<script type="text/javascript" src="js/match.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/match.js"/>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/header.css"/>
+	<link rel="stylesheet" type="text/css" href="css/match_container.css"/>
+	<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+</head>
+ <body>
+	<div id="wrap">
+		<div id="headerWrap">
+			<div id="header">
+			    <div class="header-top-menu">
+			        <h1>
+                        <a href="index.html" title="레알마드리드">
+                            <img src="img/headerlogo.png" alt="레알마드리드 로고" class="header-logo"/>
+                            <img src="img/headerlogo-path.png" alt="레알마드리드 로고" class="header-logo-path"/>
+                        </a>
+                    </h1>
+                    <div id="mainInfo">
+                        <h2>mainInfo영역</h2>
+                        <ul>
+                            <li>
+                                <a href="sub_register.html" title="회원가입">
+                                    Register
+                                </a>
+                                <span>|</span>
+                            </li>
+                            <li>
+                                <a href="sub_login.html" title="로그인">
+                                    Login
+                                </a>
+                                <span>|</span>
+                            </li>
+                            <li class="language">
+                                <a href="#none" title="언어선택">
+                                    <img src="img/LangUSA.png" alt="언어선택 대한민국"/>ENG
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="gnb">
+                        <h2>gnb영역</h2>
+                        <ul class="main-menu-area">
+                            <li class="main-menu main-menu0">
+                                <a href="sub_news.html" title="FOOTBALL">
+                                    FOOTBALL
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li class="main-menu main-menu1">
+                                <a href="sub_history.html" title="ABOUT REAL MADRID">
+                                    ABOUT REAL MADRID
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li class="main-menu main-menu2">
+                                <a href="kit.html" title="SPECIAL FEATURES">
+                                    SPECIAL FEATURES
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li class="main-menu main-menu3">
+                                <a href="sub_ticketing.html" title="TICKETS">
+                                    TICKETS&nbsp;&amp;&nbsp;HOSPITALITY
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li class="main-menu main-menu4">
+                                <a href="sub_shop.html" title="SHOP">
+                                    SHOP
+                                    <span></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>   
+			    </div>
+                <div class="sub-menu-wrap">
+                    <div class="sub-menu-area">
+                        <p class="main-menu-area-bg main-menu-area-bg0">
+                            <img src="img/sub-menu-bg0.png" alt="sub-menu-bg">
+                        </p>
+                        <ul class="sub-menu-cateroy sub-menu-cateroy0">
+                            <li>
+                                <a href="sub_news.html" title="NEWS">
+                                    NEWS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_schedule.html" title="SCHEDULE">
+                                    SCHEDULE
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_photo.html" title="PHOTO GALLERY">
+                                    GALLERY
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_squad.html" title="VIDEO GALLERY">
+                                    SQUAD
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="sub-menu-cateroy sub-menu-cateroy1">
+                            <li>
+                                <a href="sub_history.html" title="HISTORY">
+                                    HISTORY
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_honours.html" title="HONOURS">
+                                    HONOURS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_santiago.html" title="SANTIAGO BERNABEU">
+                                    SANTIAGO BERNABEU
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="sub-menu-cateroy sub-menu-cateroy2">
+                            <li>
+                                <a href="sub_undecima.html" title="UNDECIMA">
+                                    UNDECIMA
+                                </a>
+                            </li>
+                            <li class="subMenu">
+                                <a href="kit.html" title="UNIFORM">
+                                    UNIFORM
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_distefano.html" title="DI STEFANO">
+                                    DI STEFANO
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_topgoal.html" title="ALL-TIME TOP GOALSCORER">
+                                    TOP GOALSCORER
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="sub-menu-cateroy sub-menu-cateroy3">
+                            <li>
+                                <a href="sub_ticket.html" title="TICKET">
+                                    TICKETS INFORMATION
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_ticketing.html" title="TICKET">
+                                    TICKETING
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_hospitality.html" title="HOSPITALITY">
+                                    HOSPITALITY
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="sub-menu-cateroy sub-menu-cateroy4">
+                            <li>
+                                <a href="sub_shop.html" title="Online Shop">
+                                    SHOP
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+			<div id="mobileHeader">
+                <h2>모바일 헤더</h2>
+                <div class="mobileH">
+                    <div class="mobileHBtnArea">
+                        <div class="mobileBtnWrap">
+                            <p class="mobileBtn">
+                                <span class="mobilebtnBar mobilebtnBar1"></span>
+                                <span class="mobilebtnBar mobilebtnBar2"></span>
+                                <span class="mobilebtnBar mobilebtnBar3"></span>
+                            </p>
+                            <h3>Menu</h3>
+                        </div>
+                    </div>
+                    <div class="mobileHLogo">
+                        <a href="index.html" title="로고"><img src="img/ver_reallogo.png" alt="모바일가로 로고"></a>
+                    </div>
+                    <div class="mobilemainInfo">
+                       <a href="sub_register.html">Register</a><span>|</span>
+                       <a href="sub_login.html">Login</a>
+                    </div>
+                </div>
+                <div class="mobileV">
+                    <div class="mobileVBtnArea">
+                        <div class="mobileBtnWrap">
+                            <p class="mobileBtn">
+                                <span class="mobilebtnBar mobilebtnBar1"></span>
+                                <span class="mobilebtnBar mobilebtnBar2"></span>
+                                <span class="mobilebtnBar mobilebtnBar3"></span>
+                            </p>
+                            <h3>Menu</h3>
+                        </div>
+                    </div>
+                    <div class="mobileVLogo">
+                        <a href="index.html" title="로고"><img src="img/headerlogo.png" alt="모바일세로 로고"></a>
+                    </div>
+                    <div class="mobilemainInfo mobileVmainInfo">
+                       <a href="sub_register.html">Register</a><span>|</span>
+                       <a href="sub_login.html">Login</a>
+                    </div>
+                </div>
+			    <div class="mobileMenuArea">
+			        <ul>
+                        <li>
+                            <a class="mobileMenu" href="#none" title="football">FOOTBALL<span class="mobileTry1"></span></a>
+                            <ol>
+                                <li class="mobileSubMenu"><a href="sub_news.html" title="NEWS">NEWS<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_schedule.html" title="SCHEDULE">SCHEDULE<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_photo.html" title="PHOTO GALLERY">PHOTO GALLERY<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="#none" title="VIDEO GALLERY">VIDEO GALLERY<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_squad.html" title="SQUAD">SQUAD<span class="mobileTry"></span></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a class="mobileMenu" href="#none" title="ABOUT REAL MADRID">ABOUT REAL MADRID<span class="mobileTry1"></span></a>
+                            <ol>
+                                <li class="mobileSubMenu"><a href="sub_history.html" title="HISTORY">HISTORY<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_honours.html" title="HONOURS">HONOURS<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_santiago.html" title="SANTIAGO BERNABEU">SANTIAGO BERNABEU<span class="mobileTry"></span></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a class="mobileMenu" href="#none" title="SPECIAL FEATURES">SPECIAL FEATURES<span class="mobileTry1"></span></a>
+                            <ol>
+                                <li class="mobileSubMenu"><a href="sub_undecima.html" title="UNDECIMA">UNDECIMA<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="kit.html" title="UNIFORM">UNIFORM<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_distefano.html" title="DI STEFANO">DI STEFANO<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_topgoal.html" title="ALL-TIME TOP GOALSCORER">TOP GOALSCORER<span class="mobileTry"></span></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a class="mobileMenu" href="#none" title="TICKETS &amp; HOSPITALITY">TICKETS &amp; HOSPITALITY<span class="mobileTry1"></span></a>
+                            <ol>
+                                <li class="mobileSubMenu"><a href="sub_ticket.html" title="TICKET">TICKETS INFORMATION<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_ticketing.html" title="TICKET">TICKETING<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_hospitality.html" title="HOSPITALITY">HOSPITALITY<span class="mobileTry"></span></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a class="mobileMenu" href="#none" title="SHOP">SHOP<span class="mobileTry1"></span></a>
+                            <ol>
+                                <li class="mobileSubMenu"><a href="sub_shop.html" title="Online Shop">Shop Online<span class="mobileTry"></span></a></li>
+                            </ol>
+                        </li>
+                    </ul>
+			    </div>
+			</div>
+		</div>
+		<div id="containerWrap">
+			<div id="mainVisual">
+				<h2>메인비주얼 영역</h2>
+				<ul>
+					<li>
+						<div id="mainImg">
+							<img class="main" src="img/main/main_match1.png" alt="메인이미지"/>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div id="matchTitle">
+				<h2>honours 타이틀 영역</h2>
+				<p class="line"></p>
+				<p class="titleLogo"><img src="img/small_logo.png" alt="로고이미지"/></p>
+				<h3>Calendar</h3>
+				<span class="text"></span>
+			</div>
+			<div id="matchMenu">
+				<ul>
+					<li class="matchMenu1 matchName"><a href="#none" title="FIXTURES">FIXTURES</a><span class="matchBar"></span></li>
+					<li class="matchMenu2"><a href="#none" title="RESULT">RESULT</a><span></span></li>
+					<li class="matchMenu3"><a href="#none" title="LEAGUE TABLE">LEAGUE TABLE</a><span></span></li>
+				</ul>
+			</div>
+			<div id="fixed">
+				<div id="match">
+					<div id="mainMatch">
+						<div id="mainMatchInfo">
+							<p>
+								<img src="img/laliga-h.png" alt="laliga-h logo"/>
+							</p>
+							<h3>Primera Liga</h3><span class="ver">|</span>
+							<span class="date">MATCHDAY 12 · Sat Nov 19/ 2016 20:45H GMT</span>
+							<span class="soldOut"><img src="img/soldout.png" alt="soldouticon">SOLD OUT</span>
+						</div>
+						<div id="mainMatchTeam">
+							<div id="mainHome">
+								<p class="mainMatchImg"><img src="img/Atletico_Madrid_logo.png" alt="AT logo"></p>
+								<h4>Atlético Madrid</h4>
+								<div class="mainHomeRecent mainRecent">
+									<p>Recent Form</p>
+									<p>
+										<span class="win">W</span>
+										<span class="win">W</span>
+										<span class="lose">L</span>
+										<span class="win">W</span>
+										<span class="lose">L</span>
+									</p>
+								</div>
+							</div>
+							<p id="mainVersus">
+								<span>VS</span>
+								<span>VICENTE CALDERÓN</span>
+							</p>
+							<div id="mainAway">
+								<p class="mainMatchImg"><img src="img/real_logo_big.png" alt="real logo"></p>
+								<h4>Real Madrid</h4>
+								<div class="mainAwayRecent mainRecent">
+									<p>Recent Form</p>
+									<p>
+										<span class="draw">D</span>
+										<span class="win">W</span>
+										<span class="win">W</span>
+										<span class="win">W</span>
+										<span class="win">W</span>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div id="mainMatchMore">
+							<span>This Match Tickets Sold Out.</span>
+							<p>
+								<a href="#none" title="information">
+									Information
+								</a>
+							</p>
+						</div>
+					</div>
+					<div class="matchArea">
+						<div class="matchInfo">
+							<p>
+								<img src="img/UEFA_Champions_League_logo.png" alt="chamslogo"/>
+							</p>
+							<h3>UEFA Champions League</h3><span class="ver">|</span>
+							<span class="date">MATCHDAY 5 (GROUP STAGE) · Tue Nov 22/ 2016 20:45H GMT</span>
+							<span class="soldOut"><img src="img/soldout.png" alt="soldouticon">SOLD OUT</span>
+						</div>
+						<div class="matchTeam">
+							<div class="matchHome">
+								<div class="teamName">
+									<h4>Sporting CP</h4>
+									<div class="homeRecent recent">
+										<p>Recent Form</p>
+										<p>
+											<span class="lose">L</span>
+											<span class="draw">D</span>
+											<span class="draw">D</span>
+											<span class="lose">L</span>
+											<span class="win">W</span>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/Sporting_Clube_de_Portugal.png" alt="Sporting logo"></p>
+							</div>
+							<p class="versus">
+								<span>VS</span>
+								<span>Estadio Jose Alvalade</span>
+							</p>
+							<div class="matchAway">
+								<div class="teamName">
+									<h4>Real Madrid</h4>
+									<div class="awayRecent recent">
+										<p>Recent Form</p>
+										<p>
+											<span class="drow">D</span>
+											<span class="win">W</span>
+											<span class="win">W</span>
+											<span class="win">W</span>
+											<span class="win">W</span>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/real_logo.png" alt="real logo"></p>
+							</div>
+						</div>
+						<div class="matchMore">
+							<span>This Match Tickets Sold Out.</span>
+							<p>
+								<a href="#none" title="information">
+									Information
+								</a>
+							</p>
+						</div>
+					</div>
+					<div class="matchArea">
+						<div class="matchInfo">
+							<p>
+								<img src="img/laliga-h.png" alt="laliga-h logo"/>
+							</p>
+							<h3>Primera Liga</h3><span class="ver">|</span>
+							<span class="date">MATCHDAY 13 · Sat Nov 26/ 2016 16:15H GMT</span>
+							<span class="soldOut"><img src="img/soldout.png" alt="soldouticon">SOLD OUT</span>
+						</div>
+						<div class="matchTeam">
+							<div class="matchHome">
+								<div class="teamName">
+									<h4>Real Madrid</h4>
+									<div class="homeRecent recent">
+										<p>Recent Form</p>
+										<p>
+											<span class="drow">D</span>
+											<span class="win">W</span>
+											<span class="win">W</span>
+											<span class="win">W</span>
+											<span class="win">W</span>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/real_logo.png" alt="hometeam logo"></p>
+							</div>
+							<p class="versus">
+								<span>VS</span>
+								<span>Santiago Bernabéu</span>
+							</p>
+							<div class="matchAway">
+								<div class="teamName">
+									<h4>Sporting Hihon</h4>
+									<div class="awayRecent recent">
+										<p>Recent Form</p>
+										<p>
+											<span class="lose">L</span>
+											<span class="lose">L</span>
+											<span class="lose">L</span>
+											<span class="lose">L</span>
+											<span class="lose">L</span>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/Real_Sporting_de_Gijon.png" alt="awayteam logo"></p>
+							</div>
+						</div>
+						<div class="matchMore">
+							<span>This Match Tickets Sold Out.</span>
+							<p>
+								<a href="#none" title="information">
+									Information
+								</a>
+							</p>
+						</div>
+					</div>
+					<div class="matchArea">
+						<div class="matchInfo">
+							<p>
+								<img src="img/COPA_logo.png" alt="COPA_logo logo"/>
+							</p>
+							<h3>Copa del Rey</h3><span class="ver">|</span>
+							<span class="date">MATCHDAY 13 · Sat Nov 26/ 2016 16:15H GMT</span>
+							<span class="soldOut"><img src="img/soldout.png" alt="soldouticon">SOLD OUT</span>
+						</div>
+						<div class="matchTeam">
+							<div class="matchHome">
+								<div class="teamName">
+									<h4>Real Madrid</h4>
+									<div class="homeRecent recent">
+										<p>Recent Form</p>
+										<p>
+											<span class="drow">D</span>
+											<span class="win">W</span>
+											<span class="win">W</span>
+											<span class="win">W</span>
+											<span class="win">W</span>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/real_logo.png" alt="hometeam logo"></p>
+							</div>
+							<p class="versus">
+								<span>VS</span>
+								<span>Santiago Bernabéu</span>
+							</p>
+							<div class="matchAway">
+								<div class="teamName">
+									<h4>Cultural y Deportiva Leonesa</h4>
+									<div class="awayRecent recent">
+										<p>Recent Form</p>
+										<p>
+											<span class="win">W</span>
+											<span class="win">W</span>
+											<span class="win">W</span>
+											<span class="lose">L</span>
+											<span class="lose">L</span>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/Leonesa_logo.png" alt="awayteam logo"></p>
+							</div>
+						</div>
+						<div class="matchMore">
+							<span>This Match Tickets Sold Out.</span>
+							<p>
+								<a href="#none" title="information">
+									Information
+								</a>
+							</p>
+						</div>
+					</div>
+					<div class="matchArea">
+						<div class="matchInfo">
+												<p>
+								<img src="img/laliga-h.png" alt="laliga-h logo"/>
+							</p>
+							<h3>Primera Liga</h3><span class="ver">|</span>
+							<span class="date">MATCHDAY 14 · Sat Dec 03/ 2016 16:15H GMT</span>
+							<span class="soldOut"><img src="img/soldout.png" alt="soldouticon">SOLD OUT</span>
+						</div>
+						<div class="matchTeam">
+							<div class="matchHome">
+								<div class="teamName">
+									<h4>Barcelona</h4>
+									<div class="homeRecent recent">
+										<p>Recent Form</p>
+										<p>
+											<span class="win">W</span>
+											<span class="win">W</span>
+											<span class="win">W</span>
+											<span class="lose">L</span>
+											<span class="win">W</span>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/FC-Barcelona-icon.png" alt="hometeam logo"></p>
+							</div>
+							<p class="versus">
+								<span>VS</span>
+								<span>Camp Nou</span>
+							</p>
+							<div class="matchAway">
+								<div class="teamName">
+									<h4>Real Madrid</h4>
+									<div class="awayRecent recent">
+										<p>Recent Form</p>
+										<p>
+											<span class="drow">D</span>
+											<span class="win">W</span>
+											<span class="win">W</span>
+											<span class="win">W</span>
+											<span class="win">W</span>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/real_logo.png" alt="awayteam logo"></p>
+							</div>
+						</div>
+						<div class="matchMore">
+							<span>This Match Tickets Sold Out.</span>
+							<p>
+								<a href="#none" title="information">
+									Information
+								</a>
+							</p>
+						</div>
+					</div>
+					<div class="matchArea">
+						<div class="matchInfo">
+							<p>
+								<img src="img/UEFA_Champions_League_logo.png" alt="chamslogo"/>
+							</p>
+							<h3>UEFA Champions League</h3><span class="ver">|</span>
+							<span class="date">MATCHDAY 6 (GROUP STAGE) · Wed Dec 07/ 2016 20:45H GMT</span>
+							<span class="soldOut"><img src="img/soldout.png" alt="soldouticon">SOLD OUT</span>
+						</div>
+						<div class="matchTeam">
+							<div class="matchHome">
+								<div class="teamName">
+									<h4>Real Madrid</h4>
+									<div class="homeRecent recent">
+										<p>Recent Form</p>
+										<p>
+											<span class="drow">D</span>
+											<span class="win">W</span>
+											<span class="win">W</span>
+											<span class="win">W</span>
+											<span class="win">W</span>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/real_logo.png" alt="hometeam logo"></p>
+							</div>
+							<p class="versus">
+								<span>VS</span>
+								<span>Santiago Bernabéu</span>
+							</p>
+							<div class="matchAway">
+								<div class="teamName">
+									<h4>Borussia Dortmund</h4>
+									<div class="awayRecent recent">
+										<p>Recent Form</p>
+										<p>
+											<span class="drow">D</span>
+											<span class="win">W</span>
+											<span class="drow">D</span>
+											<span class="win">W</span>
+											<span class="win">W</span>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/Borussia Dortmund.png" alt="awayteam logo"></p>
+							</div>
+						</div>
+						<div class="matchMore">
+							<span>This Match Tickets Sold Out.</span>
+							<p>
+								<a href="#none" title="information">
+									Information
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div id="result">
+					<div class="resultArea">
+						<div class="matchInfo">
+							<p>
+								<img src="img/UEFA_Champions_League_logo.png" alt="chamslogo"/>
+							</p>
+							<h3>UEFA Champions League</h3><span class="ver">|</span>
+							<span class="date">MATCHDAY 5 (GROUP STAGE) · Tue Nov 22/ 2016 20:45H GMT</span>
+						</div>
+						<div class="rmatchTeam">
+							<div class="matchHome">
+								<div class="teamName">
+									<h4>Sporting CP</h4>
+									<div class="homeRecent recent">
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;Goal</p>
+										<p>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/Sporting_Clube_de_Portugal.png" alt="Sporting logo"></p>
+							</div>
+							<p class="versus">
+								<span>0&nbsp;&nbsp;:&nbsp;&nbsp;4</span>
+								<span>Estadio Jose Alvalade</span>
+							</p>
+							<div class="matchAway">
+								<div class="teamName">
+									<h4>Real Madrid</h4>
+									<div class="awayRecent recent">
+										<p>Goal&nbsp;&nbsp;</p>
+										<p>
+											<span>Ronaldo'14','55','77'</span>
+											<span>Bale'5'</span>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/real_logo.png" alt="real logo"></p>
+							</div>
+						</div>
+					</div>
+					<div class="resultArea">
+						<div class="matchInfo">
+							<p>
+								<img src="img/laliga-h.png" alt="laliga-h logo"/>
+							</p>
+							<h3>Primera Liga</h3><span class="ver">|</span>
+							<span class="date">MATCHDAY 13 · Sat Nov 26/ 2016 16:15H GMT</span>
+						</div>
+						<div class="rmatchTeam">
+							<div class="matchHome">
+								<div class="teamName">
+									<h4>Real Madrid</h4>
+									<div class="homeRecent recent">
+										<p>&nbsp;&nbsp;Goal</p>
+										<p>
+											<span>Ronaldo'7'</span>
+											<span>Isco'59'</span>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/real_logo.png" alt="hometeam logo"></p>
+							</div>
+							<p class="versus">
+								<span>2&nbsp;&nbsp;:&nbsp;&nbsp;0</span>
+								<span>Santiago Bernabéu</span>
+							</p>
+							<div class="matchAway">
+								<div class="teamName">
+									<h4>Sporting Hihon</h4>
+									<div class="awayRecent recent">
+										<p>Goal&nbsp;&nbsp;</p>
+										<p>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/Real_Sporting_de_Gijon.png" alt="awayteam logo"></p>
+							</div>
+						</div>
+					</div>
+					<div class="resultArea">
+						<div class="matchInfo">
+							<p>
+								<img src="img/COPA_logo.png" alt="COPA_logo logo"/>
+							</p>
+							<h3>Copa del Rey</h3><span class="ver">|</span>
+							<span class="date">MATCHDAY 13 · Sat Nov 26/ 2016 16:15H GMT</span>
+						</div>
+						<div class="rmatchTeam">
+							<div class="matchHome">
+								<div class="teamName">
+									<h4>Real Madrid</h4>
+									<div class="homeRecent recent">
+										<p>&nbsp;&nbsp;Goal</p>
+										<p>
+											<span>Mariano'8','17','68'</span>
+											<span>Isco'34'</span>
+											<span>Enzo'78'</span>
+											<span>Modric'80'</span>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/real_logo.png" alt="hometeam logo"></p>
+							</div>
+							<p class="versus">
+								<span>6&nbsp;&nbsp;:&nbsp;&nbsp;0</span>
+								<span>Santiago Bernabéu</span>
+							</p>
+							<div class="matchAway">
+								<div class="teamName">
+									<h4>Cultural y Deportiva Leonesa</h4>
+									<div class="awayRecent recent">
+										<p>Goal&nbsp;&nbsp;</p>
+										<p>
+											<span>Gonzales'88'</span>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/Leonesa_logo.png" alt="awayteam logo"></p>
+							</div>
+						</div>
+					</div>
+					<div class="resultArea">
+						<div class="matchInfo">
+												<p>
+								<img src="img/laliga-h.png" alt="laliga-h logo"/>
+							</p>
+							<h3>Primera Liga</h3><span class="ver">|</span>
+							<span class="date">MATCHDAY 14 · Sat Dec 03/ 2016 16:15H GMT</span>
+						</div>
+						<div class="rmatchTeam">
+							<div class="matchHome">
+								<div class="teamName">
+									<h4>Barcelona</h4>
+									<div class="homeRecent recent">
+										<p>&nbsp;&nbsp;Goal</p>
+										<p>
+											<span>Suarez'47'</span>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/FC-Barcelona-icon.png" alt="hometeam logo"></p>
+							</div>
+							<p class="versus">
+								<span>1&nbsp;&nbsp;:&nbsp;&nbsp;1</span>
+								<span>Camp Nou</span>
+							</p>
+							<div class="matchAway">
+								<div class="teamName">
+									<h4>Real Madrid</h4>
+									<div class="awayRecent recent">
+										<p>Goal&nbsp;&nbsp;</p>
+										<p>
+											<span>Ramos'90'</span>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/real_logo.png" alt="awayteam logo"></p>
+							</div>
+						</div>
+					</div>
+					<div class="resultArea">
+						<div class="matchInfo">
+							<p>
+								<img src="img/UEFA_Champions_League_logo.png" alt="chamslogo"/>
+							</p>
+							<h3>UEFA Champions League</h3><span class="ver">|</span>
+							<span class="date">MATCHDAY 6 (GROUP STAGE) · Wed Dec 07/ 2016 20:45H GMT</span>
+						</div>
+						<div class="rmatchTeam">
+							<div class="matchHome">
+								<div class="teamName">
+									<h4>Real Madrid</h4>
+									<div class="homeRecent recent">
+										<p>&nbsp;&nbsp;Goal</p>
+										<p>
+											<span>Kovacici'11'</span>
+											<span>Varane'51'</span>
+											<span>Ronaldo'67'</span>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/real_logo.png" alt="hometeam logo"></p>
+							</div>
+							<p class="versus">
+								<span>3&nbsp;&nbsp;:&nbsp;&nbsp;1</span>
+								<span>Santiago Bernabéu</span>
+							</p>
+							<div class="matchAway">
+								<div class="teamName">
+									<h4>Borussia Dortmund</h4>
+									<div class="awayRecent recent">
+										<p>Goal&nbsp;&nbsp;</p>
+										<p>
+											<span>Reus'87'</span>
+										</p>
+									</div>
+								</div>
+								<p class="matchImg"><img src="img/Borussia Dortmund.png" alt="awayteam logo"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tableArea">
+					<h2>table 영역</h2>
+					<ul>
+						<li class="num0">
+							<p class="try"></p>
+							<p class="num">POS</p>
+							<p class="team">
+								<span>Team</span>
+							</p>
+							<p class="pld">P</p>
+							<p class="win">W</p>
+							<p class="draw">D</p>
+							<p class="lose">L</p>
+							<p class="gf">GF</p>
+							<p class="ga">GA</p>
+							<p class="gd">GD</p>
+							<p class="g7">L5</p>
+							<p class="pts">PTS</p>
+						</li>
+						<li class="num1">
+							<p class="try">-</p>
+							<p class="num">1</p>
+							<p class="team">
+								<span class="tableImg"></span><strong>Real Madrid</strong>
+							</p>
+							<p class="pld">14</p>
+							<p class="win">10</p>
+							<p class="draw">4</p>
+							<p class="lose">0</p>
+							<p class="gf">37</p>
+							<p class="ga">12</p>
+							<p class="gd">25</p>
+							<p class="g7"><b>W</b><b>W</b><b>W</b><b>W</b>D</p>
+							<p class="pts">34</p>
+						</li>
+						<li class="num2">
+							<p class="try"></p>
+							<p class="num">2</p>
+							<p class="team">
+								<span class="tableImg"></span><span>FC Barcelona</span>
+							</p>
+							<p class="pld">14</p>
+							<p class="win">8</p>
+							<p class="draw">4</p>
+							<p class="lose">2</p>
+							<p class="gf">34</p>
+							<p class="ga">15</p>
+							<p class="gd">19</p>
+							<p class="g7"><b>W</b><b>W</b>DDD</p>
+							<p class="pts">28</p>
+						</li>
+						<li class="num3">
+							<p class="try"></p>
+							<p class="num">3</p>
+							<p class="team">
+								<span class="tableImg"></span><span>Sevilla FC</span>
+							</p>
+							<p class="pld">14</p>
+							<p class="win">8</p>
+							<p class="draw">3</p>
+							<p class="lose">3</p>
+							<p class="gf">25</p>
+							<p class="ga">20</p>
+							<p class="gd">5</p>
+							<p class="g7">DL<b>W</b><b>W</b>L</p>
+							<p class="pts">27</p>
+						</li>
+						<li class="num4">
+							<p class="try"></p>
+							<p class="num">4</p>
+							<p class="team">
+								<span class="tableImg"></span><span>Atlético de Madrid</span>
+							</p>
+							<p class="pld">14</p>
+							<p class="win">7</p>
+							<p class="draw">4</p>
+							<p class="lose">3</p>
+							<p class="gf">28</p>
+							<p class="ga">11</p>
+							<p class="gd">17</p>
+							<p class="g7"><b>W</b>LL<b>W</b>D</p>
+							<p class="pts">25</p>
+						</li>
+						<li class="num5">
+							<p class="try"></p>
+							<p class="num">5</p>
+							<p class="team">
+								<span class="tableImg"></span><span>Villarreal CF</span>
+							</p>
+							<p class="pld">14</p>
+							<p class="win">6</p>
+							<p class="draw">5</p>
+							<p class="lose">3</p>
+							<p class="gf">19</p>
+							<p class="ga">10</p>
+							<p class="gd">9</p>
+							<p class="g7">L<b>W</b>LLD</p>
+							<p class="pts">23</p>
+						</li>
+						<li class="num6">
+							<p class="try"></p>
+							<p class="num">6</p>
+							<p class="team">
+								<span class="tableImg"></span><span>Real Sociedad</span>
+							</p>
+							<p class="pld">13</p>
+							<p class="win">7</p>
+							<p class="draw">2</p>
+							<p class="lose">4</p>
+							<p class="gf">22</p>
+							<p class="ga">14</p>
+							<p class="gd">8</p>
+							<p class="g7"><b>W</b><b>W</b><b>W</b><b>W</b>D</p>
+							<p class="pts">23</p>
+						</li>
+						<li class="num7">
+							<p class="try"></p>
+							<p class="num">7</p>
+							<p class="team">
+								<span class="tableImg"></span><span>Athletic Club</span>
+							</p>
+							<p class="pld">14</p>
+							<p class="win">7</p>
+							<p class="draw">2</p>
+							<p class="lose">5</p>
+							<p class="gf">20</p>
+							<p class="ga">17</p>
+							<p class="gd">3</p>
+							<p class="g7">DD<b>W</b>L<b>W</b></p>
+							<p class="pts">23</p>
+						</li>
+						<li class="num8">
+							<p class="try"></p>
+							<p class="num">8</p>
+							<p class="team">
+								<span class="tableImg"></span><span>SD Eibar</span>
+							</p>
+							<p class="pld">14</p>
+							<p class="win">6</p>
+							<p class="draw">3</p>
+							<p class="lose">5</p>
+							<p class="gf">21</p>
+							<p class="ga">19</p>
+							<p class="gd">2</p>
+							<p class="g7"><b>W</b>L<b>W</b><b>W</b>L</p>
+							<p class="pts">21</p>
+						</li>
+						<li class="num9">
+							<p class="try">-</p>
+							<p class="num">9</p>
+							<p class="team">
+								<span class="tableImg"></span><span>RC Celta</span>
+							</p>
+							<p class="pld">14</p>
+							<p class="win">6</p>
+							<p class="draw">3</p>
+							<p class="lose">5</p>
+							<p class="gf">24</p>
+							<p class="ga">26</p>
+							<p class="gd">-2</p>
+							<p class="g7">D<b>W</b>L<b>W</b>D</p>
+							<p class="pts">21</p>
+						</li>
+						<li class="num10">
+							<p class="try">-</p>
+							<p class="num">10</p>
+							<p class="team">
+								<span class="tableImg"></span><span>UD Las Palmas</span>
+							</p>
+							<p class="pld">14</p>
+							<p class="win">5</p>
+							<p class="draw">5</p>
+							<p class="lose">4</p>
+							<p class="gf">25</p>
+							<p class="ga">22</p>
+							<p class="gd">3</p>
+							<p class="g7">D<b>W</b>L<b>W</b>D</p>
+							<p class="pts">20</p>
+						</li>
+						<li class="num11">
+							<p class="try">-</p>
+							<p class="num">11</p>
+							<p class="team">
+								<span class="tableImg"></span><span>Málaga CF</span>
+							</p>
+							<p class="pld">14</p>
+							<p class="win">5</p>
+							<p class="draw">5</p>
+							<p class="lose">4</p>
+							<p class="gf">23</p>
+							<p class="ga">21</p>
+							<p class="gd">2</p>
+							<p class="g7">L<b>W</b>D<b>W</b>D</p>
+							<p class="pts">20</p>
+						</li>
+						<li class="num12">
+							<p class="try">-</p>
+							<p class="num">12</p>
+							<p class="team">
+								<span class="tableImg"></span><span>RCD Espanyol</span>
+							</p>
+							<p class="pld">14</p>
+							<p class="win">4</p>
+							<p class="draw">7</p>
+							<p class="lose">3</p>
+							<p class="gf">17</p>
+							<p class="ga">17</p>
+							<p class="gd">0</p>
+							<p class="g7"><b>W</b>D<b>W</b><b>W</b>D</p>
+							<p class="pts">19</p>
+						</li>
+						<li class="num13">
+							<p class="try">-</p>
+							<p class="num">13</p>
+							<p class="team">
+								<span class="tableImg"></span><span>D. Alavés</span>
+							</p>
+							<p class="pld">14</p>
+							<p class="win">4</p>
+							<p class="draw">3</p>
+							<p class="lose">7</p>
+							<p class="gf">14</p>
+							<p class="ga">17</p>
+							<p class="gd">-3</p>
+							<p class="g7">L<b>W</b>L<b>W</b>D</p>
+							<p class="pts">17</p>
+						</li>
+						<li class="num14">
+							<p class="try">-</p>
+							<p class="num">14</p>
+							<p class="team">
+								<span class="tableImg"></span><span>Real Betis</span>
+							</p>
+							<p class="pld">14</p>
+							<p class="win">4</p>
+							<p class="draw">3</p>
+							<p class="lose">7</p>
+							<p class="gf">17</p>
+							<p class="ga">28</p>
+							<p class="gd">-11</p>
+							<p class="g7">LL<b>W</b>LD</p>
+							<p class="pts">15</p>
+						</li>
+						<li class="num15">
+							<p class="try">-</p>
+							<p class="num">15</p>
+							<p class="team">
+								<span class="tableImg"></span><span>CD Leganés</span>
+							</p>
+							<p class="pld">14</p>
+							<p class="win">4</p>
+							<p class="draw">2</p>
+							<p class="lose">8</p>
+							<p class="gf">11</p>
+							<p class="ga">25</p>
+							<p class="gd">-14</p>
+							<p class="g7">LL<b>W</b>LD</p>
+							<p class="pts">14</p>
+						</li>
+						<li class="num16">
+							<p class="try">-</p>
+							<p class="num">16</p>
+							<p class="team">
+								<span class="tableImg"></span><span>Valencia CF</span>
+							</p>
+							<p class="pld">14</p>
+							<p class="win">3</p>
+							<p class="draw">3</p>
+							<p class="lose">8</p>
+							<p class="gf">19</p>
+							<p class="ga">26</p>
+							<p class="gd">-7</p>
+							<p class="g7">DLDLD</p>
+							<p class="pts">12</p>
+						</li>
+						<li class="num17">
+							<p class="try"></p>
+							<p class="num">17</p>
+							<p class="team">
+								<span class="tableImg"></span><span>R. Sporting</span>
+							</p>
+							<p class="pld">14</p>
+							<p class="win">3</p>
+							<p class="draw">3</p>
+							<p class="lose">8</p>
+							<p class="gf">15</p>
+							<p class="ga">28</p>
+							<p class="gd">-13</p>
+							<p class="g7">DLLL<b>W</b></p>
+							<p class="pts">12</p>
+						</li>
+						<li class="num18">
+							<p class="try"></p>
+							<p class="num">18</p>
+							<p class="team">
+								<span class="tableImg"></span><span>RC Deportivo</span>
+							</p>
+							<p class="pld">13</p>
+							<p class="win">2</p>
+							<p class="draw">4</p>
+							<p class="lose">7</p>
+							<p class="gf">13</p>
+							<p class="ga">23</p>
+							<p class="gd">-10</p>
+							<p class="g7">LDDLL</p>
+							<p class="pts">10</p>
+						</li>
+						<li class="num19">
+							<p class="try"></p>
+							<p class="num">19</p>
+							<p class="team">
+								<span class="tableImg"></span><span>Granada CF</span>
+							</p>
+							<p class="pld">14</p>
+							<p class="win">1</p>
+							<p class="draw">5</p>
+							<p class="lose">8</p>
+							<p class="gf">9</p>
+							<p class="ga">30</p>
+							<p class="gd">-17</p>
+							<p class="g7">LDDL<b>W</b></p>
+							<p class="pts">8</p>
+						</li>
+						<li class="num20">
+							<p class="try"></p>
+							<p class="num">20</p>
+							<p class="team">
+								<span class="tableImg"></span><span>CA Osasuna</span>
+							</p>
+							<p class="pld">14</p>
+							<p class="win">1</p>
+							<p class="draw">4</p>
+							<p class="lose">9</p>
+							<p class="gf">13</p>
+							<p class="ga">29</p>
+							<p class="gd">-16</p>
+							<p class="g7">DLLLL</p>
+							<p class="pts">7</p>
+						</li>
+					</ul>
+					<div id="rule">
+						<p><span class="rulebox rulebox1"></span><span>Champions League Group Stage</span></p>
+						<p><span class="rulebox rulebox2"></span><span>Champions League Tryout</span></p>
+						<p><span class="rulebox rulebox3"></span><span>Europa League</span></p>
+						<p><span class="rulebox rulebox4"></span><span>Relegation</span></p>
+					</div>
+				</div>
+			</div>
+	<!--####################	공통 부분	####################-->
+	<!--######################################################-->
+	<!--######################################################-->
+			<div class="bottomBtnArea">
+				<div class="shopBtn">
+					<a href="sub_shop.html" title="shopBtn">
+						<img src="img/shopping-cart1-512.png" alt="shopBtn"><span>Go To Shop</span>
+					</a>
+				</div>
+				<div class="BTT">
+					<a href="#none" title="btt"><span>Back To Top</span></a>
+				</div>
+			</div>
+			<div class="specialContent" id="specialContent">
+				<h2>컨텐츠 영역</h2>
+				<div class="content">
+					<div class="specialTitle">
+						<a href="#none" title="logo">
+							<img src="img/small_logo.png" alt="스몰로고" class="titleLogo"/>
+							<h3>Special Features</h3>
+						</a>
+					</div>
+					<ul>
+					   <li>
+							<a href="sub_undecima.html" title="유럽챔피언 레알마드리드 이미지">
+								<div class="imgArea">
+									<img class="spSum" src="img/undecima3.png" alt="La Undécima!"/>
+								</div>
+								<div class="textArea">
+									<p>SPECIAL FEATURES</p>
+									<h4>
+										<span>Real Madrid extended their legend in Europe</span>
+									</h4>
+								</div>
+							</a>
+					   </li>
+					   <li>
+							<a href="sub_distefano.html" title="디스테파노 이미지">
+								<div class="imgArea">
+									<img class="spSum"  src="img/distefano.png" alt="Alfredo Di Stéfano, the best player of all time"/>
+								</div>
+								<div class="textArea">
+									<p>SPECIAL FEATURES</p>
+									<h4>
+										<span>Alfredo Di Stéfano, the best player of all time</span>
+									</h4>
+								</div>
+							</a>
+					   </li>
+					   <li>
+							<a href="sub_santiago.html" title="새로운 베르나베우 이미지">
+								<div class="imgArea">
+									<img class="spSum"  src="img/santiago.png" alt="A dream stadium"/>
+								</div>
+								<div class="textArea">
+									<p>SPECIAL FEATURES</p>
+									<h4>
+										<span>A dream stadium Santiago Bernabéu</span>
+									</h4>
+								</div>
+							</a>
+					   </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="footerWrap">
+			<div class="footerSns">
+				<h2>sns 영역</h2>
+				<ul>
+					<li><a href="https://twitter.com/realmadriden" title="트위터 이미지"><img src="img/sns/social_twitter.png" alt="트위터 이미지"/></a></li>
+					<li><a href="https://plus.google.com/+realmadrid" title="구글플러스 이미지"><img src="img/sns/social_g_plus.png" alt="구글플러스 이미지"/></a></li>
+					<li><a href="https://www.facebook.com/RealMadrid/" title="페이스북 이미지"><img src="img/sns/social_facebook.png" alt="페이스북 이미지"/></a></li>
+					<li><a href="https://www.instagram.com/realmadrid/" title="인스타그램 이미지"><img src="img/sns/social_instagram.png" alt="인스타그램 이미지"/></a></li>
+					<li><a href="https://www.youtube.com/realmadrid" title="유투브 이미지"><img src="img/sns/social_youtube.png" alt="유투브 이미지"/></a></li>
+					<li><a href="https://www.snapchat.com/add/realmadrid" title="스냅챕이미지"><img src="img/sns/social_snapchat.png" alt="스냅챕이미지"/></a></li>
+				</ul>
+			</div>
+			<div class="footerGnb">
+				<h2>footer gnb 영역</h2>
+				<ul>
+					<li class="footerGnb_menu">
+						<a href="#none" title="FOOTBALL" class="footer_gnb_title">FOOTBALL</a>
+						<ol>
+							<li><a href="sub_news.html" title="NEWS">NEWS</a></li>
+							<li><a href="sub_schedule.html" title="SCHEDULE">SCHEDULE</a></li>
+							<li><a href="sub_photo.html" title="PHOTO GALLERY">PHOTO GALLERY</a></li>
+							<li><a href="#none" title="VIDEO GALLERY">VIDEO GALLERY</a></li>
+							<li><a href="sub_squad.html" title="SQUAD">SQUAD</a></li>
+						</ol>
+					</li>
+					<li class="footerGnb_menu">
+						<a href="#none" title="ABOUT REAL MADRID" class="footer_gnb_title">ABOUT RM</a>
+						<ol>
+							<li><a href="sub_history.html" title="HISTORY">HISTORY</a></li>
+							<li><a href="sub_honours.html" title="HONOURS">HONOURS</a></li>
+							<li><a href="sub_santiago.html" title="SANTIAGO BERNABEU">SANTIAGO BERNABEU</a></li>
+						</ol>
+					</li>
+					<li class="footerGnb_menu">
+						<a href="#none" title="MEMBERS" class="footer_gnb_title">SPECIAL FEATURES</a>
+						<ol>
+							<li><a href="sub_undecima.html" title="UNDECIMA">UNDECIMA</a></li>
+							<li><a href="sub_distefano.html" title="DI STEFANO">DI STEFANO</a></li>
+							<li><a href="kit.html" title="UNIFORM">UNIFORM</a></li>
+							<li><a href="sub_topgoal.html" title="ALL-TIME TOP GOALSCORER">TOP GOALSCORER</a></li>
+						</ol>
+					</li>
+					<li class="footerGnb_menu">
+						<a href="#none" title="TICKETS&amp;HOSPITALITY" class="footer_gnb_title">TICKETS&amp; HOSPITALITY</a>
+						<ol>
+							<li><a href="sub_ticket.html" title="TICKET">TICKETS</a></li>
+							<li><a href="sub_hospitality.html" title="HOSPITALITY">HOSPITALITY</a></li>
+						</ol>
+					</li>
+					<li class="footerGnb_menu">
+						<a href="#none" title="SHOP" class="footer_gnb_title">SHOP</a>
+						<ol>
+							<li><a href="sub_shop.html" title="Online Shop">Shop Online</a></li>
+							<li><a href="sub_register.html" title="Online Shop">Register</a></li>
+							<li><a href="sub_login.html" title="Online Shop">Login</a></li>
+						</ol>
+					</li>
+				</ul>
+			</div>
+			<div class="footerSponsors">
+				<h2>footer 스폰서 영역</h2>
+				<div class="sponsorsBtn">
+					<a>
+						<img src="img/small_logo.png" alt="스몰로고"/>
+					</a>
+				</div>
+				<ul>
+					<li class="goldSponsors">
+					   <a href="http://shop.adidas.co.kr/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/adidas.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/adidas.png" alt="스폰서 이미지"/></a>
+					   <a href="http://www.emirates.com/kr/korean/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/Emirates.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/Emiratesc.png" alt="스폰서이미지 컬러"></a>
+					   <a href="http://www.ipic.ae/english" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/ipic.png" alt=""/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/ipic.png" alt=""/></a>
+					</li>
+					<li class="silverSponsors">
+						<a href="http://www.hankooktire.com/kr/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/hankook.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/hankook.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.cepsa.com/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/cepsa.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/cepsa120x100.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.mahou.es/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/mahou.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/mahou.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.audi.co.kr/kr/brand/kn.html" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/audi.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/audi_120x100.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.microsoft.com/ko-kr" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/microsoft.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/microsoft.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.hugoboss.com/asia/home" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/boss.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/boss120x100.png" alt="스폰서이미지 컬러"/></a>
+					</li>
+					<li class="bronzeSponsors1">
+						<a href="http://www.cocacola.co.kr/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/cocacola.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/coke120x100.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.nivea.co.kr/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/nivea.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/nivea120x100.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.sanitas.es/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/Sanitas.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/Sanitas120x100.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.stc.com.sa/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/stc.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/stc.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.samsung.co.kr/main.do" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/samsung.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/colorS.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://solandecabras.es/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/Solan.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/Solan.png" alt="스폰서이미지 컬러"/></a>
+					</li>
+					<li class="bronzeSponsors2">
+						<a href="https://www.nbad.com" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/NBAD.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/NBAD.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://ooredoo.com/en/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/ooredoo.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/ooredoo.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://tecate.com/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/tecate.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/tecate.png" alt="스폰서이미지 컬러"/></a>
+						<a href="#none" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/FUD.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/FUD.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://sport.bt.com/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/btSport.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/btSport.png" alt="스폰서이미지 컬러"/></a>
+					</li>
+				</ul>
+			</div>
+			<div class="footerCopy">
+				<h2>카피라이터 영역</h2>
+				<div>
+					<p>KANG HYEON SEOK &copy; 2016 All rights reserved</p>
+					<p class="mail">delatero0723@gmail.com<span>|</span>Seoulsup 2-gil, Seongdong-gu, SEOUL</p>
+				</div>
+			</div>
+		</div>
+	</div>
+ </body>
+ </html>

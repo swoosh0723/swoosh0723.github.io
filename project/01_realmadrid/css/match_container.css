@@ -1,0 +1,230 @@
+#containerWrap{width:100%; max-width:1900px; min-width:960px; margin:0 auto; overflow:hidden; padding-top:97px;}
+
+/*#################    mainVisual    ####################*/
+#mainVisual{width:100%; overflow:hidden; overflow:hidden;}
+#mainVisual ul{width:100%; margin:0 auto;}
+#mainVisual ul li{text-align:center; position:relative; overflow:hidden;}
+#mainVisual ul li img.main{width:100%;}
+
+#mainText{display:block; position:absolute; left:350px; top:70px; text-align:left; font-size:50px; line-height:1.1em; color:#414141;}
+
+
+/*########.########   matchMenu   ####################*/
+#matchMenu{width:960px; margin:5px auto 25px; height:60px;}
+#matchMenu ul{width:94%; padding:0 3%; height:100%; border-bottom:1px solid #ccc;}
+
+#matchMenu li{float:left; width:120px;  height:100%; line-height:60px; text-align:center; font-size:20px; cursor:pointer; position:relative;}
+#matchMenu li a{display:block; outline:none;  color:#ccc;}
+#matchMenu li span{display:block; width:100%; height:0px; background-color:#00519e; position:absolute; left:0; bottom:0; transition:height .2s ease-in-out;}
+#matchMenu li a.matchName{color:#00519e;}
+#matchMenu li span.matchBar{height:5px;}
+
+#matchMenu li:hover a{color:#00519e;}
+#matchMenu li:hover span{height:5px;}
+
+/*#################    matchTitle   ####################*/
+#matchTitle{width:960px; height:135px; margin:65px auto 15px; position:relative; border-bottom:1px solid #cacaca;}
+
+#matchTitle p.line{width:100%; height:1px; background-color:#cacaca;}
+#matchTitle p.titleLogo {width:120px; text-align:center; background-color:#fff; position:absolute; left:50%; top:-35px; margin-left:-60px;}
+#matchTitle p.titleLogo img{width:42px;}
+
+
+#matchTitle h3{width:960px; padding:35px 0 5px; text-align:center; font-size:45px; color:#00519E;line-height:1.4em;}
+#matchTitle .text{display:block; text-align:center; font-size:16px; color:#818181; text-transform:capitalize;}
+
+
+/*#################    fixed   ####################*/
+#fixed{width:960px; height:2020px; margin:40px auto; overflow:hidden; position:relative;}
+
+
+/*#################    match   ####################*/
+#match{width:960px; height:2000px; margin-top:25px; position:absolute; left:0; top:0;}
+
+/*#################    mainMatch   ####################*/
+#mainMatch{width:960px; margin-bottom:100px; cursor:pointer;}
+#mainMatch:hover #mainMatchMore{background-color:#00519E;}
+
+
+#mainMatchInfo{width:95%; height:34px; line-height:34px; padding:15px 3%; background-color:#dedede; color:#414141;}
+#mainMatchInfo p{width:100px; height:100%;}
+#mainMatchInfo p img{width:80%; padding-top:2px;}
+#mainMatchInfo h3{font-size:15px;}
+#mainMatchInfo .ver{padding:0 20px;}
+#mainMatchInfo .date{letter-spacing:0.05em; font-size:13px;}
+#mainMatchInfo .soldOut{font-size:12px; text-decoration:underline;}
+
+#mainMatchInfo p,#mainMatchInfo h3,#mainMatchInfo span{float:left;}
+#mainMatchInfo span.soldOut{float:right; height:34px;}
+#mainMatchInfo span.soldOut img{width:20px; vertical-align:middle; margin-right:10px; margin-bottom:4px;}
+
+
+#mainMatchTeam{width:958px; padding:30px 0; overflow:hidden; color:#414141; border-right:1px solid #dedede; border-left:1px solid #dedede;}
+#mainHome, #mainAway{width:45%;}
+#mainVersus{width:10%;}
+#mainHome, #mainAway, #mainVersus{float:left;}
+
+.mainMatchImg{width:200px; height:180px; margin:0 auto; text-align:center;}
+.mainMatchImg img{height:100%}
+#mainMatchTeam h4{width:100%; text-align:center; font-size:20px; padding:15px 0 20px;}
+
+
+.mainRecent{font-size:14px; width:50%; margin:0 auto; text-align:center; letter-spacing:0.05em;}
+.mainRecent p:first-child:after{content:""; display:block; width:100%; height:1px; background-color:#ccc; margin:3px 0; }
+.mainRecent span{padding:0 5px; font-size:13px;}
+.mainRecent span.win{font-weight:800;}
+.mainRecent span.lose, .mainRecent span.draw{color:#919191;}
+
+
+#mainVersus span{display:block; text-align:center; font-size:12px;}
+#mainVersus span:first-child{font-size:50px; padding-top:100px;}
+#mainVersus span:last-child{padding-top:20px; letter-spacing:0.15em;}
+
+#mainMatchMore{width:94%; padding:0 3%; height:70px; line-height:70px; background-color:#515151; color:#dedede; letter-spacing:0.05em; transition:background-color .3s ease-in-out;}
+#mainMatchMore p{width:93px; float:right; height:33px; line-height:33px; text-align:center; font-size:14px; margin-top:20px;}
+
+#mainMatchMore p a{display:block; width:100%; height:100%; color:#dedede; transition:all .2s ease-in-out;  border:1px solid #dedede;}
+
+#mainMatchMore p a:hover{color:#00519e; background-color:#fff;}
+
+
+
+
+/*#################   matchArea   ####################*/
+.matchArea{width:960px; margin:0 auto 40px; cursor:pointer;}
+.matchArea:hover .matchMore{background-color:#00519e};
+
+.match{width:960px; margin:0 auto;}
+.matchInfo{width:94.5%; height:34px; line-height:34px; padding:15px 3%; background-color:#dedede; color:#414141;}
+.matchInfo p{width:100px; height:100%;}
+.matchInfo p img{width:80%; padding-top:2px;}
+.matchInfo h3{font-size:13px; font-weight:100;}
+.matchInfo .ver{padding:0 20px;}
+.matchInfo .date{letter-spacing:0.05em; font-size:12px;}
+.matchInfo .soldOut{font-size:11px; text-decoration:underline;}
+
+.matchInfo p,.matchInfo h3,.matchInfo span{float:left;}
+.matchInfo span.soldOut{float:right; height:34px;}
+.matchInfo span.soldOut img{width:20px; vertical-align:middle; margin-right:10px; margin-bottom:4px;}
+
+
+.matchTeam, .rmatchTeam{width:958px; padding:20px 0; height:95px; color:#414141; border-right:1px solid #dedede; border-left:1px solid #dedede; background:url("../img/bgline.png");}
+.matchHome, .matchAway{width:45%;}
+.versus{width:10%;}
+.matchHome, .matchAway, .versus{float:left;}
+
+.matchHome .matchImg, .matchHome .teamName{float:left;}
+.matchAway .matchImg, .matchAway .teamName{float:right;}
+
+.matchImg{width:75px; height:73px; text-align:center;}
+.matchImg img{height:100%;}
+
+.teamName{width:55%; padding:0 40px;}
+
+.matchTeam h4{width:100%; font-size:16px; padding:15px 0 0; font-weight:100;}
+.matchHome h4{text-align:right;}
+.matchAway h4{text-align:left;}
+
+.recent{font-size:12px; width:100%; letter-spacing:0.05em; padding-top:5px;}
+.recent p:first-child:after{content:""; display:block; width:100%; height:1px; background-color:#ccc; margin:2px 0; }
+.recent span{padding:0 5px; font-size:11px;}
+.recent span.win{font-weight:800;}
+.recent span.lose, .recent span.draw{color:#919191;}
+
+.homeRecent{text-align:left;}
+.awayRecent{text-align:right;}
+
+.versus span{display:block; text-align:center; font-size:12px;}
+.versus span:first-child{font-size:30px; padding-top:7px;}
+.versus span:last-child{padding-top:2px; letter-spacing:0.1em;}
+
+.matchMore{width:94%; padding:0 3%; height:50px; line-height:50px; background-color:#717171; color:#fefefe; letter-spacing:0.05em; transition:background-color .2s ease-in-out; background-color:#818181;}
+.matchMore span{font-size:13px;}
+.matchMore p{width:83px; float:right; height:25px; line-height:25px; text-align:center; margin-top:12px;}
+
+.matchMore p a{display:block; width:100%; height:100%; color:#dedede; transition:all .2s ease-in-out;  border:1px solid #dedede; font-size:12px;}
+
+
+.matchMore p a:hover{color:#00519e; background-color:#fff;}
+
+/*#################    result   ####################*/
+#result{width:960px; height:1800px; margin-top:25px; position:absolute; left:0; top:0;}
+
+
+/*#################   resultArea   ####################*/
+.resultArea{width:960px; margin:0 auto 40px;}
+.resultArea:hover .matchMore{background-color:#00519e};
+
+.result{width:960px; margin:0 auto;}
+.rmatchTeam{border-bottom:1px solid #dedede;}
+.rmatchTeam h4{font-weight:100}
+
+
+
+
+/*#################    tableArea   ####################*/
+#tableArea{width:960px; overflow:hidden; margin:0 auto 50px; background-color:#fff; position:absolute; left:0; top:-20;}
+#tableArea ul{width:100%; line-height:55px; font-size:17px;}
+#tableArea ul li{width:93%; height:55px; margin:0 auto; border-bottom:1px solid #ddd; color:#414141;}
+
+
+#tableArea ul li p{float:left; height:100%; text-align:center;}
+.num0 p{background-color:#fff; font-size:14px;}
+
+.try{width:6%; background-color:#fff; font-size:65px; line-height:30px; color:#aaa; position:relative;}
+.num{width:6%; background-color:#00519E; color:#fff; font-size:23px;}
+
+#tableArea ul li p.team{width:25%; background-color:#fff; text-align:left; text-indent:20px}
+#tableArea ul li.num0 p.team span{margin-left:56px;}
+.pld, .draw, .gf, .gd{width:6%; background-color:#ededed;}
+.win, .lose, .ga{width:6%; background-color:#fff;}
+
+.g7{width:15%; background-color:#fff; letter-spacing:0.15em;}
+.pts{width:6%; background-color:#00519E; color:#fff; font-size:17px;}
+.num0 .pts, .num0 .num{color:#414141;}
+
+.num1 p{background:url("../img/bgline.png")}
+.num1 .num, .num1 .pts{background:#00519e;}
+.num1 .pld, .num1 .draw, .num1 .gf, .num1 .gd{background:#ededed;}
+
+.tableImg{width:40px; height:40px; display:block; float:left; background:url("../img/ligatable.png")no-repeat center ; background-size:100%; margin-top:7px; margin-left:18px;}
+.num1 .tableImg{background-position:center -1280px;}
+.num2 .tableImg{background-position:center -280px;}
+.num3 .tableImg{background-position:center -1440px;}
+.num4 .tableImg{background-position:center -240px;}
+.num5 .tableImg{background-position:center -1680px;}
+.num6 .tableImg{background-position:center -1320px;}
+.num7 .tableImg{background-position:center -160px;}
+.num8 .tableImg{background-position:center -520px;}
+.num9 .tableImg{background-position:center -400px;}
+.num10 .tableImg{background-position:center -480px;}
+.num11 .tableImg{background-position:center -840px;}
+.num12 .tableImg{background-position:center -1040px;}
+.num13 .tableImg{background-position:center -40px;}
+.num14 .tableImg{background-position:center -320px;}
+.num15 .tableImg{background-position:center -880px;}
+.num16 .tableImg{background-position:center -1600px;}
+.num17 .tableImg{background-position:center -1480px;}
+.num18 .tableImg{background-position:center -480px;}
+.num19 .tableImg{background-position:center -760px;}
+.num20 .tableImg{background-position:center -1160px;}
+
+#rule{width:93%; margin:30px auto 0;}
+#rule p{float:left; font-size:12px; margin-right:20px;}
+.rulebox{display:inline-block; width:10px; height:12px; margin-right:8px; opacity:0.6}
+.rulebox1{background-color:#00F0B2;}
+.rulebox2{background-color:#8F58FF;}
+.rulebox3{background-color:#00D7ED;}
+.rulebox4{background-color:#FF4263;}
+
+.num1 .try:before,.num2 .try:before,.num3 .try:before{content: ""; display:block; position:absolute; width:4px; height:100%; background-color:#00F0B2; left:0; top:0; opacity:0.6}
+.num4 .try:before{content: ""; display:block; position:absolute; width:4px; height:100%; background-color:#8F58FF; left:0; top:0; opacity:0.6}
+.num5 .try:before, .num6 .try:before{content: ""; display:block; position:absolute; width:4px; height:100%; background-color:#00D7ED; left:0; top:0; opacity:0.6}
+.num18 .try:before, .num19 .try:before, .num20 .try:before{content: ""; display:block; position:absolute; width:4px; height:100%; background-color:#FF4263; left:0; top:0; opacity:0.6}
+
+.num3 .try:after,.num5 .try:after,.num7 .try:after,.num17 .try:after,.num19 .try:after{content:""; display:block; position:absolute; width:0; height:0; border-bottom:9px solid #2FDCA5; border-right:5px solid transparent; border-left:5px solid transparent; left:50%; top:50%; margin-left:-4px; margin-top:-7px;}
+
+.num2 .try:after,.num4 .try:after,.num6 .try:after,.num8 .try:after,.num18 .try:after,.num20 .try:after{content:""; display:block; position:absolute; width:0; height:0; border-top:9px solid #F64D61; border-right:5px solid transparent; border-left:5px solid transparent; left:50%; top:50%; margin-left:-4px; margin-top:-7px;}
+
+
+.mainMatchInfo span, .versus span:last-child, .mainRecent, .mainMatchMore, .matchInfo span, .recent, .matchMore, .try, .team, .pld, .win, .draw, .lose, .gf, .ga, .gd,.g7, #rule{font-family:"Oswald-Light"}

@@ -1,0 +1,197 @@
+#containerWrap{width:100%; max-width:1900px; min-width:960px; margin:0 auto; overflow:hidden; padding-top:97px;}
+
+/*#################    mainVisual    ####################*/
+#mainVisual{width:100%; overflow:hidden;}
+#mainVisual ul{width:100%; margin:0 auto;}
+#mainVisual ul li{text-align:center; position:relative; overflow:hidden;}
+#mainVisual ul li img.main{width:100%;}
+
+#mainText{display:block; position:absolute; left:350px; top:70px; text-align:left; font-size:50px; line-height:1.1em; color:#414141;}
+
+
+
+
+/*#################    hospitalityTitle   ####################*/
+#hospitalityTitle{width:960px; height:135px; margin:65px auto 15px; position:relative; border-bottom:1px solid #cacaca;}
+
+#hospitalityTitle p.line{width:100%; height:1px; background-color:#cacaca;}
+#hospitalityTitle p.titleLogo {width:120px; text-align:center; background-color:#fff; position:absolute; left:50%; top:-35px; margin-left:-60px;}
+#hospitalityTitle p.titleLogo img{width:42px;}
+
+
+#hospitalityTitle h3{width:960px; padding:35px 0 5px; text-align:center; font-size:45px; color:#00519E;line-height:1.4em;}
+#hospitalityTitle .text{display:block; text-align:center; font-size:16px; color:#818181; text-transform:capitalize;}
+
+
+/*#################    TnHArea   ####################*/
+#TnHArea{width:960px; margin:40px auto 0;}
+
+/*#################    hospitalityArea   ####################*/
+#hospitalityArea{width:100%;}
+#hospitalityArea ul{width:100%;  position:relative; overflow:hidden;  margin-bottom:50px;}
+.hospitalityBox{width:313px; height:380px; float:left; margin-left:10.5px; margin-top:9px; background-color:#ccc; position:relative;}
+.hospitalityBoxN{margin-left:0;}
+.hospitalityBox img:first-child{width:100%;}
+.hLogo{width:30px; position:absolute; left:50%; top:20px; margin-left:-15px;}
+
+
+
+.hospitalityTrans{width:313px; height:380px; position:absolute; left:0; top:0; z-index:5; background-color:#222; opacity:0.8; transition:all .4s ease;}
+
+.hospitalityTrans a{display:block; width:100%; height:100%; outline:none;}
+
+.hospitalityTrans1{top:0px;}
+.hospitalityTrans2{top:0px; left:323.5px;}
+.hospitalityTrans3{top:0px; left:647px;}
+.hospitalityTrans4{top:389px;}
+.hospitalityTrans5{top:389px; left:323.5px;}
+.hospitalityTrans6{top:389px; left:647px;}
+
+
+.hospitalityCircle{width:190px; height:190px; text-align:center; background-color:rgba(0,81,158,0.8); color:#fff; border-radius:100px; position:absolute; left:61.5px; top:95px; z-index:4; transition-property:left, top; transition-duration:.6s}
+.hospitalityCircle span{display:block; line-height:1.4em;}
+.hospitalityCircle span:first-child{font-size:18px; margin-top:67px;}
+.hospitalityCircle span:last-child{font-size:20px;}
+
+.hospitalityCircleScale{transform:scale(40,40); transition:all 2s ease}
+
+
+/*#################    hospitalitySubArea   ####################*/
+.hospitalitySubArea{width:100%; height:100%; line-height:1.4em; position:absolute; left:0; z-index:6; background-color:#fff;}
+.hSubImg{width:100%; height:380px; overflow:hidden; position:relative;}
+.hSubImg img{width:100%;}
+
+.hSubImg p{position:absolute; right:15px; top:15px;}
+.hSubImg p a{display:block;}
+.hSubClose{display:block; width:25px; height:25px; background-color:#ccc; opacity:0.4; position:relative; cursor:pointer; transition:all 0.3s ease}
+.hSubClose:after, .hSubClose:before{content:""; display:block; width:2px; height:20px; background-color:#515151; position:absolute; left:12px; top:3px;}
+span.hSubClose:after{transform:rotate(40deg)}
+span.hSubClose:before{transform:rotate(-40deg)}
+
+.hSubImg p:hover .hSubClose{background-color:#fff; opacity:0.9}
+
+
+.hSubBtn{width:100%; height:40px; padding:15px 0 20px;}
+
+.hSubSns:before{content:""; display:block; width:1px; height:5px;}
+.hSubSns{width:120px; height:30px; float:left;}
+.hSubSns a{display:inline-block; width:28px; margin-right:7px;}
+.hSubSns a img{width:100%;}
+
+.hSubBtn p.ticketBtn{float:right}
+.hSubBtn p.ticketBtn a{display:block; width:120px; height:40px; line-height:40px; background-color:#00519e; color:#fff; text-align:center; font-size:15px; transition:background-color .3s ease}
+
+
+.hSubBtn p.ticketBtn:hover a{background-color:#127ee5}
+
+
+.hSubText{width:90%; padding:0% 5% 3.5%; letter-spacing:0.05em;}
+.hSubTextTitle{display:block; font-size:17px;font-family:"Oswald-Regular"; letter-spacing:0; padding-bottom:5px;}
+
+.hSubInfo{width:100%; height:190px;}
+.hSubInfo p{width:20%; height:100%; float:left; border-right:1px solid #ccc; margin-right:3%; font-size:13px;}
+.hSubInfo p b{display:block; font-size:16px; padding-bottom:10px;}
+.hSubInfo p span{letter-spacing:0.1em;}
+.hSubInfo p:last-child{width:30%; margin-right:0%; border-right:none;}
+.hSubInfo p:last-child img{width:100%; margin-top:20px;}
+
+
+/*#################    hospitalityArea2   ####################*/
+#hospitalityArea2{width:100%; height:300px;}
+#hospitalityArea2 ul{width:100%; margin-top:40px;}
+#hospitalityArea2 ul li{width:230px; height:230px; background-color:#ccc; float:left; margin-left:0.8%; box-shadow:3px 3px 13px #ccc;}
+#hospitalityArea2 ul li a{display:block; width:100%; height:100%; cursor:default;}
+
+.hospitalityArea2Img{width:100%; height:180px; background-color:#ddd;}
+.hospitalityArea2Img img{width:100%}
+
+.hospitalityArea2Text{width:228px; height:49px; line-height:50px; background-color:#fff; position:relative; text-align:center; color:#414141; font-size:14px; border:1px solid #ddd; border-top:none;}
+.hospitalityArea2Text:after{content:""; display:block; width:0px; height:0px; border-bottom:12px solid #fff; border-right:8px solid transparent; border-left:8px solid transparent; position:absolute; left:50%; top:-12px; margin-left:-6px;}
+
+
+
+/*#################   ticket   ####################*/
+#ticketArea{width:960px; margin:0 auto;}
+
+/*#################   ticket   ####################*/
+
+
+.ticketss{width:100%; height:255px; cursor:pointer; margin-left:20px; margin-bottom:50px;}
+.ticketBg{display:block; width:230px; height:250px; background:url("../img/small_logo.png")no-repeat right top; opacity:0.08; position: absolute; left:0px; top:5px; background-size:270px}
+
+/*#################   matchArea   ####################*/
+.matchArea{width:70%; height:253px; cursor:pointer; position:relative; float:left; border:1px solid #aaa; border-right:none; background:url("../img/bgline.png"); border-radius:12px;}
+.matchArea:before{content:""; display:block; width:45px; height:90px; border-radius:0 45px 45px 0; border:1px solid #aaa; border-left:none; background-color:#fff; position:absolute; left:-1px; top:50%; margin-top:-45px; z-index: 3;}
+.matchArea:after{content:""; display:block; width:96%; height:82%; border:2px solid #00519e; border-right:none; position:absolute; right:0; top:9%}
+
+.matchInfo{width:40%; overflow:hidden; color:#414141; float:left; margin-left:13%; margin-top:60px; border-right:1px solid #ccc;}
+.legue{width:100%;}
+.legue p{width:100%; height:32px;}
+.legue img{width:80px; overflow:hidden;}
+.legue h3{font-size:14px; font-weight:100; margin-bottom:20px;}
+.matchInfo .date{letter-spacing:0.05em; font-size:18px; line-height:1.7em}
+
+.matchInfo p,.matchInfo h3,.matchInfo span{float:left;}
+.matchInfo span.soldOut{float:right; height:34px;}
+.matchInfo span.soldOut img{width:20px; vertical-align:middle; margin-right:10px; margin-bottom:4px;}
+
+
+
+
+.matchTeam{width:40%; height:120px; color:#414141; float:left; margin-top:75px; margin-left:40px;}
+.matchHome, .matchAway{width:45%;}
+.matchHome, .matchAway{float:left; overflow:hidden;}
+
+.matchHome .matchImg, .matchHome .teamName{float:left;}
+.matchAway .matchImg, .matchAway .teamName{float:right;}
+
+.matchImg{width:100%; height:73px; text-align:center;}
+.matchImg img{height:100%;}
+
+.teamName{width:100%}
+
+.matchTeam h4{margin:0 auto; text-align:center; font-size:14px; font-weight:100; padding-top:15px}
+
+
+
+.matchArea .ticketLine{display:block; height:85%; border-left:2px dashed #eee; position:absolute; right:-2px; top:5%;}
+
+/*#################   matchTicket   ####################*/
+.matchTicket{width:25%; height:253px; border:1px solid #aaa; border-left:none; border-radius:12px; background:#fff url("../img/bgline.png"); position:relative; float:left; transition:all 0.3s ease}
+.matchTicket:before{content:""; display:block; width:45px; height:90px; border-radius:45px 0 0 45px; border:1px solid #aaa; border-right:none; background-color:#fff; position:absolute; right:-1px; top:50%; margin-top:-45px; z-index:4}
+.matchTicket:after{content:""; display:block; width:90%; height:82%; border:2px solid #00519e; border-left:none; position:absolute; left:0; top:9%}
+
+
+
+
+.matchTicket .ticketLine{display:block; height:229px; border-left:2px dashed #ccc; position:absolute; left:0; top:12px; z-index:7;}
+
+
+.buyTicket, .soldout{display:inline-block; background-color:#00519e; width:140px; height:50px; line-height:50px; text-align:center; font-size:22px; margin:60px 0 30px 40px; border-radius:5px;}
+.soldout{background-color:#aaa; color:#fff;}
+.buyTicket a{display:block; color:#fff; position:relative; z-index:10}
+.soldout a{display:block;}
+
+
+
+.ticketFrom{width:200px; margin:8px 0 0 35px; color:#616161;}
+.ticketFrom span{display:inline-block; width:120px;}
+
+.ticketss:hover .matchTicket{box-shadow:-5px 5px 7px #ccc}
+.ticketss:hover .matchTicket{transform:rotate(5deg)translate(13px,8px);}
+.ticketss:hover .matchTicketSoldout{transform:rotate(0deg)translate(0px,0px);}
+.ticketss:hover .buyTicket{box-shadow:5px 5px 10px #999}
+.ticketss:hover .soldout{box-shadow:5px 5px 10px #888;}
+
+
+.lineMonth{width:90%; margin:0 auto 50px; border-top:1px solid #ccc; position:relative;}
+
+.monthCircle1, .monthCircle2{width:4px; height:4px; border-radius:10px; background-color:#bbb; position:absolute; top:-2px;}
+.monthCircle1{left:0;}
+.monthCircle2{right:0;}
+
+.lineDecember:after{content:"DECEMBER 2016"; display:block; width:140px; height:30px; line-height:30px; text-align:center; position:absolute; left:50%; top:-15px; margin-left:-50px; color:#515151; background-color:#fff;}
+.lineNovember:after{content:"NOVEMBER 2016"; display:block; width:140px; height:30px; line-height:30px; text-align:center; position:absolute; left:50%; top:-15px; margin-left:-50px; color:#515151; background-color:#fff;}
+
+
+.hospitalityCircle span:first-child, .hospitalitySubArea, .matchInfo p,.matchInfo h3,.matchInfo span, .matchInfo .date, .ticketFrom, .seatBoxArea, #ticketPriceArea{font-family:"Oswald-Light"};

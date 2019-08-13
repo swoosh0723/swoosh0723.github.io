@@ -1,0 +1,33 @@
+
+*{margin:0; padding:0;}
+body, header, nav, section, div, ul{margin:0; padding:0;}
+body, header, nav, section, div, ul{display:block;}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+#body {
+	min-height: 100%;
+	margin: -100px 0 -50px;
+}
+* html #body {
+	height: 100%;
+}
+#rightArea {
+	padding: 100px 0 50px;
+}
+
+
+a:link, a:visited{text-decoration:none; color:#515151;}
+a:focus,a:hover{text-decoration:none;}
+li{list-style:none;}
+
+h2{width:1px; height:1px; font-size:1px;line-height:0px; position:absolute; left:-9999px; overflow:hidden;}
+
+@font-face{font-family:"Oswald-Regular"; src:url("../font/Oswald-Regular.woff");}
+@font-face{font-family:"Oswald-Light"; src:url("../font/Oswald-Light.woff");}
+@font-face{font-family:"NotoSansCJKkr-DemiLight"; src:url("../font/NotoSansCJKkr-DemiLight.woff");}
+
+body{font-family:"Oswald-Regular", sans-serif;}

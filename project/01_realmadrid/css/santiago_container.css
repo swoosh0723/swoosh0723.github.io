@@ -1,0 +1,267 @@
+#containerWrap{width:100%; max-width:1900px; min-width:960px; margin:0 auto; overflow:hidden; padding-top:97px;}
+
+/*#################    mainVisual    ####################*/
+#mainVisual{width:100%; overflow:hidden;}
+#mainVisual ul{height:100%;}
+#mainVisual ul li{text-align:center; position:relative;}
+#mainVisual ul li img.main{width:100%;}
+#mainVisual .mainText{display:none; background-color:rgba(5,5,5,.6); padding:20px 50px; font-size:35px; text-align:left; color:#fff; line-height:1em; font-weight:bold; position:absolute; left:380px; top:150px;}
+#mainVisual .mainText span{font-size:25px;}
+
+
+/*#################    santiagoTitle   ####################*/
+#santiagoTitle{width:960px; height:170px; margin:65px auto 50px; position:relative; border-bottom:1px solid #cacaca; }
+
+#santiagoTitle p.line{width:100%; height:1px; background-color:#cacaca;}
+#santiagoTitle p.titleLogo {width:45px; padding:0 40px; background-color:#fff; position:absolute; left:50%; top:-40px; margin-left:-70px;}
+#santiagoTitle p.titleLogo img{width:100%;}
+
+
+#santiagoTitle h3{width:960px; padding:35px 10px 5px; margin:0 auto; text-align:center; font-size:45px; font-weight:1000; color:#00519E;line-height:1.4em;}
+#santiagoTitle .text{display:block; text-align:center; font-size:16px; color:#818181;}
+
+
+
+/*#################    santiagoArea + sanitagoText1  ####################*/
+#santiagoArea{width:100%;}
+.sanitagoText1{width:750px; margin:0 auto;}
+.sanitagoText2{width:960px; margin:0 auto;}
+.sanitagoText1 strong, .sanitagoText2 p strong{display:block; text-align:center; padding:20px 0 60px; font-size:25px; color:#515151; font-weight:100; font-family: Oswald-Regular;}
+.sanitagoText1, .sanitagoText2{font-family:NotoSansCJKkr-DemiLight;}
+
+
+/*#################    santiagoArea + sanitagoText2  ####################*/
+.sanPhotoTitle {width:960px; height:110px; position:relative; margin:0 auto 30px; border-top:1px solid #cacaca; border-bottom:1px solid #cacaca; text-align:center;  font-family: Oswald-Regular;}
+
+.sanPhotoTitle p{width:80px; height:45px; background-color:#fff; position:absolute; margin-left:50%; left:-40px; top:-35px;}
+.sanPhotoTitle img{width:45px;}
+
+.sanitagoText2 p.sanText2{width:750px; margin:0 auto;}
+.sanPhotoTitle strong{display:block; font-size:35px; margin-top:35px; color:#00519E;}
+
+
+/*###############    santiagoArea + snatiagoPhoto1    ##################*/
+#snatiagoPhoto1{width:1600px; height:1000px; margin:70px auto 0; position:relative;}
+#snatiagoPhoto1 li{width:100%; height:900px; position:absolute; left:0; top:0;}
+#snatiagoPhoto1 .newSan img{width:100%;}
+#snatiagoPhoto1 .whiteSan{width:100%; height:900px;
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 99%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 99%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 99%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+/*###############    santiagoArea + snatiagoPhoto1 hover   ##################*/
+#snatiagoPhoto1 .oldSan p{width:100px; height:100px; float:left; transition:opacity 2s ease-in-out;}
+#snatiagoPhoto1 .oldSan p img{width:100%;}
+
+
+#snatiagoPhoto1:hover .oldSan p{animation:oldSan 2s 1 ease-in-out alternate; opacity:0;}
+#snatiagoPhoto1:hover .whiteSan{animation:whiteSan 5.5s 1 ease-out alternate; opacity:0;}
+#snatiagoPhoto1:hover .newSan{animation:newSan 5s 1 ease-out;}
+
+
+@keyframes oldSan{
+        0%{transform:rotatex(0deg); opacity:1;}
+        100%{transform:rotatex(900deg); opacity:0;}}
+@keyframes whiteSan{
+        0%{opacity:1;}
+        60%{opacity:1}
+        100%{opacity:0;}}
+@keyframes newSan{
+        0%{transform:scale(0.4); opacity:0;}
+        40%{opacity:0;}
+        100%{transform:scale(1); opacity:1;}}
+
+
+#snatiagoPhoto1:hover .oldSan p.oldSan1{animation-delay:.02s}
+#snatiagoPhoto1:hover .oldSan p.oldSan2{animation-delay:.08s}
+#snatiagoPhoto1:hover .oldSan p.oldSan3{animation-delay:.05s}
+#snatiagoPhoto1:hover .oldSan p.oldSan4{animation-delay:.01s}
+#snatiagoPhoto1:hover .oldSan p.oldSan5{animation-delay:.10s}
+#snatiagoPhoto1:hover .oldSan p.oldSan6{animation-delay:.02s}
+#snatiagoPhoto1:hover .oldSan p.oldSan7{animation-delay:.04s}
+#snatiagoPhoto1:hover .oldSan p.oldSan8{animation-delay:.09s}
+#snatiagoPhoto1:hover .oldSan p.oldSan9{animation-delay:.06s}
+#snatiagoPhoto1:hover .oldSan p.oldSan10{animation-delay:.05s}
+#snatiagoPhoto1:hover .oldSan p.oldSan11{animation-delay:.01s}
+#snatiagoPhoto1:hover .oldSan p.oldSan12{animation-delay:.10s}
+#snatiagoPhoto1:hover .oldSan p.oldSan13{animation-delay:.06s}
+#snatiagoPhoto1:hover .oldSan p.oldSan14{animation-delay:.09s}
+#snatiagoPhoto1:hover .oldSan p.oldSan15{animation-delay:.03s}
+#snatiagoPhoto1:hover .oldSan p.oldSan16{animation-delay:.10s}
+
+#snatiagoPhoto1:hover .oldSan p.oldSan17{animation-delay:.11s}
+#snatiagoPhoto1:hover .oldSan p.oldSan18{animation-delay:.17s}
+#snatiagoPhoto1:hover .oldSan p.oldSan19{animation-delay:.14s}
+#snatiagoPhoto1:hover .oldSan p.oldSan20{animation-delay:.19s}
+#snatiagoPhoto1:hover .oldSan p.oldSan21{animation-delay:.13s}
+#snatiagoPhoto1:hover .oldSan p.oldSan22{animation-delay:.15s}
+#snatiagoPhoto1:hover .oldSan p.oldSan23{animation-delay:.12s}
+#snatiagoPhoto1:hover .oldSan p.oldSan24{animation-delay:.18s}
+#snatiagoPhoto1:hover .oldSan p.oldSan25{animation-delay:.11s}
+#snatiagoPhoto1:hover .oldSan p.oldSan26{animation-delay:.16s}
+#snatiagoPhoto1:hover .oldSan p.oldSan27{animation-delay:.20s}
+#snatiagoPhoto1:hover .oldSan p.oldSan28{animation-delay:.13s}
+#snatiagoPhoto1:hover .oldSan p.oldSan29{animation-delay:.16s}
+#snatiagoPhoto1:hover .oldSan p.oldSan30{animation-delay:.12s}
+#snatiagoPhoto1:hover .oldSan p.oldSan31{animation-delay:.18s}
+#snatiagoPhoto1:hover .oldSan p.oldSan32{animation-delay:.11s}
+
+#snatiagoPhoto1:hover .oldSan p.oldSan33{animation-delay:.29s}
+#snatiagoPhoto1:hover .oldSan p.oldSan34{animation-delay:.22s}
+#snatiagoPhoto1:hover .oldSan p.oldSan35{animation-delay:.25s}
+#snatiagoPhoto1:hover .oldSan p.oldSan36{animation-delay:.28s}
+#snatiagoPhoto1:hover .oldSan p.oldSan37{animation-delay:.23s}
+#snatiagoPhoto1:hover .oldSan p.oldSan38{animation-delay:.21s}
+#snatiagoPhoto1:hover .oldSan p.oldSan39{animation-delay:.29s}
+#snatiagoPhoto1:hover .oldSan p.oldSan40{animation-delay:.22s}
+#snatiagoPhoto1:hover .oldSan p.oldSan41{animation-delay:.24s}
+#snatiagoPhoto1:hover .oldSan p.oldSan42{animation-delay:.28s}
+#snatiagoPhoto1:hover .oldSan p.oldSan43{animation-delay:.27s}
+#snatiagoPhoto1:hover .oldSan p.oldSan44{animation-delay:.25s}
+#snatiagoPhoto1:hover .oldSan p.oldSan45{animation-delay:.20s}
+#snatiagoPhoto1:hover .oldSan p.oldSan46{animation-delay:.23s}
+#snatiagoPhoto1:hover .oldSan p.oldSan47{animation-delay:.30s}
+#snatiagoPhoto1:hover .oldSan p.oldSan48{animation-delay:.25s}
+
+#snatiagoPhoto1:hover .oldSan p.oldSan49{animation-delay:.49s}
+#snatiagoPhoto1:hover .oldSan p.oldSan50{animation-delay:.42s}
+#snatiagoPhoto1:hover .oldSan p.oldSan51{animation-delay:.44s}
+#snatiagoPhoto1:hover .oldSan p.oldSan52{animation-delay:.48s}
+#snatiagoPhoto1:hover .oldSan p.oldSan53{animation-delay:.47s}
+#snatiagoPhoto1:hover .oldSan p.oldSan54{animation-delay:.45s}
+#snatiagoPhoto1:hover .oldSan p.oldSan55{animation-delay:.40s}
+#snatiagoPhoto1:hover .oldSan p.oldSan56{animation-delay:.43s}
+#snatiagoPhoto1:hover .oldSan p.oldSan57{animation-delay:.40s}
+#snatiagoPhoto1:hover .oldSan p.oldSan58{animation-delay:.45s}
+#snatiagoPhoto1:hover .oldSan p.oldSan59{animation-delay:.44s}
+#snatiagoPhoto1:hover .oldSan p.oldSan60{animation-delay:.49s}
+#snatiagoPhoto1:hover .oldSan p.oldSan61{animation-delay:.43s}
+#snatiagoPhoto1:hover .oldSan p.oldSan62{animation-delay:.45s}
+#snatiagoPhoto1:hover .oldSan p.oldSan63{animation-delay:.42s}
+#snatiagoPhoto1:hover .oldSan p.oldSan64{animation-delay:.48s}
+
+#snatiagoPhoto1:hover .oldSan p.oldSan65{animation-delay:.55s}
+#snatiagoPhoto1:hover .oldSan p.oldSan66{animation-delay:.58s}
+#snatiagoPhoto1:hover .oldSan p.oldSan67{animation-delay:.53s}
+#snatiagoPhoto1:hover .oldSan p.oldSan68{animation-delay:.51s}
+#snatiagoPhoto1:hover .oldSan p.oldSan69{animation-delay:.59s}
+#snatiagoPhoto1:hover .oldSan p.oldSan70{animation-delay:.52s}
+#snatiagoPhoto1:hover .oldSan p.oldSan71{animation-delay:.54s}
+#snatiagoPhoto1:hover .oldSan p.oldSan72{animation-delay:.58s}
+#snatiagoPhoto1:hover .oldSan p.oldSan73{animation-delay:.57s}
+#snatiagoPhoto1:hover .oldSan p.oldSan74{animation-delay:.55s}
+#snatiagoPhoto1:hover .oldSan p.oldSan75{animation-delay:.50s}
+#snatiagoPhoto1:hover .oldSan p.oldSan76{animation-delay:.53s}
+#snatiagoPhoto1:hover .oldSan p.oldSan77{animation-delay:.50s}
+#snatiagoPhoto1:hover .oldSan p.oldSan78{animation-delay:.55s}
+#snatiagoPhoto1:hover .oldSan p.oldSan79{animation-delay:.59s}
+#snatiagoPhoto1:hover .oldSan p.oldSan80{animation-delay:.52s}
+
+#snatiagoPhoto1:hover .oldSan p.oldSan81{animation-delay:.62s}
+#snatiagoPhoto1:hover .oldSan p.oldSan82{animation-delay:.68s}
+#snatiagoPhoto1:hover .oldSan p.oldSan83{animation-delay:.65s}
+#snatiagoPhoto1:hover .oldSan p.oldSan84{animation-delay:.61s}
+#snatiagoPhoto1:hover .oldSan p.oldSan85{animation-delay:.65s}
+#snatiagoPhoto1:hover .oldSan p.oldSan86{animation-delay:.66s}
+#snatiagoPhoto1:hover .oldSan p.oldSan87{animation-delay:.68s}
+#snatiagoPhoto1:hover .oldSan p.oldSan88{animation-delay:.67s}
+#snatiagoPhoto1:hover .oldSan p.oldSan89{animation-delay:.66s}
+#snatiagoPhoto1:hover .oldSan p.oldSan90{animation-delay:.65s}
+#snatiagoPhoto1:hover .oldSan p.oldSan91{animation-delay:.61s}
+#snatiagoPhoto1:hover .oldSan p.oldSan92{animation-delay:.68s}
+#snatiagoPhoto1:hover .oldSan p.oldSan93{animation-delay:.64s}
+#snatiagoPhoto1:hover .oldSan p.oldSan94{animation-delay:.69s}
+#snatiagoPhoto1:hover .oldSan p.oldSan95{animation-delay:.68s}
+#snatiagoPhoto1:hover .oldSan p.oldSan96{animation-delay:.65s}
+
+#snatiagoPhoto1:hover .oldSan p.oldSan97{animation-delay:.71s}
+#snatiagoPhoto1:hover .oldSan p.oldSan98{animation-delay:.77s}
+#snatiagoPhoto1:hover .oldSan p.oldSan99{animation-delay:.74s}
+#snatiagoPhoto1:hover .oldSan p.oldSan100{animation-delay:.79s}
+#snatiagoPhoto1:hover .oldSan p.oldSan101{animation-delay:.73s}
+#snatiagoPhoto1:hover .oldSan p.oldSan102{animation-delay:.75s}
+#snatiagoPhoto1:hover .oldSan p.oldSan103{animation-delay:.72s}
+#snatiagoPhoto1:hover .oldSan p.oldSan104{animation-delay:.78s}
+#snatiagoPhoto1:hover .oldSan p.oldSan105{animation-delay:.71s}
+#snatiagoPhoto1:hover .oldSan p.oldSan106{animation-delay:.76s}
+#snatiagoPhoto1:hover .oldSan p.oldSan107{animation-delay:.75s}
+#snatiagoPhoto1:hover .oldSan p.oldSan108{animation-delay:.73s}
+#snatiagoPhoto1:hover .oldSan p.oldSan109{animation-delay:.74s}
+#snatiagoPhoto1:hover .oldSan p.oldSan110{animation-delay:.72s}
+#snatiagoPhoto1:hover .oldSan p.oldSan111{animation-delay:.78s}
+#snatiagoPhoto1:hover .oldSan p.oldSan112{animation-delay:.71s}
+
+#snatiagoPhoto1:hover .oldSan p.oldSan113{animation-delay:.89s}
+#snatiagoPhoto1:hover .oldSan p.oldSan114{animation-delay:.82s}
+#snatiagoPhoto1:hover .oldSan p.oldSan115{animation-delay:.85s}
+#snatiagoPhoto1:hover .oldSan p.oldSan116{animation-delay:.88s}
+#snatiagoPhoto1:hover .oldSan p.oldSan117{animation-delay:.83s}
+#snatiagoPhoto1:hover .oldSan p.oldSan118{animation-delay:.81s}
+#snatiagoPhoto1:hover .oldSan p.oldSan119{animation-delay:.89s}
+#snatiagoPhoto1:hover .oldSan p.oldSan120{animation-delay:.82s}
+#snatiagoPhoto1:hover .oldSan p.oldSan121{animation-delay:.84s}
+#snatiagoPhoto1:hover .oldSan p.oldSan122{animation-delay:.88s}
+#snatiagoPhoto1:hover .oldSan p.oldSan123{animation-delay:.87s}
+#snatiagoPhoto1:hover .oldSan p.oldSan124{animation-delay:.85s}
+#snatiagoPhoto1:hover .oldSan p.oldSan125{animation-delay:.80s}
+#snatiagoPhoto1:hover .oldSan p.oldSan126{animation-delay:.83s}
+#snatiagoPhoto1:hover .oldSan p.oldSan127{animation-delay:.80s}
+#snatiagoPhoto1:hover .oldSan p.oldSan128{animation-delay:.85s}
+
+#snatiagoPhoto1:hover .oldSan p.oldSan129{animation-delay:.92s}
+#snatiagoPhoto1:hover .oldSan p.oldSan130{animation-delay:.98s}
+#snatiagoPhoto1:hover .oldSan p.oldSan131{animation-delay:.94s}
+#snatiagoPhoto1:hover .oldSan p.oldSan132{animation-delay:.98s}
+#snatiagoPhoto1:hover .oldSan p.oldSan133{animation-delay:.97s}
+#snatiagoPhoto1:hover .oldSan p.oldSan134{animation-delay:.90s}
+#snatiagoPhoto1:hover .oldSan p.oldSan135{animation-delay:.95s}
+#snatiagoPhoto1:hover .oldSan p.oldSan136{animation-delay:.92s}
+#snatiagoPhoto1:hover .oldSan p.oldSan137{animation-delay:.99s}
+#snatiagoPhoto1:hover .oldSan p.oldSan138{animation-delay:.95s}
+#snatiagoPhoto1:hover .oldSan p.oldSan139{animation-delay:.94s}
+#snatiagoPhoto1:hover .oldSan p.oldSan140{animation-delay:.99s}
+#snatiagoPhoto1:hover .oldSan p.oldSan141{animation-delay:.95s}
+#snatiagoPhoto1:hover .oldSan p.oldSan142{animation-delay:.91s}
+#snatiagoPhoto1:hover .oldSan p.oldSan143{animation-delay:.92s}
+#snatiagoPhoto1:hover .oldSan p.oldSan144{animation-delay:.98s}
+
+/*#################    undecimaArea + undecimaVideo  ####################*/
+#VideoWrap{width:640px; height:340px; margin:50px auto; position:relative;}
+.videoCover{width:640px; height:340px; background-color:#222;}
+
+#videoControlWrap{position:absolute; left:50%; top:50%; margin-left:-45px; margin-top:-45px; z-index:5}
+
+.videoControl{width:90px; height:90px; background-color:rgba(10,10,10,0.8) ; border-radius:100px; position:relative; cursor:pointer;}
+
+.videoTry{display:block; border-left:30px solid #fff; border-top:20px solid transparent; border-bottom:20px solid transparent; position:absolute; left:50%; top:50%; margin-left:-10px; margin-top:-20px;}
+.videoPause{display:none; width:10px; height:40px; background-color:#fff; position:absolute; top:50%; margin-top:-20px;}
+.videoPause1{left:50px;}
+.videoPause2{left:30px;}
+
+
+.videoControl:hover .videoTry{border-left-color:#F4BC46}
+.videoControl:hover .videoPause{background-color:#F4BC46}
+.videoTry, .videoPause{transition:all .2s ease;}
+
+
+.santiagoMaps{width:100%; min-width:960px; height:550px; position:relative;}
+.map{width:100%; height:100%;}
+iframe{width:100%; height:100%;}
+.mapTitle{width:960px; position:absolute; left:50%; top:13px; transform:translate(-40%,-0%); font-size:45px; text-align:right; color:#fff; }
+.mapTitle span{background-color:rgba(10,10,10,0.85); display:block; width:40%; float:right; padding:2% 4%; line-height:1.3em;}
+
+.mapVehicle{width:100%; height:140px;  background:rgba(255,255,255,0.7); position:absolute; bottom:0; left:0; z-index:6;}
+.mapVehicle ul{width:960px; overflow:hidden; margin:0 auto; padding:30px 0 15px;}
+.mapVehicle ul li{width:25%; float:left; font-size:15px; overflow:hidden;}
+.mapVehicle ul li p{float:left;}
+.mapVehicle ul li img{display:block; float:left; margin-right:35px; margin-left:55px;}
+.mapVehicle em{font-size:13px; color:#717171;}
+
+
+
+
+
+.mapVehicle em{font-family:"Oswald-Light"};

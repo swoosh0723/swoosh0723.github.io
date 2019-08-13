@@ -1,0 +1,11 @@
+*{margin:0; padding:0;}
+a:link, a:visited{text-decoration:none; color:#222}
+a:focus,a:hover{text-decoration:none;}
+li{list-style:none;}
+
+h2{width:1px; height:1px; line-height:0px; font-size:1px; position:absolute; left:-9999; overflow:hidden;}
+
+@font-face{font-family:"Oswald-Regular"; src:url("../font/Oswald-Regular.woff");}
+@font-face{font-family:"Oswald-Light"; src:url("../font/Oswald-Light.woff");}
+@font-face{font-family:"NotoSansCJKkr-DemiLight"; src:url("../font/NotoSansCJKkr-DemiLight.woff");}
+body{font-family:"Oswald-Regular", sans-serif;}

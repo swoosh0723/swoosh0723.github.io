@@ -1,0 +1,74 @@
+#containerWrap{width:100%; padding-top:97px;}
+
+/*#################    mainVisual    ####################*/
+#mainVisual{width:100%; overflow:hidden;}
+#mainVisual ul li{text-align:center;}
+#mainVisual ul li img.main{width:100%;}
+
+
+/*#################    squadTitle   ####################*/
+#squadTitle{width:100%; height:202px; margin-top:65px; position:relative;}
+#squadTitle p.line{width:960px; margin:0 auto; height:1px; background-color:#cacaca;}
+#squadTitle p.titleLogo {width:45px; padding:0 40px; background-color:#fff; position:absolute; left:50%; top:-40px; margin-left:-70px;}
+#squadTitle p.titleLogo img{width:100%;}
+#squadTitle h3{width:960px; padding:50px 10px 20px; background-color:#fff; margin:0 auto; text-align:center; font-size:45px; font-weight:700; color:#00519E;}
+
+/*#################    squadArea    ####################*/
+
+#squadArea{width:960px; padding:0 10px; margin:0 auto; padding-top:55px; background-color:#fff; position:relative;}
+#squadArea p.line{width:960px; height:1px; background-color:#cacaca;}
+
+
+/*#################    squadArea   ####################*/
+
+
+#goalkeeperTitle, #defenderTitle, #midfielderTitle, #forwardTitle, #coachTitle{background-color:#fff; text-align:center;
+        padding:0 20px 0 10px; position:absolute; left:0;}
+#goalkeeperTitle{top:40px;}
+#defenderTitle{top:498px;}
+#midfielderTitle{top:1304px;}
+#forwardTitle{top:2110px;}
+#coachTitle{top:2916px;}
+
+#squadArea h3{font-size:20px; color:#515151}
+
+#goalkeeper ul, #coach ul{width:100%; height:328px; padding:55px 0 75px;}
+#defender ul, #midfielder ul,#forward ul{width:100%; height:676px; padding:55px 0 75px;}
+#squadArea ul li{width:218px; height:328px; border:1px solid #eaeaea; border-top:1px solid #00519E; margin-left:26px; margin-bottom:20px; float:left; background-color:#fff;}
+#squadArea ul li:first-child{margin-left:0;}
+#squadArea li.nacho, #squadArea li.modric, #squadArea li.mariano{margin-left:0;}
+
+/*#################    squadArea + sqImg   ####################*/
+div.sqImg {width:100%; height:195px; text-align:center; background-color:#fafafa; overflow:hidden;}
+div.sqImg img{height:100%;}
+p.sqline{width:90%; height:4px; background-color:#cacaca; float:right;}
+
+
+/*#################    squadArea + sqText   ####################*/
+div.sqTextArea{width:218px; height:130px;}
+div.sqText{width:198px; height:110px; margin:15px 10px 10px;  position:relative;}
+div.sqText h4{color:#515151; height:43px; line-height:1.3em; font-size:18px; font-weight:700;}
+div.sqText span{font-size:11px; color:#aaa; display:inline-block; padding-top:5px}
+div.sqText p.flag img{width:18px; padding-right:10px; vertical-align:middle;}
+div.sqText p.flag span{padding-top:0;}
+div.sqText p{padding-top:22px;}
+div.sqText span.sqnumber{position:absolute; right:5px; bottom:-17px; font-size:85px; letter-spacing:-1px; color:#eaeaea;}
+
+
+/*#################    squadArea + hover   ####################*/
+#squadArea div.sqImg img, #squadArea p.sqline, #squadArea .sqText h4, #squadArea .sqText span{transition:all .2s ease-in-out}
+
+#squadArea ul li a:hover div.sqImg img{height:115%;}
+#squadArea ul li a:hover p.sqline {background-color:#00519E;}
+#squadArea ul li a:hover .sqText h4{color:#00519E;}
+#squadArea ul li a:hover .sqText span{color:#00519E;}
+
+
+
+
+
+
+.sqText span:not(.sqnumber){font-family:"Oswald-Light"};
+
+
+

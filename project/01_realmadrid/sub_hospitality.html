@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Real Madrid Hopitality</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.color.js"></script>
+	<script type="text/javascript" src="js/header.js"></script>
+	<script type="text/javascript" src="js/bottomBtn.js"></script>
+	<!--공통부분-->
+	<script type="text/javascript" src="js/hospitality.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/header.css"/>
+	<link rel="stylesheet" type="text/css" href="css/hospitality_container.css"/>
+	<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+</head>
+ <body>
+	<div id="wrap">
+		<div id="headerWrap">
+			<div id="header">
+			    <div class="header-top-menu">
+			        <h1>
+                        <a href="index.html" title="레알마드리드">
+                            <img src="img/headerlogo.png" alt="레알마드리드 로고" class="header-logo"/>
+                            <img src="img/headerlogo-path.png" alt="레알마드리드 로고" class="header-logo-path"/>
+                        </a>
+                    </h1>
+                    <div id="mainInfo">
+                        <h2>mainInfo영역</h2>
+                        <ul>
+                            <li>
+                                <a href="sub_register.html" title="회원가입">
+                                    Register
+                                </a>
+                                <span>|</span>
+                            </li>
+                            <li>
+                                <a href="sub_login.html" title="로그인">
+                                    Login
+                                </a>
+                                <span>|</span>
+                            </li>
+                            <li class="language">
+                                <a href="#none" title="언어선택">
+                                    <img src="img/LangUSA.png" alt="언어선택 대한민국"/>ENG
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="gnb">
+                        <h2>gnb영역</h2>
+                        <ul class="main-menu-area">
+                            <li class="main-menu main-menu0">
+                                <a href="sub_news.html" title="FOOTBALL">
+                                    FOOTBALL
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li class="main-menu main-menu1">
+                                <a href="sub_history.html" title="ABOUT REAL MADRID">
+                                    ABOUT REAL MADRID
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li class="main-menu main-menu2">
+                                <a href="kit.html" title="SPECIAL FEATURES">
+                                    SPECIAL FEATURES
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li class="main-menu main-menu3">
+                                <a href="sub_ticketing.html" title="TICKETS">
+                                    TICKETS&nbsp;&amp;&nbsp;HOSPITALITY
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li class="main-menu main-menu4">
+                                <a href="sub_shop.html" title="SHOP">
+                                    SHOP
+                                    <span></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>   
+			    </div>
+                <div class="sub-menu-wrap">
+                    <div class="sub-menu-area">
+                        <p class="main-menu-area-bg main-menu-area-bg0">
+                            <img src="img/sub-menu-bg0.png" alt="sub-menu-bg">
+                        </p>
+                        <ul class="sub-menu-cateroy sub-menu-cateroy0">
+                            <li>
+                                <a href="sub_news.html" title="NEWS">
+                                    NEWS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_schedule.html" title="SCHEDULE">
+                                    SCHEDULE
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_photo.html" title="PHOTO GALLERY">
+                                    GALLERY
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_squad.html" title="VIDEO GALLERY">
+                                    SQUAD
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="sub-menu-cateroy sub-menu-cateroy1">
+                            <li>
+                                <a href="sub_history.html" title="HISTORY">
+                                    HISTORY
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_honours.html" title="HONOURS">
+                                    HONOURS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_santiago.html" title="SANTIAGO BERNABEU">
+                                    SANTIAGO BERNABEU
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="sub-menu-cateroy sub-menu-cateroy2">
+                            <li>
+                                <a href="sub_undecima.html" title="UNDECIMA">
+                                    UNDECIMA
+                                </a>
+                            </li>
+                            <li class="subMenu">
+                                <a href="kit.html" title="UNIFORM">
+                                    UNIFORM
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_distefano.html" title="DI STEFANO">
+                                    DI STEFANO
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_topgoal.html" title="ALL-TIME TOP GOALSCORER">
+                                    TOP GOALSCORER
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="sub-menu-cateroy sub-menu-cateroy3">
+                            <li>
+                                <a href="sub_ticket.html" title="TICKET">
+                                    TICKETS INFORMATION
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_ticketing.html" title="TICKET">
+                                    TICKETING
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sub_hospitality.html" title="HOSPITALITY">
+                                    HOSPITALITY
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="sub-menu-cateroy sub-menu-cateroy4">
+                            <li>
+                                <a href="sub_shop.html" title="Online Shop">
+                                    SHOP
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+			<div id="mobileHeader">
+                <h2>모바일 헤더</h2>
+                <div class="mobileH">
+                    <div class="mobileHBtnArea">
+                        <div class="mobileBtnWrap">
+                            <p class="mobileBtn">
+                                <span class="mobilebtnBar mobilebtnBar1"></span>
+                                <span class="mobilebtnBar mobilebtnBar2"></span>
+                                <span class="mobilebtnBar mobilebtnBar3"></span>
+                            </p>
+                            <h3>Menu</h3>
+                        </div>
+                    </div>
+                    <div class="mobileHLogo">
+                        <a href="index.html" title="로고"><img src="img/ver_reallogo.png" alt="모바일가로 로고"></a>
+                    </div>
+                    <div class="mobilemainInfo">
+                       <a href="sub_register.html">Register</a><span>|</span>
+                       <a href="sub_login.html">Login</a>
+                    </div>
+                </div>
+                <div class="mobileV">
+                    <div class="mobileVBtnArea">
+                        <div class="mobileBtnWrap">
+                            <p class="mobileBtn">
+                                <span class="mobilebtnBar mobilebtnBar1"></span>
+                                <span class="mobilebtnBar mobilebtnBar2"></span>
+                                <span class="mobilebtnBar mobilebtnBar3"></span>
+                            </p>
+                            <h3>Menu</h3>
+                        </div>
+                    </div>
+                    <div class="mobileVLogo">
+                        <a href="index.html" title="로고"><img src="img/headerlogo.png" alt="모바일세로 로고"></a>
+                    </div>
+                    <div class="mobilemainInfo mobileVmainInfo">
+                       <a href="sub_register.html">Register</a><span>|</span>
+                       <a href="sub_login.html">Login</a>
+                    </div>
+                </div>
+			    <div class="mobileMenuArea">
+			        <ul>
+                        <li>
+                            <a class="mobileMenu" href="#none" title="football">FOOTBALL<span class="mobileTry1"></span></a>
+                            <ol>
+                                <li class="mobileSubMenu"><a href="sub_news.html" title="NEWS">NEWS<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_schedule.html" title="SCHEDULE">SCHEDULE<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_photo.html" title="PHOTO GALLERY">PHOTO GALLERY<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="#none" title="VIDEO GALLERY">VIDEO GALLERY<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_squad.html" title="SQUAD">SQUAD<span class="mobileTry"></span></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a class="mobileMenu" href="#none" title="ABOUT REAL MADRID">ABOUT REAL MADRID<span class="mobileTry1"></span></a>
+                            <ol>
+                                <li class="mobileSubMenu"><a href="sub_history.html" title="HISTORY">HISTORY<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_honours.html" title="HONOURS">HONOURS<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_santiago.html" title="SANTIAGO BERNABEU">SANTIAGO BERNABEU<span class="mobileTry"></span></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a class="mobileMenu" href="#none" title="SPECIAL FEATURES">SPECIAL FEATURES<span class="mobileTry1"></span></a>
+                            <ol>
+                                <li class="mobileSubMenu"><a href="sub_undecima.html" title="UNDECIMA">UNDECIMA<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="kit.html" title="UNIFORM">UNIFORM<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_distefano.html" title="DI STEFANO">DI STEFANO<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_topgoal.html" title="ALL-TIME TOP GOALSCORER">TOP GOALSCORER<span class="mobileTry"></span></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a class="mobileMenu" href="#none" title="TICKETS &amp; HOSPITALITY">TICKETS &amp; HOSPITALITY<span class="mobileTry1"></span></a>
+                            <ol>
+                                <li class="mobileSubMenu"><a href="sub_ticket.html" title="TICKET">TICKETS INFORMATION<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_ticketing.html" title="TICKET">TICKETING<span class="mobileTry"></span></a></li>
+                                <li class="mobileSubMenu"><a href="sub_hospitality.html" title="HOSPITALITY">HOSPITALITY<span class="mobileTry"></span></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a class="mobileMenu" href="#none" title="SHOP">SHOP<span class="mobileTry1"></span></a>
+                            <ol>
+                                <li class="mobileSubMenu"><a href="sub_shop.html" title="Online Shop">Shop Online<span class="mobileTry"></span></a></li>
+                            </ol>
+                        </li>
+                    </ul>
+			    </div>
+			</div>
+		</div>
+		<div id="containerWrap">
+			<div id="mainVisual">
+				<h2>메인비주얼 영역</h2>
+				<ul>
+					<li>
+						<div id="mainImg">
+							<img class="main" src="img/main/main_hospitality.png" alt="메인이미지"/>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div id="hospitalityTitle">
+				<h2>Hospitality 타이틀 영역</h2>
+				<p class="line"></p>
+				<p class="titleLogo"><img src="img/small_logo.png" alt="로고이미지"/></p>
+				<h3>Hospitality</h3>
+				<span class="text"></span>
+			</div>
+			<div id="TnHArea">
+				<h2>ticketArea 영역</h2>
+				<div id="hospitalityArea">
+					<h2>hopitalArea 영역</h2>
+					<ul>
+						<li class="hospitalityBox hospitalityBoxN">
+							<img src="img/trophyroom.png" alt="Trophy Room"/>
+							<img src="img/white_logo.png" alt="로고이미지" class="hLogo"/>
+						</li>
+						<li class="hospitalityBox">
+							<img src="img/europeancuproom.png" alt="European Cup Room"/>
+							<img src="img/white_logo.png" alt="로고이미지" class="hLogo"/>
+						</li>
+						<li class="hospitalityBox">
+							<img src="img/restaurant.png" alt="Asador Restaurant"/>
+							<img src="img/white_logo.png" alt="로고이미지" class="hLogo"/>
+						</li>
+						<li class="hospitalityBox hospitalityBoxN">
+							<img src="img/1tier.png" alt="vip Tier"/>
+							<img src="img/white_logo.png" alt="로고이미지" class="hLogo"/>
+						</li>
+						<li class="hospitalityBox">
+							<img src="img/tower.png" alt="Towers"/>
+							<img src="img/white_logo.png" alt="로고이미지" class="hLogo"/>
+						</li>
+						<li class="hospitalityBox">
+							<img src="img/outdoorboxes.png" alt="Outdoor Boxes"/>
+							<img src="img/white_logo.png" alt="로고이미지" class="hLogo"/>
+						</li>
+
+						<li class="hospitalityCircle">
+							<span>Hospitality</span>
+							<span>Trophy Room</span>
+						</li>
+						<li class="hospitalitySubArea hospitalitySubArea1">
+							<div class="hSubImg">
+								<img src="img/hsub1-1.png" alt="trophyroom">
+								<p>
+									<a href="#none" title="hSubClose"><span class="hSubClose"></span></a>
+								</p>
+							</div>
+							<div class="hSubBtn">
+								<p class="hSubSns">
+									<a href="#none" title="facebook"><img src="img/sns/facebook.png" alt="facebook"></a><a href="#none" title="twitter"><img src="img/sns/twitter.png" alt="twitter"></a><a href="#none" title="google"><img src="img/sns/google-plus.png" alt="google-plus"></a>
+								</p>
+								<p class="ticketBtn"><a href="#none" title="buy ticket">BUY TICKET</a></p>
+							</div>
+							<p class="hSubText">
+								<span class="hSubTextTitle">Trophy Room</span>
+								Section 409 seats are located on the West Stand’s 2nd tier and their hospitality is housed in the Trophy Room. They have an excellent view of the pitch and are the perfect option for those who don’t want to miss out on the atmosphere of the stands while still enjoying special treatment.
+							</p>
+							<div class="hSubInfo">
+								<p class="hSubInfo1">
+									<b>FEATURES</b>
+									<span>Outdoor seats<br/>
+									Annexed hospitality area<br/>
+									Exclusive access via lift<br/>
+									Hostess Services<br/>
+									Catering<br/></span>
+								</p>
+								<p class="hSubInfo2">
+									<b>INFORMATION &amp; BOOKING</b>
+									<span>T. +34 913 984 377<br/>
+									F. + 34 91 398 43 78<br/>
+									areavip@realmadrid.es<br/></span>
+								</p>
+								<p class="hSubInfo3">
+									<b>SEATS</b>
+									<span>164</span>
+								</p>
+								<p class="hSubInfo4">
+									<b>LOCATION</b>
+									<span>2nd Tier – West Stand – Section 409</span>
+									<img src="img/sector409.jpg" alt="logation"/>
+								</p>
+							</div>
+						</li>
+						<li class="hospitalitySubArea hospitalitySubArea2">
+							<div class="hSubImg">
+								<img src="img/hsub2.png" alt="European Cup Room">
+								<p>
+									<a href="#none" title="hSubClose"><span class="hSubClose"></span></a>
+								</p>
+							</div>
+							<div class="hSubBtn">
+								<p class="hSubSns">
+									<a href="#none" title="facebook"><img src="img/sns/facebook.png" alt="facebook"></a><a href="#none" title="twitter"><img src="img/sns/twitter.png" alt="twitter"></a><a href="#none" title="google"><img src="img/sns/google-plus.png" alt="google-plus"></a>
+								</p>
+								<p class="ticketBtn"><a href="#none" title="buy ticket">BUY TICKET</a></p>
+							</div>
+							<p class="hSubText">
+								<span class="hSubTextTitle">European Cup Room</span>
+								Few hospitality areas at the stadium can boast of being so close to the pitch as the 160 seats of Section 108, which are located in the Lower Main Stand of the West Stand. They make one feel right on the pitch and feature an exclusive catering area in the spectacular museum room featuring the football team’s European Cup trophies.
+							</p>
+							<div class="hSubInfo">
+								<p class="hSubInfo1">
+									<b>FEATURES</b>
+									<span>Outdoor seats<br/>
+									Annexed hospitality area<br/>
+									Exclusive access via lift<br/>
+									Hostess Services<br/>
+									Catering<br/></span>
+								</p>
+								<p class="hSubInfo2">
+									<b>INFORMATION &amp; BOOKING</b>
+									<span>T. +34 913 984 377<br/>
+									F. + 34 91 398 43 78<br/>
+									areavip@realmadrid.es<br/></span>
+								</p>
+								<p class="hSubInfo3">
+									<b>SEATS</b>
+									<span>160</span>
+								</p>
+								<p class="hSubInfo4">
+									<b>LOCATION</b>
+									<span>Lower Main Stand – West Stand – Section 108</span>
+									<img src="img/salaCopasDeEuropa.jpg" alt="logation"/>
+								</p>
+							</div>
+						</li>
+						<li class="hospitalitySubArea hospitalitySubArea3">
+							<div class="hSubImg">
+								<img src="img/hsub3.png" alt="Asador Restaurant">
+								<p>
+									<a href="#none" title="hSubClose"><span class="hSubClose"></span></a>
+								</p>
+							</div>
+							<div class="hSubBtn">
+								<p class="hSubSns">
+									<a href="#none" title="facebook"><img src="img/sns/facebook.png" alt="facebook"></a><a href="#none" title="twitter"><img src="img/sns/twitter.png" alt="twitter"></a><a href="#none" title="google"><img src="img/sns/google-plus.png" alt="google-plus"></a>
+								</p>
+								<p class="ticketBtn"><a href="#none" title="buy ticket">BUY TICKET</a></p>
+							</div>
+							<p class="hSubText">
+								<span class="hSubTextTitle">Asador Restaurant</span>
+								The Asador de la Esquina is a leading restaurant in its specialty of cuisine. It is located on the East Stand, giving it an excellent view of the south goal, where Real Madrid score most of their strikes each season. The Asador de la Esquina features a modern hospitality area with first-rate service, making it a very appetizing option for clients.
+							</p>
+							<div class="hSubInfo">
+								<p class="hSubInfo1">
+									<b>FEATURES</b>
+									<span>Outdoor seats<br/>
+									Annexed hospitality area<br/>
+									Exclusive access via lift<br/>
+									Hostess Services<br/>
+									Catering<br/></span>
+								</p>
+								<p class="hSubInfo2">
+									<b>INFORMATION &amp; BOOKING</b>
+									<span>T. +34 913 984 377<br/>
+									F. + 34 91 398 43 78<br/>
+									areavip@realmadrid.es<br/></span>
+								</p>
+								<p class="hSubInfo3">
+									<b>SEATS</b>
+									<span>266</span>
+								</p>
+								<p class="hSubInfo4">
+									<b>LOCATION</b>
+									<span>Grandstand – East Stand</span>
+									<img src="img/salaCopasDeEuropa.jpg" alt="logation"/>
+								</p>
+							</div>
+						</li>
+						<li class="hospitalitySubArea hospitalitySubArea4">
+							<div class="hSubImg">
+								<img src="img/hsub4.png" alt="1st Tier">
+								<p>
+									<a href="#none" title="hSubClose"><span class="hSubClose"></span></a>
+								</p>
+							</div>
+							<div class="hSubBtn">
+								<p class="hSubSns">
+									<a href="#none" title="facebook"><img src="img/sns/facebook.png" alt="facebook"></a><a href="#none" title="twitter"><img src="img/sns/twitter.png" alt="twitter"></a><a href="#none" title="google"><img src="img/sns/google-plus.png" alt="google-plus"></a>
+								</p>
+								<p class="ticketBtn"><a href="#none" title="buy ticket">BUY TICKET</a></p>
+							</div>
+							<p class="hSubText">
+								<span class="hSubTextTitle">1st Tier</span>
+								The stadium’s First Tier offers, without a shadow of a doubt, the best view of the pitch. Clients may watch, experience and take delight in these boxes thanks to – amongst other services - their private access from exclusive Corporate Hospitality panoramic lifts, luxury annexed hospitality areas with excellent catering services, a private drinks bar and TV screens to see the game in full detail.
+							</p>
+							<div class="hSubInfo">
+								<p class="hSubInfo1">
+									<b>FEATURES</b>
+									<span>Outdoor seats<br/>
+									Annexed hospitality area<br/>
+									Exclusive access via lift<br/>
+									Private drinks bar<br/>
+									Hostess Services<br/>
+									Catering<br/></span>
+								</p>
+								<p class="hSubInfo2">
+									<b>INFORMATION &amp; BOOKING</b>
+									<span>T. +34 913 984 377<br/>
+									F. + 34 91 398 43 78<br/>
+									areavip@realmadrid.es<br/></span>
+								</p>
+								<p class="hSubInfo3">
+									<b>BOXES</b>
+									<span>43</span><br/><br/>
+									<b>SEATS</b>
+									<span>6 - 23 per box</span>
+								</p>
+								<p class="hSubInfo4">
+									<b>LOCATION</b>
+									<span>1st Tier – East and Goal Stands</span>
+									<img src="img/PalcosPrimerAnf.jpg" alt="logation"/>
+								</p>
+							</div>
+						</li>
+						<li class="hospitalitySubArea hospitalitySubArea5">
+							<div class="hSubImg">
+								<img src="img/hsub5.png" alt="Towers Boxes">
+								<p>
+									<a href="#none" title="hSubClose"><span class="hSubClose"></span></a>
+								</p>
+							</div>
+							<div class="hSubBtn">
+								<p class="hSubSns">
+									<a href="#none" title="facebook"><img src="img/sns/facebook.png" alt="facebook"></a><a href="#none" title="twitter"><img src="img/sns/twitter.png" alt="twitter"></a><a href="#none" title="google"><img src="img/sns/google-plus.png" alt="google-plus"></a>
+								</p>
+								<p class="ticketBtn"><a href="#none" title="buy ticket">BUY TICKET</a></p>
+							</div>
+							<p class="hSubText">
+								<span class="hSubTextTitle">Towers Boxes</span>
+								Towers house the most exclusive boxes at the Santiago Bernabéu Stadium. There are five luxurious boxes in total, all featuring access via private lifts, a drinks bar and private toilet facilities. Each has three rows from which clients enjoy a spectacular panoramic view of the entire stadium’s interior.
+							</p>
+							<div class="hSubInfo">
+								<p class="hSubInfo1">
+									<b>FEATURES</b>
+									<span>Outdoor seats<br/>
+									Exclusive access via lift<br/>
+									Private drinks bar<br/>
+									Hostess Services<br/>
+									Catering<br/></span>
+								</p>
+								<p class="hSubInfo2">
+									<b>INFORMATION &amp; BOOKING</b>
+									<span>T. +34 913 984 377<br/>
+									F. + 34 91 398 43 78<br/>
+									areavip@realmadrid.es<br/></span>
+								</p>
+								<p class="hSubInfo3">
+									<b>BOXES</b>
+									<span>5</span><br/><br/>
+									<b>SEATS</b>
+									<span>20 per box</span>
+								</p>
+								<p class="hSubInfo4">
+									<b>LOCATION</b>
+									<span>East Stand</span>
+									<img src="img/Torreones.jpg" alt="logation"/>
+								</p>
+							</div>
+						</li>
+						<li class="hospitalitySubArea hospitalitySubArea6">
+							<div class="hSubImg">
+								<img src="img/hsub6.png" alt="Outdoor Boxes">
+								<p>
+									<a href="#none" title="hSubClose"><span class="hSubClose"></span></a>
+								</p>
+							</div>
+							<div class="hSubBtn">
+								<p class="hSubSns">
+									<a href="#none" title="facebook"><img src="img/sns/facebook.png" alt="facebook"></a><a href="#none" title="twitter"><img src="img/sns/twitter.png" alt="twitter"></a><a href="#none" title="google"><img src="img/sns/google-plus.png" alt="google-plus"></a>
+								</p>
+								<p class="ticketBtn"><a href="#none" title="buy ticket">BUY TICKET</a></p>
+							</div>
+							<p class="hSubText">
+								<span class="hSubTextTitle">Outdoor Boxes</span>
+								 This feature most likely allows them to be the stadium’s most privileged seating area, given their great proximity to the pitch. Features such as TV monitors installed in the seats, an annexed hospitality area and easy access make following a match from one of the Outdoor Boxes a unique and truly special experience.
+							</p>
+							<div class="hSubInfo">
+								<p class="hSubInfo1">
+									<b>FEATURES</b>
+									<span>Outdoor seats<br/>
+									Annexed hospitality area<br/>
+									Hostess Services<br/>
+									Catering<br/></span>
+								</p>
+								<p class="hSubInfo2">
+									<b>INFORMATION &amp; BOOKING</b>
+									<span>T. +34 913 984 377<br/>
+									F. + 34 91 398 43 78<br/>
+									areavip@realmadrid.es<br/></span>
+								</p>
+								<p class="hSubInfo3">
+									<b>BOXES</b>
+									<span>44</span><br/><br/>
+									<b>SEATS</b>
+									<span>8 - 20 per box</span>
+								</p>
+								<p class="hSubInfo4">
+									<b>LOCATION</b>
+									<span>Grandstand</span>
+									<img src="img/Boxes.jpg" alt="logation"/>
+								</p>
+							</div>
+						</li>
+						<li class="hospitalityTrans hospitalityTrans1"><a href="#none" title="Trophy Room"></a></li>
+						<li class="hospitalityTrans hospitalityTrans2"><a href="#none" title="European Cup Room"></a></li>
+						<li class="hospitalityTrans hospitalityTrans3"><a href="#none" title="Asador Restaurant"></a></li>
+						<li class="hospitalityTrans hospitalityTrans4"><a href="#none" title="vip Boxes"></a></li>
+						<li class="hospitalityTrans hospitalityTrans5"><a href="#none" title="Towers Boxes"></a></li>
+						<li class="hospitalityTrans hospitalityTrans6"><a href="#none" title="Outdoor Boxes"></a></li>
+					</ul>
+				</div>
+				<p class="hopitalArea2Line"><span class="monthCircle1"></span><span class="monthCircle2"></span></p>
+				<div id="hospitalityArea2">
+					<h2>hopitalArea2 영역</h2>
+					<ul>
+						<li>
+							<a href="#none" titile="hospitalityArea2">
+								<p class="hospitalityArea2Img"><img src="img/ha2-1.png" alt="hospitalityArea2Img"/></p>
+								<p class="hospitalityArea2Text">EXCLUSIVE AREAS</p>
+							</a>
+						</li>
+						<li>
+							<a href="#none" titile="hospitalityArea2">
+								<p class="hospitalityArea2Img"><img src="img/ha2-2.png" alt="hospitalityArea2Img"/></p>
+								<p class="hospitalityArea2Text">PERFECT VISIBILITY</p>
+							</a>
+						</li>
+						<li>
+							<a href="#none" titile="hospitalityArea2">
+								<p class="hospitalityArea2Img"><img src="img/ha2-3.png" alt="hospitalityArea2Img"/></p>
+								<p class="hospitalityArea2Text">PERSONAL SERVICE</p>
+							</a>
+						</li>
+						<li>
+							<a href="#none" titile="hospitalityArea2">
+								<p class="hospitalityArea2Img"><img src="img/ha2-4.png" alt="hospitalityArea2Img"/></p>
+								<p class="hospitalityArea2Text">EXCLUSIVE CATERING</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div id="ticketArea">
+					<h2>ticketArea 영역</h2>
+					<p class="lineMonth lineNovember"><span class="monthCircle1"></span><span class="monthCircle2"></span></p>
+					<div class="ticketss">
+						<div class="matchArea">
+							<span class="ticketBg"></span>
+							<div class="matchInfo">
+								<div class="legue">
+									<p>
+										<img src="img/UEFA_Champions_League_logo.png" alt="chamslogo"/>
+									</p>
+									<h3>UEFA Champions League</h3>
+								</div>
+								<span class="date">MATCHDAY 5 (GROUP STAGE)<br/>Tue Nov 22/ 2016 20:45H GMT</span>
+							</div>
+							<div class="matchTeam">
+								<div class="matchHome">
+									<p class="matchImg"><img src="img/Sporting_Clube_de_Portugal.png" alt="Sporting logo"></p>
+									<div class="teamName">
+										<h4>Sporting CP</h4>
+									</div>
+								</div>
+								<div class="matchAway">
+									<p class="matchImg"><img src="img/real_logo.png" alt="real logo"></p>
+									<div class="teamName">
+										<h4>Real Madrid</h4>
+									</div>
+								</div>
+							</div>
+							<span class="ticketLine"></span>
+						</div>
+						<div class="matchTicket matchTicketSoldout">
+							<span class="ticketLine"></span>
+							<p class="buyTicket soldout"><a href="#none" title="solidout">SOLDOUT</a></p>
+							<p class="ticketFrom"><span>TICKETS From</span>40€</p>
+							<p class="ticketFrom"><span>TICKETS VIP From</span>240€</p>
+						</div>
+					</div>
+					<div class="ticketss">
+						<div class="matchArea">
+							<span class="ticketBg"></span>
+							<div class="matchInfo">
+								<div class="legue">
+									<p>
+										<img src="img/laliga-h.png" alt="laliga-h logo"/>
+									</p>
+									<h3>Primera Liga&nbsp;</h3>
+								</div>
+								<span class="date">MATCHDAY 13
+								<br/>Sat Nov 26/ 2016 16:15H GMT</span>
+							</div>
+							<div class="matchTeam">
+								<div class="matchHome">
+									<p class="matchImg"><img src="img/real_logo.png" alt="hometeam logo"></p>
+									<div class="teamName">
+										<h4>Real Madrid</h4>
+									</div>
+								</div>
+								<div class="matchAway">
+									<p class="matchImg"><img src="img/Real_Sporting_de_Gijon.png" alt="awayteam logo"></p>
+									<div class="teamName">
+										<h4>Sporting Hihon</h4>
+									</div>
+								</div>
+							</div>
+							<span class="ticketLine"></span>
+						</div>
+						<div class="matchTicket">
+							<span class="ticketLine"></span>
+							<p class="buyTicket"><a href="sub_ticketing.html">BUY TICKET</a></p>
+							<p class="ticketFrom"><span>TICKETS From</span>40€</p>
+							<p class="ticketFrom"><span>TICKETS VIP From</span>240€</p>
+						</div>
+					</div>
+					<div class="ticketss">
+						<div class="matchArea">
+							<span class="ticketBg"></span>
+							<div class="matchInfo">
+								<div class="legue">
+									<p>
+										<img src="img/COPA_logo.png" alt="COPA_logo logo"/>
+									</p>
+									<h3>Copa del Rey</h3>
+								</div>
+								<span class="date">MATCHDAY 13<br/>Sat Nov 26/ 2016 16:15H GMT</span>
+							</div>
+							<div class="matchTeam">
+								<div class="matchHome">
+									<p class="matchImg"><img src="img/real_logo.png" alt="hometeam logo"></p>
+									<div class="teamName">
+										<h4>Real Madrid</h4>
+									</div>
+								</div>
+								<div class="matchAway">
+									<p class="matchImg"><img src="img/Leonesa_logo.png" alt="awayteam logo"></p>
+									<div class="teamName">
+										<h4>Cultural y Deportiva Leonesa</h4>
+									</div>
+								</div>
+							</div>
+							<span class="ticketLine"></span>
+						</div>
+						<div class="matchTicket">
+							<span class="ticketLine"></span>
+							<p class="buyTicket"><a href="sub_ticketing.html">BUY TICKET</a></p>
+							<p class="ticketFrom"><span>TICKETS From</span>40€</p>
+							<p class="ticketFrom"><span>TICKETS VIP From</span>240€</p>
+						</div>
+					</div>
+					<p class="lineMonth lineDecember"><span class="monthCircle1"></span><span class="monthCircle2"></span></p>
+					<div class="ticketss">
+						<div class="matchArea">
+							<span class="ticketBg"></span>
+							<div class="matchInfo">
+								<div class="legue">
+									<p>
+										<img src="img/laliga-h.png" alt="laliga-h logo"/>
+									</p>
+									<h3>Primera Liga&nbsp;</h3>
+								</div>
+								<span class="date">MATCHDAY 14<br/>Sat Dec 03/ 2016 16:15H GMT</span>
+							</div>
+							<div class="matchTeam">
+								<div class="matchHome">
+									<p class="matchImg"><img src="img/FC-Barcelona-icon.png" alt="hometeam logo"></p>
+									<div class="teamName">
+										<h4>Barcelona</h4>
+									</div>
+								</div>
+								<div class="matchAway">
+									<p class="matchImg"><img src="img/real_logo.png" alt="real logo"></p>
+									<div class="teamName">
+										<h4>Real Madrid</h4>
+									</div>
+								</div>
+							</div>
+							<span class="ticketLine"></span>
+						</div>
+						<div class="matchTicket matchTicketSoldout">
+							<span class="ticketLine"></span>
+                            <p class="buyTicket soldout"><a href="#none" title="solidout">SOLDOUT</a></p>
+							<p class="ticketFrom"><span>TICKETS From</span>40€</p>
+							<p class="ticketFrom"><span>TICKETS VIP From</span>240€</p>
+						</div>
+					</div>
+					<div class="ticketss">
+						<div class="matchArea">
+							<span class="ticketBg"></span>
+							<div class="matchInfo">
+								<div class="legue">
+									<p>
+										<img src="img/UEFA_Champions_League_logo.png" alt="chamslogo"/>
+									</p>
+									<h3>UEFA Champions League</h3>
+								</div>
+								<span class="date">MATCHDAY 6 (GROUP STAGE)<br/> Wed Dec 07/ 2016 20:45H GMT</span>
+							</div>
+							<div class="matchTeam">
+								<div class="matchHome">
+									<p class="matchImg"><img src="img/real_logo.png" alt="real logo"></p>
+									<div class="teamName">
+										<h4>Real Madrid</h4>
+									</div>
+								</div>
+								<div class="matchAway">
+									<p class="matchImg"><img src="img/Borussia Dortmund.png" alt="awayteam logo"></p>
+									<div class="teamName">
+										<h4>Borussia Dortmund</h4>
+									</div>
+								</div>
+							</div>
+							<span class="ticketLine"></span>
+						</div>
+						<div class="matchTicket">
+							<span class="ticketLine"></span>
+							<p class="buyTicket"><a href="sub_ticketing.html">BUY TICKET</a></p>
+							<p class="ticketFrom"><span>TICKETS From</span>40€</p>
+							<p class="ticketFrom"><span>TICKETS VIP From</span>240€</p>
+						</div>
+					</div>
+				</div>
+			</div>
+	<!--####################	공통 부분	####################-->
+	<!--######################################################-->
+	<!--######################################################-->
+			<div class="bottomBtnArea">
+				<div class="shopBtn">
+					<a href="sub_shop.html" title="shopBtn">
+						<img src="img/shopping-cart1-512.png" alt="shopBtn"><span>Go To Shop</span>
+					</a>
+				</div>
+				<div class="BTT">
+					<a href="#none" title="btt"><span>Back To Top</span></a>
+				</div>
+			</div>
+			<div class="specialContent" id="specialContent">
+				<h2>컨텐츠 영역</h2>
+				<div class="content">
+					<div class="specialTitle">
+						<a href="#none" title="logo">
+							<img src="img/small_logo.png" alt="스몰로고" class="titleLogo"/>
+							<h3>Special Features</h3>
+						</a>
+					</div>
+					<ul>
+					   <li>
+							<a href="sub_undecima.html" title="유럽챔피언 레알마드리드 이미지">
+								<div class="imgArea">
+									<img class="spSum" src="img/undecima3.png" alt="La Undécima!"/>
+								</div>
+								<div class="textArea">
+									<p>SPECIAL FEATURES</p>
+									<h4>
+										<span>Real Madrid extended their legend in Europe</span>
+									</h4>
+								</div>
+							</a>
+					   </li>
+					   <li>
+							<a href="sub_distefano.html" title="디스테파노 이미지">
+								<div class="imgArea">
+									<img class="spSum"  src="img/distefano.png" alt="Alfredo Di Stéfano, the best player of all time"/>
+								</div>
+								<div class="textArea">
+									<p>SPECIAL FEATURES</p>
+									<h4>
+										<span>Alfredo Di Stéfano, the best player of all time</span>
+									</h4>
+								</div>
+							</a>
+					   </li>
+					   <li>
+							<a href="sub_santiago.html" title="새로운 베르나베우 이미지">
+								<div class="imgArea">
+									<img class="spSum"  src="img/santiago.png" alt="A dream stadium"/>
+								</div>
+								<div class="textArea">
+									<p>SPECIAL FEATURES</p>
+									<h4>
+										<span>A dream stadium Santiago Bernabéu</span>
+									</h4>
+								</div>
+							</a>
+					   </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="footerWrap">
+			<div class="footerSns">
+				<h2>sns 영역</h2>
+				<ul>
+					<li><a href="https://twitter.com/realmadriden" title="트위터 이미지"><img src="img/sns/social_twitter.png" alt="트위터 이미지"/></a></li>
+					<li><a href="https://plus.google.com/+realmadrid" title="구글플러스 이미지"><img src="img/sns/social_g_plus.png" alt="구글플러스 이미지"/></a></li>
+					<li><a href="https://www.facebook.com/RealMadrid/" title="페이스북 이미지"><img src="img/sns/social_facebook.png" alt="페이스북 이미지"/></a></li>
+					<li><a href="https://www.instagram.com/realmadrid/" title="인스타그램 이미지"><img src="img/sns/social_instagram.png" alt="인스타그램 이미지"/></a></li>
+					<li><a href="https://www.youtube.com/realmadrid" title="유투브 이미지"><img src="img/sns/social_youtube.png" alt="유투브 이미지"/></a></li>
+					<li><a href="https://www.snapchat.com/add/realmadrid" title="스냅챕이미지"><img src="img/sns/social_snapchat.png" alt="스냅챕이미지"/></a></li>
+				</ul>
+			</div>
+			<div class="footerGnb">
+				<h2>footer gnb 영역</h2>
+				<ul>
+					<li class="footerGnb_menu">
+						<a href="#none" title="FOOTBALL" class="footer_gnb_title">FOOTBALL</a>
+						<ol>
+							<li><a href="sub_news.html" title="NEWS">NEWS</a></li>
+							<li><a href="sub_schedule.html" title="SCHEDULE">SCHEDULE</a></li>
+							<li><a href="sub_photo.html" title="PHOTO GALLERY">PHOTO GALLERY</a></li>
+							<li><a href="#none" title="VIDEO GALLERY">VIDEO GALLERY</a></li>
+							<li><a href="sub_squad.html" title="SQUAD">SQUAD</a></li>
+						</ol>
+					</li>
+					<li class="footerGnb_menu">
+						<a href="#none" title="ABOUT REAL MADRID" class="footer_gnb_title">ABOUT RM</a>
+						<ol>
+							<li><a href="sub_history.html" title="HISTORY">HISTORY</a></li>
+							<li><a href="sub_honours.html" title="HONOURS">HONOURS</a></li>
+							<li><a href="sub_santiago.html" title="SANTIAGO BERNABEU">SANTIAGO BERNABEU</a></li>
+						</ol>
+					</li>
+					<li class="footerGnb_menu">
+						<a href="#none" title="MEMBERS" class="footer_gnb_title">SPECIAL FEATURES</a>
+						<ol>
+							<li><a href="sub_undecima.html" title="UNDECIMA">UNDECIMA</a></li>
+							<li><a href="sub_distefano.html" title="DI STEFANO">DI STEFANO</a></li>
+							<li><a href="kit.html" title="UNIFORM">UNIFORM</a></li>
+							<li><a href="sub_topgoal.html" title="ALL-TIME TOP GOALSCORER">TOP GOALSCORER</a></li>
+						</ol>
+					</li>
+					<li class="footerGnb_menu">
+						<a href="#none" title="TICKETS&amp;HOSPITALITY" class="footer_gnb_title">TICKETS&amp; HOSPITALITY</a>
+						<ol>
+							<li><a href="sub_ticket.html" title="TICKET">TICKETS</a></li>
+							<li><a href="sub_hospitality.html" title="HOSPITALITY">HOSPITALITY</a></li>
+						</ol>
+					</li>
+					<li class="footerGnb_menu">
+						<a href="#none" title="SHOP" class="footer_gnb_title">SHOP</a>
+						<ol>
+							<li><a href="sub_shop.html" title="Online Shop">Shop Online</a></li>
+							<li><a href="sub_register.html" title="Online Shop">Register</a></li>
+							<li><a href="sub_login.html" title="Online Shop">Login</a></li>
+						</ol>
+					</li>
+				</ul>
+			</div>
+			<div class="footerSponsors">
+				<h2>footer 스폰서 영역</h2>
+				<div class="sponsorsBtn">
+					<a>
+						<img src="img/small_logo.png" alt="스몰로고"/>
+					</a>
+				</div>
+				<ul>
+					<li class="goldSponsors">
+					   <a href="http://shop.adidas.co.kr/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/adidas.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/adidas.png" alt="스폰서 이미지"/></a>
+					   <a href="http://www.emirates.com/kr/korean/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/Emirates.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/Emiratesc.png" alt="스폰서이미지 컬러"></a>
+					   <a href="http://www.ipic.ae/english" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/ipic.png" alt=""/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/ipic.png" alt=""/></a>
+					</li>
+					<li class="silverSponsors">
+						<a href="http://www.hankooktire.com/kr/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/hankook.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/hankook.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.cepsa.com/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/cepsa.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/cepsa120x100.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.mahou.es/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/mahou.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/mahou.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.audi.co.kr/kr/brand/kn.html" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/audi.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/audi_120x100.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.microsoft.com/ko-kr" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/microsoft.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/microsoft.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.hugoboss.com/asia/home" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/boss.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/boss120x100.png" alt="스폰서이미지 컬러"/></a>
+					</li>
+					<li class="bronzeSponsors1">
+						<a href="http://www.cocacola.co.kr/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/cocacola.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/coke120x100.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.nivea.co.kr/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/nivea.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/nivea120x100.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.sanitas.es/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/Sanitas.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/Sanitas120x100.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.stc.com.sa/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/stc.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/stc.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://www.samsung.co.kr/main.do" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/samsung.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/colorS.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://solandecabras.es/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/Solan.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/Solan.png" alt="스폰서이미지 컬러"/></a>
+					</li>
+					<li class="bronzeSponsors2">
+						<a href="https://www.nbad.com" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/NBAD.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/NBAD.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://ooredoo.com/en/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/ooredoo.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/ooredoo.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://tecate.com/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/tecate.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/tecate.png" alt="스폰서이미지 컬러"/></a>
+						<a href="#none" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/FUD.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/FUD.png" alt="스폰서이미지 컬러"/></a>
+						<a href="http://sport.bt.com/" title="스폰서 이미지"><img class="sponsorblack" src="img/sponsors/btSport.png" alt="스폰서 이미지"/><img class="sponsorcolor" src="img/sponsors/sponsorscolor/btSport.png" alt="스폰서이미지 컬러"/></a>
+					</li>
+				</ul>
+			</div>
+			<div class="footerCopy">
+				<h2>카피라이터 영역</h2>
+				<div>
+					<p>KANG HYEON SEOK &copy; 2016 All rights reserved</p>
+					<p class="mail">delatero0723@gmail.com<span>|</span>Seoulsup 2-gil, Seongdong-gu, SEOUL</p>
+				</div>
+			</div>
+		</div>
+	</div>
+ </body>
+ </html>
